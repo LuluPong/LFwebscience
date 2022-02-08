@@ -16,3 +16,5 @@ For design, I kept it fairly simple to make it professional.
 I had major issues trying to link my style.css file and my script.js file. I would get an error stating that the MIME type was incorrect. I checked my file path and everything seemed correct. This made designing my webpage pretty limited.
 
 I included the http status codes for my API's get requests.
+
+*I did not realize we didn't have to make real post endpoints for our API*
