@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-    res.sendFile(__dirname + "/views/pages/index.html")
+    res.status(200).sendFile(__dirname + "/views/pages/index.html")
 })
 
 app.post("/postMyIP", (req, res) => {
@@ -60,7 +60,7 @@ app.get("/getDNS", (req, res) => {
 
         fetch(url_2, settings).then(res => res.json()).then((json) =>{
             console.log(json)
-            res.send(json)
+            res.status(200).send(json)
         })
     })
 })
