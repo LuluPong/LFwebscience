@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="icon" href="/public/favic.png">
+        <!--WON'T SHOW FAVICON-->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=IBM+Plex+Sans:wght@500&family=Inconsolata&family=Josefin+Sans&family=Noto+Sans+Anatolian+Hieroglyphs&family=Nova+Square&family=Teko&family=Zilla+Slab+Highlight:wght@700&display=swap');
+            body {
+                background: rgb(5,2,57);
+                background: linear-gradient(254deg, rgba(5,2,57,1) 0%, rgba(15,48,96,0.9800069686077556) 51%, rgba(17,114,134,1) 100%);
+            }
+
+            body:hover {
+                background-color: black;
+            }
+
+            .major {
+                background-color: transparent;
+            }
+
+            #self_submit, .btn, .results, footer, .ssl{
+                background-color: white;
+            }
+            .table-responsive {
+                max-height: 300px;
+                max-width: 350px;
+            }
+            td {
+                font-family: Inconsolata;
+            }
+            th:hover {
+                background-color: #FFFF00;
+            }
+            .rounded-pill {
+                font-family: Josefin Sans;
+            }
+            
+            .rounded-pill:hover {
+                transform: scale(1.03);
+                transition: 1.5s;
+            }
+
+            .search, .input-group-text {
+                font-family: IBM Plex Sans;
+            }
+
+            .search:hover {
+                background-color: cadetblue;
+                color: azure;
+            }
+            @media (min-width: 576px) {
+                .table-responsive {
+                    max-height: 500px;
+                    max-width: 400px;
+                }
+            }
+            @media (min-width: 690px) {
+                .table-responsive {
+                    max-height: 500px;
+                    max-width: 685px;
+                }
+            }
+            @media (min-width: 992px) {
+                .table-responsive {
+                    max-height: 500px;
+                    max-width: 900px;
+                }
+            }
+            .h1 {
+                font-family: Zilla Slab Highlight;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $("#self_submit").click(function () {
+                $.post("/postMyIP",
+                    function (data, status) {
+                        console.log(data);
+                        var test = data;
+                        $(".IPReveal").empty()
+                        $(".Location").empty()
+                        $(".ISP").empty()
+                        $(".IPReveal").empty()
+                        $(".ports").empty()
+                        $(".hostname").empty()
+                        $(".domains").empty()
+                        $(".updateWhen").empty()
+                        $(".IPReveal").append(data);
+                    });
+                });
+            });
+
+            function findtheIP(e) {
+                e.preventDefault();
+                $.post("/postIP", 
+                        {
+                            "ip": document.getElementById('ipRequest').value
+                        },
+                        function (data, status) {
+                            console.log(document.getElementById('ipRequest').value)
+                            console.log(data);
+                            if (data.error) {
+                                $(".IPReveal").empty()
+                                $(".IPReveal").append(data.error)
+                            } else {
+                                $(".IPReveal").empty()
+                                $(".Location").empty()
+                                $(".ISP").empty()
+                                $(".ports").empty()
+                                $(".IPReveal").append(document.getElementById('ipRequest').value)
+                                $(".Location").append(data.city, ", ").append(data.region_code, ", ").append(data.country_name)
+                                $(".ISP").append(data.isp)
+                                $(".hostname").empty()
+                                $(".domains").empty()
+                                $(".updateWhen").empty()
+                                $(".updateWhen").append(data.last_update)
+                                if ((data.hostnames).length > 0) {
+                                    for (let i = 0; i < (data.hostnames).length; i++) {
+                                        $(".hostname").append(data.hostnames[i], " | ")
+                                    }
+                                } else {
+                                    $(".hostname").append("No data to display")
+                                }
+                                for (let i=0; i < (data.ports).length; i++) {
+                                    $(".ports").append(data.ports[i], " ")
+                                }
+                                if ((data.domains).length > 0) {
+                                    console.log(data.domains)
+                                    for (let i = 0; i < (data.domains).length; i++) {
+                                        $(".domains").append(data.domains[i], " || ")
+                                    }
+                                } else {
+                                    $(".domains").append("No data to display")
+                                }
+                                //SSL
+                                console.log(data.data)
+                                for (let i = 0; i < (data.data).length; i++) {
+                                    if (data.data[i].port == 443) {
+                                        console.log(data.data[i].ssl)
+                                        $(".sellies").empty()
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>Sig Alg:</th><td>${data.data[i].ssl.cert.sig_alg}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>Public Key Type:</th><td>${data.data[i].ssl.cert.pubkey.type} (${data.data[i].ssl.cert.pubkey.bits})</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>JA3S:</th><td>${data.data[i].ssl.ja3s}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>JARM:</th><td>${data.data[i].ssl.jarm}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>Issuer:</th><td>${data.data[i].ssl.cert.issuer.CN}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th>Expiration:</th><td>${data.data[i].ssl.cert.expires.substring(0,4)}-${data.data[i].ssl.cert.expires.substring(4,6)}-${data.data[i].ssl.cert.expires.substring(6,8)} ${data.data[i].ssl.cert.expires.substring(8,10)}:${data.data[i].ssl.cert.expires.substring(10,12)}:${data.data[i].ssl.cert.expires.substring(12,14)}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                            $(".sellies").append("<th scope='row'>Versions:</th></td>")
+                                        for (let j = 0; j < (data.data[i].ssl.versions).length; j++) {
+                                            $(".sellies").append(`${data.data[i].ssl.versions[j]}`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Certificates:</th>")
+                                        for (let j = 0; j < data.data[i].ssl.chain.length; j++) {
+                                            $(".sellies").append(`</td>${data.data[i].ssl.chain[j]}<br><br>`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Certificates(sha256):</th>")
+                                        for (let j = 0; j < data.data[i].ssl.chain_sha256.length; j++) {
+                                            console.log(data.data[i].ssl.chain_sha256[j])
+                                            $(".sellies").append(`${data.data[i].ssl.chain_sha256[j]} `)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Handshake:</th>")
+                                        for (let j = 0; j < data.data[i].ssl.handshake_states.length; j++) {
+                                            console.log(data.data[i].ssl.handshake_states[j])
+                                            $(".sellies").append(`${j + 1}: ${data.data[i].ssl.handshake_states[j]}<br>`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        break
+                                    }
+                                }
+                            }
+                        }
+                    )
+                return false;
+            }
+
+            function findDNS(e) {
+                e.preventDefault();
+                var df = document.getElementById('url').value
+                $.get("/getDNS", 
+                        {
+                            "link": document.getElementById('url').value
+                        },
+                        function (data, status) {
+                            console.log(document.getElementById('url').value)
+                            if (data.error) {
+                                $(".DNSResults").append(data.error)
+                            } else {
+                                console.log(data)
+                                $(".Location").empty()
+                                $(".ISP").empty()
+                                $(".IPReveal").empty()
+                                $(".ports").empty()
+                                $(".ISP").append(data.isp)
+                                $(".IPReveal").append(data.ip_str)
+                                $(".Location").append(data.city, ", ", data.region_code, ", ", data.country_name)
+                                $(".hostname").empty()
+                                $(".domains").empty()
+                                $(".updateWhen").empty()
+                                $(".updateWhen").append(data.last_update)
+                                $(".sellies").empty()
+                                if ((data.hostnames).length > 0) {
+                                    for (let i = 0; i < (data.hostnames).length; i++) {
+                                        $(".hostname").append(data.hostnames[i], " | ")
+                                    }
+                                } else {
+                                    $(".hostname").append("No data to display")
+                                }
+                                for (let i=0; i < (data.ports).length; i++) {
+                                    $(".ports").append(data.ports[i], " ")
+                                }
+
+                                if ((data.domains).length > 0) {
+                                    console.log(data.domains)
+                                    for (let i = 0; i < (data.domains).length; i++) {
+                                        $(".domains").append(data.domains[i], " || ")
+                                    }
+                                } else {
+                                    $(".domains").append("No data to display")
+                                }
+                                //SSL
+                                for (let i = 0; i < (data.data).length; i++) {
+                                    if (data.data[i].port == 443) {
+                                        console.log(data.data[i].ssl)
+                                        $(".sellies").empty()
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>Sig Alg:</th><td>${data.data[i].ssl.cert.sig_alg}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>Public Key Type:</th><td>${data.data[i].ssl.cert.pubkey.type} (${data.data[i].ssl.cert.pubkey.bits})</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>JA3S:</th><td>${data.data[i].ssl.ja3s}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>JARM:</th><td>${data.data[i].ssl.jarm}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>Issuer:</th><td>${data.data[i].ssl.cert.issuer.CN}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append(`<th scope='row'>Expiration:</th><td>${data.data[i].ssl.cert.expires.substring(0,4)}-${data.data[i].ssl.cert.expires.substring(4,6)}-${data.data[i].ssl.cert.expires.substring(6,8)} ${data.data[i].ssl.cert.expires.substring(8,10)}:${data.data[i].ssl.cert.expires.substring(10,12)}:${data.data[i].ssl.cert.expires.substring(12,14)}</td>`)
+                                        $(".sellies").append("</tr>")
+                                        $(".sellies").append("<tr>")
+                                        $(".sellies").append("<th scope='row'>Versions:</th></td>")
+                                        for (let j = 0; j < (data.data[i].ssl.versions).length; j++) {
+                                            $(".sellies").append(`${data.data[i].ssl.versions[j]}`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Certificates:</th>")
+                                        for (let j = 0; j < data.data[i].ssl.chain.length; j++) {
+                                            $(".sellies").append(`</td>${data.data[i].ssl.chain[j]}<br><br>`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Certificates(sha256):</th>")
+                                        for (let j = 0; j < data.data[i].ssl.chain_sha256.length; j++) {
+                                            console.log(data.data[i].ssl.chain_sha256[j])
+                                            $(".sellies").append(`${data.data[i].ssl.chain_sha256[j]} `)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        $(".sellies").append("<tr></td>")
+                                        $(".sellies").append("<th scope='row'>Handshake:</th>")
+                                        for (let j = 0; j < data.data[i].ssl.handshake_states.length; j++) {
+                                            console.log(data.data[i].ssl.handshake_states[j])
+                                            $(".sellies").append(`${j + 1}: ${data.data[i].ssl.handshake_states[j]}<br>`)
+                                        }
+                                        $(".sellies").append("</td></tr>")
+                                        break
+                                    }
+                                }
+                                }
+                            }
+                    )
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-info sticky-top">
+            <a class="navbar-brand h1 nav-link disabled" href="#">
+                IPUC
+            </a>
+        </nav>
+        <div class="major container d-flex flex-column min-vh-100 justify-content-center align-items-center pt-1">
+            <div class="row">
+                <div class="firstcol col-md float-md-end">
+                    <br>
+                    <br>
+                    <!--BUTTON-->
+                    
+                    <button id="self_submit" class="btn btn-lg btn-block rounded-pill w-100">SEE MY IP</button>
+
+                    <form class="m-3" id="ipSearch" onsubmit="return findtheIP(event)">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend input-group-lg">
+                                <span class="input-group-text rounded-0">EXPLORE AN IP</span>
+                            </div>
+                            <input type="text" name="ipRequest" id="ipRequest" class="form-control rounded-end" placeholder="Enter IP address here(IPv4 ONLY)">
+                            <div class="input-group-append input-group-lg ps-2">
+                                <button class="btn rounded-end search" type="submit">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <form class="m-3" id="dnsLookup" onsubmit="return findDNS(event)">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend input-group-lg">
+                                <span class="input-group-text rounded-0">FIND AN IP</span>
+                            </div>
+                            <input type="text" name="url" id="url" class="form-control rounded-end" placeholder="Enter link/url here">
+                            <div class="input-group-append input-group-lg ps-2">
+                                <button class="btn rounded-end search" type="submit">SEARCH</button>
+                            </div>
+                        </div>
+                    </form>
+                    <button id="see_vulns" type="button" class="btn btn-lg btn-block rounded-pill w-100 hvr-pulse-grow" data-bs-toggle="collapse" data-bs-target=".ssl" aria-expanded="false">VIEW SSL CERTIFICATES</button>
+                </div>
+                <div class="results col-md border rounded pt-1 shadow-lg">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Results</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">IP Address:</th>
+                                <td><div class="IPReveal">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Location:</th>
+                                <td><div class="Location">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Hostname(s):</th>
+                                <td><div class="hostname">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Domain(s):</th>
+                                <td><div class="domains">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Internet Service Provider:</th>
+                                <td><div class="ISP">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Ports:</th>
+                                <td><div class="ports">No data to display</div></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Last Updated:</th>
+                                <td><div class="updateWhen">No data to display</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="map row my-4">
+                <div class="ssl col-md rounded table-responsive collapse shadow-lg">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    SSL Certificate
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="table sellies">
+                            <td>No Data Available to Show</td>
+                        </tbody>
+                        <caption>SSL Results</caption>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="fixed-bottom text-center">
+        By: Lourdes Frempong
+    </footer>
+</html>
