@@ -1,12 +1,27 @@
+# Lab4
 
-Lab 4
-______________
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
-**Received Extension until Saturday EOD from Prof. Callahan**
+## Development server
 
-**Individual Lab**
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-For this lab, we had to convert our Lab 3 project into an Angular application. 
+## Code scaffolding
 
-To be frank, this was a mind-numbingly frustrating lab. Working with typescript was a pain. Working with Angular was even more of a pain. A lot of features I was able to implement with vanilla JS were no longer possible to implement w/ typescript. Another frustrating discovery was that the formatting I did with Bootstrap in Lab 3, did not work with my Angular. While a major part of Angular is using components, I felt like the components where EXTREMELY detrimental to my project. For some odd reason, using a normal the forms that I created ipform and linkform created duplicate body tags. I dont know why and can't find a reason online for something like that to happen. If this were a multi-page project, I could see the usefulness of Angular but my application is only a single page application. The time it took me to complete Lab 3 is no where near the amount of time it took to complete Lab 4 and my application is in shambles.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
