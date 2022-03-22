@@ -19,7 +19,7 @@ app.use(bodyParser.json())
 
 
 function myfunct(item) {
-    console.log(item.org)
+    console.log(item)
 }
 
 const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true';
