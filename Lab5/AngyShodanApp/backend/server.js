@@ -22,16 +22,13 @@ function myfunct(item) {
     console.log(item.org)
 }
 
+const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true';
 
 app.route('/db')
     .get((req, res) => {
         //res.send('DB GET ENDPOINT')
-        /*
- * Requires the MongoDB Node.js Driver
- * https://mongodb.github.io/node-mongodb-native
- */
   
-    MongoClient.connect('mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true', function (err, db) {
+    MongoClient.connect(url_mongo, function (err, db) {
         if (err) throw (err);
         var dbo = db.db("testdb");
         dbo.collection("test").find({}).toArray(function(err, result) {
@@ -46,8 +43,19 @@ app.route('/db')
     
 app.route('/db/:number')
     .get((req, res) => {
-        col_num = req.params.number
-        res.send(col_num)
+        doc_num = req.params.number
+        
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err);
+            var dbo = db.db("testdb")
+            dbo.collection('test').find({doc_id: doc_num}).toArray(function(err, result) {
+                if (err) throw (err)
+                result.forEach(myfunct)
+                //THIS FUNCTION WORKS
+                //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
+            })
+        })
+
     })
 
 
