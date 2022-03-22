@@ -26,20 +26,23 @@ const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mon
 
 app.route('/db')
     .get((req, res) => {
-        //res.send('DB GET ENDPOINT')
-  
-    MongoClient.connect(url_mongo, function (err, db) {
-        if (err) throw (err);
-        var dbo = db.db("testdb");
-        dbo.collection("test").find({}).toArray(function(err, result) {
+            //res.send('DB GET ENDPOINT')
+    
+        MongoClient.connect(url_mongo, function (err, db) {
             if (err) throw (err);
-            //console.log(result);
-            result.forEach(myfunct);
-            // THIS OUTPUTS TO NODE'S CONSOLE. (FULL RESULT)
-            //NEED TO SEND BACK TO FRONTEND
+            var dbo = db.db("testdb");
+            dbo.collection("test").find({}).toArray(function(err, result) {
+                if (err) throw (err);
+                //console.log(result);
+                result.forEach(myfunct);
+                // THIS OUTPUTS TO NODE'S CONSOLE. (FULL RESULT)
+                //NEED TO SEND BACK TO FRONTEND
+            })
         })
     })
-})
+    .post((req, res) => {
+        res.send('DB MAIN POST ENDPOINT')
+    })
     
 app.route('/db/:number')
     .get((req, res) => {

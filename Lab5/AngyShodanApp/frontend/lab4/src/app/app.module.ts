@@ -13,6 +13,7 @@ import { LinkFormComponent } from './link-form/link-form.component';
 import { SslButtonComponent } from './ssl-button/ssl-button.component';
 import { RegDashboardComponent } from './reg-dashboard/reg-dashboard.component';
 import { SslDashboardComponent } from './ssl-dashboard/ssl-dashboard.component';
+import { DbFormComponent } from './db-form/db-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SslDashboardComponent } from './ssl-dashboard/ssl-dashboard.component';
     LinkFormComponent,
     SslButtonComponent,
     RegDashboardComponent,
-    SslDashboardComponent
+    SslDashboardComponent,
+    DbFormComponent
   ],
   imports: [
     BrowserModule,
