@@ -51,7 +51,6 @@ app.route('/db/:number')
             dbo.collection('test').find({doc_id: doc_num}).toArray(function(err, result) {
                 if (err) throw (err)
                 result.forEach(myfunct)
-                //IS GITHUB WORKING?
                 //THIS FUNCTION WORKS
                 //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
             })
