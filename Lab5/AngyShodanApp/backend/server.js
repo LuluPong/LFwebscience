@@ -2,6 +2,8 @@ const bodyParser = require('body-parser')
 const path = require('path')
 const express = require('express')
 const fs = require('fs')
+const MongoClient = require('mongodb').MongoClient;
+const assert = require('assert');
 const app = express()
 const fetch = require('node-fetch')
 const port = 3000
@@ -14,6 +16,40 @@ app.use(express.static(__dirname + '/public')); //did not work
 app.set('view engine', 'ejs')
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
+
+
+function myfunct(item) {
+    console.log(item.org)
+}
+
+
+app.route('/db')
+    .get((req, res) => {
+        //res.send('DB GET ENDPOINT')
+        /*
+ * Requires the MongoDB Node.js Driver
+ * https://mongodb.github.io/node-mongodb-native
+ */
+  
+    MongoClient.connect('mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true', function (err, db) {
+        if (err) throw (err);
+        var dbo = db.db("testdb");
+        dbo.collection("test").find({}).toArray(function(err, result) {
+            if (err) throw (err);
+            //console.log(result);
+            result.forEach(myfunct);
+            // THIS OUTPUTS TO NODE'S CONSOLE. (FULL RESULT)
+            //NEED TO SEND BACK TO FRONTEND
+        })
+    })
+})
+    
+app.route('/db/:number')
+    .get((req, res) => {
+        col_num = req.params.number
+        res.send(col_num)
+    })
+
 
 app.get('/', (req, res) => {
     res.json({test: 1})
