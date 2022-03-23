@@ -1,4 +1,10 @@
-<form [formGroup]>
+<form [formGroup]="mdbForm" (ngSubmit)="onSubmit($event)">
     <label for="doc_number">Document Number:</label>
-    <input type="text" name="doc_number" id="doc_number">
+    <input type="text" name="doc_number" id="doc_number" formControlName="document_number">
+    <label for="cont">Content: </label>
+    <input type="text" name="cont" id="content" formControlName="content">
+    <button type="submit" name="post">POST</button>
+    <button type="submit" name="put">PUT</button>
+    <button type="submit" name="get">GET</button>
+    <button type="submit" name="delete">DELETE</button>
 </form>
