@@ -53,5 +53,6 @@ export class HttpService {
   }
 
   public upDate(content_: string) {
+    return this.httpClient.put(this.dbTopAPI, {test: "PUT begins or ENDS"})
   }
 }

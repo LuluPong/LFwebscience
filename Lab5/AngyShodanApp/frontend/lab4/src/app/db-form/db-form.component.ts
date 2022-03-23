@@ -22,12 +22,15 @@ export class DbFormComponent implements OnInit {
   })
 
   onSubmit(event: SubmitEvent) {
+    const doc:string = this.mdbForm.get('content')?.value
     if (event?.submitter?.innerHTML == "PUT") {
       console.log("THIS IS A PUT REQUEST")
+      this.httpService.upDate(doc).subscribe((data) => {
+        console.log(data)
+      })
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
       //console.log(JSON.parse(this.mdbForm.get('content')?.value))
-      const doc:string = this.mdbForm.get('content')?.value
       this.httpService.addDoc(doc).subscribe((data) => {
         console.log(data)
       })

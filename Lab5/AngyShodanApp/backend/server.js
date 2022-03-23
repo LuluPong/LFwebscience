@@ -57,6 +57,16 @@ app.route('/db')
             })
         })
     })
+    .put((req, res) => {
+        console.log(req)
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err)
+            var dbo = db.db('testdb')
+            res.json({ty: "at the database"})
+        })
+    })
+
+
     
 app.route('/db/:number')
     .get((req, res) => {
