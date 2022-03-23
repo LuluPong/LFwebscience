@@ -42,7 +42,8 @@ app.route('/db')
         })
     })
     .post((req, res) => {
-        res.send('DB MAIN POST ENDPOINT')
+        console.log(req.body)
+        res.send({test: 'successful'})
     })
     
 app.route('/db/:number')

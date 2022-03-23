@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { HttpParams } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,8 @@ export class HttpService {
   private myIPapi = "http://localhost:3000/myIP";
   private anyIPapi = "http://localhost:3000/postIP";
   private linkAPI = "http://localhost:3000/getDNS";
-  private dbTopAPI = "http://localhost:3000/db"
+  private dbTopAPI = "http://localhost:3000/db";
+  public db_spec = `http://localhost:3000/db/:number`;
 
   constructor(private httpClient: HttpClient) { }
 
@@ -35,6 +37,19 @@ export class HttpService {
   public getfullCol() {
     return this.httpClient.get(this.dbTopAPI);
   }
+  
+  public getSpecCol(docID: number) {
+    console.log(this.db_spec + docID.toString());
+
+    let qP = new HttpParams();
+    qP.append(`${docID}`)
+
+    return this.httpClient.get(this.db_spec, {params: qP});
+  }
 
 
+  public addDoc() {
+    const gh:string = 'testing db post';
+    return this.httpClient.post(this.dbTopAPI, JSON.parse(gh));
+  }
 }
