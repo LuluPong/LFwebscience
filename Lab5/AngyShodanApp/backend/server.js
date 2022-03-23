@@ -34,7 +34,8 @@ app.route('/db')
             dbo.collection("test").find({}).toArray(function(err, result) {
                 if (err) throw (err);
                 //console.log(result);
-                result.forEach(myfunct);
+                //result.forEach(myfunct);
+                res.json(result);
                 // THIS OUTPUTS TO NODE'S CONSOLE. (FULL RESULT)
                 //NEED TO SEND BACK TO FRONTEND
             })

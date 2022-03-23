@@ -10,6 +10,7 @@ export class HttpService {
   private myIPapi = "http://localhost:3000/myIP";
   private anyIPapi = "http://localhost:3000/postIP";
   private linkAPI = "http://localhost:3000/getDNS";
+  private dbTopAPI = "http://localhost:3000/db"
 
   constructor(private httpClient: HttpClient) { }
 
@@ -30,4 +31,10 @@ export class HttpService {
     console.log(linkValue);
     return this.httpClient.post(this.linkAPI, JSON.parse(linkValue));
   }
+
+  public getfullCol() {
+    return this.httpClient.get(this.dbTopAPI);
+  }
+
+
 }

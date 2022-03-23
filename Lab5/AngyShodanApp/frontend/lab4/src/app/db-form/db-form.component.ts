@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 import { FormControl } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpService } from '../http.service';
 
 @Component({
   selector: 'app-db-form',
@@ -10,7 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class DbFormComponent implements OnInit {
 
-  constructor() { }
+  constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
   }
@@ -28,6 +29,11 @@ export class DbFormComponent implements OnInit {
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
       console.log(this.mdbForm.get('document_number')?.value)
+      if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == 0) {
+        this.httpService.getfullCol().subscribe((data) => {
+          console.log(data);
+        })
+      }
     } else if (event?.submitter?.innerHTML == "DELETE") {
       console.log("THIS IS A DELETE REQUEST")
     }
