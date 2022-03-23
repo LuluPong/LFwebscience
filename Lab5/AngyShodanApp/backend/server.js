@@ -26,8 +26,6 @@ const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mon
 
 app.route('/db')
     .get((req, res) => {
-            //res.send('DB GET ENDPOINT')
-    
         MongoClient.connect(url_mongo, function (err, db) {
             if (err) throw (err);
             var dbo = db.db("testdb");
@@ -49,20 +47,28 @@ app.route('/db')
             dbo.collection("test").insertOne(req.body, (err, result) => {
                 if(err) { 
                     //throw (err) 
-                    res.json({test: "failed"})
+                    res.json({post: "failed"})
                 } else {
                     console.log("Document added succesfully")
-                    res.json({test: "passed"})
+                    res.json({post: "passed"})
                 }
             })
         })
     })
     .put((req, res) => {
-        console.log(req)
+        console.log(req.body)
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
-            res.json({ty: "at the database"})
+            upD = {$set: req.body}
+            dbo.collection("test").updateMany({}, upD, (err, result) => {
+                if (err) {
+                    //throw (err)
+                    res.json({update: "failed"})
+                } else {
+                    res.json({update: "passed"})
+                }
+            })
         })
     })
 

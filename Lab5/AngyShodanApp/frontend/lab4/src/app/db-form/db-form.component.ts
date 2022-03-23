@@ -23,6 +23,7 @@ export class DbFormComponent implements OnInit {
 
   onSubmit(event: SubmitEvent) {
     const doc:string = this.mdbForm.get('content')?.value
+    //Keys have to be a string encapsulated in ""
     if (event?.submitter?.innerHTML == "PUT") {
       console.log("THIS IS A PUT REQUEST")
       this.httpService.upDate(doc).subscribe((data) => {
