@@ -24,11 +24,14 @@ export class DbFormComponent implements OnInit {
   onSubmit(event: SubmitEvent) {
     if (event?.submitter?.innerHTML == "PUT") {
       console.log("THIS IS A PUT REQUEST")
+      // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
-      console.log("THIS IS A POST REQUEST")
-      /*this.httpService.addDoc().subscribe((data) => {
+      //console.log(JSON.parse(this.mdbForm.get('content')?.value))
+      const doc:string = this.mdbForm.get('content')?.value
+      this.httpService.addDoc(doc).subscribe((data) => {
         console.log(data)
-      })*/
+      })
+      // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
       console.log(this.mdbForm.get('document_number')?.value)
@@ -38,8 +41,9 @@ export class DbFormComponent implements OnInit {
         })
       } else {
         const doc_numero:number = this.mdbForm.get('document_number')?.value
-        this.httpService.getSpecCol(doc_numero)
+        //this.httpService.getSpecCol(doc_numero)
       }
+      // ---------------------------------------------------
     } else if (event?.submitter?.innerHTML == "DELETE") {
       console.log("THIS IS A DELETE REQUEST")
     }

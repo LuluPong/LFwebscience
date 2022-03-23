@@ -43,7 +43,19 @@ app.route('/db')
     })
     .post((req, res) => {
         console.log(req.body)
-        res.send({test: 'successful'})
+        MongoClient.connect(url_mongo, function (err, db) {
+            if (err) throw (err);
+            var dbo = db.db('testdb');
+            dbo.collection("test").insertOne(req.body, (err, result) => {
+                if(err) { 
+                    //throw (err) 
+                    res.json({test: "failed"})
+                } else {
+                    console.log("Document added succesfully")
+                    res.json({test: "passed"})
+                }
+            })
+        })
     })
     
 app.route('/db/:number')

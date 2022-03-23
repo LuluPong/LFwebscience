@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { HttpParams } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -36,7 +35,6 @@ import { DbFormComponent } from './db-form/db-form.component';
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpParams
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -38,18 +38,20 @@ export class HttpService {
     return this.httpClient.get(this.dbTopAPI);
   }
   
-  public getSpecCol(docID: number) {
+  /*public getSpecCol(docID: number) {
     console.log(this.db_spec + docID.toString());
 
     let qP = new HttpParams();
-    qP.append(`${docID}`)
+    qP.set(number: Number)
 
     return this.httpClient.get(this.db_spec, {params: qP});
+  }*/
+
+
+  public addDoc(content_: string) {
+    return this.httpClient.post(this.dbTopAPI, JSON.parse(content_));
   }
 
-
-  public addDoc() {
-    const gh:string = 'testing db post';
-    return this.httpClient.post(this.dbTopAPI, JSON.parse(gh));
+  public upDate(content_: string) {
   }
 }
