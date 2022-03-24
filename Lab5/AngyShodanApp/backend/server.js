@@ -30,12 +30,11 @@ app.route('/db')
             if (err) throw (err);
             var dbo = db.db("testdb");
             dbo.collection("test").find({}).toArray(function(err, result) {
-                if (err) throw (err);
-                //console.log(result);
-                //result.forEach(myfunct);
-                res.json(result);
-                // THIS OUTPUTS TO NODE'S CONSOLE. (FULL RESULT)
-                //NEED TO SEND BACK TO FRONTEND
+                if (err) {
+                    res.json({get: "failed"})
+                } else {
+                    res.json(result)
+                }
             })
         })
     })
@@ -45,13 +44,12 @@ app.route('/db')
             if (err) throw (err);
             var dbo = db.db('testdb');
             dbo.collection("test").insertOne(req.body, (err, result) => {
-                if(err) { 
-                    //throw (err) 
+                if(err) {
                     res.json({post: "failed"})
                 } else {
-                    console.log("Document added succesfully")
-                    res.json({post: "passed"})
+                    res.json({post: "successful"})
                 }
+                db.close()
             })
         })
     })
@@ -67,6 +65,20 @@ app.route('/db')
                     res.json({update: "failed"})
                 } else {
                     res.json({update: "passed"})
+                }
+                db.close()
+            })
+        })
+    })
+    .delete((req, res) => {
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err)
+            var dbo = db.db('testdb')
+            dbo.collection("test").deleteMany({}, (err, result) => {
+                if (err) {
+                    res.json({deletion: "failed"})
+                } else {
+                    res.json({deletion: "successful"})
                 }
             })
         })
@@ -104,14 +116,28 @@ app.route('/db/:number')
                 if (err) {
                     res.json({update: "failed"})
                 } else {
-                    res.json({update: "passed"})
+                    res.json({update: "successful"})
                 }
+                db.close()
             })
         })
         
     })
     .delete((req, res) => {
-        res.json({test: "delete works?"})
+        doc_num = req.params.number
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err)
+            var dbo = db.db('testdb')
+            dbo.collection("test").deleteOne({doc_id: doc_num}, (err, result) => {
+                if (err) {
+                    res.json({deletion: "failed"})
+                } else {
+                    res.json({deletion: "successful"})
+                }
+                db.close()
+            })
+        })
+
     })
 
 

@@ -63,8 +63,12 @@ export class HttpService {
 
   // Delete -------------------------------------------------
 
-  public deleteSpec(docID: number) {
+  public deleteSpec(docID: string) {
     this.db_spec = `http://localhost:3000/db/${docID}`
     return this.httpClient.delete(this.db_spec)
+  }
+  
+  public deleteFIN() {
+    return this.httpClient.delete(this.dbTopAPI)
   }
 }

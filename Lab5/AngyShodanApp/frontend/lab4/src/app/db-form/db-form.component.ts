@@ -58,12 +58,17 @@ export class DbFormComponent implements OnInit {
       }
       // ---------------------------------------------------
     } else if (event?.submitter?.innerHTML == "DELETE") {
-      const doc_numero:number = this.mdbForm.get('document_number')?.value
+      const doc_numero:string = this.mdbForm.get('document_number')?.value
       console.log("THIS IS A DELETE REQUEST")
-      this.httpService.deleteSpec(doc_numero).subscribe((data) => {
-        console.log(data)
-      })
+      if (doc_numero == '' || doc_numero == '0') {
+        this.httpService.deleteFIN().subscribe((data) => {
+          console.log(data)
+        })
+      } else {
+        this.httpService.deleteSpec(doc_numero).subscribe((data) => {
+          console.log(data)
+        })
+      }
     }
   }
-
 }
