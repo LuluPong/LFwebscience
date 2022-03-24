@@ -77,13 +77,15 @@ app.route('/db')
 app.route('/db/:number')
     .get((req, res) => {
         doc_num = req.params.number
+        console.log(doc_num)
         
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err);
             var dbo = db.db("testdb")
             dbo.collection('test').find({doc_id: doc_num}).toArray(function(err, result) {
                 if (err) throw (err)
-                result.forEach(myfunct)
+                res.json(result)
+                db.close()
                 //THIS FUNCTION WORKS
                 //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
             })

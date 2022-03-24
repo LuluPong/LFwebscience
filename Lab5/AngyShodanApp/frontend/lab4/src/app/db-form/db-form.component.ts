@@ -38,14 +38,15 @@ export class DbFormComponent implements OnInit {
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
-      console.log(this.mdbForm.get('document_number')?.value)
       if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == 0) {
         this.httpService.getfullCol().subscribe((data) => {
           console.log(data);
         })
       } else {
         const doc_numero:number = this.mdbForm.get('document_number')?.value
-        //this.httpService.getSpecCol(doc_numero)
+        this.httpService.getSpecCol(doc_numero).subscribe((data) => {
+          console.log(data)
+        })
       }
       // ---------------------------------------------------
     } else if (event?.submitter?.innerHTML == "DELETE") {

@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { HttpParams } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -12,9 +11,16 @@ export class HttpService {
   private anyIPapi = "http://localhost:3000/postIP";
   private linkAPI = "http://localhost:3000/getDNS";
   private dbTopAPI = "http://localhost:3000/db";
-  public db_spec = `http://localhost:3000/db/:number`;
+  public db_spec = `http://localhost:3000/db/`;
 
   constructor(private httpClient: HttpClient) { }
+
+  public getSpecCol(docID: number) {
+    console.log(this.db_spec + docID.toString());
+    this.db_spec = `http://localhost:3000/db/${docID}`
+
+    return this.httpClient.get(this.db_spec);
+  }
 
   public sendGetRequest() {
     return this.httpClient.get(this.apiserver);
@@ -38,14 +44,7 @@ export class HttpService {
     return this.httpClient.get(this.dbTopAPI);
   }
   
-  /*public getSpecCol(docID: number) {
-    console.log(this.db_spec + docID.toString());
 
-    let qP = new HttpParams();
-    qP.set(number: Number)
-
-    return this.httpClient.get(this.db_spec, {params: qP});
-  }*/
 
 
   public addDoc(content_: string) {
