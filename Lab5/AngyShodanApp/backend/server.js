@@ -81,8 +81,8 @@ app.route('/db/:number')
         
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err);
-            var dbo = db.db("testdb")
-            dbo.collection('test').find({doc_id: doc_num}).toArray(function(err, result) {
+            var dbo = db.db('testdb')
+            dbo.collection("test").find({doc_id: doc_num}).toArray(function(err, result) {
                 if (err) throw (err)
                 res.json(result)
                 db.close()
@@ -91,6 +91,27 @@ app.route('/db/:number')
             })
         })
 
+    })
+    .put((req, res) => {
+        doc_num = req.params.number
+        console.log(req.body)
+
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err)
+            var dbo = db.db('testdb')
+            upD = {$set: req.body}
+            dbo.collection("test").updateOne({doc_id: doc_num}, upD, (err, result) => {
+                if (err) {
+                    res.json({update: "failed"})
+                } else {
+                    res.json({update: "passed"})
+                }
+            })
+        })
+        
+    })
+    .delete((req, res) => {
+        res.json({test: "delete works?"})
     })
 
 

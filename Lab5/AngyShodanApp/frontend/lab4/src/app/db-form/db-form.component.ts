@@ -26,9 +26,17 @@ export class DbFormComponent implements OnInit {
     //Keys have to be a string encapsulated in ""
     if (event?.submitter?.innerHTML == "PUT") {
       console.log("THIS IS A PUT REQUEST")
-      this.httpService.upDate(doc).subscribe((data) => {
-        console.log(data)
-      })
+      const DN:string = this.mdbForm.get('document_number')?.value
+      const CN:string = this.mdbForm.get('content')?.value
+      if (DN == '' || DN == '0') {
+        this.httpService.upDate(doc).subscribe((data) => {
+          console.log(data)
+        })
+      } else if (!(DN == '' || DN == '0')) {
+        this.httpService.upDateSpec(Number(DN), CN).subscribe((data) => {
+          console.log(data)
+        })
+      }
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
       //console.log(JSON.parse(this.mdbForm.get('content')?.value))
@@ -38,7 +46,7 @@ export class DbFormComponent implements OnInit {
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
-      if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == 0) {
+      if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == '0') {
         this.httpService.getfullCol().subscribe((data) => {
           console.log(data);
         })
@@ -50,7 +58,11 @@ export class DbFormComponent implements OnInit {
       }
       // ---------------------------------------------------
     } else if (event?.submitter?.innerHTML == "DELETE") {
+      const doc_numero:number = this.mdbForm.get('document_number')?.value
       console.log("THIS IS A DELETE REQUEST")
+      this.httpService.deleteSpec(doc_numero).subscribe((data) => {
+        console.log(data)
+      })
     }
   }
 

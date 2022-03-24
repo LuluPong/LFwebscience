@@ -15,13 +15,6 @@ export class HttpService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public getSpecCol(docID: number) {
-    console.log(this.db_spec + docID.toString());
-    this.db_spec = `http://localhost:3000/db/${docID}`
-
-    return this.httpClient.get(this.db_spec);
-  }
-
   public sendGetRequest() {
     return this.httpClient.get(this.apiserver);
   }
@@ -40,18 +33,38 @@ export class HttpService {
     return this.httpClient.post(this.linkAPI, JSON.parse(linkValue));
   }
 
+
+  // Get --------------------------------------------------
   public getfullCol() {
     return this.httpClient.get(this.dbTopAPI);
   }
   
+  public getSpecCol(docID: number) {
+    this.db_spec = `http://localhost:3000/db/${docID}`
+    return this.httpClient.get(this.db_spec);
+  }
 
-
+  // Post --------------------------------------------------
 
   public addDoc(content_: string) {
     return this.httpClient.post(this.dbTopAPI, JSON.parse(content_));
   }
 
+  // Put ---------------------------------------------------
+
   public upDate(content_: string) {
     return this.httpClient.put(this.dbTopAPI, JSON.parse(content_))
+  }
+
+  public upDateSpec(docID: number, content_: string) {
+    this.db_spec = `http://localhost:3000/db/${docID}`
+    return this.httpClient.put(this.db_spec, JSON.parse(content_))
+  }
+
+  // Delete -------------------------------------------------
+
+  public deleteSpec(docID: number) {
+    this.db_spec = `http://localhost:3000/db/${docID}`
+    return this.httpClient.delete(this.db_spec)
   }
 }
