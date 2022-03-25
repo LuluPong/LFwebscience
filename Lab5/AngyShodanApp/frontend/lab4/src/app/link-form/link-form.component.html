@@ -15,13 +15,9 @@
 -->
 
 <form #linkForm = "ngForm" (ngSubmit)="onClickSubmit(linkForm.value)">
-    <div class="input-group input-group-lg">
-        <div class="input-group-prepend input-group-lg">
-            <span class="input-group-text rounded-0">FIND AN IP</span>
-        </div>
-        <input type="text" name="url" id="url" class="form-control rounded-end" placeholder="Enter link/url here" ngModel>
-        <div class="input-group-append input-group-lg ps-2">
-            <button class="btn rounded-end search" type="submit">SEARCH</button>
-        </div>
+    <div class="input-group">
+        <span class="input-group-text rounded-0">FIND IP</span>
+        <input type="text" name="url" id="url" class="form-control" placeholder="Enter link/url here" ngModel>
+        <button class="btn rounded-end search" type="submit">SEARCH</button>
     </div>
 </form>

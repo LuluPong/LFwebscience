@@ -39,7 +39,7 @@ app.route('/db')
         })
     })
     .post((req, res) => {
-        console.log(req.body)
+        console.log(req.body.doc_id)
         MongoClient.connect(url_mongo, function (err, db) {
             if (err) throw (err);
             var dbo = db.db('testdb');
@@ -107,7 +107,6 @@ app.route('/db/:number')
     .put((req, res) => {
         doc_num = req.params.number
         console.log(req.body)
-
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')

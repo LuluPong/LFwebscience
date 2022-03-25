@@ -2,22 +2,24 @@
 <app-topmenu></app-topmenu>
 <div class="container container d-flex flex-column min-vh-100 justify-content-center align-items-center pt-1">
     <div class="row">
-        <div class="col-md float-end">
+        <div class="col float-end">
             <app-my-ipbutton></app-my-ipbutton>
             <app-ip-form></app-ip-form>
             <app-link-form></app-link-form>
-            <app-ssl-button></app-ssl-button>
+            <div class="btn-group" role="group">
+                <app-ssl-button></app-ssl-button>
+                <app-db-content></app-db-content>
+            </div>
         </div>
-        <div class="col-md float-end">
+        <div class="col float-end">
             <app-reg-dashboard></app-reg-dashboard>
         </div>
-        <div class="col-md float-end">
+        <div class="col float-end">
             <app-ssl-dashboard></app-ssl-dashboard>
         </div>
     </div>
-    <div class="row">
+    <div class="mt-5 row access-db collapse">
         <app-db-form></app-db-form>
-        <div class="db_results"></div>
     </div>
 </div>
 <router-outlet></router-outlet>

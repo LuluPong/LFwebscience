@@ -11,6 +11,7 @@ import { HttpService } from '../http.service';
 })
 export class DbFormComponent implements OnInit {
 
+  returnedContent: string= ""
   constructor(private httpService: HttpService) { }
 
   ngOnInit(): void {
@@ -31,6 +32,7 @@ export class DbFormComponent implements OnInit {
       if (DN == '' || DN == '0') {
         this.httpService.upDate(doc).subscribe((data) => {
           console.log(data)
+
         })
       } else if (!(DN == '' || DN == '0')) {
         this.httpService.upDateSpec(Number(DN), CN).subscribe((data) => {
@@ -42,18 +44,24 @@ export class DbFormComponent implements OnInit {
       //console.log(JSON.parse(this.mdbForm.get('content')?.value))
       this.httpService.addDoc(doc).subscribe((data) => {
         console.log(data)
+        this.returnedContent = "Content added"
       })
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
       if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == '0') {
         this.httpService.getfullCol().subscribe((data) => {
-          console.log(data);
+          this.returnedContent = JSON.stringify(data, undefined, 4)
         })
       } else {
         const doc_numero:number = this.mdbForm.get('document_number')?.value
         this.httpService.getSpecCol(doc_numero).subscribe((data) => {
-          console.log(data)
+          if (JSON.stringify(data) === "[]") {
+            this.returnedContent = "There is no document in the database with this ID.\nPlease enter a valid document ID (doc_id)."
+          } else {
+            console.log(JSON.stringify(data) === "[]")
+            this.returnedContent = JSON.stringify(data, undefined, 4)
+          }
         })
       }
       // ---------------------------------------------------
@@ -63,10 +71,12 @@ export class DbFormComponent implements OnInit {
       if (doc_numero == '' || doc_numero == '0') {
         this.httpService.deleteFIN().subscribe((data) => {
           console.log(data)
+          this.returnedContent = "All documents deleted successfully"
         })
       } else {
         this.httpService.deleteSpec(doc_numero).subscribe((data) => {
           console.log(data)
+          this.returnedContent = `Document ${doc_numero} deleted successfully`
         })
       }
     }

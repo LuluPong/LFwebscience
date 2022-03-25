@@ -1,11 +1,7 @@
 <form #ipForm = "ngForm" (ngSubmit)="onClickSubmit(ipForm.value)">
-    <div class="input-group input-group-lg">
-        <div class="input-group-prepend input-group-lg">
-            <span class="input-group-text rounded-0">EXPLORE AN IP</span>
-        </div>
-        <input type="text" name="ip" id="ip" class="form-control rounded-end" placeholder="Enter public IP address here" ngModel>
-        <div class="input-group-append input-group-lg ps-2">
-            <button class="btn rounded-end search" type="submit">SEARCH</button>
-        </div>
+    <div class="input-group">
+        <span class="input-group-text rounded-0">VIEW IP</span>
+        <input type="text" name="ip" id="ip" class="form-control" placeholder="Enter public IP address here" ngModel>
+        <button class="btn rounded-end search" type="submit">SEARCH</button>
     </div>
 </form>
