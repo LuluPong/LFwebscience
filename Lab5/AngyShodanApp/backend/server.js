@@ -94,7 +94,7 @@ app.route('/db/:number')
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err);
             var dbo = db.db('testdb')
-            dbo.collection("test").find({doc_id: doc_num}).toArray(function(err, result) {
+            dbo.collection("test").find({doc_id: Number(doc_num)}).toArray(function(err, result) {
                 if (err) throw (err)
                 res.json(result)
                 db.close()
@@ -111,7 +111,7 @@ app.route('/db/:number')
             if (err) throw (err)
             var dbo = db.db('testdb')
             upD = {$set: req.body}
-            dbo.collection("test").updateOne({doc_id: doc_num}, upD, (err, result) => {
+            dbo.collection("test").updateOne({doc_id: Number(doc_num)}, upD, (err, result) => {
                 if (err) {
                     res.json({update: "failed"})
                 } else {
@@ -121,13 +121,15 @@ app.route('/db/:number')
             })
         })
         
+    }).post((req, res) => {
+        res.json({post: "invalid"})
     })
     .delete((req, res) => {
         doc_num = req.params.number
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
-            dbo.collection("test").deleteOne({doc_id: doc_num}, (err, result) => {
+            dbo.collection("test").deleteOne({doc_id: Number(doc_num)}, (err, result) => {
                 if (err) {
                     res.json({deletion: "failed"})
                 } else {

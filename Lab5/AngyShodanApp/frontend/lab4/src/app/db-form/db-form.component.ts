@@ -32,20 +32,24 @@ export class DbFormComponent implements OnInit {
       if (DN == '' || DN == '0') {
         this.httpService.upDate(doc).subscribe((data) => {
           console.log(data)
-
+          this.returnedContent = "All documents updated"
         })
       } else if (!(DN == '' || DN == '0')) {
         this.httpService.upDateSpec(Number(DN), CN).subscribe((data) => {
-          console.log(data)
+          this.returnedContent = "Document updated"
         })
       }
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
-      //console.log(JSON.parse(this.mdbForm.get('content')?.value))
-      this.httpService.addDoc(doc).subscribe((data) => {
-        console.log(data)
-        this.returnedContent = "Content added"
-      })
+
+      if (this.mdbForm.get('document_number')?.value == '') {
+        this.httpService.addDoc(doc).subscribe((data) => {
+          console.log(data)
+          this.returnedContent = "Document added"
+        })
+      } else {
+        this.returnedContent = "Document cannot be added to another document.\nPlease clear the document ID field."
+      }
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
@@ -70,12 +74,10 @@ export class DbFormComponent implements OnInit {
       console.log("THIS IS A DELETE REQUEST")
       if (doc_numero == '' || doc_numero == '0') {
         this.httpService.deleteFIN().subscribe((data) => {
-          console.log(data)
           this.returnedContent = "All documents deleted successfully"
         })
       } else {
         this.httpService.deleteSpec(doc_numero).subscribe((data) => {
-          console.log(data)
           this.returnedContent = `Document ${doc_numero} deleted successfully`
         })
       }
