@@ -1,0 +1,222 @@
+{
+    "doc_id": 20,
+    "city": "Washington",
+    "region_code": "DC",
+    "os": null,
+    "tags": [],
+    "ip": 2227737751,
+    "isp": "Federal Reserve Board",
+    "area_code": null,
+    "longitude": -77.0452,
+    "last_update": "2022-03-10T11:49:41.560313",
+    "ports": [
+      443
+    ],
+    "latitude": 38.892,
+    "hostnames": [
+      "www.federalreserve.gov",
+      "federalreserve.gov"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "federalreserve.gov"
+    ],
+    "org": "Federal Reserve Board",
+    "data": [
+      {
+        "hash": 1815999103,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "132.200.148.151",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-10T11:49:41.560313",
+        "org": "Federal Reserve Board",
+        "isp": "Federal Reserve Board",
+        "data": "HTTP/1.0 301 Moved Permanently\r\nLocation: https://www.132.200.148.151/\r\nStrict-Transport-Security: max-age=63072000; includeSubDomains; preload\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS10754",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "d748f2e6f1aa12aa23ff5a9fc9326ab1ba7bfebeeeb980eea9fc7230f5536d47",
+            "52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "2ad2ad0002ad2ad0002ad2ad2ad2adcb09dd549309271837f87ac5dad15fa7",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIG6DCCBdCgAwIBAgIQBPWBd0ceteWGcQOqVYN+/zANBgkqhkiG9w0BAQsFADBP\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE\naWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTExMTAwMDAwMDBa\nFw0yMjEyMTEyMzU5NTlaMIGBMQswCQYDVQQGEwJVUzEdMBsGA1UECBMURGlzdHJp\nY3Qgb2YgQ29sdW1iaWExEzARBgNVBAcTCldhc2hpbmd0b24xHzAdBgNVBAoTFkZl\nZGVyYWwgUmVzZXJ2ZSBTeXN0ZW0xHTAbBgNVBAMMFCouZmVkZXJhbHJlc2VydmUu\nZ292MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAli6REUxp5iIt1poT\nHZm3UM8N1UUoHes70+9GBCLZXJIrw6thoYR/vyVtDSsdqy+4Fqt+2E/W7r0wGbjP\n3B/O95T3UZv6hd1HVLFdx5+7SaBv3dXwfdSzHOqXgsjOBOJauZNB1IblTaff/1lB\nenhlcghLIfNJVfzSC7kac8XsaAOsutPAAl9sV2tEOAJO77KUqKcOhIIDpEtIaPya\nqCkJzpg7dbayoe0gtyQBwnVLO5jd7zNYP2VcQQ2DgHxNjEL2BIQUXq0BTPhOBL79\nJ2EAayybmCQBtBBGvNAwNU4v4GERF7FSkSRlp6qa/L3hkwvUMlbzdquGX43bNv8K\nFd456QIDAQABo4IDizCCA4cwHwYDVR0jBBgwFoAUt2ui6qiqhIx56rTaD5iyxZV2\nufQwHQYDVR0OBBYEFJZsqHi8miHbIDq4A+coD05E4/w+MDMGA1UdEQQsMCqCFCou\nZmVkZXJhbHJlc2VydmUuZ292ghJmZWRlcmFscmVzZXJ2ZS5nb3YwDgYDVR0PAQH/\nBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBjwYDVR0fBIGH\nMIGEMECgPqA8hjpodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNS\nU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2Vy\ndC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMD4GA1UdIAQ3\nMDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQu\nY29tL0NQUzB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3Nw\nLmRpZ2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNl\ncnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMB\nAf8EAjAAMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwApeb7wnjk5IfBWc59j\npXflvld9nGAK+PlNXSZcJV3HhAAAAX0LGjzHAAAEAwBIMEYCIQDCiDcgY2AlnGQ7\nTSBarHMLJQynMTyAR6MOMMLgHM6//QIhAOYChYvJV04BF4aX36k0vJP3WVX47tFb\naIDur7r51cipAHYAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF9\nCxo9JwAABAMARzBFAiAqC5n402qUCVI4d4FsOOH9d9+4jaTdUsWL3tLQ6F8tEwIh\nAOMey0X45KSOmtvaPFj9VJmlZFpWvsuY4HEkMbBqLdsrAHUAQcjKsd8iRkoQxqE6\nCUKHXk4xixsD6+tLx2jwkGKWBvYAAAF9Cxo89wAABAMARjBEAiB4nPWS6rV/cNbT\n+soJ8y8AFdE3A0rFV57VWd9WTgZHbgIgXF859rLYlgVD89UoaY70FhI+YW38oJwa\nV1PUh0U4dqQwDQYJKoZIhvcNAQELBQADggEBAHSoICeC9D3RFAScetBptsBIIc/t\n5zERkxDiA5RT7E9ijait9xU+Eb2UX3cO0aAlbh5uhpDu8v2bfFCvL2aDpYCzSOoc\nfqk4s7q56TrlVBdz9hMqGWGNcn2XYeruGt8ZA7+c+xYlpyYK7J92k59tyZtmTFXJ\nGZqn3zyV+pBIAjEBXL1ZbJfRQ+pcZi94H2kUGdfeJCRUWwFNVACnwe9hGOqcABgD\ncnPBbckmLjco5p2F/SN4Dcvop7pA2DQNS/7ZU5Wwn0XYN3+9/tflthE4NPhR/sed\nDza3xCIEyYxGcQYNfs9q5sOoiOcVYjrdSHIXfSWZoSaPV5/r/d4Dccr3evQ=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS\nU0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a\nqXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn\ng9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW\nraKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB\nAfr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r\neacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU\nA95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG\nCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG\nGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh\nY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV\nHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH\nbG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB\nMAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB\nAQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z\nax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h\nqG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC\nEXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6\nce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E\nA7sKPPcw7+uvTPyLNhBzPvOk\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            }
+          ],
+          "ja3s": "0debd3853f330c574b05e0b6d882dc27",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211110000000Z",
+            "expires": "20221211235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\xb7k\\xa2\\xea\\xa8\\xaa\\x84\\x8cy\\xea\\xb4\\xda\\x0f\\x98\\xb2\\xc5\\x95v\\xb9\\xf4",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\x96l\\xa8x\\xbc\\x9a!\\xdb :\\xb8\\x03\\xe7(\\x0fND\\xe3\\xfc>",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0*\\x82\\x14*.federalreserve.gov\\x82\\x12federalreserve.gov",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x840@\\xa0>\\xa0<\\x86:http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl0@\\xa0>\\xa0<\\x86:http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0q0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0I\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86=http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01j\\x01h\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01}\\x0b\\x1a<\\xc7\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xc2\\x887 c`%\\x9cd;M Z\\xacs\\x0b%\\x0c\\xa71<\\x80G\\xa3\\x0e0\\xc2\\xe0\\x1c\\xce\\xbf\\xfd\\x02!\\x00\\xe6\\x02\\x85\\x8b\\xc9WN\\x01\\x17\\x86\\x97\\xdf\\xa94\\xbc\\x93\\xf7YU\\xf8\\xee\\xd1[h\\x80\\xee\\xaf\\xba\\xf9\\xd5\\xc8\\xa9\\x00v\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01}\\x0b\\x1a=\\'\\x00\\x00\\x04\\x03\\x00G0E\\x02 *\\x0b\\x99\\xf8\\xd3j\\x94 R8w\\x81l8\\xe1\\xfdw\\xdf\\xb8\\x8d\\xa4\\xddR\\xc5\\x8b\\xde\\xd2\\xd0\\xe8_-\\x13\\x02!\\x00\\xe3\\x1e\\xcbE\\xf8\\xe4\\xa4\\x8e\\x9a\\xdb\\xda<X\\xfdT\\x99\\xa5dZV\\xbe\\xcb\\x98\\xe0q$1\\xb0j-\\xdb+\\x00u\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01}\\x0b\\x1a<\\xf7\\x00\\x00\\x04\\x03\\x00F0D\\x02 x\\x9c\\xf5\\x92\\xea\\xb5\\x7fp\\xd6\\xd3\\xfa\\xca \\xf3/\\x00\\x15\\xd17\\x03J\\xc5W\\x9e\\xd5Y\\xdfVN\\x06Gn\\x02 \\\\_9\\xf6\\xb2\\xd8\\x96\\x05C\\xf3\\xd5(i\\x8e\\xf4\\x16\\x12>am\\xfc\\xa0\\x9c\\x1aWS\\xd4\\x87E8v\\xa4",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "d748f2e6f1aa12aa23ff5a9fc9326ab1ba7bfebeeeb980eea9fc7230f5536d47",
+              "sha1": "3bb009c1b78aaa6a808229b52a544a5abd55799c"
+            },
+            "serial": 6.59165059448147e+36,
+            "subject": {
+              "CN": "*.federalreserve.gov",
+              "C": "US",
+              "L": "Washington",
+              "O": "Federal Reserve System",
+              "ST": "District of Columbia"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS RSA SHA256 2020 CA1",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "www.federalreserve.gov",
+          "federalreserve.gov"
+        ],
+        "transport": "tcp",
+        "ip": 2227737751,
+        "domains": [
+          "federalreserve.gov"
+        ],
+        "ip_str": "132.200.148.151",
+        "os": null,
+        "_shodan": {
+          "crawler": "6f55d367cbfc8dfe8f206264b1aea3853dd5b496",
+          "options": {},
+          "id": "18305426-30e8-4358-baa6-00bcd1eda46b",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/10 11:49:52 132.200.148.151:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.0452,
+          "latitude": 38.892,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS10754",
+    "ip_str": "132.200.148.151"
+  }

@@ -1,0 +1,351 @@
+{
+    "doc_id": 59,
+    "city": "Alexandria",
+    "region_code": "VA",
+    "os": null,
+    "tags": [],
+    "ip": 3494943456,
+    "isp": "Wikimedia Foundation Inc.",
+    "area_code": null,
+    "longitude": -77.04692,
+    "last_update": "2022-03-18T07:32:46.492894",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 38.80484,
+    "hostnames": [
+      "mediawiki.org",
+      "wikipedia.org",
+      "wikimediafoundation.org",
+      "wikinews.org",
+      "wikisource.org",
+      "w.wiki",
+      "text-lb.eqiad.wikimedia.org",
+      "wikiversity.org",
+      "wikiquote.org",
+      "wiktionary.org",
+      "wikidata.org",
+      "wmfusercontent.org",
+      "wikibooks.org",
+      "wikimedia.org",
+      "wikivoyage.org"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "wikivoyage.org",
+      "wikipedia.org",
+      "wikimediafoundation.org",
+      "wikinews.org",
+      "wikisource.org",
+      "w.wiki",
+      "wikiversity.org",
+      "wikiquote.org",
+      "wiktionary.org",
+      "wikidata.org",
+      "wmfusercontent.org",
+      "wikibooks.org",
+      "wikimedia.org",
+      "mediawiki.org"
+    ],
+    "org": "Wikimedia Foundation Inc.",
+    "data": [
+      {
+        "hash": 264434033,
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Wikimedia Error",
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": "Varnish",
+          "host": "208.80.154.224",
+          "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; }\n.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }\nimg { float: left; margin: 0 2em 2em 0; }\na img { border: 0; }\nh1 { margin-top: 1em; font-size: 1.2em; }\n.content-text { overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }\np { margin: 0.7em 0 1em 0; }\na { color: #0645ad; text-decoration: none; }\na:hover { text-decoration: underline; }\ncode { font-family: sans-serif; }\n.text-muted { color: #777; }\n</style>\n<div class=\"content\" role=\"main\">\n<a href=\"https://www.wikimedia.org\"><img src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" srcset=\"https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x\" alt=\"Wikimedia\" width=\"135\" height=\"101\">\n</a>\n<h1>Error</h1>\n<div class=\"content-text\">\n<p>Our servers are currently under maintenance or experiencing a technical problem.\n\nPlease <a href=\"\" title=\"Reload this page\" onclick=\"window.location.reload(false); return false\">try again</a> in a few&nbsp;minutes.</p>\n\n<p>See the error message at the bottom of this page for more&nbsp;information.</p>\n</div>\n</div>\n<div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request from 224.159.214.32 via cp1083 cp1083, Varnish XID 471933291<br>Upstream caches: cp1083 int<br>Error: 400,  at Fri, 18 Mar 2022 07:32:46 GMT</code></p>\n</div>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -158091065,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-18T07:32:46.492894",
+        "org": "Wikimedia Foundation Inc.",
+        "isp": "Wikimedia Foundation Inc.",
+        "data": "HTTP/1.1 400 \r\nDate: Fri, 18 Mar 2022 07:32:46 GMT\r\nServer: Varnish\r\nX-Varnish: 471933291\r\nX-Cache: cp1083 int\r\nX-Cache-Status: int-front\r\nServer-Timing: cache;desc=\"int-front\", host;desc=\"cp1083\"\r\nPermissions-Policy: interest-cohort=()\r\nSet-Cookie: WMF-Last-Access=18-Mar-2022;Path=/;HttpOnly;secure;Expires=Tue, 19 Apr 2022 00:00:00 GMT\r\nSet-Cookie: WMF-Last-Access-Global=18-Mar-2022;Path=/;Domain=.invalid;HttpOnly;secure;Expires=Tue, 19 Apr 2022 00:00:00 GMT\r\nX-Client-IP: 224.159.214.32\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 1803\r\nConnection: keep-alive\r\n\r\n",
+        "asn": "AS14907",
+        "port": 80,
+        "hostnames": [
+          "text-lb.eqiad.wikimedia.org"
+        ],
+        "transport": "tcp",
+        "ip": 3494943456,
+        "domains": [
+          "wikimedia.org"
+        ],
+        "ip_str": "208.80.154.224",
+        "os": null,
+        "_shodan": {
+          "crawler": "b66375e7e2e0284f236322e0c9c29ac77b5cbc7e",
+          "options": {},
+          "id": "d7d0dde2-ca0c-4a96-9dd1-05f0b928807b",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Alexandria",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.04692,
+          "latitude": 38.80484,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 1012488821,
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Wikimedia Error",
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": "Varnish",
+          "host": "208.80.154.224",
+          "html": "<!DOCTYPE html>\n<html lang=\"en\">\n<meta charset=\"utf-8\">\n<title>Wikimedia Error</title>\n<style>\n* { margin: 0; padding: 0; }\nbody { background: #fff; font: 15px/1.6 sans-serif; color: #333; }\n.content { margin: 7% auto 0; padding: 2em 1em 1em; max-width: 640px; }\n.footer { clear: both; margin-top: 14%; border-top: 1px solid #e5e5e5; background: #f9f9f9; padding: 2em 0; font-size: 0.8em; text-align: center; }\nimg { float: left; margin: 0 2em 2em 0; }\na img { border: 0; }\nh1 { margin-top: 1em; font-size: 1.2em; }\n.content-text { overflow: hidden; overflow-wrap: break-word; word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }\np { margin: 0.7em 0 1em 0; }\na { color: #0645ad; text-decoration: none; }\na:hover { text-decoration: underline; }\ncode { font-family: sans-serif; }\n.text-muted { color: #777; }\n</style>\n<div class=\"content\" role=\"main\">\n<a href=\"https://www.wikimedia.org\"><img src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" srcset=\"https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x\" alt=\"Wikimedia\" width=\"135\" height=\"101\">\n</a>\n<h1>Error</h1>\n<div class=\"content-text\">\n<p>Our servers are currently under maintenance or experiencing a technical problem.\n\nPlease <a href=\"\" title=\"Reload this page\" onclick=\"window.location.reload(false); return false\">try again</a> in a few&nbsp;minutes.</p>\n\n<p>See the error message at the bottom of this page for more&nbsp;information.</p>\n</div>\n</div>\n<div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request from 224.82.105.117 via cp1077 cp1077, Varnish XID 2434047<br>Upstream caches: cp1077 int<br>Error: 400,  at Thu, 17 Mar 2022 23:26:39 GMT</code></p>\n</div>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1518899077,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-17T23:26:39.153410",
+        "org": "Wikimedia Foundation Inc.",
+        "isp": "Wikimedia Foundation Inc.",
+        "data": "HTTP/1.1 400 \r\nDate: Thu, 17 Mar 2022 23:26:39 GMT\r\nServer: Varnish\r\nX-Cache: cp1077 int\r\nX-Cache-Status: int-front\r\nServer-Timing: cache;desc=\"int-front\", host;desc=\"cp1077\"\r\nPermissions-Policy: interest-cohort=()\r\nSet-Cookie: WMF-Last-Access=17-Mar-2022;Path=/;HttpOnly;secure;Expires=Mon, 18 Apr 2022 12:00:00 GMT\r\nSet-Cookie: WMF-Last-Access-Global=17-Mar-2022;Path=/;Domain=.invalid;HttpOnly;secure;Expires=Mon, 18 Apr 2022 12:00:00 GMT\r\nX-Client-IP: 224.82.105.117\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 1803\r\nConnection: keep-alive\r\n\r\n",
+        "asn": "AS14907",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "a9cca6a622796612823d1da48868c035a6ed6691b3a2527628673fa3a0fff2d6",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "28d28d28d2ad28d00042d42d0000002754d7386e47d3f44bdc269e2eaff0ff",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHBjCCBe6gAwIBAgISBFvrLuEAZaxElGuG/EHodaJFMA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAxMTEwNzU5MjBaFw0yMjA0MTEwNzU5MTlaMBoxGDAWBgNVBAMM\nDyoud2lraXBlZGlhLm9yZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIa+aqFH\nXL/4cLbHcvPX0ZVmifHzSsrRNZKnYgxfeMBmtjhCMS4+u31o6ztICjyOnN/H/YMq\nx5RGosqYshNReeijggT3MIIE8zAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYI\nKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFN/5wPsn\nPEiSjM9OcmvyJUmfcOXVMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLG\nMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iu\nb3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMIICxQYDVR0R\nBIICvDCCAriCESoubS5tZWRpYXdpa2kub3JnghEqLm0ud2lraWJvb2tzLm9yZ4IQ\nKi5tLndpa2lkYXRhLm9yZ4IRKi5tLndpa2ltZWRpYS5vcmeCECoubS53aWtpbmV3\ncy5vcmeCESoubS53aWtpcGVkaWEub3JnghEqLm0ud2lraXF1b3RlLm9yZ4ISKi5t\nLndpa2lzb3VyY2Uub3JnghMqLm0ud2lraXZlcnNpdHkub3JnghIqLm0ud2lraXZv\neWFnZS5vcmeCEioubS53aWt0aW9uYXJ5Lm9yZ4IPKi5tZWRpYXdpa2kub3JnghYq\nLnBsYW5ldC53aWtpbWVkaWEub3Jngg8qLndpa2lib29rcy5vcmeCDioud2lraWRh\ndGEub3Jngg8qLndpa2ltZWRpYS5vcmeCGSoud2lraW1lZGlhZm91bmRhdGlvbi5v\ncmeCDioud2lraW5ld3Mub3Jngg8qLndpa2lwZWRpYS5vcmeCDyoud2lraXF1b3Rl\nLm9yZ4IQKi53aWtpc291cmNlLm9yZ4IRKi53aWtpdmVyc2l0eS5vcmeCECoud2lr\naXZveWFnZS5vcmeCECoud2lrdGlvbmFyeS5vcmeCFCoud21mdXNlcmNvbnRlbnQu\nb3Jngg1tZWRpYXdpa2kub3JnggZ3Lndpa2mCDXdpa2lib29rcy5vcmeCDHdpa2lk\nYXRhLm9yZ4INd2lraW1lZGlhLm9yZ4IXd2lraW1lZGlhZm91bmRhdGlvbi5vcmeC\nDHdpa2luZXdzLm9yZ4INd2lraXBlZGlhLm9yZ4INd2lraXF1b3RlLm9yZ4IOd2lr\naXNvdXJjZS5vcmeCD3dpa2l2ZXJzaXR5Lm9yZ4IOd2lraXZveWFnZS5vcmeCDndp\na3Rpb25hcnkub3JnghJ3bWZ1c2VyY29udGVudC5vcmcwTAYDVR0gBEUwQzAIBgZn\ngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5s\nZXRzZW5jcnlwdC5vcmcwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgBByMqx3yJG\nShDGoToJQodeTjGLGwPr60vHaPCQYpYG9gAAAX5IXP67AAAEAwBHMEUCIF1tUjma\nSB+OaBi/ttLz+apKpc+4U9xSbNbH/0bwuJOQAiEAr9Do+GJzZmNrY9C7rPSUigGk\ne5v4R82lv62qfg9ZpNAAdgBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5t\nRwAAAX5IXP9VAAAEAwBHMEUCIQDNX1dD8z6xzet6zweTYeh75JWU49ayBNh8y4tB\nxeAYbAIgSNJxLaaQgswxxyj2n+dZM/ws4WHfgM3o8HsEJQbLIAswDQYJKoZIhvcN\nAQELBQADggEBAFrnHfvKxxykJVkNU1QzEKE4CMon4Nc76DksVjwIaoWklSwWxN4b\nJ358+3nDO6w/lq2ZscHJN0y72qLR9aVdN/iNHgyolI4LinIOADjT92IuwhJIQU0s\nxQ6MBGKhdAGgiLCN1sxUirlHj16ZlwNK+CSaZC7E0tFy/p9bPr2H6xRgui2SO+YG\nfdPaX77/GfpdCH2CxGET46wxpwRex8LpP/OmRmN18UOlXALgjPZTWr5T5f/+OA6f\ng3nQhkJGqXtrB8lWnYzX2usOrDcgHOioCmhcb9yu8gq5WDw/KTz6t1wWOK2tdckT\ntViyPwm3/3rds2NbxrQpriSFhTaQ95pXcCc=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220111075920Z",
+            "expires": "20220411075919Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14\\xdf\\xf9\\xc0\\xfb\\'<H\\x92\\x8c\\xcfNrk\\xf2%I\\x9fp\\xe5\\xd5",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x82\\x02\\xb8\\x82\\x11*.m.mediawiki.org\\x82\\x11*.m.wikibooks.org\\x82\\x10*.m.wikidata.org\\x82\\x11*.m.wikimedia.org\\x82\\x10*.m.wikinews.org\\x82\\x11*.m.wikipedia.org\\x82\\x11*.m.wikiquote.org\\x82\\x12*.m.wikisource.org\\x82\\x13*.m.wikiversity.org\\x82\\x12*.m.wikivoyage.org\\x82\\x12*.m.wiktionary.org\\x82\\x0f*.mediawiki.org\\x82\\x16*.planet.wikimedia.org\\x82\\x0f*.wikibooks.org\\x82\\x0e*.wikidata.org\\x82\\x0f*.wikimedia.org\\x82\\x19*.wikimediafoundation.org\\x82\\x0e*.wikinews.org\\x82\\x0f*.wikipedia.org\\x82\\x0f*.wikiquote.org\\x82\\x10*.wikisource.org\\x82\\x11*.wikiversity.org\\x82\\x10*.wikivoyage.org\\x82\\x10*.wiktionary.org\\x82\\x14*.wmfusercontent.org\\x82\rmediawiki.org\\x82\\x06w.wiki\\x82\rwikibooks.org\\x82\\x0cwikidata.org\\x82\rwikimedia.org\\x82\\x17wikimediafoundation.org\\x82\\x0cwikinews.org\\x82\rwikipedia.org\\x82\rwikiquote.org\\x82\\x0ewikisource.org\\x82\\x0fwikiversity.org\\x82\\x0ewikivoyage.org\\x82\\x0ewiktionary.org\\x82\\x12wmfusercontent.org",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf2\\x00\\xf0\\x00v\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01~H\\\\\\xfe\\xbb\\x00\\x00\\x04\\x03\\x00G0E\\x02 ]mR9\\x9aH\\x1f\\x8eh\\x18\\xbf\\xb6\\xd2\\xf3\\xf9\\xaaJ\\xa5\\xcf\\xb8S\\xdcRl\\xd6\\xc7\\xffF\\xf0\\xb8\\x93\\x90\\x02!\\x00\\xaf\\xd0\\xe8\\xf8bsfckc\\xd0\\xbb\\xac\\xf4\\x94\\x8a\\x01\\xa4{\\x9b\\xf8G\\xcd\\xa5\\xbf\\xad\\xaa~\\x0fY\\xa4\\xd0\\x00v\\x00F\\xa5U\\xebu\\xfa\\x91 0\\xb5\\xa2\\x89i\\xf4\\xf3}\\x11,At\\xbe\\xfdI\\xb8\\x85\\xab\\xf2\\xfcp\\xfemG\\x00\\x00\\x01~H\\\\\\xffU\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xcd_WC\\xf3>\\xb1\\xcd\\xebz\\xcf\\x07\\x93a\\xe8{\\xe4\\x95\\x94\\xe3\\xd6\\xb2\\x04\\xd8|\\xcb\\x8bA\\xc5\\xe0\\x18l\\x02 H\\xd2q-\\xa6\\x90\\x82\\xcc1\\xc7(\\xf6\\x9f\\xe7Y3\\xfc,\\xe1a\\xdf\\x80\\xcd\\xe8\\xf0{\\x04%\\x06\\xcb \\x0b",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "a9cca6a622796612823d1da48868c035a6ed6691b3a2527628673fa3a0fff2d6",
+              "sha1": "1849e933a9cee67c1347b8b5d563ab2cfa00d00e"
+            },
+            "serial": 3.79727451105085e+41,
+            "subject": {
+              "CN": "*.wikipedia.org"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "h2",
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "C = US, O = Let's Encrypt, CN = R3",
+            "cert_status": "good",
+            "produced_at": "2022-03-14 20:59:00",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-21 19:59:58",
+            "this_update": "2022-03-14 20:00:00",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "48DAC9A0FB2BD32D4FF0DE68D2F567B735F9B3C4",
+              "issuer_name_key": "142EB317B75856CBAE500940E61FAF9D8B14C2C6",
+              "serial_number": "045BEB2EE10065AC44946B86FC41E875A245"
+            }
+          }
+        },
+        "hostnames": [
+          "mediawiki.org",
+          "wikivoyage.org",
+          "wikipedia.org",
+          "wikimediafoundation.org",
+          "wikinews.org",
+          "wikisource.org",
+          "w.wiki",
+          "text-lb.eqiad.wikimedia.org",
+          "wikiversity.org",
+          "wikiquote.org",
+          "wiktionary.org",
+          "wikidata.org",
+          "wmfusercontent.org",
+          "wikimedia.org",
+          "wikibooks.org"
+        ],
+        "transport": "tcp",
+        "ip": 3494943456,
+        "domains": [
+          "mediawiki.org",
+          "wikivoyage.org",
+          "wikipedia.org",
+          "wikimediafoundation.org",
+          "wikinews.org",
+          "wikisource.org",
+          "w.wiki",
+          "wikimedia.org",
+          "wikiversity.org",
+          "wikiquote.org",
+          "wiktionary.org",
+          "wikidata.org",
+          "wmfusercontent.org",
+          "wikibooks.org"
+        ],
+        "ip_str": "208.80.154.224",
+        "os": null,
+        "_shodan": {
+          "crawler": "308515b6113c0645034fb8122d0ff0d5194e7e72",
+          "options": {},
+          "id": "594d2a64-f5d9-4366-9e81-5e4bab34e4ed",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 23:26:46 208.80.154.224:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Alexandria",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.04692,
+          "latitude": 38.80484,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS14907",
+    "ip_str": "208.80.154.224"
+  }

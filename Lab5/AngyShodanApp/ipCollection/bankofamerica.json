@@ -1,0 +1,74 @@
+{
+    "doc_id": 8,
+    "city": "Washington",
+    "region_code": "DC",
+    "os": null,
+    "tags": [],
+    "ip": 2879382549,
+    "isp": "Bank of America, National Association",
+    "area_code": null,
+    "longitude": -77.03637,
+    "last_update": "2022-03-16T21:39:23.170787",
+    "ports": [
+      80
+    ],
+    "latitude": 38.89511,
+    "hostnames": [],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [],
+    "org": "Bank of America, National Association",
+    "data": [
+      {
+        "hash": -1715538380,
+        "product": "BigIP",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "BigIP",
+          "host": "171.159.228.21",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 2879382549,
+        "isp": "Bank of America, National Association",
+        "transport": "tcp",
+        "data": "HTTP/1.0 301 Moved Permanently\r\nLocation: https://www.bankofamerica.com/\r\nServer: BigIP\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS10794",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.03637,
+          "latitude": 38.89511,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-16T21:39:23.170787",
+        "domains": [],
+        "org": "Bank of America, National Association",
+        "os": null,
+        "_shodan": {
+          "crawler": "42f86247b760542c0192b61c60405edc5db01d55",
+          "options": {},
+          "id": "6e03ef60-7120-49e8-b5b8-77a1fc3266ac",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "171.159.228.21"
+      }
+    ],
+    "asn": "AS10794",
+    "ip_str": "171.159.228.21"
+  }

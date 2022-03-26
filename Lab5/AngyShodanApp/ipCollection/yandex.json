@@ -1,0 +1,389 @@
+{
+    "doc_id": 63,
+    "city": "Moscow",
+    "region_code": "MOW",
+    "os": null,
+    "tags": [],
+    "ip": 100663110,
+    "isp": "YANDEX LLC",
+    "area_code": null,
+    "longitude": 37.61556,
+    "last_update": "2022-03-17T16:51:51.759084",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 55.75222,
+    "hostnames": [
+      "xn--d1acpjx3f.xn--p1ai",
+      "yandex.ee",
+      "yandex.net",
+      "yandex.md",
+      "ya.ru",
+      "yandex.ru",
+      "yandex.az",
+      "yandex.tj",
+      "yandex.com.ua",
+      "yandex.tm",
+      "yandex.com.am",
+      "yandex.lv",
+      "yandex.by",
+      "yandex.lt",
+      "yandex.org",
+      "yandex.de",
+      "yandex.fr",
+      "yandex.uz",
+      "yandex.com.ge",
+      "yandex.aero",
+      "yandex.com.tr",
+      "yandex.kg",
+      "yandex.co.il",
+      "yandex.com.ru",
+      "yandex.com",
+      "yandex.jobs",
+      "yandex.ua",
+      "yandex.kz"
+    ],
+    "country_code": "RU",
+    "country_name": "Russian Federation",
+    "domains": [
+      "xn--d1acpjx3f.xn--p1ai",
+      "yandex.ee",
+      "yandex.net",
+      "yandex.md",
+      "ya.ru",
+      "yandex.ru",
+      "yandex.az",
+      "yandex.tj",
+      "yandex.com.ua",
+      "yandex.tm",
+      "yandex.com.am",
+      "yandex.lv",
+      "yandex.by",
+      "yandex.lt",
+      "yandex.org",
+      "yandex.de",
+      "yandex.fr",
+      "yandex.uz",
+      "yandex.com.ge",
+      "yandex.aero",
+      "yandex.com.tr",
+      "yandex.kg",
+      "yandex.co.il",
+      "com.ru",
+      "yandex.com",
+      "yandex.jobs",
+      "yandex.ua",
+      "yandex.kz"
+    ],
+    "org": "Yandex enterprise network",
+    "data": [
+      {
+        "hash": 1870503799,
+        "http": {
+          "status": 406,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "5.255.255.70",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-12T10:36:23.258061",
+        "org": "Yandex enterprise network",
+        "isp": "YANDEX LLC",
+        "data": "HTTP/1.1 406 Not acceptable\r\nConnection: Close\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS13238",
+        "port": 80,
+        "hostnames": [
+          "yandex.ru"
+        ],
+        "transport": "tcp",
+        "ip": 100663110,
+        "domains": [
+          "yandex.ru"
+        ],
+        "ip_str": "5.255.255.70",
+        "os": null,
+        "_shodan": {
+          "crawler": "f33d80a7ca4b7417d1867303f3af6b398f76f284",
+          "options": {},
+          "id": "1d710848-b338-4e08-a8bb-7219428ab4e4",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Moscow",
+          "region_code": "MOW",
+          "area_code": null,
+          "longitude": 37.61556,
+          "latitude": 55.75222,
+          "country_code": "RU",
+          "country_name": "Russian Federation"
+        }
+      },
+      {
+        "hash": 1870503799,
+        "http": {
+          "status": 406,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "5.255.255.70",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-17T16:51:51.759084",
+        "org": "Yandex enterprise network",
+        "isp": "YANDEX LLC",
+        "data": "HTTP/1.1 406 Not acceptable\r\nConnection: Close\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS13238",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "fc665061718926ec57fde2807fc35bea70b00b5fb50e73061016dadb2792c44f",
+            "c333b61638b0315fa801cce21cc4ea96ef7f65a3999450186a99d19bb20128f7",
+            "949424dc2ccaab5e9e80d66e0e3f7deeb3201c607d4315ef4c6f2d93a917279d",
+            "d8e0febc1db2e38d00940f37d27d41344d993e734b99d5656d9778d4d8143624"
+          ],
+          "jarm": "40d40d40d3fd40d21c42d42d0000001b4af4c42faff0ed48d8766e0a7fb352",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIIpTCCB42gAwIBAgIQZk74Px48oykTjfGIx6WlPjANBgkqhkiG9w0BAQsFADBf\nMQswCQYDVQQGEwJSVTETMBEGA1UEChMKWWFuZGV4IExMQzEnMCUGA1UECxMeWWFu\nZGV4IENlcnRpZmljYXRpb24gQXV0aG9yaXR5MRIwEAYDVQQDEwlZYW5kZXggQ0Ew\nHhcNMjIwMjE3MDczMjIxWhcNMjIwODE2MDAwMDAwWjBVMQswCQYDVQQGEwJSVTEP\nMA0GA1UEBwwGTW9zY293MQwwCgYDVQQLDANJVE8xEzARBgNVBAoMCllhbmRleCBM\nTEMxEjAQBgNVBAMMCXlhbmRleC5ydTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA\nBPBtXmaJkB/+nqX0hLYLDGy9ERYvAhbqDIBi4+zBH6J8IoJIoVCOrP0mfElNckU0\nJshNklylouPJ1F3WeKdnhgqjggYwMIIGLDAMBgNVHRMBAf8EAjAAMGkGA1UdHwRi\nMGAwL6AtoCuGKWh0dHA6Ly9jcmxzLnlhbmRleC5uZXQvY2VydHVtL3ljYXNoYTIu\nY3JsMC2gK6AphidodHRwOi8veWFuZGV4LmNybC5jZXJ0dW0ucGwveWNhc2hhMi5j\ncmwwcQYIKwYBBQUHAQEEZTBjMCwGCCsGAQUFBzABhiBodHRwOi8veWFuZGV4Lm9j\nc3AtcmVzcG9uZGVyLmNvbTAzBggrBgEFBQcwAoYnaHR0cDovL3JlcG9zaXRvcnku\nY2VydHVtLnBsL3ljYXNoYTIuY2VyMB8GA1UdIwQYMBaAFDdc4xngso6hqE7Sz6vQ\n3OMLXDVNMB0GA1UdDgQWBBTGvXCF39GW+WfWWMrHOZCuKcS7YzBMBgNVHSAERTBD\nMAgGBmeBDAECAjA3BgwqhGgBhvZ3AgUBCgIwJzAlBggrBgEFBQcCARYZaHR0cHM6\nLy93d3cuY2VydHVtLnBsL0NQUzAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH\nAwIwDgYDVR0PAQH/BAQDAgeAMIIC+wYDVR0RBIIC8jCCAu6CCXlhbmRleC5ydYIF\neWEucnWCCyoueWFuZGV4Lmx2ggsqLnlhbmRleC5rZ4ILKi55YW5kZXgudXqCDXlh\nbmRleC5jb20ucnWCDyoueWFuZGV4LmNvbS5hbYILeWFuZGV4LmpvYnOCCyoueWFu\nZGV4LmF6gg0qLnlhbmRleC5qb2Jzgg8qLnlhbmRleC5jb20udHKCCXlhbmRleC50\nbYIJeWFuZGV4Lm1kgg8qLnlhbmRleC5jb20udWGCCyoueWFuZGV4LnJ1ggsqLnlh\nbmRleC5tZIINeWFuZGV4LmNvbS51YYIJeWFuZGV4Lmt6ggp5YW5kZXgub3Jnggl5\nYW5kZXgubHaCCXlhbmRleC5ieYIOKi55YW5kZXguY28uaWyCC3lhbmRleC5hZXJv\nggl5YW5kZXgudXqCCXlhbmRleC50aoILKi55YW5kZXgua3qCDCoueWFuZGV4LmNv\nbYINeWFuZGV4LmNvbS50coINKi55YW5kZXguYWVyb4IMeWFuZGV4LmNvLmlsggp5\nYW5kZXguY29tggsqLnlhbmRleC50aoIMKi55YW5kZXgub3JnggsqLnlhbmRleC50\nbYILKi55YW5kZXguYnmCGCoueG4tLWQxYWNwangzZi54bi0tcDFhaYIPKi55YW5k\nZXguY29tLnJ1ggl5YW5kZXguYXqCDCoueWFuZGV4Lm5ldIIJeWFuZGV4Lmtnggsq\nLnlhbmRleC5lZYILKi55YW5kZXguZnKCCXlhbmRleC5lZYINeWFuZGV4LmNvbS5h\nbYINeWFuZGV4LmNvbS5nZYIJeWFuZGV4LmZyggsqLnlhbmRleC5sdIILKi55YW5k\nZXguZGWCCXlhbmRleC5kZYIKeWFuZGV4Lm5ldIIWeG4tLWQxYWNwangzZi54bi0t\ncDFhaYIHKi55YS5ydYIPKi55YW5kZXguY29tLmdlggl5YW5kZXgubHSCCXlhbmRl\neC51YYILKi55YW5kZXgudWEwggGABgorBgEEAdZ5AgQCBIIBcASCAWwBagB3AEal\nVet1+pEgMLWiiWn0830RLEF0vv1JuIWr8vxw/m1HAAABfwaYp9cAAAQDAEgwRgIh\nAOkzTV/RBiMv75szJRD0K+Yjwfc0MjzrRyd2WxJQwaRWAiEA6941qMtsw+bSUhc9\nGEM5W5i2qIPfrvEdnGKFTuqfLfUAdgBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcv\no6odBxPTDAAAAX8GmKgBAAAEAwBHMEUCIQCUxqaZih+kTxSj5Wjb7WVUCoWckzVi\nT7WTTbRJbVakHQIgDsJpZt8OAcWRMfmHawIlh+i9ZbRyelPCbinfIojYBIEAdwBB\nyMqx3yJGShDGoToJQodeTjGLGwPr60vHaPCQYpYG9gAAAX8GmKhPAAAEAwBIMEYC\nIQCUjJVtmMIF3CFB1UVPJX/uV4WigoQuDrwPAfTIZpRChAIhAIvXp2tk1Se9y2Fv\nat6jywxHF4awnYAKdenAVoNvNDKhMA0GCSqGSIb3DQEBCwUAA4IBAQAJAma9Nwsi\nvNmJ0JvTldvGsv6WMH4/K3qqfDOXgAUTWcuS/hhQBaWzx5sFPd9V2a99vhmDAV/Z\n4pMQ+r/VqdYcsKu7DpkaUgZsfitHLRw/Uh2hHR/ElLQU0xQe86CXnWiysRumVh8h\nUekkPMsaX4MgqdbeZYXF1ISi+tWMeoKvuZ7SSuCmpPOW0gZie8401DQ7ji6bXlWo\nvqPKNMe+S5z36gVhDCOTKGu5kRyuBID3CpalI8Bne7e8OU9mRb+bCGm4rCnAjims\nRRtJ8wGK3IV254lyj0/8IM7zU+S0h3aAg7DrfYInRUAcpMHfvad80+UE8kMpMQiP\nX6zfEEEv0YSL\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEqDCCA5CgAwIBAgIRAOQFR4MODGRSl296NUnA3UgwDQYJKoZIhvcNAQELBQAw\nfjELMAkGA1UEBhMCUEwxIjAgBgNVBAoTGVVuaXpldG8gVGVjaG5vbG9naWVzIFMu\nQS4xJzAlBgNVBAsTHkNlcnR1bSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTEiMCAG\nA1UEAxMZQ2VydHVtIFRydXN0ZWQgTmV0d29yayBDQTAeFw0xNTAxMjExMjAwMDBa\nFw0yNTAxMTgxMjAwMDBaMF8xCzAJBgNVBAYTAlJVMRMwEQYDVQQKEwpZYW5kZXgg\nTExDMScwJQYDVQQLEx5ZYW5kZXggQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxEjAQ\nBgNVBAMTCVlhbmRleCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB\nAKYFJHZhuZ5CYCJjhVnlnYgN3+8hZFomlHE6pH8rU8Ose7qVQm1qW9Z+eAxnQJgv\nai3Qtxg6fplgAeUnv/9J9c3EWMNM4XDV/QioeZV2HA4FQfq9gDgqh0/BZ0KqF6bu\np4yO7y1/eh0FF49+O5I19WjtkwNVI09LogCGZZEP6/Y81dttDu3ofDrIurdTwaTY\nQALltaLKv9qclA38xRwqWYhiV5MuEfA4LHqBKvIlFRc1cCxL9yNMgu8zn8KaC6Pi\nXWs4d/lgM88ue1a3E5MfNJdxmXYCRjUUfNzKSIoKckt4bYI0lhNFzwIvUBM5Q4nA\n4XTXKHEh5aqXDu5G7JP3I30CAwEAAaOCAT4wggE6MA8GA1UdEwEB/wQFMAMBAf8w\nHQYDVR0OBBYEFDdc4xngso6hqE7Sz6vQ3OMLXDVNMB8GA1UdIwQYMBaAFAh2zcsH\n/yT2xc3tu5C84oQ3RnX3MA4GA1UdDwEB/wQEAwIBBjAvBgNVHR8EKDAmMCSgIqAg\nhh5odHRwOi8vY3JsLmNlcnR1bS5wbC9jdG5jYS5jcmwwawYIKwYBBQUHAQEEXzBd\nMCgGCCsGAQUFBzABhhxodHRwOi8vc3ViY2Eub2NzcC1jZXJ0dW0uY29tMDEGCCsG\nAQUFBzAChiVodHRwOi8vcmVwb3NpdG9yeS5jZXJ0dW0ucGwvY3RuY2EuY2VyMDkG\nA1UdIAQyMDAwLgYEVR0gADAmMCQGCCsGAQUFBwIBFhhodHRwOi8vd3d3LmNlcnR1\nbS5wbC9DUFMwDQYJKoZIhvcNAQELBQADggEBAAJejnvgZqHGq4sYHw65xM1x20Rc\nA31l6rhHtR7OJHCgf9PfZkuMkOKl7ZuUNrSovvB0jCaSdZ1WUJ6t0Bqg36QUVhB1\nk3rB9FOgdnQscrq10cni3EaGPx32M4dZ7JzcLR5NQxrOutmHfuJHRXI9KAPJCk3g\nV6Nebn7MWsjEeAFXaHo4O1M255Jtiiwv14u2NKjRtvheO6vtpY85b0Wty2PtamTJ\nEKcDCBJTsRyvyvdT/NgpSxv7OM3AY/9f5LmNXqor0sMiNTH2MA5TMvSTxUPLyPAV\nVo8AGYfKeCKNoC7bL6DDfildkSWEHR05qxvF1pH+aQ5GgLxFezVTKt8Atnc=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEtDCCA5ygAwIBAgIRAJOShUABZXFflH8oj+/JmygwDQYJKoZIhvcNAQELBQAw\nPjELMAkGA1UEBhMCUEwxGzAZBgNVBAoTElVuaXpldG8gU3AuIHogby5vLjESMBAG\nA1UEAxMJQ2VydHVtIENBMB4XDTA4MTAyMjEyMDczN1oXDTI3MDYxMDEwNDYzOVow\nfjELMAkGA1UEBhMCUEwxIjAgBgNVBAoTGVVuaXpldG8gVGVjaG5vbG9naWVzIFMu\nQS4xJzAlBgNVBAsTHkNlcnR1bSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTEiMCAG\nA1UEAxMZQ2VydHVtIFRydXN0ZWQgTmV0d29yayBDQTCCASIwDQYJKoZIhvcNAQEB\nBQADggEPADCCAQoCggEBAOP7faNyusLwyRSH9WsBTuFuQAe6bSddf/dbLbNax1Ff\nq6QypmGHtm4PhtIwApf412lXoRg5XWpkecYBWaw8MUo4fNIE0kso6CBfOweizE1z\n2/OuT8dW1Vqnlon686to1COGWSfPCSe8rG5ygxwwct/gounS4XR1Gb0qnnsVVAQb\n10M5rVUoxeIau/TA5K44STPMdoWfOUXSpJ7yEoxR+HzkLX/1rF/rFp+xLdG6zJFC\nd0wlyZA4b9vwzPuOHpdZPtVgTuYFKO1JeRNLukjbL/ly0znK/h/YNHL1tEDPMQHD\n7N4RLRddH7hQ0V4Zp2neBzMoylCV+adUy1SGUEWp+UkCAwEAAaOCAWswggFnMA8G\nA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFAh2zcsH/yT2xc3tu5C84oQ3RnX3MFIG\nA1UdIwRLMEmhQqRAMD4xCzAJBgNVBAYTAlBMMRswGQYDVQQKExJVbml6ZXRvIFNw\nLiB6IG8uby4xEjAQBgNVBAMTCUNlcnR1bSBDQYIDAQAgMA4GA1UdDwEB/wQEAwIB\nBjAsBgNVHR8EJTAjMCGgH6AdhhtodHRwOi8vY3JsLmNlcnR1bS5wbC9jYS5jcmww\naAYIKwYBBQUHAQEEXDBaMCgGCCsGAQUFBzABhhxodHRwOi8vc3ViY2Eub2NzcC1j\nZXJ0dW0uY29tMC4GCCsGAQUFBzAChiJodHRwOi8vcmVwb3NpdG9yeS5jZXJ0dW0u\ncGwvY2EuY2VyMDkGA1UdIAQyMDAwLgYEVR0gADAmMCQGCCsGAQUFBwIBFhhodHRw\nOi8vd3d3LmNlcnR1bS5wbC9DUFMwDQYJKoZIhvcNAQELBQADggEBAI3m/UBmo0yc\np6uh2oTdHDAH5tvHLeyDoVbkHTwmoaUJK+h9Yr6ydZTdCPJ/KEHkgGcCToqPwzXQ\n1aknKOrS9KsGhkOujOP5iH3g271CgYACEnWy6BdxqyGVMUZCDYgQOdNv7C9C6kBT\nYr/rynieq6LVLgXqM6vp1peUQl4E7Sztapx6lX0FKgV/CF1mrWHUdqx1lpdzY70a\nQVkppV4ig8OLWfqaova9ML9yHRyZhpzyhTwd9yaWLy75ArG1qVDoOPqbCl60BMDO\nTjksygtbYvBNWFA0meaaLNKQ1wmB1sCqXs7+0vehukvZ1oaOGR+mBkdCcuBWCgAc\neLmNzJkEN0k=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDDDCCAfSgAwIBAgIDAQAgMA0GCSqGSIb3DQEBBQUAMD4xCzAJBgNVBAYTAlBM\nMRswGQYDVQQKExJVbml6ZXRvIFNwLiB6IG8uby4xEjAQBgNVBAMTCUNlcnR1bSBD\nQTAeFw0wMjA2MTExMDQ2MzlaFw0yNzA2MTExMDQ2MzlaMD4xCzAJBgNVBAYTAlBM\nMRswGQYDVQQKExJVbml6ZXRvIFNwLiB6IG8uby4xEjAQBgNVBAMTCUNlcnR1bSBD\nQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6xwS7TT3zNJc4YPk/E\njG+AanPIW1H4m9LcuwBcsaD8dQPugfCI7iNS6eYVM42sLQnFdvkrOYCJ5JdLkKWo\nePhzQ3ukYbDYWMzhbGZ+nPMJXlVjhNWo7/OxLjBos8Q82KxujZlakE403Daaj4GI\nULdtlkIJ89eVgw1BS7Bqa/j8D35in2fE7SZfECYPCE/wpFcozo+47UX2bu4lXapu\nOb7kky/ZR6By6/qmW6/KUz/iDsaWVhFu9+lmqSbYf5VT7QqFiLpPKaVCjF62/IUg\nAKpoC6EahQGcxEZjgoi2IrHu/qpGWX7PNSzVttpd90gzFFS269lvzs2I1qsb2pY7\nHVkCAwEAAaMTMBEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQUFAAOCAQEA\nuI3O7+cUus/usESSbLQ5PqKEbq24IXfS1HeCh+YgQYHu4vgRt2PRFze+GXYkHAQa\nTOs9qmdvLdTN/mUxcMUbpgIKumB7bVjCmkn+YzILa+M6wKyrO7Do0wlRjBCDxjTg\nxSvgGrZgFCdsMneMvLJymM/NzD+5yCRCFNZX/OYmQ6kd5YCQzgNUKD73P9P4Te1q\nCjqTE5s7FCMTY5w/0YcneeVMUeMBrYVdGjux1XMQpNPyvG5k9VpWkKjHDkx0Dy5x\nO/fIR/RpbxXyEV6DHpx8Uq79AtoSqFlnGNu8cN2bsWntgM6JQEhqDjXKKWYVIZQs\n6GAqm4VKQPNriiTsBhYscw==\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "ea4ac9a2c0ba2e422112132cdbb985ea",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220217073221Z",
+            "expires": "20220816000000Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0`0/\\xa0-\\xa0+\\x86)http://crls.yandex.net/certum/ycasha2.crl0-\\xa0+\\xa0)\\x86\\'http://yandex.crl.certum.pl/ycasha2.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0c0,\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86 http://yandex.ocsp-responder.com03\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\'http://repository.certum.pl/ycasha2.cer",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x16\\x80\\x147\\\\\\xe3\\x19\\xe0\\xb2\\x8e\\xa1\\xa8N\\xd2\\xcf\\xab\\xd0\\xdc\\xe3\\x0b\\\\5M",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xc6\\xbdp\\x85\\xdf\\xd1\\x96\\xf9g\\xd6X\\xca\\xc79\\x90\\xae)\\xc4\\xbbc",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0207\\x06\\x0c*\\x84h\\x01\\x86\\xf6w\\x02\\x05\\x01\n\\x020\\'0%\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x19https://www.certum.pl/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x82\\x02\\xee\\x82 yandex.ru\\x82\\x05ya.ru\\x82\\x0b*.yandex.lv\\x82\\x0b*.yandex.kg\\x82\\x0b*.yandex.uz\\x82\ryandex.com.ru\\x82\\x0f*.yandex.com.am\\x82\\x0byandex.jobs\\x82\\x0b*.yandex.az\\x82\r*.yandex.jobs\\x82\\x0f*.yandex.com.tr\\x82 yandex.tm\\x82 yandex.md\\x82\\x0f*.yandex.com.ua\\x82\\x0b*.yandex.ru\\x82\\x0b*.yandex.md\\x82\ryandex.com.ua\\x82 yandex.kz\\x82\nyandex.org\\x82 yandex.lv\\x82 yandex.by\\x82\\x0e*.yandex.co.il\\x82\\x0byandex.aero\\x82 yandex.uz\\x82 yandex.tj\\x82\\x0b*.yandex.kz\\x82\\x0c*.yandex.com\\x82\ryandex.com.tr\\x82\r*.yandex.aero\\x82\\x0cyandex.co.il\\x82\nyandex.com\\x82\\x0b*.yandex.tj\\x82\\x0c*.yandex.org\\x82\\x0b*.yandex.tm\\x82\\x0b*.yandex.by\\x82\\x18*.xn--d1acpjx3f.xn--p1ai\\x82\\x0f*.yandex.com.ru\\x82 yandex.az\\x82\\x0c*.yandex.net\\x82 yandex.kg\\x82\\x0b*.yandex.ee\\x82\\x0b*.yandex.fr\\x82 yandex.ee\\x82\ryandex.com.am\\x82\ryandex.com.ge\\x82 yandex.fr\\x82\\x0b*.yandex.lt\\x82\\x0b*.yandex.de\\x82 yandex.de\\x82\nyandex.net\\x82\\x16xn--d1acpjx3f.xn--p1ai\\x82\\x07*.ya.ru\\x82\\x0f*.yandex.com.ge\\x82 yandex.lt\\x82 yandex.ua\\x82\\x0b*.yandex.ua",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "\\x04\\x82\\x01l\\x01j\\x00w\\x00F\\xa5U\\xebu\\xfa\\x91 0\\xb5\\xa2\\x89i\\xf4\\xf3}\\x11,At\\xbe\\xfdI\\xb8\\x85\\xab\\xf2\\xfcp\\xfemG\\x00\\x00\\x01\\x7f\\x06\\x98\\xa7\\xd7\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xe93M_\\xd1\\x06#/\\xef\\x9b3%\\x10\\xf4+\\xe6#\\xc1\\xf742<\\xebG\\'v[\\x12P\\xc1\\xa4V\\x02!\\x00\\xeb\\xde5\\xa8\\xcbl\\xc3\\xe6\\xd2R\\x17=\\x18C9[\\x98\\xb6\\xa8\\x83\\xdf\\xae\\xf1\\x1d\\x9cb\\x85N\\xea\\x9f-\\xf5\\x00v\\x00U\\x81\\xd4\\xc2\\x16\\x906\\x01J\\xea\\x0b\\x9bW<S\\xf0\\xc0\\xe48xp%\\x08\\x17/\\xa3\\xaa\\x1d\\x07\\x13\\xd3\\x0c\\x00\\x00\\x01\\x7f\\x06\\x98\\xa8\\x01\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x94\\xc6\\xa6\\x99\\x8a\\x1f\\xa4O\\x14\\xa3\\xe5h\\xdb\\xedeT\n\\x85\\x9c\\x935bO\\xb5\\x93M\\xb4ImV\\xa4\\x1d\\x02 \\x0e\\xc2if\\xdf\\x0e\\x01\\xc5\\x911\\xf9\\x87k\\x02%\\x87\\xe8\\xbde\\xb4rzS\\xc2n)\\xdf\"\\x88\\xd8\\x04\\x81\\x00w\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01\\x7f\\x06\\x98\\xa8O\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x94\\x8c\\x95m\\x98\\xc2\\x05\\xdc!A\\xd5EO%\\x7f\\xeeW\\x85\\xa2\\x82\\x84.\\x0e\\xbc\\x0f\\x01\\xf4\\xc8f\\x94B\\x84\\x02!\\x00\\x8b\\xd7\\xa7kd\\xd5\\'\\xbd\\xcbaoj\\xde\\xa3\\xcb\\x0cG\\x17\\x86\\xb0\\x9d\\x80\nu\\xe9\\xc0V\\x83o42\\xa1",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "fc665061718926ec57fde2807fc35bea70b00b5fb50e73061016dadb2792c44f",
+              "sha1": "d2b7c2b1fbfecfa501ff2863386ee6a1225f0f07"
+            },
+            "serial": 1.3599128976334094e+38,
+            "subject": {
+              "C": "RU",
+              "OU": "ITO",
+              "CN": "yandex.ru",
+              "O": "Yandex LLC",
+              "L": "Moscow"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "RU",
+              "OU": "Yandex Certification Authority",
+              "O": "Yandex LLC",
+              "CN": "Yandex CA"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-ECDSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "xn--d1acpjx3f.xn--p1ai",
+          "yandex.ee",
+          "yandex.net",
+          "yandex.md",
+          "ya.ru",
+          "yandex.ru",
+          "yandex.az",
+          "yandex.tj",
+          "yandex.com.ua",
+          "yandex.tm",
+          "yandex.com.am",
+          "yandex.lv",
+          "yandex.by",
+          "yandex.lt",
+          "yandex.org",
+          "yandex.de",
+          "yandex.fr",
+          "yandex.com.tr",
+          "yandex.com.ge",
+          "yandex.aero",
+          "yandex.uz",
+          "yandex.kg",
+          "yandex.co.il",
+          "yandex.com.ru",
+          "yandex.com",
+          "yandex.jobs",
+          "yandex.ua",
+          "yandex.kz"
+        ],
+        "transport": "tcp",
+        "ip": 100663110,
+        "domains": [
+          "xn--d1acpjx3f.xn--p1ai",
+          "yandex.ee",
+          "yandex.net",
+          "yandex.md",
+          "ya.ru",
+          "yandex.ru",
+          "yandex.az",
+          "yandex.tj",
+          "yandex.com.ua",
+          "yandex.tm",
+          "yandex.com.am",
+          "yandex.lv",
+          "yandex.by",
+          "yandex.lt",
+          "yandex.org",
+          "yandex.de",
+          "yandex.fr",
+          "yandex.com.tr",
+          "yandex.com.ge",
+          "yandex.aero",
+          "yandex.uz",
+          "yandex.kg",
+          "yandex.co.il",
+          "com.ru",
+          "yandex.com",
+          "yandex.jobs",
+          "yandex.ua",
+          "yandex.kz"
+        ],
+        "ip_str": "5.255.255.70",
+        "os": null,
+        "_shodan": {
+          "crawler": "240a12b6c2ac5dba30ed961e4ab8f056540fdaf0",
+          "options": {},
+          "id": "681bd176-e91c-4bea-9f68-c7448a569ed4",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 16:51:58 5.255.255.70:443 - ERROR: write tcp 5.255.255.70:443: connection reset by peer\n"
+        },
+        "location": {
+          "city": "Moscow",
+          "region_code": "MOW",
+          "area_code": null,
+          "longitude": 37.61556,
+          "latitude": 55.75222,
+          "country_code": "RU",
+          "country_name": "Russian Federation"
+        }
+      }
+    ],
+    "asn": "AS13238",
+    "ip_str": "5.255.255.70"
+  }

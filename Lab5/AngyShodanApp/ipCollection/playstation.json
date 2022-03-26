@@ -1,0 +1,93 @@
+{
+    "doc_id": 45,
+    "city": "San Jose",
+    "region_code": "CA",
+    "os": null,
+    "tags": [
+      "cloud"
+    ],
+    "ip": 917990649,
+    "isp": "Amazon.com, Inc.",
+    "area_code": null,
+    "longitude": -121.89496,
+    "last_update": "2022-03-17T00:23:06.608754",
+    "ports": [
+      80
+    ],
+    "latitude": 37.33939,
+    "hostnames": [
+      "ec2-54-183-108-249.us-west-1.compute.amazonaws.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "amazonaws.com"
+    ],
+    "org": "Amazon Technologies Inc.",
+    "data": [
+      {
+        "hash": 1595273161,
+        "product": "AWS ELB",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "awselb/2.0",
+          "host": "54.183.108.249",
+          "html": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body>\r\n<center><h1>301 Moved Permanently</h1></center>\r\n</body>\r\n</html>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1949896279,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "ip": 917990649,
+        "org": "Amazon Technologies Inc.",
+        "isp": "Amazon.com, Inc.",
+        "hostnames": [
+          "ec2-54-183-108-249.us-west-1.compute.amazonaws.com"
+        ],
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: awselb/2.0\r\nDate: Thu, 17 Mar 2022 00:23:06 GMT\r\nContent-Type: text/html\r\nContent-Length: 134\r\nConnection: keep-alive\r\nLocation: https://54.183.108.249:443/\r\n\r\n",
+        "asn": "AS16509",
+        "port": 80,
+        "cloud": {
+          "region": "us-west-1",
+          "service": "AMAZON",
+          "provider": "Amazon"
+        },
+        "version": "2.0",
+        "transport": "tcp",
+        "timestamp": "2022-03-17T00:23:06.608754",
+        "domains": [
+          "amazonaws.com"
+        ],
+        "ip_str": "54.183.108.249",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "99a8e96f-3b5a-4d7f-9041-cac398bc7aa8",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {},
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -121.89496,
+          "latitude": 37.33939,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS16509",
+    "ip_str": "54.183.108.249"
+  }

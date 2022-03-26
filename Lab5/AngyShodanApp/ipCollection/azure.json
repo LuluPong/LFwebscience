@@ -1,0 +1,306 @@
+{
+    "doc_id": 7,
+    "city": "Hampden Sydney",
+    "region_code": "VA",
+    "os": null,
+    "tags": [
+      "cloud"
+    ],
+    "ip": 338298565,
+    "isp": "Microsoft Corporation",
+    "area_code": null,
+    "longitude": -78.5462,
+    "last_update": "2022-03-18T08:29:01.186187",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 37.3058,
+    "hostnames": [
+      "portal.azure.com",
+      "vlcentral.microsoft.com",
+      "lighthouse.microsoft.com",
+      "canary-endpoint.microsoft.com",
+      "devicemanagement.microsoft.com",
+      "manage.windowsazure.com",
+      "endpoint.microsoft.com",
+      "shell.azure.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "microsoft.com",
+      "azure.com",
+      "windowsazure.com"
+    ],
+    "org": "Microsoft Corporation",
+    "data": [
+      {
+        "hash": -274961974,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Document Moved",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "20.42.6.197",
+          "html": "<head><title>Document Moved</title></head>\n<body><h1>Object Moved</h1>This document may be found <a HREF=\"https://20.42.6.197/\">here</a></body>",
+          "location": "/",
+          "components": {},
+          "html_hash": -90531349,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "timestamp": "2022-03-02T16:12:04.138184",
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-Type: text/html; charset=UTF-8\r\nLocation: https://20.42.6.197/\r\nX-UA-Compatible: IE=edge\r\nDate: Wed, 02 Mar 2022 16:11:59 GMT\r\nContent-Length: 143\r\n\r\n",
+        "asn": "AS8075",
+        "port": 80,
+        "cloud": {
+          "region": null,
+          "service": "AzurePortal",
+          "provider": "Azure"
+        },
+        "hostnames": [],
+        "transport": "tcp",
+        "ip": 338298565,
+        "domains": [],
+        "ip_str": "20.42.6.197",
+        "os": null,
+        "_shodan": {
+          "crawler": "42f86247b760542c0192b61c60405edc5db01d55",
+          "options": {},
+          "id": "325afdb4-19a2-4105-a9e0-501218ac28ff",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Hampden Sydney",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -78.5462,
+          "latitude": 37.3058,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 151273018,
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Microsoft Azure",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "20.42.6.197",
+          "html": "<!DOCTYPE html><html><head><meta charset='utf-8'/><title>Microsoft Azure</title></head><body><script>\"use strict\";var FxImpl,MsPortalImpl;(function(n){var t,i;try{t=window.localStorage;i=window.sessionStorage}catch(r){}n.localStorage=t;n.sessionStorage=i})(MsPortalImpl||(MsPortalImpl={})),\r\n(function(n){function t(n,t){if(arguments.length===1)return n.sessionStorage.getItem(\"Redirect_BootParameters\")||n.localStorage.getItem(\"Redirect_BootParameters\");n.sessionStorage.setItem(\"Redirect_BootParameters\",t);n.localStorage.setItem(\"Redirect_BootParameters\",t)}n.getOrSetBootParameters=t})(MsPortalImpl||(MsPortalImpl={})),\r\n(function(n){function t(n){var i=n.split(\"/\").filter((function(n){return n}));if(i.length===1){var t=i[0].replace(/^@*/,\"\");if(/^([@]?(?:(?:[a-z0-9]|[a-z0-9][a-z0-9\\-]{0,61}[a-z0-9])\\.)+(?:[a-z0-9]+))|(common)$/i.test(t)||/^[a-f0-9]{8}-([a-f0-9]{4}-){3}[a-f0-9]{12}$/i.test(t))return\"@\"+t}return\"\"}n.getTenantFromPath=t})(MsPortalImpl||(MsPortalImpl={})),\r\n(function(n){function u(n,t,i){var u=r[n]&t;r[n]=u|i}function s(){f.getRandomValues(r);u(8,15,64);u(11,63,128);for(var n=0;n<20;n++)t[n]=e[r[n]];return t[4]=t[7]=t[10]=t[13]=\"-\",t.join(\"\")}function h(n){for(var t,r=new Array(n),u;n;)for(t=4294967296*Math.random()|0,u=8;u--;){if(r[--n]=i[t&15],n<0)return r;t>>>=4}}function c(){var n=h(36);return n[8]=n[13]=n[18]=n[23]=\"-\",n[14]=\"4\",n[19]=i[8+(i.indexOf(n[19])&3)],n.join(\"\")}function l(n,t){t===void 0&&(t=!1);var i=f?s():c();return i=t?i.split(\"-\").join(\"\").substring(0,32):i.substring(0,36),(n?n+\"_\":\"\")+i}var r=new Uint8Array(20),t=new Array(20),f=window.crypto||window.msCrypto,i=\"0123456789abcdef\".split(\"\"),e=new Array(256),o=0;i.forEach((function(n){i.forEach((function(t){e[o++]=n+t}))}));n.createGuid=l})(FxImpl||(FxImpl={})),\r\n(function(n){function t(n,t){var i=(n||\"\").toLowerCase().split(\".\");return t.indexOf(i[0])<0&&(i[0]=t[0]),i.join(\".\")}n.sanitizeLanguage=t})(MsPortalImpl||(MsPortalImpl={})),\r\n(function(n){function e(n){return n&&n.replace(/^\\?/i,\"\")}function u(n){return n&&e(n).split(\"&\").map((function(n){return n.split(\"=\")}))||[]}function o(n,t){var i=n.map((function(n){return n[0]&&n.join(\"=\")}));return t&&i.sort(),i.join(\"&\")}function t(n,t,i){t=t.toUpperCase();for(var r=0;r<n.length;r++)if(n[r][0].toUpperCase()===t)return i?n.splice(r,1)[0][1]:n[r][1];return undefined}function r(){return JSON.parse(n.getOrSetBootParameters(n)||\"{}\")}function h(u,f,e,s){if(!n.getOrSetBootParameters(n)||e){[\"selectAccount\",\"loginHint\",\"signInParameters\",\"forcesignin\",].forEach((function(n){t(f,n,!0)}));var c=/#.*|$/.exec(i.location.href)[0],h=void 0;c.startsWith(\"#code=\")?(h=r(),h.msalHash=c):h={environment:u,userQuery:o(f),portalQuery:s,hash:c,msalHash:undefined};n.getOrSetBootParameters(n,JSON.stringify(h))}}function c(t){var r=i.performance&&i.performance.timing,u;r&&(u={id:t,fetchStart:r.fetchStart,requestStart:r.requestStart,responseStart:r.responseStart,responseEnd:r.responseEnd,domComplete:r.domComplete},n.sessionStorage.setItem(\"PageTelemetry_\"+t,JSON.stringify(u)))}function s(n){return t(u(r().userQuery),n)}function f(n){if(!n||/^\\//.test(n))return f(i.location.protocol+\"//\"+i.location.host);var t=/^(\\w+\\:\\/\\/)([^\\:\\/\\?]+)([^\\/\\?]+)?/.exec(n),r=t[3]||(t[1]===\"https://\"?\":443\":\":80\");return t[2]+r}function l(i,r,f){function h(n,t){for(var i=[],r=i.length=100,u;r--;)u=r<n,i[r]=t?u?t:\"\":\"\"+u;return i}var c=u(i),l=function(n){Object.keys(n).forEach((function(i){i&&n[i]&&typeof t(c,i)!=\"string\"&&c.push([i,n[i]])}))},v,a,e;return l(JSON.parse(n.localStorage.getItem(\"Redirect_LocaleQuery\")||\"{}\")),l({l:n.localStorage.getItem(\"Redirect_LastUsedLocale\")}),v=r.env,v&&(a={},e=function(t,i,u){i=i||[\"true\",\"false\"];var e=t+(u||\"\"),f=s(t)||r[t];f||(f=n.localStorage.getItem(e)+\"\",i.indexOf(f)===-1&&(f=i[Math.floor(Math.random()*i.length)],n.localStorage.setItem(e,f)));a[t]=f},e(\"bundlingKind\",[\"DefaultPartitioner\"],\"7\"),(window.location.hostname===\"rc.portal.azure.com\"||window.location.hostname===\"preview.portal.azure.com\"||window.location.hostname===\"ms.portal.azure.com\")&&(e(\"helppanenewdesign\",h(90)),e(\"helppanevmproblemcards\",h(50))),window.location.hostname===\"ms.portal.azure.com\"&&e(\"armendpointprefix\",h(50,\"edge\")),window.location.hostname===\"portal.azure.com\"&&(e(\"helppanenewdesign\",h(90)),e(\"helppanevmproblemcards\",h(50))),l(a)),l(r),[\"signIn\",\"clearedStorage\"].forEach((function(n){t(c,n,!0)})),l({l:n.sanitizeLanguage(t(c,\"l\",!0),f)}),o(c,!0)}function a(n,t,i,r){var s,u,o;return r=r||{},s=n&&f()===f(n),u=\"\",s?u=l(i,r,t):(o=r.loginHint,o&&(i+=i?\"&\":\"\",i+=\"loginHint=\"+o),u=e(i)),u&&(n+=/\\?/.test(n)?\"&\":\"?\",n+=u),n}function v(n,t,i){i=i||{};var u=r(),f=u.hash||\"\";return a(n,t,i.userQuery||u.userQuery,i.portalQuery||u.portalQuery)+f}function y(){return location.hostname.split(\".\")[0].toLowerCase()}var i=window;n.parseQuery=u;n.getFirstQueryValue=t;n.getBootParameters=r;n.trySaveAllowedState=h;n.savePageTelemetry=c;n.getUserQueryValue=s;n.getPortalUri=v;n.getPortalEnv=y})(MsPortalImpl||(MsPortalImpl={})),\r\n(function(n){function o(n){return(n||s)+s}function u(n,t){return n.indexOf(t)>-1}function w(){}function b(t){var u=n.sessionStorage.getItem(\"authState\"),i,r;if(u){try{if(i=JSON.parse(u),r=i&&i.oAuthToken&&i.oAuthToken.authHeader&&(i.createdOn||0)+(i.oAuthToken.expiresInMs||0)>=Date.now(),r=t?r&&!!i.spaAuthCode:r&&!!i.refreshToken,r)return n.localStorage.removeItem(\"authState\"),!0}catch(f){}n.sessionStorage.removeItem(\"authState\")}return!1}function c(n){if(u(i,n)){var r=new RegExp(\"\\\\s\"+n+\"/(\\\\d+)[\\\\.\\\\s$]\"),t=r.exec(i),f=o(t&&t[1]);return parseInt(f,10)}}function k(n){var o=u(i,\"Windows\"),h=u(i,\"Macintosh; Intel\"),l=(h||o)&&u(i,\"Safari\")&&!u(i,\"Chrome\")&&c(\"Version\")<8,a=function(){var t=e.documentMode,n;try{e.documentMode=\"\"}catch(i){}n=typeof e.documentMode==\"number\"||new Function(\"return/*@cc_on!@*/!1\")();try{e.documentMode=t}catch(i){}return n},v=u(i,\"Trident/7.0\"),y=u(i,\"MSIE\"),p=!Array.prototype.find,w=a()||v||y||p,t,r,f;if(w||l)return n;t={Edge:12,Chrome:39,Firefox:38};for(r in t)if(f=c(r),f)return f<t[r]?n:s}function l(n){return a(\"clearedStorage=true\",n+\"/Html5StorageExceeded\",!0)}function a(i,r,u){return t.search.indexOf(i)===-1?(u&&(n.localStorage.clear(),n.sessionStorage.clear()),(t.search&&t.search+\"&\"||\"?\")+i+t.hash):r}function d(n){return r.Intl?\"\":n+\"?reason=intl\"}function g(t){var i;try{[n.localStorage,n.sessionStorage].forEach((function(n){if(i=n.length,n.setItem(f,f),f!==n.getItem(f))throw f;n.removeItem(f)}))}catch(r){return r.code===22&&i?l(t):a(\"storagepolyfill=true\",t+\"/UE_NoHtml5Storage\")}}function nt(t,i){var r=[];return Object.keys(i).forEach((function(u){var f=\"feature.\"+u,e=v(n.getFirstQueryValue(t,f),i[u]);e&&r.push(f+\"=\"+e)})),r.join(\"&\")}function tt(i){var u,c,f,ht,ct,it,tt,vt,rt,ut,ft;i=i||{};c=i.errorUri;try{var yt=g(c),et=i.portalQuery,pt=i.applicationPath,ot=i.supportedLanguages,a=n.parseQuery(r.location.search),st=i.unsupportedUri;if(f=k(st)||d(st)||yt,!f){n.localStorage.removeItem(\"signOutAll\");ht=n.getFirstQueryValue(a,\"Referrer\",!0);et.env=n.getPortalEnv();ct=n.getFirstQueryValue(a,\"sessionId\",!0);it=FxImpl.createGuid(ct,!0);n.sessionStorage.setItem(\"Redirect_SessionId\",it);n.trySaveAllowedState(i.environment,a,!0,et);n.savePageTelemetry(\"EntryPoint\");n.sessionStorage.setItem(\"Redirect_Referrers\",p([o(e.referrer),o(ht),]));var lt=t.protocol+\"//\"+t.host+pt,wt=nt(a,(u={},u.settingsportalinstance=i.settingsPortalInstanceDefault,u.inmemorysettings=i.inMemorySettingsDefault,u.argsubscriptions=i.argSubscriptionsDefault,u.showservicehealthalerts=i.showServiceHealthAlertsDefault,u.prefetchtokens=i.prefetchTokensDefault,u.internalgraphapiversion=i.internalGraphApiVersionDefault,u.cae=i.caeDefault,u.globalresourcefilter=i.globalResourceFilterDefault,u.msaljs=i.msalJsDefault,u)),w=n.getTenantFromPath(t.pathname),bt=v(n.getFirstQueryValue(a,\"feature.msaljs\"),i.msalJsDefault);if(!w&&b(bt===\"true\"))f=n.getPortalUri(lt,ot);else{tt=parseInt(n.sessionStorage.getItem(\"Redirect_IdpRedirectCount\"))||0;w=r.location.href.match(/#.*|$/)[0].match(/^#@([^\\/]*)|$/)[1]||w;var at=r.document.createElement(\"script\"),kt=n.parseQuery(r.location.search),dt=[\"signInParameters\",\"loginHint\",\"selectAccount\",\"forcesignin\",\"whr\",].reduce((function(t,i){var r=n.getFirstQueryValue(kt,i);return r&&(t+=\"&\"+i+\"=\"+r),t}),\"\");at.src=\"\"+i.signinUri+w+\"?sessionId=\"+it+\"&\"+wt+\"&idpc=\"+tt+dt;y.appendChild(at);setTimeout((function(){n.sessionStorage.setItem(\"Redirect_IdpRedirectCount\",o(++tt));tt%3?t.reload():t.href=c+\"/UE_IDP\"}),6e4);vt=n.getPortalUri(lt,ot);rt=new XMLHttpRequest;rt.open(\"GET\",vt);rt.send(null)}}}catch(s){s=s||{};s.code===22?f=l(c):(ut=h(o(s)),ft=s.message,ft&&(ut=h(ft)+\"&stack=\"+h(s.stack)),f=c+\"/Unhandled?err=\"+ut)}f&&(t.href=f)}function v(n,t){var i,r;return n!==undefined?n:(i=\"flight:\",t&&t.substr(0,i.length)===i)?(r=parseFloat(t.split(\":\")[1]),Math.random()<r?\"true\":\"false\"):t}var r=window,e=r.document,t=r.location,y=e.body,s=\"\",i=o(navigator&&navigator.userAgent),p=JSON.stringify,h=encodeURIComponent,f;n.cobrand=w;f=\"Redirect_SomeRandomKey\";n.redirect=tt})(MsPortalImpl||(MsPortalImpl={}))\r\nMsPortalImpl.redirect({\"applicationPath\":\"\",\"portalQuery\":{\"configHash\":\"BOWvS2OUQPJR\",\"pageVersion\":\"9.304.9.19.304.0.1910604.220309-1855\",\"l\":\"en.en-us\"},\"environment\":{\"extensionsManifestHash\":{\"assetTypes\":[[\"RvDFHT6169br\",\"o2T6ssGpokwu\"],[\"rqNFA4owkILq\",\"cJHxTlt0WG8N\"],[\"X4RjR9cQ-QET\",\"Tm56Fbs7NOu1\"],[\"EXYAU6RiYazV\",\"v8WKOApxsEoT\"],[\"y-eayqUac1JW\",\"07FLun2rdQ_0\"],[\"-cnmbVXBRUH8\",\"B-GqdDr14xEJ\"],[\"OE5gvbK1bPdM\",\"0nsxDDDrVznu\"],[\"Rpi5OTEKgIRf\",\"DyMlkdlPqzSg\"],[\"XBmPVmn1_j4v\",\"JVADJ8HrX3DA\"],[\"kSuRFY4gUBmE\",\"hWXClNIaLWIh\"],[\"TMEj9VuLIekc\",\"o3fFfWKq-55I\"],[\"vQsyvdvrtuLa\",\"rx6osJLj2qEr\"],[\"2FSvhgw-kBwp\",\"IVZ6t_jn_mGe\"],[\"PXNrK6HeHRmZ\",\"u29XBuydLDed\"],[\"w2C2ExKS6bqo\",\"ypQy9g1az-UN\"],[\"m2AvN9QSsmgK\",\"7QcZ7NEGfpH0\"],[\"mi9ri6vYWYXs\",\"dJE3R2JwRJ_-\"],[\"XMqNR7oe-8Uw\",\"crd__5Q31DKJ\"],[\"M5dUQqrhHewd\",\"QbchtnEyswdJ\"],[\"2X3pO2rOOIxU\",\"laGEzxlxWsY0\"]],\"assetTypesBrowse\":[[\"9gL13HsTt3y5\",\"Zduz7wCgFXId\"],[\"BGohN1KWVixx\",\"OKfh_hsYPwhU\"],[\"6sWWwmnZ6O2K\",\"6EixGESG5yR0\"],[\"oZfty2LUQRO0\",\"5-F1zVVj7fNj\"],[\"pdVAQnUKMh-_\",\"BEzK7YG5mVHj\"],[\"VNXcNmxS4Wgk\",\"hXYj5O9GwEwD\"],[\"WKVfSQQ0e4RD\",\"Hy8u3qcbsvsr\"],[\"_36SRQejC8tb\",\"7I-3fG46b2pc\"],[\"u8aRwmzjdqwD\",\"Xbt42qFYGjMU\"],[\"BnAJT_gzM7VY\",\"cFVcnMlz9Aq0\"],[\"sSuBD3VWBDut\",\"A3o7Orgnj71H\"],[\"QFY-MtWmIHLf\",\"pFXcToW5QXY7\"],[\"iGgJ5ogJanJ1\",\"uR2j3udDuw3-\"],[\"TC2C4viujmdG\",\"ZAm6uV4nfehB\"],[\"8nQbqRZXr9dP\",\"ZBjibQCiKQGG\"],[\"HsgubraMm5MT\",\"OvBawWe9kpUv\"],[\"l8pfuCFvdCuX\",\"TwOz4tEZb5PS\"],[\"K6ETH4qjf9QN\",\"iNBxdipm_Ga-\"],[\"tYV1AqCqw-ly\",\"ePSbhfAUxrRm\"],[\"VzLwMaVlI1H4\",\"eja1psbwacyv\"]],\"assetTypesMenu\":[[\"u5iq9ZA7MElK\",\"JD9NE5WzX4xL\"],[\"u2HE4VXMvkEB\",\"rLEQe6yafF3e\"],[\"JWs3f8aliQYx\",\"E_0eMlNa-_ed\"],[\"SYwKBH73vV9v\",\"lkYfayBsdo0w\"],[\"qnfkx84kgLO5\",\"X7FxXDxs1DBN\"],[\"h6RmDLF_7fVI\",\"yvxhGJvhewN-\"],[\"xWYs0jV6Vrte\",\"zJyPcr8syA_s\"],[\"CmoBEPIFkD0-\",\"t2EqqRK1kebQ\"],[\"XILlefHc8SXa\",\"XmoUtmsvL3we\"],[\"vwqN7Zmr01Hb\",\"y4vj1Krulux0\"],[\"s59vNyobILGW\",\"LDSbjdCKR3Au\"],[\"Ijm4xhir-MKP\",\"hATM9b_UJfpB\"],[\"XJHCxUqid5ah\",\"X9W-5YlEqByB\"],[\"GtZPJ6Q8PuHu\",\"0f7WMRJpcRbO\"],[\"oEqXbD18fOeH\",\"wxniO4lVWKAc\"],[\"akk3xIG_k7J_\",\"niNhVNAxnw8R\"],[\"QkgECeNQJaBH\",\"XY1BduhcRuuN\"],[\"FOHF8SPlzZ9e\",\"KFDF5o5Loy8R\"],[\"MgR_ErYt7ZR_\",\"aEmSYk1jXVRZ\"],[\"0ZJcSX-cPb2r\",\"v4oR3-F-yAdz\"]],\"extensionConfiguration\":[[\"Y8O2tNSyUJQH\",\"oht2mbDtFcPE\"],[\"6AfmblUj1nOL\",\"ZKNJ9gjDaLNH\"],[\"WIuaoKwYtsxH\",\"zwnv9283ByMz\"],[\"t6BvX1saojwp\",\"9n3XMwOGT89N\"],[\"44jTme-zaFdO\",\"D_N90QakI-OY\"],[\"qdSb28OF1JBa\",\"4x6Co-BsQXDA\"],[\"vYc_edGeoHIT\",\"ICzCytnoUne6\"],[\"KyeqmRZVSfcy\",\"Qvaq083eGRnX\"],[\"0nCI9RoIQypW\",\"Qzn-DCICsEGc\"],[\"mFtEtItYZCe6\",\"ddk7CuMg1u0R\"],[\"AXkKSkXjUmnr\",\"yiZTNHX1rHPK\"],[\"zGivI-qD6Mq3\",\"5blRMs0XqaKt\"],[\"SviWHW102k1S\",\"-7cuuwsyqbFA\"],[\"UQb06E1nPC6c\",\"yBf9PypA6msf\"],[\"oMbJXh8vI-Z2\",\"1M3ODMfgxm2C\"],[\"wb-zLjSeAaBV\",\"nBWDQHi7UQK7\"],[\"k7mbU6b1IZ6_\",\"qi6eTXtoqCK9\"],[\"UwgbKp14qTnL\",\"x4kQedW6TmrR\"],[\"Cp0I7ycs1n7e\",\"3SkJYlot5Ld2\"],[\"Y8O2tNSyUJQH\",\"oht2mbDtFcPE\"]],\"galleryParts\":[[\"lsme3MVDj7Fj\"],[\"3jlbkBEbKmE2\"],[\"rspidVjDaG3J\"],[\"SX-ZK_MgQwNG\"],[\"_IIv4wnzUBHG\"],[\"Y2D8aZyoRUQW\"],[\"05DfDyrIGCMW\",\"uMsEXtx_KhaC\"],[\"5nA190sM3Ssq\"],[\"3Pw9l0YdH4FU\"],[\"f22m2LILhEYS\"],[\"KCHMy7LOInZF\"],[\"5tvflzL4gSAX\"],[\"acTJgTSmW9m2\"],[\"2AuKI9VENqWo\"],[\"1pCtOGwv134Q\"],[\"RqaZpFmYrQSQ\"],[\"XCglV7k1YlYw\"],[\"DBK4NOhIxwlB\"],[\"XVE3BNhdTAy5\"],[\"z-eEyedEu9nf\"]],\"surveys\":[[\"QEgYXrWg7Jl7\"],[\"Gl0Hs6-nscID\"],[\"ru3z-pPv4CeW\"],[\"NBB8fGaigjbO\"],[\"7X5Ok3qNfoiS\"],[\"4793xBWYn7BY\"],[\"hpZS04iYMeJV\"],[\"DE3ftTY8oebs\"],[\"PyIbWQWL0EX4\"],[\"CcjbVJZNZZoA\"],[\"maF1menqr91Z\"],[\"WiCGufM-vgur\"],[\"jU3rBpty6Dp9\"],[\"7jwzmNsmlerN\"],[\"WlcfReQR4u3V\"],[\"SEY4owHg5u0I\"],[\"L2PZVohI5RYo\"],[\"fmjsxfqWA9p4\"],[\"gT57pj4dDAtQ\"],[\"a22wUlMmciTs\"]],\"uiDefinition\":[[\"vcA5hYxPLBG5\",\"tTOJmd4eqZ88\"],[\"4bQCQjTMPIVg\",\"wlFohbKj4Kuv\"],[\"vYn4PDH4eWQE\",\"PuodGuyIQtFZ\"],[\"HPD5dHqS7Bax\",\"GMKLQ5zjRES5\"],[\"RBi0RclCv-N7\",\"BO5_mAtfF8rI\"],[\"GtWQ2paIZjlW\",\"AO0QO5j0ZTJG\"],[\"3fq2eEtXujqv\",\"_DpGljluM2Kk\"],[\"xp644kcOape_\",\"GiJzTzxf8_SC\"],[\"F3yA8iLxakj9\",\"T8nTM2YnxVaj\"],[\"cn6bO3dnbqpz\",\"91qg1hqT7Ab1\"],[\"tpsipvir4hrb\",\"lHDXuUzIk_36\"],[\"vbQgcRnf04pn\",\"RQ3RNXqMMX99\"],[\"j1H3jjeOkuT7\",\"zCXMesqLmmCg\"],[\"KeAeQtHoIWPd\",\"l0-WEJ6PkVef\"],[\"kHE2k8oZI6w0\",\"6XXzaubDECG8\"],[\"Z3JPyFxFNT7y\",\"6DE3aZVtSmuY\"],[\"vj-pUjaIPdhv\",\"UkhREbS7Avv0\"],[\"mM324U7Z3P2W\",\"btCsq8MBM-lN\"],[\"bkzgLtxEFqpX\",\"iFcHHuYa-_pw\"],[\"vcA5hYxPLBG5\",\"tTOJmd4eqZ88\"]]},\"extensionsPageVersion\":{\"AppInsightsExtension\":[\"1.0.20220315.2300\",\"1.0.20220316.2240\"],\"AppPlatformExtension\":[\"1.0.01879.0001\"],\"AzureCacheExtension\":[\"1.3.01892.498\"],\"AzureEdgeDevices\":[\"1.0.01881.0001\"],\"AzureTfsExtension\":[\"18.200.32315.3\"],\"Azure_Marketplace_Confluent\":[\"0.9.018791-10611\"],\"Azure_Marketplace_Datadog\":[\"2.2101.018742-73288\"],\"Azure_Marketplace_Dynatrace\":[\"0.9.018991-92782\"],\"Azure_Marketplace_Elastic\":[\"0.1.018941-82834\"],\"Azure_Marketplace_Liftr_Logz\":[\"0.2.0.61\"],\"Azure_Marketplace_NGINX\":[\"2.2101.018964-329\"],\"Citrix_XenApp_Essentials\":[\"2.0\"],\"Citrix_XenDesktop_Essentials\":[\"2.0\"],\"CloudSimpleExtension\":[\"1.0.0.158\"],\"HubsExtension\":[\"9.304.9.19.304.0.1910604.220309-1855/_GzBYePMCoF9\"],\"Microsoft_AAD_B2CAdmin\":[\"1.1.53.0\"],\"Microsoft_AAD_Connect_Provisioning\":[\"3.0.0188142\"],\"Microsoft_AAD_DecentralizedIdentity\":[\"1.0.01892212\"],\"Microsoft_AAD_Devices\":[\"1.0.01882563\"],\"Microsoft_AAD_DomainServices\":[\"1.0.0.776-220212-0239\"],\"Microsoft_AAD_DXP\":[\"1.0.01901.97-441\"],\"Microsoft_AAD_ERM\":[\"1.2.870.201-20220314173311\"],\"Microsoft_AAD_HybridAuthentication\":[\"1.0.01875.32-37\"],\"Microsoft_AAD_IAM\":[\"3.0.01894466\",\"3.0.01902473\"],\"Microsoft_AAD_RegisteredApps\":[\"1.0.01882963\",\"1.0.01899975\"],\"Microsoft_AAD_UsersAndTenants\":[\"1.0.01880.323-4379\"],\"Microsoft_AzureStackHCI_PortalExtension\":[\"1.0.01884211\"],\"Microsoft_Azure_ActivityLog\":[\"1.0.300.151\",\"1.0.100.295\"],\"Microsoft_Azure_AD\":[\"1.0.3165.2\"],\"Microsoft_Azure_ADHybridHealth\":[\"2.0.0188136\"],\"Microsoft_Azure_ADU\":[\"1.0.2.28\"],\"Microsoft_Azure_AdvisorPortalExtension\":[\"1.0.01889.134\"],\"Microsoft_Azure_AFDX\":[\"1.8.01898191\",\"1.8.01901198\"],\"Microsoft_Azure_AgFoodPlatform\":[\"1.0.0.21\"],\"Microsoft_Azure_AnalysisServices\":[\"1.2.2.44\"],\"Microsoft_Azure_AnyBuild\":[\"1.0.0.16843857\"],\"Microsoft_Azure_ApiManagement\":[\"1.491.0.1\"],\"Microsoft_Azure_APISecurity\":[\"1.22.02.281933\"],\"Microsoft_Azure_Appliance\":[\"4.0.300.156\",\"4.0.200.89\"],\"Microsoft_Azure_ASCInformationProtection\":[\"1.0.228.0\"],\"Microsoft_Azure_Attestation\":[\"1.0.9.64\"],\"Microsoft_Azure_AutoManagedVirtualMachines\":[\"1.0.548.0\"],\"Microsoft_Azure_Automation\":[\"7.3.1775.0\"],\"Microsoft_Azure_AzConfig\":[\"1.0.0188111-2751246\"],\"Microsoft_Azure_AzD4AI\":[\"1.22.02.171712\"],\"Microsoft_Azure_Batch\":[\"1.1.01874.42\"],\"Microsoft_Azure_Billing\":[\"22.3.1.7.20220316-2125\",\"22.3.1.5.20220303-2133\"],\"Microsoft_Azure_Bonsai\":[\"1.0.0.0.220120-0725\"],\"Microsoft_Azure_BotService\":[\"1.4.1.296157\"],\"Microsoft_Azure_Capacity\":[\"220315-2352\"],\"Microsoft_Azure_Cdn\":[\"1.0.01881.131--1387\",\"1.0.01895.143--888\"],\"Microsoft_Azure_ChangeAnalysis\":[\"1.0.01894.53\"],\"Microsoft_Azure_Chaos\":[\"1.0.0-1.0.01885.1-4506830\"],\"Microsoft_Azure_ClassicResources\":[\"1.0.10.100\"],\"Microsoft_Azure_Classic_Compute\":[\"4.13.393.443\"],\"Microsoft_Azure_CloudNativeTesting\":[\"1.0.0.291\"],\"Microsoft_Azure_CloudPC\":[\"1.0.220223.45501887\"],\"Microsoft_Azure_CloudServices\":[\"4.13.393.444\",\"4.13.393.458\"],\"Microsoft_Azure_CloudServices_Arm\":[\"4.13.393.444\",\"4.13.393.458\"],\"Microsoft_Azure_CloudTest\":[\"2.0.9.72\"],\"Microsoft_Azure_CommunicationServices\":[\"1.0.0.20220314\"],\"Microsoft_Azure_ComplianceCenterAutoMapper\":[\"111.0.2.36\"],\"Microsoft_Azure_Compute\":[\"4.13.393.457\"],\"Microsoft_Azure_ConfidentialLedger\":[\"19.0.0.0\"],\"Microsoft_Azure_ConnectedVehicle\":[\"26.220303-0001\"],\"Microsoft_Azure_ContainerInsightsExt\":[\"2.0.20220210.2322\"],\"Microsoft_Azure_ContainerRegistries\":[\"1.0.20220304.10\"],\"Microsoft_Azure_ContainerService\":[\"4.13.393.444/gwBZCIqWC7mt\",\"4.13.393.464/XymYDaz-AkFi\"],\"Microsoft_Azure_CostManagement\":[\"1.0.01899.4418-0676301-20220314\"],\"Microsoft_Azure_CreateUIDef\":[\"1.0.300.205\",\"1.0.200.368\"],\"Microsoft_Azure_CustomerHub\":[\"1.0.300.123\",\"1.0.300.122\"],\"Microsoft_Azure_Dashboard\":[\"2.0.223.0\"],\"Microsoft_Azure_Data\":[\"1.0.0.92\"],\"Microsoft_Azure_Databricks\":[\"1.0.01863.147\"],\"Microsoft_Azure_DataCatalog\":[\"1.0.20220124.12\"],\"Microsoft_Azure_DataCollaboration\":[\"2.0.20220228-1544\"],\"Microsoft_Azure_DataFactory\":[\"031022.0001\"],\"Microsoft_Azure_DataLakeAnalytics\":[\"20220215.1\"],\"Microsoft_Azure_DataLakeStore\":[\"4.13.393.446\"],\"Microsoft_Azure_DataProtection\":[\"220218-065647\"],\"Microsoft_Azure_DataShare\":[\"2.0.20220309-1933\"],\"Microsoft_Azure_Dedicated_ClusterStor\":[\"220214-0317\"],\"Microsoft_Azure_Dedicated_Cray\":[\"220214-0317\"],\"Microsoft_Azure_Dedicated_Monitoring\":[\"220214-0317\"],\"Microsoft_Azure_DetonationService\":[\"1.0.8.0\"],\"Microsoft_Azure_DevTestLab\":[\"9.68.0.5.220302-1101\"],\"Microsoft_Azure_DigitalTwins\":[\"1.0.01894.29-030922\"],\"Microsoft_Azure_DiskMgmt\":[\"4.13.393.433\",\"4.13.393.464\"],\"Microsoft_Azure_DMS\":[\"5.1.5449.2\"],\"Microsoft_Azure_DNS\":[\"4.13.0.24-\"],\"Microsoft_Azure_DNSManagedResolver\":[\"1.0.01894.41\"],\"Microsoft_Azure_DocumentDB\":[\"2.0.20220301.6.0\"],\"Microsoft_Azure_Ea\":[\"22.2.1.5.20220302-0619\"],\"Microsoft_Azure_EdgeGateway\":[\"2.1.22021.2\"],\"Microsoft_Azure_EdgeOrder\":[\"1.0.01886698\"],\"Microsoft_Azure_Education\":[\"2022.02.23-1900\"],\"Microsoft_Azure_ELMAdmin\":[\"2.0.20.32\"],\"Microsoft_Azure_EMA\":[\"2.20228.1.5\"],\"Microsoft_Azure_EmailCommunicationServices\":[\"45614470\"],\"Microsoft_Azure_EventGrid\":[\"1.1.01899.13\"],\"Microsoft_Azure_EventHub\":[\"20220316.1\"],\"Microsoft_Azure_Experimentation\":[\"2.0.01902.200\"],\"Microsoft_Azure_Expert\":[\"1.0.23.114\"],\"Microsoft_Azure_ExpressPod\":[\"2.2.01845.76\"],\"Microsoft_Azure_Fidalgo\":[\"9.27.0.5.220310-1821\"],\"Microsoft_Azure_FileStorage\":[\"4.13.393.449\"],\"Microsoft_Azure_FIST\":[\"2022.02.17.020303\"],\"Microsoft_Azure_FlowLog\":[\"2.0.0.279.220220-2251\"],\"Microsoft_Azure_FluidRelay\":[\"1.0.0.5.220311-2351\"],\"Microsoft_Azure_Frontdoor\":[\"1.0.01892.129--689817\",\"1.0.01898.134--34005\"],\"Microsoft_Azure_GeneratedExtension\":[\"1.100.01894.136-\",\"1.100.01901.141-\"],\"Microsoft_Azure_GitHubAE\":[\"1.1.0.5\"],\"Microsoft_Azure_GTM\":[\"22.2.5.13.20220315-1842\",\"22.3.3.3.20220317-1833\"],\"Microsoft_Azure_HDInsight\":[\"1.0.01768.429\"],\"Microsoft_Azure_Health\":[\"1.1.1.245\"],\"Microsoft_Azure_HealthBot\":[\"1.0.0.77\"],\"Microsoft_Azure_HpcWorkbench\":[\"0.7.3.0\"],\"Microsoft_Azure_HybridCompute\":[\"1.0.1659.0\"],\"Microsoft_Azure_HybridData\":[\"2.0.0.208\"],\"Microsoft_Azure_HybridData_Platform\":[\"1.0.01893.215\"],\"Microsoft_Azure_HybridNetworking\":[\"23.1.0.9-220217-1222\",\"22.2.23.3-220311-1532\"],\"Microsoft_Azure_ImportExport\":[\"6.0.0.161\"],\"Microsoft_Azure_InformationProtection\":[\"1.0.3764.0\"],\"Microsoft_Azure_InternetAnalyzer\":[\"1.0.0183925\"],\"Microsoft_Azure_IoTCentral\":[\"2.0.8103.57865\"],\"Microsoft_Azure_IotHub\":[\"1.0.01899.70-031503\"],\"Microsoft_Azure_IoT_Defender\":[\"2022-03-14--11-45-11\"],\"Microsoft_Azure_Kailani\":[\"1.1.0.26\"],\"Microsoft_Azure_KeyVault\":[\"1.2.96.0.220308-0143\"],\"Microsoft_Azure_Kusto\":[\"1.0.1699.0\",\"1.0.1714.0\"],\"Microsoft_Azure_LocationServices\":[\"3.0.01888.42\"],\"Microsoft_Azure_Lockbox\":[\"2.31.0.0\"],\"Microsoft_Azure_Maintenance\":[\"4.13.393.433\"],\"Microsoft_Azure_ManagedLab\":[\"9.111.0.5.220223-1002\"],\"Microsoft_Azure_ManagedNetwork\":[\"2.2.1838-220113-0832\"],\"Microsoft_Azure_ManagedServiceIdentity\":[\"2.1.8137.0\"],\"Microsoft_Azure_ManagementGroups\":[\"1.0.200.51.20220225-0031\",\"1.0.100.94.20220301-1821\"],\"Microsoft_Azure_Marketplace\":[\"3.0.0.88-220313-133747\",\"2.2.59.406-220316-134214\"],\"Microsoft_Azure_Media\":[\"1.0.886.0\"],\"Microsoft_Azure_Migrate\":[\"1.0.10.330\"],\"Microsoft_Azure_MLCommitmentPlans\":[\"1.1.40210.03\"],\"Microsoft_Azure_MLTeamAccounts\":[\"1.0.0.220217-1902\"],\"Microsoft_Azure_MLWebservices\":[\"1.1.40210.04\"],\"Microsoft_Azure_MLWorkspaces\":[\"1.1.30210.03\"],\"Microsoft_Azure_Monitoring\":[\"20.0.300.280\",\"20.0.300.285\"],\"Microsoft_Azure_MonitoringMetrics\":[\"2.0.20220302.1618\"],\"Microsoft_Azure_Monitoring_Logs\":[\"1.0.2833.2\",\"1.0.2868.1\"],\"Microsoft_Azure_NetApp\":[\"2021.10.0.51\"],\"Microsoft_Azure_Network\":[\"4.13.393.449\",\"4.13.393.458\"],\"Microsoft_Azure_NotificationHubs\":[\"5.5.35.0.220301-0035\"],\"Microsoft_Azure_OpenEnergyPlatform\":[\"1.0.0.41\"],\"Microsoft_Azure_OpenSupplyChainPlatform\":[\"1.0.0.96\"],\"Microsoft_Azure_OperationsMgr\":[\"1.0.0.29\"],\"Microsoft_Azure_Orbital\":[\"2022.1.01894.12\"],\"Microsoft_Azure_OSSDatabases\":[\"2.1.01897220\"],\"Microsoft_Azure_Peering\":[\"1.2.0.222\"],\"Microsoft_Azure_Percept\":[\"1.0.01895.0002\"],\"Microsoft_Azure_PHPWorkloads\":[\"1.0.10308.10725\"],\"Microsoft_Azure_PIMCommon\":[\"2.0.32.1458\"],\"Microsoft_Azure_PinToGrafana\":[\"1.2.45.1\"],\"Microsoft_Azure_PlayFab\":[\"1.0.0.35\"],\"Microsoft_Azure_Playground\":[\"9.304.9.19.304.0.1910604.220309-1855\"],\"Microsoft_Azure_Policy\":[\"1.0.9.536\"],\"Microsoft_Azure_PowerBIDedicated\":[\"1.1.1859.1\"],\"Microsoft_Azure_PowerPlatform\":[\"0.0.0.39\"],\"Microsoft_Azure_PrivateDNS\":[\"4.13.0.24-\"],\"Microsoft_Azure_ProjectBabylon\":[\"1.0.20220308.139\"],\"Microsoft_Azure_ProjectEagleRock\":[\"1.0.0.20220117105948\"],\"Microsoft_Azure_ProjectOxford\":[\"220315-0104\"],\"Microsoft_Azure_Quantum\":[\"1.6.5.0\"],\"Microsoft_Azure_RecommendationsService\":[\"9.23.22033.6\"],\"Microsoft_Azure_RecoveryServices\":[\"3.48.10310.10848\"],\"Microsoft_Azure_RedHatOpenShift\":[\"1.0.0.18\"],\"Microsoft_Azure_Relay\":[\"1.1.01873.20\"],\"Microsoft_Azure_Reservations\":[\"03.07.2022.1614\"],\"Microsoft_Azure_ResourceMove\":[\"1.49.10303.10358\"],\"Microsoft_Azure_Resources\":[\"1.0.300.237\"],\"Microsoft_Azure_SapHanaInstances\":[\"1.0.50.78\"],\"Microsoft_Azure_SAPManagement\":[\"1.0.10315.12136\"],\"Microsoft_Azure_Search\":[\"58849256.20220317.1\"],\"Microsoft_Azure_Security\":[\"1.22.03.151237\"],\"Microsoft_Azure_Security_AzureDefenderForData\":[\"1.22.03.141228\"],\"Microsoft_Azure_Security_CloudNativeCompute\":[\"1.22.03.091502\"],\"Microsoft_Azure_Security_DevOps\":[\"1.22.02.162231\"],\"Microsoft_Azure_Security_Insights\":[\"1.0.01899.62-220315-090701\",\"1.0.01901.63-220317-090149\"],\"Microsoft_Azure_Security_IoT\":[\"2022-03-14--12-02-53\"],\"Microsoft_Azure_Security_R3\":[\"1.0.01881.0001-3-082665\"],\"Microsoft_Azure_SentinelUS\":[\"1.0.01901.382-031621\"],\"Microsoft_Azure_ServiceBus\":[\"1.0.743.0\"],\"Microsoft_Azure_ServiceFabric\":[\"4.13.393.444\",\"4.13.393.458\"],\"Microsoft_Azure_SignalR\":[\"1.0.01891.19\"],\"Microsoft_Azure_SiteRecovery\":[\"1.51.10310.11743\"],\"Microsoft_Azure_Sphere\":[\"2.0.22048.1\"],\"Microsoft_Azure_Storage\":[\"4.13.393.433\",\"4.13.393.460\"],\"Microsoft_Azure_StorageCache\":[\"1.1.0.257\"],\"Microsoft_Azure_StorSimple\":[\"1.0.631.8\"],\"Microsoft_Azure_StreamAnalytics\":[\"20220311.2\"],\"Microsoft_Azure_SubscriptionManagement\":[\"1.0.01886.26.20220302-0521\"],\"Microsoft_Azure_Support\":[\"1.110.031622.0005\",\"1.111.031622.0004\"],\"Microsoft_Azure_Surface\":[\"1.143.0\"],\"Microsoft_Azure_Synapse\":[\"1.0.01889.0001\"],\"Microsoft_Azure_TemplateSpecs\":[\"1.0.1.43\"],\"Microsoft_Azure_TimeSeriesInsights\":[\"1.0.01900.24-4858611\"],\"Microsoft_Azure_UpdateStagingLab\":[\"1.0.20220222.5\"],\"Microsoft_Azure_VideoAnalyzer\":[\"1.0.877.0\"],\"Microsoft_Azure_VnfManager\":[\"1.0.0.0-03171452\"],\"Microsoft_Azure_WorkbooksExtension\":[\"1.0.018991\"],\"Microsoft_Azure_WorkloadInsights\":[\"1.0.01882.171\",\"1.0.01882.177\"],\"Microsoft_Azure_WorkloadMonitor\":[\"1.0.10228.10806\"],\"Microsoft_Azure_WVD\":[\"1.1.01875.455\",\"1.1.01889.459\"],\"Microsoft_Bing_Api\":[\"220208-1854\"],\"Microsoft_Cognition_MixedReality\":[\"15.0.1.0\"],\"Microsoft_ConnectedCache\":[\"1.0.2.35\"],\"Microsoft_ConnectedCache_Ent\":[\"1.0.0.2.7\"],\"Microsoft_EMM_ModernWorkplace\":[\"1.2203.2.01\"],\"Microsoft_Healthcare_APIs\":[\"1.0.126567.1\"],\"Microsoft_Intune\":[\"1.2202.8.3004\"],\"Microsoft_Intune_Apps\":[\"2.2202.61.3001\"],\"Microsoft_Intune_DeviceExplorer\":[\"1.0.220224.170310\"],\"Microsoft_Intune_Devices\":[\"6.2202.0.3004.220302-2322\"],\"Microsoft_Intune_DeviceSettings\":[\"1.2202.0.3012.220314-1800\"],\"Microsoft_Intune_Edu\":[\"6.2202.21.3023.220315-1111\"],\"Microsoft_Intune_Enrollment\":[\"7.2202.1.3003\"],\"Microsoft_Intune_MTM\":[\"1.2202.0.3007.220307-1350\"],\"Microsoft_Intune_Workflows\":[\"1.2202.0.2006\"],\"Microsoft_M365_ManageClient\":[\"1.0.0.101\"],\"Microsoft_OneFleet_DataHub\":[\"1.0.01853.14\"],\"Microsoft_OperationsManagementSuite_Workspace\":[\"3.0.01891.575\",\"3.0.01899.579\"],\"Microsoft_Research_Genomics\":[\"1.0.0.5455\"],\"Microsoft_ServicesHub_Extension\":[\"3.0.265.0\"],\"Microsoft_VideoIndexer\":[\"1.0.01864.1-220207\",\"1.0.01902.1-220317\"],\"Microsoft_WindowsIoT_DeviceServices\":[\"1.0.101721.0107\"],\"Microsoft_Windows_ExtendedSecurityUpdates\":[\"1.0.0.23\"],\"ScanX_Management\":[\"1.0.0.219\"],\"ServiceLinkerExtension\":[\"2.0.20220217.1\"],\"SqlAzureExtension\":[\"2.1.01900219\",\"2.1.01902220\"],\"Universal_Print\":[\"2.477\"],\"VLCentral_Agreement\":[\"1.0.0.0\"],\"VLCentral_Approval\":[\"1.0.0.0\"],\"VLCentral_CaseManagement\":[\"1.0.1.23\"],\"VLCentral_HelpAndSupport\":[\"1.0.0.16\"],\"VLCentral_Home\":[\"1.0.0.60\"],\"VLCentral_InsightsAndAnalytics\":[\"1.1.0.0\"],\"VLCentral_Ordering\":[\"1.0.0.0\"],\"VLCentral_Quote\":[\"1.0.2.518\"],\"VLCentral_UUM\":[\"1.0.0.110\"],\"VMCP\":[\"1.1.778\",\"1.1.791\"],\"WandiscoExtension\":[\"1.12.3.0\",\"1.12.4.0\"],\"WebsitesExtension\":[\"5.12.183.18\"]}},\"signinUri\":\"/signin/idpRedirect.js/\",\"errorUri\":\"/Error\",\"unsupportedUri\":\"/Error/UE_Unsupported\",\"settingsPortalInstanceDefault\":\"\",\"supportedLanguages\":[\"en\",\"cs\",\"de\",\"es\",\"fr\",\"hu\",\"id\",\"it\",\"ja\",\"ko\",\"nl\",\"pl\",\"pt-br\",\"pt-pt\",\"ru\",\"sv\",\"tr\",\"zh-hans\",\"zh-hant\",\"qps-ploc\"],\"argSubscriptionsDefault\":\"\",\"showServiceHealthAlertsDefault\":\"true\",\"inMemorySettingsDefault\":\"\",\"prefetchTokensDefault\":\"\",\"internalGraphApiVersionDefault\":\"true\",\"caeDefault\":\"\",\"globalResourceFilterDefault\":\"true\",\"msalJsDefault\":\"\"});\r\n</script></body></html>",
+          "location": "/",
+          "components": {},
+          "html_hash": -105284633,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "ip": 338298565,
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 200 OK\r\nCache-Control: no-cache, must-revalidate\r\nPragma: no-cache\r\nContent-Type: text/html; charset=utf-8\r\nExpires: -1\r\nETag: \"ShuCFqjdimZV\"\r\nx-content-type-options: nosniff\r\nX-XSS-Protection: 1; mode=block\r\nx-ms-version: 9.304.9.1 (v9.304.0.1#910e60ffb4.220309-1855) Signed\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\nSet-Cookie: browserId=228734f4-8300-4a25-ae3c-17e17cdb1ef2; domain=20.42.6.197; path=/; secure; HttpOnly; SameSite=None\r\nContent-Security-Policy: frame-ancestors 'self'\r\nX-Frame-Options: SAMEORIGIN\r\nAccess-Control-Allow-Origin: *\r\nTiming-Allow-Origin: *\r\nx-ms-content-source: Runtime\r\nX-UA-Compatible: IE=edge\r\nDate: Fri, 18 Mar 2022 08:28:59 GMT\r\nContent-Length: 26453\r\n\r\n",
+        "asn": "AS8075",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "ac9940a37dca95be8d6f5ec1a0e8461e26b239a52efbc38e11e3e9b82dd5933a",
+            "05e4005db0c382f3bd66b47729e9011577601bf6f7b287e9a52ced710d258346",
+            "16af57a9f676b0ab126095aa5ebadef22ab31119d644ac95cd4b93dbf3f26aeb"
+          ],
+          "jarm": "2ad2ad0002ad2ad0002ad2ad2ad2adf9fdf4eeac344e8b5003264da73585be",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIJTTCCBzWgAwIBAgITfwAg9IbT3dxC6wCapwAAACD0hjANBgkqhkiG9w0BAQsF\nADBPMQswCQYDVQQGEwJVUzEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9u\nMSAwHgYDVQQDExdNaWNyb3NvZnQgUlNBIFRMUyBDQSAwMjAeFw0yMjAxMTMyMjE3\nMDNaFw0yMzAxMTMyMjE3MDNaMBsxGTAXBgNVBAMTEHBvcnRhbC5henVyZS5jb20w\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDHFkBKZChsrb23NB1G1I+W\nrDCPY8vGGQ2w4yD21z6qRwQV/ohnvc8//b3+Od6lqpxBe7SB+P/O7DdZmo94JmlO\nrpSHKcJmfWOuE5BbB53gPYXMoOtsmuzCeLKyvng0FDm5g8F8kgw9qogvMwD8dCB8\nf6CHlXxYFJ9wC5iB2SM+JTgaDHr9JFlz+MXQ/cIG69yBlW+4owQZnz8oaw/C5rEX\nkQsqZbKYBs60VTqbTpzW6IwhWyZGCZjs+84WAXAcw3huZfDO2LD5jcTDcTjYthUq\nwpAiF5L9gknMDTldhC4BhUna/LPpiY4gvTDYNklZwTzV5w0OOBWZpBMQ9nccBGGd\nAgMBAAGjggVUMIIFUDCCAXwGCisGAQQB1nkCBAIEggFsBIIBaAFmAHUA6D7Q2j71\nBjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAF+VY08FAAABAMARjBEAiAiyntd\nlAaKdkFR7e8v4X1Heka7TqQS5Ig1gAx5FKYwMgIgRoNjYpeuvuYr7C8M6CnGUz6t\n6qsIpmYbfMvL2h0XdG4AdQCzc3cH4YRQ+GOG1gWp3BEJSnktsWcMC4fc8AMOeTal\nmgAAAX5VjT1JAAAEAwBGMEQCIG+AcY7lQ7wbvL8NMA12HJVHuXJ6J85Z2AtAPttq\nBmMUAiBJXhkjRF/fKHDNB3yqUsNEpbiKsHY7sYhJoYLMW4w2IgB2AK33vvp8/xDI\ni509nB4+GGq0Zyldz7EMJMqFhjTr3IKKAAABflWNPGEAAAQDAEcwRQIhAJmTdDVf\nzlaGQTn0YUP+eCsqAosCcss4PO42N+GzXP3IAiAdBKzKvPoj4EwqWumBXPVXNghk\nDjLqj6foTTya2fQjEzAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsG\nAQUFBwMCMD4GCSsGAQQBgjcVBwQxMC8GJysGAQQBgjcVCIfahnWD7tkBgsmFG4G1\nnmGF9OtggV2Fho5Bh8KYUAIBZAIBJzCBhwYIKwYBBQUHAQEEezB5MFMGCCsGAQUF\nBzAChkdodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpL21zY29ycC9NaWNyb3Nv\nZnQlMjBSU0ElMjBUTFMlMjBDQSUyMDAyLmNydDAiBggrBgEFBQcwAYYWaHR0cDov\nL29jc3AubXNvY3NwLmNvbTAdBgNVHQ4EFgQUXSApyJGWI2mJq3/l2IQCTAkQDD0w\nDgYDVR0PAQH/BAQDAgSwMIIBXgYDVR0RBIIBVTCCAVGCEHBvcnRhbC5henVyZS5j\nb22CEioucG9ydGFsLmF6dXJlLmNvbYISKi5wb3J0YWwuYXp1cmUubmV0ghdtYW5h\nZ2Uud2luZG93c2F6dXJlLmNvbYIeZGV2aWNlbWFuYWdlbWVudC5taWNyb3NvZnQu\nY29tghZlbmRwb2ludC5taWNyb3NvZnQuY29tgh1jYW5hcnktZW5kcG9pbnQubWlj\ncm9zb2Z0LmNvbYIYbGlnaHRob3VzZS5taWNyb3NvZnQuY29tgg9zaGVsbC5henVy\nZS5jb22CHSoucmVhY3RibGFkZS5wb3J0YWwuYXp1cmUubmV0giAqLnJlYWN0Ymxh\nZGUtcmMucG9ydGFsLmF6dXJlLm5ldIIgKi5yZWFjdGJsYWRlLW1zLnBvcnRhbC5h\nenVyZS5uZXSCF3ZsY2VudHJhbC5taWNyb3NvZnQuY29tMIGwBgNVHR8EgagwgaUw\ngaKggZ+ggZyGTWh0dHA6Ly9tc2NybC5taWNyb3NvZnQuY29tL3BraS9tc2NvcnAv\nY3JsL01pY3Jvc29mdCUyMFJTQSUyMFRMUyUyMENBJTIwMDIuY3JshktodHRwOi8v\nY3JsLm1pY3Jvc29mdC5jb20vcGtpL21zY29ycC9jcmwvTWljcm9zb2Z0JTIwUlNB\nJTIwVExTJTIwQ0ElMjAwMi5jcmwwVwYDVR0gBFAwTjBCBgkrBgEEAYI3KgEwNTAz\nBggrBgEFBQcCARYnaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraS9tc2NvcnAv\nY3BzMAgGBmeBDAECATAfBgNVHSMEGDAWgBT/L3/hBvQ48y3tJY2Ywv4O9mz8+jAd\nBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIB\nALo2V2ieJh4HTnthod3rTWApRXMgTzlvZtE0Rd+gwuluJIm9Cde+c4qJg3UrMEAu\ngAvnRUlnpV6M6pbq2917fucUTRjKqEua/4yT/xxiRG+cbks6PQQc1I+qsJMvNI8A\n9XthTPSJbQDJXn4Y1CXig7AZocR1WrkEc568G0eSThsc/fZM5PXz3ZP7Euns/Xe+\nL7ZNJ1jwaXm0ltSCIFr+haAkQh5H8pPBPiulhgeI+BhqUa57wSiFc4d5a1gySfhn\n7RVQE8YBxwEbgC8anlncC9fX1TqqQJnJbaVHN8F2F1lT8NWw4FrOCHqmuNUNmXD8\n+NGj0HP29C4BQzsRQM5mZcoG7qxcfLImqMD1UL2JNAsO0SPN9GD/KjZCBbaTemDM\nHSssrHOaOVHvs3DTLwUouAcO3QDt+Ey3oVKFRI8i+ZtQfxN0OchVCee4kSE2sT6h\nspmx7ZQ2T49KIcFroTh7Gx9DVJ3Ce7NWAb0RhoJnlH4glE80jhQh9jIBML4RdaXf\nKaFjAmuvwhpylZB1KyKvdKnHdNMoTMIrSJKbxUb0VpBpqCNwoZ8a5IczeSYfD6HE\nGi80Od4r13Sck/9vQ9UWgDGqm7EOBl4XPig2fkYTBWl0PoBgx5sw2qJz38K/fLka\nGqUpJsPOBfGr7h3iB7bcckpBaQ+Ub3J1uZACW8irqudw\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFWjCCBEKgAwIBAgIQD6dHIsU9iMgPWJ77H51KOjANBgkqhkiG9w0BAQsFADBa\nMQswCQYDVQQGEwJJRTESMBAGA1UEChMJQmFsdGltb3JlMRMwEQYDVQQLEwpDeWJl\nclRydXN0MSIwIAYDVQQDExlCYWx0aW1vcmUgQ3liZXJUcnVzdCBSb290MB4XDTIw\nMDcyMTIzMDAwMFoXDTI0MTAwODA3MDAwMFowTzELMAkGA1UEBhMCVVMxHjAcBgNV\nBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEgMB4GA1UEAxMXTWljcm9zb2Z0IFJT\nQSBUTFMgQ0EgMDIwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQD0wBlZ\nqiokfAYhMdHuEvWBapTj9tFKL+NdsS4pFDi8zJVdKQfR+F039CDXtD9YOnqS7o88\n+isKcgOeQNTri472mPnn8N3vPCX0bDOEVk+nkZNIBA3zApvGGg/40Thv78kAlxib\nMipsKahdbuoHByOB4ZlYotcBhf/ObUf65kCRfXMRQqOKWkZLkilPPn3zkYM5GHxe\nI4MNZ1SoKBEoHa2E/uDwBQVxadY4SRZWFxMd7ARyI4Cz1ik4N2Z6ALD3MfjAgEED\nwoknyw9TGvr4PubAZdqU511zNLBoavar2OAVTl0Tddj+RAhbnX1/zypqk+ifv+d3\nCgiDa8Mbvo1u2Q8nuUBrKVUmR6EjkV/dDrIsUaU643v/Wp/uE7xLDdhC5rplK9si\nNlYohMTMKLAkjxVeWBWbQj7REickISpc+yowi3yUrO5lCgNAKrCNYw+wAfAvhFkO\neqPm6kP41IHVXVtGNC/UogcdiKUiR/N59IfYB+o2v54GMW+ubSC3BohLFbho/oZZ\n5XyulIZK75pwTHmauCIeE5clU9ivpLwPTx9b0Vno9+ApElrFgdY0/YKZ46GfjOC9\nta4G25VJ1WKsMmWLtzyrfgwbYopquZd724fFdpvsxfIvMG5m3VFkThOqzsOttDcU\nfyMTqM2pan4txG58uxNJ0MjR03UCEULRU+qMnwIDAQABo4IBJTCCASEwHQYDVR0O\nBBYEFP8vf+EG9DjzLe0ljZjC/g72bPz6MB8GA1UdIwQYMBaAFOWdWTCCR1jMrPoI\nVDaGezq1BE3wMA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYI\nKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQoMCYwJAYI\nKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTA6BgNVHR8EMzAxMC+g\nLaArhilodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vT21uaXJvb3QyMDI1LmNybDAq\nBgNVHSAEIzAhMAgGBmeBDAECATAIBgZngQwBAgIwCwYJKwYBBAGCNyoBMA0GCSqG\nSIb3DQEBCwUAA4IBAQCg2d165dQ1tHS0IN83uOi4S5heLhsx+zXIOwtxnvwCWdOJ\n3wFLQaFDcgaMtN79UjMIFVIUedDZBsvalKnx+6l2tM/VH4YAyNPx+u1LFR0joPYp\nQYLbNYkedkNuhRmEBesPqj4aDz68ZDI6fJ92sj2q18QvJUJ5Qz728AvtFOat+Ajg\nK0PFqPYEAviUKr162NB1XZJxf6uyIjUlnG4UEdHfUqdhl0R84mMtrYINksTzQ2sH\nYM8fEhqICtTlcRLr/FErUaPUe9648nziSnA0qKH7rUZqP/Ifmbo+WNZSZG1BbgOh\nlk+521W+Ncih3HRbvRBE0LWYT8vWKnfjgZKxwHwJ\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDdzCCAl+gAwIBAgIEAgAAuTANBgkqhkiG9w0BAQUFADBaMQswCQYDVQQGEwJJ\nRTESMBAGA1UEChMJQmFsdGltb3JlMRMwEQYDVQQLEwpDeWJlclRydXN0MSIwIAYD\nVQQDExlCYWx0aW1vcmUgQ3liZXJUcnVzdCBSb290MB4XDTAwMDUxMjE4NDYwMFoX\nDTI1MDUxMjIzNTkwMFowWjELMAkGA1UEBhMCSUUxEjAQBgNVBAoTCUJhbHRpbW9y\nZTETMBEGA1UECxMKQ3liZXJUcnVzdDEiMCAGA1UEAxMZQmFsdGltb3JlIEN5YmVy\nVHJ1c3QgUm9vdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKMEuyKr\nmD1X6CZymrV51Cni4eiVgLGw41uOKymaZN+hXe2wCQVt2yguzmKiYv60iNoS6zjr\nIZ3AQSsBUnuId9Mcj8e6uYi1agnnc+gRQKfRzMpijS3ljwumUNKoUMMo6vWrJYeK\nmpYcqWe4PwzV9/lSEy/CG9VwcPCPwBLKBsua4dnKM3p31vjsufFoREJIE9LAwqSu\nXmD+tqYF/LTdB1kC1FkYmGP1pWPgkAx9XbIGevOF6uvUA65ehD5f/xXtabz5OTZy\ndc93Uk3zyZAsuT3lySNTPx8kmCFcB5kpvcY67Oduhjprl3RjM71oGDHweI12v/ye\njl0qhqdNkNwnGjkCAwEAAaNFMEMwHQYDVR0OBBYEFOWdWTCCR1jMrPoIVDaGezq1\nBE3wMBIGA1UdEwEB/wQIMAYBAf8CAQMwDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3\nDQEBBQUAA4IBAQCFDF2O5G9RaEIFoN27TyclhAO992T9Ldcw46QQF+vaKSm2eT92\n9hkTI7gQCvlYpNRhcL0EYWoSihfVCr3FvDB81ukMJY2GQE/szKN+OMY3EU/t3Wgx\njkzSswF07r51XgdIGn9w/xZchMB5hbgF/X++ZRGjD8ACtPhSNzkE1akxehi/oCr0\nEpn3o0WC4zxe9Z2etciefC7IpJ5OCBRLbf1wbWsaY71k5h+3zvDyny67G7fyUIhz\nksLi4xaNmjICq44Y3ekQEe5+NauQrz4wlHrQMz2nZQ/1/I6eYs9HRCwBXbsdtTLS\nR9I4LtD+gdwyah617jzV/OeBHRnDJELqYzmp\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 5,
+              "name": "status_request"
+            },
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            }
+          ],
+          "ja3s": "1d9c3e8c45ab7a2112263449a3ad9ece",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220113221703Z",
+            "expires": "20230113221703Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "\\x04\\x82\\x01h\\x01f\\x00u\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01~U\\x8d<\\x14\\x00\\x00\\x04\\x03\\x00F0D\\x02 \"\\xca{]\\x94\\x06\\x8avAQ\\xed\\xef/\\xe1}GzF\\xbbN\\xa4\\x12\\xe4\\x885\\x80\\x0cy\\x14\\xa602\\x02 F\\x83cb\\x97\\xae\\xbe\\xe6+\\xec/\\x0c\\xe8)\\xc6S>\\xad\\xea\\xab\\x08\\xa6f\\x1b|\\xcb\\xcb\\xda\\x1d\\x17tn\\x00u\\x00\\xb3sw\\x07\\xe1\\x84P\\xf8c\\x86\\xd6\\x05\\xa9\\xdc\\x11 Jy-\\xb1g\\x0c\\x0b\\x87\\xdc\\xf0\\x03\\x0ey6\\xa5\\x9a\\x00\\x00\\x01~U\\x8d=I\\x00\\x00\\x04\\x03\\x00F0D\\x02 o\\x80q\\x8e\\xe5C\\xbc\\x1b\\xbc\\xbf\r0\rv\\x1c\\x95G\\xb9rz\\'\\xceY\\xd8\\x0b@>\\xdbj\\x06c\\x14\\x02 I^\\x19#D_\\xdf(p\\xcd\\x07|\\xaaR\\xc3D\\xa5\\xb8\\x8a\\xb0v;\\xb1\\x88I\\xa1\\x82\\xcc[\\x8c6\"\\x00v\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01~U\\x8d<a\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x99\\x93t5_\\xceV\\x86A9\\xf4aC\\xfex+*\\x02\\x8b\\x02r\\xcb8<\\xee67\\xe1\\xb3\\\\\\xfd\\xc8\\x02 \\x1d\\x04\\xac\\xca\\xbc\\xfa#\\xe0L*Z\\xe9\\x81\\\\\\xf5W6\\x08d\\x0e2\\xea\\x8f\\xa7\\xe8M<\\x9a\\xd9\\xf4#\\x13",
+                "name": "ct_precert_scts"
+              },
+              {
+                "data": "0\\x180\n\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x010\n\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "UNDEF"
+              },
+              {
+                "data": "0/\\x06\\'+\\x06\\x01\\x04\\x01\\x827\\x15\\x08\\x87\\xda\\x86u\\x83\\xee\\xd9\\x01\\x82\\xc9\\x85\\x1b\\x81\\xb5\\x9ea\\x85\\xf4\\xeb`\\x81]\\x85\\x86\\x8eA\\x87\\xc2\\x98P\\x02\\x01d\\x02\\x01\\'",
+                "name": "UNDEF"
+              },
+              {
+                "data": "0y0S\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Ghttp://www.microsoft.com/pki/mscorp/Microsoft%20RSA%20TLS%20CA%2002.crt0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x16http://ocsp.msocsp.com",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "\\x04\\x14] )\\xc8\\x91\\x96#i\\x89\\xab\\x7f\\xe5\\xd8\\x84\\x02L \\x10\\x0c=",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x04\\xb0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x82\\x01Q\\x82\\x10portal.azure.com\\x82\\x12*.portal.azure.com\\x82\\x12*.portal.azure.net\\x82\\x17manage.windowsazure.com\\x82\\x1edevicemanagement.microsoft.com\\x82\\x16endpoint.microsoft.com\\x82\\x1dcanary-endpoint.microsoft.com\\x82\\x18lighthouse.microsoft.com\\x82\\x0fshell.azure.com\\x82\\x1d*.reactblade.portal.azure.net\\x82 *.reactblade-rc.portal.azure.net\\x82 *.reactblade-ms.portal.azure.net\\x82\\x17vlcentral.microsoft.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0\\x81\\xa50\\x81\\xa2\\xa0\\x81\\x9f\\xa0\\x81\\x9c\\x86Mhttp://mscrl.microsoft.com/pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2002.crl\\x86Khttp://crl.microsoft.com/pki/mscorp/crl/Microsoft%20RSA%20TLS%20CA%2002.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0N0B\\x06 +\\x06\\x01\\x04\\x01\\x827*\\x010503\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\'http://www.microsoft.com/pki/mscorp/cps0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x01",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\xff/\\x7f\\xe1\\x06\\xf48\\xf3-\\xed%\\x8d\\x98\\xc2\\xfe\\x0e\\xf6l\\xfc\\xfa",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "ac9940a37dca95be8d6f5ec1a0e8461e26b239a52efbc38e11e3e9b82dd5933a",
+              "sha1": "678d9cb1931f8f6f0c0fb250134b19bd78e1c4d0"
+            },
+            "serial": 2.8322058542808264e+45,
+            "subject": {
+              "CN": "portal.azure.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "Microsoft RSA TLS CA 02",
+              "O": "Microsoft Corporation"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "cloud": {
+          "region": null,
+          "service": "AzurePortal",
+          "provider": "Azure"
+        },
+        "hostnames": [
+          "portal.azure.com",
+          "vlcentral.microsoft.com",
+          "lighthouse.microsoft.com",
+          "canary-endpoint.microsoft.com",
+          "devicemanagement.microsoft.com",
+          "manage.windowsazure.com",
+          "endpoint.microsoft.com",
+          "shell.azure.com"
+        ],
+        "transport": "tcp",
+        "timestamp": "2022-03-18T08:29:01.186187",
+        "domains": [
+          "azure.com",
+          "microsoft.com",
+          "windowsazure.com"
+        ],
+        "ip_str": "20.42.6.197",
+        "os": null,
+        "_shodan": {
+          "crawler": "f84746de6c89bcf60f34a5f0aee149448facfc91",
+          "options": {},
+          "id": "60406470-946f-4ed9-89a0-0b33ea5f2542",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 08:30:04 20.42.6.197:443 - ERROR: write tcp 20.42.6.197:443: broken pipe\n"
+        },
+        "location": {
+          "city": "Hampden Sydney",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -78.5462,
+          "latitude": 37.3058,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS8075",
+    "ip_str": "20.42.6.197"
+  }

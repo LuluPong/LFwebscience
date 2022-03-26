@@ -1,0 +1,288 @@
+{
+    "doc_id": 14,
+    "city": "Richardson",
+    "region_code": "TX",
+    "os": null,
+    "tags": [],
+    "ip": 1218643129,
+    "isp": "Cisco Systems, Inc.",
+    "area_code": null,
+    "longitude": -96.72972,
+    "last_update": "2022-03-17T01:04:50.374664",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 32.94818,
+    "hostnames": [
+      "cisco-images.cisco.com",
+      "www.static-cisco.com",
+      "www.cisco.com",
+      "www-01.cisco.com",
+      "www-02.cisco.com",
+      "www.mediafiles-cisco.com",
+      "cisco.com",
+      "www-rtp.cisco.com",
+      "www2.cisco.com",
+      "www1.cisco.com",
+      "redirect-ns.cisco.com",
+      "www3.cisco.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "cisco.com",
+      "mediafiles-cisco.com",
+      "static-cisco.com"
+    ],
+    "org": "Cisco Systems, Inc.",
+    "data": [
+      {
+        "hash": -1353613407,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "72.163.4.185",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-01T22:03:28.830123",
+        "org": "Cisco Systems, Inc.",
+        "isp": "Cisco Systems, Inc.",
+        "data": "HTTP/1.1 301 Moved permanently\r\nLocation: https://www.cisco.com/\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\n\r\n",
+        "asn": "AS109",
+        "port": 80,
+        "hostnames": [
+          "redirect-ns.cisco.com"
+        ],
+        "transport": "tcp",
+        "ip": 1218643129,
+        "domains": [
+          "cisco.com"
+        ],
+        "ip_str": "72.163.4.185",
+        "os": null,
+        "_shodan": {
+          "crawler": "7c8a517854004745d56289900cdd23806e84f988",
+          "options": {},
+          "id": "acc035d3-8fbb-4e8b-9be9-5cf9e7724e8f",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Richardson",
+          "region_code": "TX",
+          "area_code": null,
+          "longitude": -96.72972,
+          "latitude": 32.94818,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1353613407,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "cisco.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-17T01:04:50.374664",
+        "org": "Cisco Systems, Inc.",
+        "isp": "Cisco Systems, Inc.",
+        "data": "HTTP/1.1 301 Moved permanently\r\nLocation: https://www.cisco.com/\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\n\r\n",
+        "asn": "AS109",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "d2b75272f77dd0e68ffb730eb1bd7527a1413451ad75faf545b00d640b919070",
+            "8bb2f6883fed289a521ba27c478482950874e143caccec6fc025990c0c46813e",
+            "5d56499be4d2e08bcfcad08a3e38723d50503bde706948e42f55603019e528ae"
+          ],
+          "jarm": "08d08d00000000008c08d08d08d08d0e4e2099372005963551795f1d10af56",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIIMDCCBxigAwIBAgIQQAF/BE5fkhQzPZgt7AWfXDANBgkqhkiG9w0BAQsFADBy\nMQswCQYDVQQGEwJVUzESMBAGA1UEChMJSWRlblRydXN0MS4wLAYDVQQLEyVIeWRy\nYW50SUQgVHJ1c3RlZCBDZXJ0aWZpY2F0ZSBTZXJ2aWNlMR8wHQYDVQQDExZIeWRy\nYW50SUQgU2VydmVyIENBIE8xMB4XDTIyMDIxNjIwNTE1OVoXDTIzMDIxNjIwNTE1\nOFowajEWMBQGA1UEAxMNd3d3LmNpc2NvLmNvbTEbMBkGA1UEChMSQ2lzY28gU3lz\ndGVtcyBJbmMuMREwDwYDVQQHEwhTYW4gSm9zZTETMBEGA1UECBMKQ2FsaWZvcm5p\nYTELMAkGA1UEBhMCVVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDh\nqS0RCDgvJcsz10GIXVVdZr4NHR+HIPPnq7wdwhgJDiURxuiwbZgbxLbSPN2prSMO\nYPS/rT3Voop+wJvMwqZVsHmDi92a1DO60GlpclsBSp2MP1CHR9KvKjsaZ7neCeTd\nj96COCEO0pCHYSAb3nitChedmQuoMEmwR/M3D4WlGtrK6oKdPV4fd+hHrGr2gso/\niVdig36RmZ+aH6ckjV8c4+OdWc/v8V1XaZUzFxLEjmuwcokVZQ7K9QT+AM3p69wJ\nKJi58lXY60PdEC6McN+OOph4QDUlst/Ih1kRpKSwVa3vd5OdiH3rw2PiLa1fmkZm\nKwsMalJC9GiWSjjZMgv9AgMBAAGjggTIMIIExDAOBgNVHQ8BAf8EBAMCBaAwgYUG\nCCsGAQUFBwEBBHkwdzAwBggrBgEFBQcwAYYkaHR0cDovL2NvbW1lcmNpYWwub2Nz\ncC5pZGVudHJ1c3QuY29tMEMGCCsGAQUFBzAChjdodHRwOi8vdmFsaWRhdGlvbi5p\nZGVudHJ1c3QuY29tL2NlcnRzL2h5ZHJhbnRpZGNhTzEucDdjMB8GA1UdIwQYMBaA\nFIm4m7ae7fuwxr0N7GdOPKOSnS35MIIBJgYDVR0gBIIBHTCCARkwDAYKYIZIAYb5\nLwAGAzCCAQcGBmeBDAECAjCB/DBABggrBgEFBQcCARY0aHR0cHM6Ly9zZWN1cmUu\naWRlbnRydXN0LmNvbS9jZXJ0aWZpY2F0ZXMvcG9saWN5L3RzLzCBtwYIKwYBBQUH\nAgIwgaoMgadUaGlzIFRydXN0SUQgU2VydmVyIENlcnRpZmljYXRlIGhhcyBiZWVu\nIGlzc3VlZCBpbiBhY2NvcmRhbmNlIHdpdGggSWRlblRydXN0J3MgVHJ1c3RJRCBD\nZXJ0aWZpY2F0ZSBQb2xpY3kgZm91bmQgYXQgaHR0cHM6Ly9zZWN1cmUuaWRlbnRy\ndXN0LmNvbS9jZXJ0aWZpY2F0ZXMvcG9saWN5L3RzLzBGBgNVHR8EPzA9MDugOaA3\nhjVodHRwOi8vdmFsaWRhdGlvbi5pZGVudHJ1c3QuY29tL2NybC9oeWRyYW50aWRj\nYW8xLmNybDCB1AYDVR0RBIHMMIHJghZjaXNjby1pbWFnZXMuY2lzY28uY29tgglj\naXNjby5jb22CEHd3dy0wMS5jaXNjby5jb22CEHd3dy0wMi5jaXNjby5jb22CEXd3\ndy1ydHAuY2lzY28uY29tgg13d3cuY2lzY28uY29tghh3d3cubWVkaWFmaWxlcy1j\naXNjby5jb22CFHd3dy5zdGF0aWMtY2lzY28uY29tgg53d3cxLmNpc2NvLmNvbYIO\nd3d3Mi5jaXNjby5jb22CDnd3dzMuY2lzY28uY29tMB0GA1UdDgQWBBSxjOzNSaXf\n10Pgpg906305HPRDhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwggGA\nBgorBgEEAdZ5AgQCBIIBcASCAWwBagB2AK33vvp8/xDIi509nB4+GGq0Zyldz7EM\nJMqFhjTr3IKKAAABfwROYPYAAAQDAEcwRQIhAJJa8T95WuOu5tzLJbOqTDEIh32x\n4V2J0FK5CZJdnQIxAiAtE2c25271phJ8hgHEvrsLbWaOQcZYJTAbKyCMH/b8kAB3\nAOg+0No+9QY1MudXKLyJa8kD08vREWvs62nhd31tBr1uAAABfwROYSsAAAQDAEgw\nRgIhAMD0UdrEQBRz7LT5hfFZtoC+a+7IDsCpn4DWFSdAtACgAiEAyPPi2ViPQJOG\n0GsGwRc+RtUA7AY/RGzRatmnhUe899cAdwB6MoxU2LcttiDqOOBSHumEFnAyE4VN\nO9IrwTpXo1LrUgAAAX8ETmCuAAAEAwBIMEYCIQCgbHkCoxOe9psO121jLTN2pI0N\nS1oo6Yf0En3qZkJsEQIhAPXX4LbF1u7kfZs9d/ZKDqfbTmfCWUKFskyQVgsEHP1a\nMA0GCSqGSIb3DQEBCwUAA4IBAQApGxaK5/XQzqHp3VPgTuo408U/Tra9sbTuwmtD\nBDGl2JcUG4QAtQ8YHjAnB36VLafXWzM/QQMyHUvUckvfwphyCmLNRYR6WArgpxL6\nouxxCZG+Nj6d9AWvCar5Y+4MpN3GWoauh4d5+ITAPdy/Fx7VBOyaHfXDswu0heya\n73aavAZ3PthQETmkhJr/doYtyfRAQGxNynCsD+IJVYEjzhqM9OR3nU5dMVNcHFD4\nSoAAZyjovFe1hCk/uoqiAAWhJg1RHdJ5qE94dWzNPOhTD8AHpUS4efYalYoPK0OL\nwz1219Ek7quR/5s0hgEhyxgtCC6/xR37qD/Waapf4UwfvZLZ\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIG1jCCBL6gAwIBAgIQQAFu+wogXPrr4Y9x1zq7eDANBgkqhkiG9w0BAQsFADBK\nMQswCQYDVQQGEwJVUzESMBAGA1UEChMJSWRlblRydXN0MScwJQYDVQQDEx5JZGVu\nVHJ1c3QgQ29tbWVyY2lhbCBSb290IENBIDEwHhcNMTkxMjEyMTY1NjE1WhcNMjkx\nMjEyMTY1NjE1WjByMQswCQYDVQQGEwJVUzESMBAGA1UEChMJSWRlblRydXN0MS4w\nLAYDVQQLEyVIeWRyYW50SUQgVHJ1c3RlZCBDZXJ0aWZpY2F0ZSBTZXJ2aWNlMR8w\nHQYDVQQDExZIeWRyYW50SUQgU2VydmVyIENBIE8xMIIBIjANBgkqhkiG9w0BAQEF\nAAOCAQ8AMIIBCgKCAQEA6huZbDVWMGj7XbFZQWl+uhh0SIeWhO8rl79MV4+7ZSj2\nLxos5e8za0H1JVVzTNPaup2Go438C5zeaqaGtyUshV8D0xwUiWyamspTao7PjjuC\nh81+tp9z76rp1irjNMh5o/zeJ0h3Kag5zQG9sfI7J7ihLnTFbArjNZIRaZnszOnu\nGa18jh/9epnGmEYL5BV119LNVo5luWshvG/kifk9mHjtkA8LzVdsOkvCrmHBpzpD\no4qyPk2lDypq04IU48JUqhFrG4kvlPz+VO7sse0uxYXj81FdNb2qoJnvAjqV+Zj4\nNii8PIcuNGqghDjzrs2PW/gEhkaWDikhhSY7DjOLiQIDAQABo4ICjjCCAoowEgYD\nVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAYYwgYkGCCsGAQUFBwEBBH0w\nezAwBggrBgEFBQcwAYYkaHR0cDovL2NvbW1lcmNpYWwub2NzcC5pZGVudHJ1c3Qu\nY29tMEcGCCsGAQUFBzAChjtodHRwOi8vdmFsaWRhdGlvbi5pZGVudHJ1c3QuY29t\nL3Jvb3RzL2NvbW1lcmNpYWxyb290Y2ExLnA3YzAfBgNVHSMEGDAWgBTtRBnA0/AG\ni+6ke75C5yZUyI42djCCASsGA1UdIASCASIwggEeMIIBGgYEVR0gADCCARAwSgYI\nKwYBBQUHAgEWPmh0dHBzOi8vc2VjdXJlLmlkZW50cnVzdC5jb20vY2VydGlmaWNh\ndGVzL3BvbGljeS90cy9pbmRleC5odG1sMIHBBggrBgEFBQcCAjCBtAyBsVRoaXMg\nVHJ1c3RJRCBTZXJ2ZXIgQ2VydGlmaWNhdGUgaGFzIGJlZW4gaXNzdWVkIGluIGFj\nY29yZGFuY2Ugd2l0aCBJZGVuVHJ1c3QncyBUcnVzdElEIENlcnRpZmljYXRlIFBv\nbGljeSBmb3VuZCBhdCBodHRwczovL3NlY3VyZS5pZGVudHJ1c3QuY29tL2NlcnRp\nZmljYXRlcy9wb2xpY3kvdHMvaW5kZXguaHRtbDBKBgNVHR8EQzBBMD+gPaA7hjlo\ndHRwOi8vdmFsaWRhdGlvbi5pZGVudHJ1c3QuY29tL2NybC9jb21tZXJjaWFscm9v\ndGNhMS5jcmwwHQYDVR0OBBYEFIm4m7ae7fuwxr0N7GdOPKOSnS35MB0GA1UdJQQW\nMBQGCCsGAQUFBwMBBggrBgEFBQcDAjANBgkqhkiG9w0BAQsFAAOCAgEAdMrY9RYw\nNyVgzeOqqcbdIxy5gHRQFbh3RTuIi0fsnbEh3v7BN+I3zmXJq71gyLOzG9wvqCul\nXtLQNAZnrlSacXichYDV5zdcnbBrFH/CXt47oW4L+9yD5LPMKaSU5DP9DEu88ws+\nQAjzL6/q+hP+CLQh0/vr62HoEGS1+NyLfnJIN0RVcVDxBAwVqNF8MU5An98ZmHj4\nXaSPA6s2s+3794ULe6r2TzVXiLtun0JJ0kBZL3Mx0plhONvhq7jCsa6bYCF71DNs\n7VhrNUh+BZNdQvLqAdfQJtFY5EiWpExhiPC/ZdtVYN5RfrOMCWgBbjnl5e2n5WYa\n7LM4HR+z7U+6JCBqaRjlbaNNLed/qg+OMdpBJe16qJJT9E5Uzdc4PsUbL2a+9IUb\nuxx8nmrbQswe8p4yvcy9RLje07a4Y09otZ/Aai3Gijup67jTCez1hd7VYIAuznqP\nos6SLponh2vVcHu9vQoT18OCL9janJ2Ilh3lJHUxv1kHD9IxZNpn0j/QPzGFv2Ez\nUXZVAECEQLS80qWh6zCXhXl6dVAeM84sSysIiY4Kv8oaXEF5Atyg0LcUuB6Iwgg3\nK/QUY3QusnjrDcgGRyoWn0Zt53meMCi3C0hoQ+FrQ3zF4/7wtxKnGGBH5hKBU23M\n2XrKEZL5RmGZidpWP6ZBbvEs2MqSD7zcFvY=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFYDCCA0igAwIBAgIQCgFCgAAAAUUjyES1AAAAAjANBgkqhkiG9w0BAQsFADBK\nMQswCQYDVQQGEwJVUzESMBAGA1UEChMJSWRlblRydXN0MScwJQYDVQQDEx5JZGVu\nVHJ1c3QgQ29tbWVyY2lhbCBSb290IENBIDEwHhcNMTQwMTE2MTgxMjIzWhcNMzQw\nMTE2MTgxMjIzWjBKMQswCQYDVQQGEwJVUzESMBAGA1UEChMJSWRlblRydXN0MScw\nJQYDVQQDEx5JZGVuVHJ1c3QgQ29tbWVyY2lhbCBSb290IENBIDEwggIiMA0GCSqG\nSIb3DQEBAQUAA4ICDwAwggIKAoICAQCnUBneP5k91DNG8W9RYYKyqU+PZ4ldhNlT\n3Qwo2dfw/66VQ3KZ+bVdfIrBQuExUHTRgQ18zZshq0PirK1ehm7zCYofWjK9ouuU\n+ehcCuz/mNKvcbO0U59Oh++SvL3sTzIwiEsXXlfEU8L2ApeN2WIrvyQfYo3fw7gp\nS0l4PJNgiCL8mdo2yMKi1CxUAGc1bnO/AljwpN3lsKImesrgNqUZFvX9t++uP0D1\nbVoE/c40yiTcdCMbXTMTEl3EASX2MN0CXZ/g1Ue9tOsbobtJSdifWwLziuQkkORi\nT0/Br4sOdBeo0XKIanoBScy0RnnGF7HamB4HWfp1IYVl3ZBWzvurpWCdxJ35UrCL\nvYf5jysjCiN2O/cz4ckA82n5S6LgTrx+kzmEB/dEcH7+B1rlsazRGMzyNeVJSQjK\nVsk9+w8YfYs7wRPCTY/JTw436R+hDmrfYi7LNQZReSzIJTj0+kuniVyc0uMNOYZK\ndHzVWYfCP04MXFL0PfdSgvHqo6z9STQaKPNBiDoT7uje/5kdX7rL6B7yuVBgwDHT\nc+XvvqDtMwt0viAgxGds8AgDelWAf0ZOlqf0Hj7h9tgJ4TNkK2PXMl6f+cB7D3hv\nl7yTmvmcEpB4eoCHFddydJxVdHixuuFucAS6T6C6aMN7/zHwcz09lCqxC0EOoP5N\niGVreTO01wIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB\n/zAdBgNVHQ4EFgQU7UQZwNPwBovupHu+QucmVMiONnYwDQYJKoZIhvcNAQELBQAD\nggIBAA2ukDL2pkt8RHYZYR4nKM1eVO8lvOMIkPkp165oCOGUAFjvLi5+U1KMtlwH\n6oi6mYtQlNeCgN9hCQCTrQ0U5s7B8jeUeLBfnLOic7iPBZM4zY0+sLj7wM+x8uwt\nLRvM7Kqas6pgghstO8OEPVeKlh6cdbjTMM1gCIOQ045U8U1mwF10A0Cj7oV+wh93\nnAbowacYXVKV7cndJZ5t+qntozo00Fl72u1Q8zW/7esUTTHHYPTa8Yec4kjixsU3\n+wYQ+nVZZjFHKdp2mhzpgq7vmrlR94gjmmmVYjzlVYA211QC//G5Xc7UI2/YRYRK\nW2XviQzdFKcgyxilJbQN+QHwotL0AMh0jqEqSI5l2xPE4iUXfeu+h1sXIFRRk0pT\nAwvsXcoz7WL9RccvW9xYoIA55vrX/hMUpu09lEpCdNTDd1lzzY9GvlU47/rokTLq\nl1gEIt44w8y8bckzOmoKaT+gyOpyj4xjhiO9bTyWnpXgSUyqorkqG5w2gXjtw+hG\n4iZZRHUe2XWJUc0QhJ1hYMtd+ZciTY6Y5uN/9lu7rs3KSoFrXgvzUeF0K+l+J6fZ\nmUlO+KWA2yUPHGNiiskzZ2s8EIPGrd6ozRaOjfAHN3Gf8qv8QfXBi+wAN10J5U6A\n7/qxXDgGpRtK4dw4LTzcqx+QGtVKnO7RcGzM7vRX+Bi6hG6H\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [],
+          "ja3s": "82f0d8a75fa483d1cfe4b7085b784d7e",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220216205159Z",
+            "expires": "20230216205158Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0w00\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86$http://commercial.ocsp.identrust.com0C\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x867http://validation.identrust.com/certs/hydrantidcaO1.p7c",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x89\\xb8\\x9b\\xb6\\x9e\\xed\\xfb\\xb0\\xc6\\xbd\r\\xecgN<\\xa3\\x92\\x9d-\\xf9",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x01\\x190\\x0c\\x06\n`\\x86H\\x01\\x86\\xf9/\\x00\\x06\\x030\\x82\\x01\\x07\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020\\x81\\xfc0@\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x164https://secure.identrust.com/certificates/policy/ts/0\\x81\\xb7\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x020\\x81\\xaa\\x0c\\x81\\xa7This TrustID Server Certificate has been issued in accordance with IdenTrust\\'s TrustID Certificate Policy found at https://secure.identrust.com/certificates/policy/ts/",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0=0;\\xa09\\xa07\\x865http://validation.identrust.com/crl/hydrantidcao1.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0\\x81\\xc9\\x82\\x16cisco-images.cisco.com\\x82 cisco.com\\x82\\x10www-01.cisco.com\\x82\\x10www-02.cisco.com\\x82\\x11www-rtp.cisco.com\\x82\rwww.cisco.com\\x82\\x18www.mediafiles-cisco.com\\x82\\x14www.static-cisco.com\\x82\\x0ewww1.cisco.com\\x82\\x0ewww2.cisco.com\\x82\\x0ewww3.cisco.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "\\x04\\x14\\xb1\\x8c\\xec\\xcdI\\xa5\\xdf\\xd7C\\xe0\\xa6\\x0ft\\xeb}9\\x1c\\xf4C\\x86",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "\\x04\\x82\\x01l\\x01j\\x00v\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01\\x7f\\x04N`\\xf6\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x92Z\\xf1?yZ\\xe3\\xae\\xe6\\xdc\\xcb%\\xb3\\xaaL1\\x08\\x87}\\xb1\\xe1]\\x89\\xd0R\\xb9 \\x92]\\x9d\\x021\\x02 -\\x13g6\\xe7n\\xf5\\xa6\\x12|\\x86\\x01\\xc4\\xbe\\xbb\\x0bmf\\x8eA\\xc6X%0\\x1b+ \\x8c\\x1f\\xf6\\xfc\\x90\\x00w\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01\\x7f\\x04Na+\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xc0\\xf4Q\\xda\\xc4@\\x14s\\xec\\xb4\\xf9\\x85\\xf1Y\\xb6\\x80\\xbek\\xee\\xc8\\x0e\\xc0\\xa9\\x9f\\x80\\xd6\\x15\\'@\\xb4\\x00\\xa0\\x02!\\x00\\xc8\\xf3\\xe2\\xd9X\\x8f@\\x93\\x86\\xd0k\\x06\\xc1\\x17>F\\xd5\\x00\\xec\\x06?Dl\\xd1j\\xd9\\xa7\\x85G\\xbc\\xf7\\xd7\\x00w\\x00z2\\x8cT\\xd8\\xb7-\\xb6 \\xea8\\xe0R\\x1e\\xe9\\x84\\x16p2\\x13\\x85M;\\xd2+\\xc1:W\\xa3R\\xebR\\x00\\x00\\x01\\x7f\\x04N`\\xae\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xa0ly\\x02\\xa3\\x13\\x9e\\xf6\\x9b\\x0e\\xd7mc-3v\\xa4\\x8d\rKZ(\\xe9\\x87\\xf4\\x12}\\xeafBl\\x11\\x02!\\x00\\xf5\\xd7\\xe0\\xb6\\xc5\\xd6\\xee\\xe4}\\x9b=w\\xf6J\\x0e\\xa7\\xdbNg\\xc2YB\\x85\\xb2L\\x90V\\x0b\\x04\\x1c\\xfdZ",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "d2b75272f77dd0e68ffb730eb1bd7527a1413451ad75faf545b00d640b919070",
+              "sha1": "0dddb6ce30b00bd75adb198b2d2959f6f947e42c"
+            },
+            "serial": 8.507836023428084e+37,
+            "subject": {
+              "C": "US",
+              "ST": "California",
+              "CN": "www.cisco.com",
+              "O": "Cisco Systems Inc.",
+              "L": "San Jose"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "HydrantID Trusted Certificate Service",
+              "O": "IdenTrust",
+              "CN": "HydrantID Server CA O1"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "AES256-SHA"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "cisco-images.cisco.com",
+          "www.static-cisco.com",
+          "www.cisco.com",
+          "www-01.cisco.com",
+          "www-02.cisco.com",
+          "www.mediafiles-cisco.com",
+          "cisco.com",
+          "www-rtp.cisco.com",
+          "www2.cisco.com",
+          "www1.cisco.com",
+          "redirect-ns.cisco.com",
+          "www3.cisco.com"
+        ],
+        "transport": "tcp",
+        "ip": 1218643129,
+        "domains": [
+          "cisco.com",
+          "static-cisco.com",
+          "mediafiles-cisco.com"
+        ],
+        "ip_str": "72.163.4.185",
+        "os": null,
+        "_shodan": {
+          "crawler": "90a359c2c5601decd86ee088ba89601ca8256a61",
+          "options": {
+            "hostname": "cisco.com",
+            "scan": "r56IQ1FlX87gVgnF"
+          },
+          "id": "be433faa-5d67-4c39-926a-68a62adb5e65",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 01:05:46 72.163.4.185:443 - ERROR: write tcp 72.163.4.185:443: broken pipe\n"
+        },
+        "location": {
+          "city": "Richardson",
+          "region_code": "TX",
+          "area_code": null,
+          "longitude": -96.72972,
+          "latitude": 32.94818,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS109",
+    "ip_str": "72.163.4.185"
+  }

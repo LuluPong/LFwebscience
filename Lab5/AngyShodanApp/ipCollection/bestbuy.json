@@ -1,0 +1,409 @@
+{
+    "doc_id": 9,
+    "city": "Somerset",
+    "region_code": "NJ",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 398617646,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.48849,
+    "last_update": "2022-03-15T21:24:35.706280",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.4976,
+    "hostnames": [
+      "www-ssl.bestbuy.ca",
+      "app.bestbuy.com",
+      "www.bestbuy.com.mx",
+      "m-ssl.bestbuy.ca",
+      "api-ssl.bestbuy.ca",
+      "www.bby.ca",
+      "images.bestbuy.com",
+      "msi.bbycastatic.ca",
+      "logistics.bestbuy.com",
+      "www.bestbuy.com",
+      "m.bestbuy.ca",
+      "remotesupport.bestbuy.ca",
+      "pisces-ssl.bbystatic.com",
+      "app-ssl.bestbuy.com",
+      "streams.bestbuy.com",
+      "www-ssl.bestbuy.com",
+      "bby.ca",
+      "bestbuy.com.mx",
+      "img.bbystatic.com",
+      "www.bestbuy.ca",
+      "healthcare.bestbuy.com",
+      "hub.bestbuy.com",
+      "misc-ssl.bbystatic.com",
+      "js-ssl.bbystatic.com",
+      "a23-194-108-46.deploy.static.akamaitechnologies.com",
+      "api.bestbuy.ca",
+      "workforce.bestbuy.com",
+      "bestbuy.ca",
+      "context.bestbuy.com",
+      "css-ssl.bbystatic.com",
+      "gltm.bestbuy.com",
+      "mexico.bbystatic.com",
+      "images-ssl.bbystatic.com",
+      "bestbuy.com",
+      "kiosk.bestbuy.ca",
+      "deals.bestbuy.com",
+      "pisces.bbystatic.com",
+      "flyer.bestbuy.ca",
+      "partner.bestbuy.ca",
+      "assets.bbystatic.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "bestbuy.com",
+      "akamaitechnologies.com",
+      "bbycastatic.ca",
+      "bestbuy.ca",
+      "bby.ca",
+      "bestbuy.com.mx",
+      "bbystatic.com"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.194.108.46",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;377cc017&#46;1647072762&#46;2d0f078\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 767441052,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-12T08:12:42.439861",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 208\r\nExpires: Sat, 12 Mar 2022 08:12:42 GMT\r\nDate: Sat, 12 Mar 2022 08:12:42 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": -1769982829,
+        "hostnames": [
+          "a23-194-108-46.deploy.static.akamaitechnologies.com"
+        ],
+        "port": 80,
+        "location": {
+          "city": "Somerset",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.48849,
+          "latitude": 40.4976,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 398617646,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "7c8a517854004745d56289900cdd23806e84f988",
+          "options": {},
+          "id": "504179b9-fba8-4ac8-a3ae-81697d5582f0",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "23.194.108.46"
+      },
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.194.108.46",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;167cc017&#46;1647379475&#46;1628c3cc\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -891323902,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-15T21:24:35.706280",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Tue, 15 Mar 2022 21:24:35 GMT\r\nDate: Tue, 15 Mar 2022 21:24:35 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": -2006224599,
+        "ssl": {
+          "chain_sha256": [
+            "649e00ec75731fbacafec1d3032dc508a18f640c3afa71dd198901ad780412a4",
+            "fdc8986cfac4f35f1acd517e0f61b879882ae076e2ba80b77bd3f0fe5cef8862",
+            "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+          ],
+          "jarm": "28d28d28d2ad28d00042d42d000000bd133fde671db50adc016473d0d15112",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIII3zCCCGWgAwIBAgIQCY1XyOBBjfCKWZcNuOY10DAKBggqhkjOPQQDAzB0MQsw\nCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cu\nZGlnaWNlcnQuY29tMTMwMQYDVQQDEypEaWdpQ2VydCBFQ0MgRXh0ZW5kZWQgVmFs\naWRhdGlvbiBTZXJ2ZXIgQ0EwHhcNMjIwMzA0MDAwMDAwWhcNMjMwMTE5MjM1OTU5\nWjCBzTETMBEGCysGAQQBgjc8AgEDEwJVUzEaMBgGCysGAQQBgjc8AgECEwlNaW5u\nZXNvdGExHTAbBgNVBA8MFFByaXZhdGUgT3JnYW5pemF0aW9uMRAwDgYDVQQFEwcx\nSy0xMDU2MQswCQYDVQQGEwJVUzESMBAGA1UECBMJTWlubmVzb3RhMRIwEAYDVQQH\nEwlSaWNoZmllbGQxGjAYBgNVBAoTEUJlc3QgQnV5IENvLCBJbmMuMRgwFgYDVQQD\nEw93d3cuYmVzdGJ1eS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATWaO+J\ndpYVFl/iPLEr9F5lY9FA6DhKgshsSIfbFpgG/mjemUNsyu8zqjocgNuvj6OfvYUZ\nfIwqjt7Fglnnt8Ywo4IGfTCCBnkwHwYDVR0jBBgwFoAU+CXZpjnHw4GHJT4wVJEY\nIUCbF50wHQYDVR0OBBYEFA7Sqt3r3zZg3u1MTMTTADvHk4e7MIIDAAYDVR0RBIIC\n9zCCAvOCD3d3dy5iZXN0YnV5LmNvbYISYXBpLXNzbC5iZXN0YnV5LmNhgg5hcGku\nYmVzdGJ1eS5jYYITYXBwLXNzbC5iZXN0YnV5LmNvbYIPYXBwLmJlc3RidXkuY29t\nghRhc3NldHMuYmJ5c3RhdGljLmNvbYIGYmJ5LmNhggpiZXN0YnV5LmNhggtiZXN0\nYnV5LmNvbYIOYmVzdGJ1eS5jb20ubXiCE2NvbnRleHQuYmVzdGJ1eS5jb22CFWNz\ncy1zc2wuYmJ5c3RhdGljLmNvbYIRZGVhbHMuYmVzdGJ1eS5jb22CEGZseWVyLmJl\nc3RidXkuY2GCEGdsdG0uYmVzdGJ1eS5jb22CFmhlYWx0aGNhcmUuYmVzdGJ1eS5j\nb22CD2h1Yi5iZXN0YnV5LmNvbYIYaW1hZ2VzLXNzbC5iYnlzdGF0aWMuY29tghJp\nbWFnZXMuYmVzdGJ1eS5jb22CEWltZy5iYnlzdGF0aWMuY29tghRqcy1zc2wuYmJ5\nc3RhdGljLmNvbYIQa2lvc2suYmVzdGJ1eS5jYYIVbG9naXN0aWNzLmJlc3RidXku\nY29tghBtLXNzbC5iZXN0YnV5LmNhggxtLmJlc3RidXkuY2GCFG1leGljby5iYnlz\ndGF0aWMuY29tghZtaXNjLXNzbC5iYnlzdGF0aWMuY29tghJtc2kuYmJ5Y2FzdGF0\naWMuY2GCEnBhcnRuZXIuYmVzdGJ1eS5jYYIYcGlzY2VzLXNzbC5iYnlzdGF0aWMu\nY29tghRwaXNjZXMuYmJ5c3RhdGljLmNvbYIYcmVtb3Rlc3VwcG9ydC5iZXN0YnV5\nLmNhghNzdHJlYW1zLmJlc3RidXkuY29tghV3b3JrZm9yY2UuYmVzdGJ1eS5jb22C\nEnd3dy1zc2wuYmVzdGJ1eS5jYYITd3d3LXNzbC5iZXN0YnV5LmNvbYIKd3d3LmJi\neS5jYYIOd3d3LmJlc3RidXkuY2GCEnd3dy5iZXN0YnV5LmNvbS5teDAOBgNVHQ8B\nAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMIGfBgNVHR8E\ngZcwgZQwSKBGoESGQmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEVD\nQ0V4dGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNybDBIoEagRIZCaHR0cDovL2Ny\nbDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0RUNDRXh0ZW5kZWRWYWxpZGF0aW9uU2Vy\ndmVyQ0EuY3JsMEoGA1UdIARDMEEwCwYJYIZIAYb9bAIBMDIGBWeBDAEBMCkwJwYI\nKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzCBhwYIKwYBBQUH\nAQEEezB5MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wUQYI\nKwYBBQUHMAKGRWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEVD\nQ0V4dGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNydDAJBgNVHRMEAjAAMIIBfwYK\nKwYBBAHWeQIEAgSCAW8EggFrAWkAdgDoPtDaPvUGNTLnVyi8iWvJA9PL0RFr7Otp\n4Xd9bQa9bgAAAX9Wb2URAAAEAwBHMEUCIQDRJ/zkLaNt9t7WxGsSx3VI12ofW6W3\nb2/jXIfmuBPiEgIgfhY16+x7x/62g1i32Wjn3SBCO/aDNMvABPB1+UAF3DoAdgA1\nzxkbv7FsV78PrUxtQsu7ticgJlHqP+Eq76gDwzvWTAAAAX9Wb2VcAAAEAwBHMEUC\nIQCcZoRdvupsNEv23m6Ddp0gyawaRBZH/TGN0gX8S+qd7AIgA3IYx/p3fmeHY9Ai\nGJ66HolPUgf/GOlV7iHpFmmW4zgAdwC3Pvsk35xNunXyOcW6WPRsXfxCz3qfNcSe\nHQmBJe20mQAAAX9Wb2VcAAAEAwBIMEYCIQDnG44zX2D9jXLo3kq0sPP2C31cWST6\nVU2gtU8v21mCIwIhAJLH06e3YcKtu0fS0WuFSstW/XnY14uBqSCGcm/mOlkXMAoG\nCCqGSM49BAMDA2gAMGUCMCbghAelAX20Y9ZPU1loCtye70gfxf6uqwrbRZ033aGq\nhnOq0Ap0Yd+vIJvnpfFZvQIxAMaU1LkBwe19LwdAC5DJTvvOOSGc1tvJbWq9PqXY\nDO10YKi0aiyTtfpn1ewPW+bG0A==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIID6DCCAtCgAwIBAgIQApcHVgzUqeu/4nLx4JbYgjANBgkqhkiG9w0BAQwFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTE2MDYyMTEyNTQyN1oXDTMxMDYyMTEyNTQyN1owdDEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTEzMDEGA1UEAxMqRGlnaUNlcnQgRUNDIEV4dGVuZGVkIFZh\nbGlkYXRpb24gU2VydmVyIENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEsTD18xEd\nL37yf0fDgxZc5SDwkFtw1X0lLq1xZ63sdy7bUN3a9SFQQlRMBLVTA6n6DYEYaCx9\nGm4T5/4BDxOJ/nbehfBhePGJYa8ArSeEBU6AfwKkzLvhYnoJ9yliA+Yto4IBKjCC\nASYwHQYDVR0OBBYEFPgl2aY5x8OBhyU+MFSRGCFAmxedMB8GA1UdIwQYMBaAFLE+\nw2kD+L9HAdSYJhoIAu9jZCvDMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYDVR0PAQH/\nBAQDAgGGMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3Au\nZGlnaWNlcnQuY29tMEsGA1UdHwREMEIwQKA+oDyGOmh0dHA6Ly9jcmw0LmRpZ2lj\nZXJ0LmNvbS9EaWdpQ2VydEhpZ2hBc3N1cmFuY2VFVlJvb3RDQS5jcmwwPQYDVR0g\nBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0\nLmNvbS9DUFMwDQYJKoZIhvcNAQEMBQADggEBALbraarwzbiGdA9tu6hU0fPGkXOn\nCdzP6ihrGZVQVrijJgOvlbFaUmDWBmZV8t6VW6QBkSG4p4xy74bUO2tLcV52PVyo\nkJFaj6v8x3MNr5u592xYI8LNMVSht8hBCLbhEfo6UB6MgdVTcslwSdnwhzGFdWN3\nRWKVPPFBAexMXgalK/fwNkISaldkyklivD/PHcRWQ4QZYfFdFgWrVEHsbjyuRg4q\nTMbH9pR4k/TuJARSDvjfdw7ASRnaEOOZl6Qc2L2Jp9sZGCCoxTtI0DCbwdTZze46\npu84/0KdHzY3cLcmAJL4tXqHNeExugHCPaRAQO41oiE+ZCOEFcwvl+NPrdI=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDxTCCAq2gAwIBAgIQAqxcJmoLQJuPC3nyrkYldzANBgkqhkiG9w0BAQUFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTMxMTExMDAwMDAwMFowbDEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTErMCkGA1UEAxMiRGlnaUNlcnQgSGlnaCBBc3N1cmFuY2Ug\nRVYgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbM5XPm\n+9S75S0tMqbf5YE/yc0lSbZxKsPVlDRnogocsF9ppkCxxLeyj9CYpKlBWTrT3JTW\nPNt0OKRKzE0lgvdKpVMSOO7zSW1xkX5jtqumX8OkhPhPYlG++MXs2ziS4wblCJEM\nxChBVfvLWokVfnHoNb9Ncgk9vjo4UFt3MRuNs8ckRZqnrG0AFFoEt7oT61EKmEFB\nIk5lYYeBQVCmeVyJ3hlKV9Uu5l0cUyx+mM0aBhakaHPQNAQTXKFx01p8VdteZOE3\nhzBWBOURtCmAEvF5OYiiAhF8J2a3iLd48soKqDirCmTCv2ZdlYTBoSUeh10aUAsg\nEsxBu24LUTi4S8sCAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQF\nMAMBAf8wHQYDVR0OBBYEFLE+w2kD+L9HAdSYJhoIAu9jZCvDMB8GA1UdIwQYMBaA\nFLE+w2kD+L9HAdSYJhoIAu9jZCvDMA0GCSqGSIb3DQEBBQUAA4IBAQAcGgaX3Nec\nnzyIZgYIVyHbIUf4KmeqvxgydkAQV8GK83rZEWWONfqe/EW1ntlMMUu4kehDLI6z\neM7b41N5cdblIZQB2lWHmiRk9opmzN6cN82oNLFpmyPInngiK3BD41VHMWEZ71jF\nhS9OMPagMRYjyOfiZRYzy78aG6A9+MpeizGLYAiJLQwGXFK3xPkKmNEVX58Svnw2\nYzi9RKR/5CYrCsSXaQ3pjOLAEFe4yHYSkVXySGnYvCoCWw9E1CAx2/S6cCZdkGCe\nvEsXCS+0yx5DaMkHJ8HSXPfqIbloEpw8nL+e/IBcm2PN7EeqJSdnoDfzAIJ9VNep\n+OkuE6N36B9K\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "ecdsa-with-SHA384",
+            "issued": "20220304000000Z",
+            "expires": "20230119235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\xf8%\\xd9\\xa69\\xc7\\xc3\\x81\\x87%>0T\\x91\\x18!@\\x9b\\x17\\x9d",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\x0e\\xd2\\xaa\\xdd\\xeb\\xdf6`\\xde\\xedLL\\xc4\\xd3\\x00;\\xc7\\x93\\x87\\xbb",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x02\\xf3\\x82\\x0fwww.bestbuy.com\\x82\\x12api-ssl.bestbuy.ca\\x82\\x0eapi.bestbuy.ca\\x82\\x13app-ssl.bestbuy.com\\x82\\x0fapp.bestbuy.com\\x82\\x14assets.bbystatic.com\\x82\\x06bby.ca\\x82\nbestbuy.ca\\x82\\x0bbestbuy.com\\x82\\x0ebestbuy.com.mx\\x82\\x13context.bestbuy.com\\x82\\x15css-ssl.bbystatic.com\\x82\\x11deals.bestbuy.com\\x82\\x10flyer.bestbuy.ca\\x82\\x10gltm.bestbuy.com\\x82\\x16healthcare.bestbuy.com\\x82\\x0fhub.bestbuy.com\\x82\\x18images-ssl.bbystatic.com\\x82\\x12images.bestbuy.com\\x82\\x11img.bbystatic.com\\x82\\x14js-ssl.bbystatic.com\\x82\\x10kiosk.bestbuy.ca\\x82\\x15logistics.bestbuy.com\\x82\\x10m-ssl.bestbuy.ca\\x82\\x0cm.bestbuy.ca\\x82\\x14mexico.bbystatic.com\\x82\\x16misc-ssl.bbystatic.com\\x82\\x12msi.bbycastatic.ca\\x82\\x12partner.bestbuy.ca\\x82\\x18pisces-ssl.bbystatic.com\\x82\\x14pisces.bbystatic.com\\x82\\x18remotesupport.bestbuy.ca\\x82\\x13streams.bestbuy.com\\x82\\x15workforce.bestbuy.com\\x82\\x12www-ssl.bestbuy.ca\\x82\\x13www-ssl.bestbuy.com\\x82\nwww.bby.ca\\x82\\x0ewww.bestbuy.ca\\x82\\x12www.bestbuy.com.mx",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x940H\\xa0F\\xa0D\\x86Bhttp://crl3.digicert.com/DigiCertECCExtendedValidationServerCA.crl0H\\xa0F\\xa0D\\x86Bhttp://crl4.digicert.com/DigiCertECCExtendedValidationServerCA.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0A0\\x0b\\x06 `\\x86H\\x01\\x86\\xfdl\\x02\\x0102\\x06\\x05g\\x81\\x0c\\x01\\x010)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0y0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0Q\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Ehttp://cacerts.digicert.com/DigiCertECCExtendedValidationServerCA.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00v\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01\\x7fVoe\\x11\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xd1\\'\\xfc\\xe4-\\xa3m\\xf6\\xde\\xd6\\xc4k\\x12\\xc7uH\\xd7j\\x1f[\\xa5\\xb7oo\\xe3\\\\\\x87\\xe6\\xb8\\x13\\xe2\\x12\\x02 ~\\x165\\xeb\\xec{\\xc7\\xfe\\xb6\\x83X\\xb7\\xd9h\\xe7\\xdd B;\\xf6\\x834\\xcb\\xc0\\x04\\xf0u\\xf9@\\x05\\xdc:\\x00v\\x005\\xcf\\x19\\x1b\\xbf\\xb1lW\\xbf\\x0f\\xadLmB\\xcb\\xbb\\xb6\\' &Q\\xea?\\xe1*\\xef\\xa8\\x03\\xc3;\\xd6L\\x00\\x00\\x01\\x7fVoe\\\\\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x9cf\\x84]\\xbe\\xeal4K\\xf6\\xden\\x83v\\x9d \\xc9\\xac\\x1aD\\x16G\\xfd1\\x8d\\xd2\\x05\\xfcK\\xea\\x9d\\xec\\x02 \\x03r\\x18\\xc7\\xfaw~g\\x87c\\xd0\"\\x18\\x9e\\xba\\x1e\\x89OR\\x07\\xff\\x18\\xe9U\\xee!\\xe9\\x16i\\x96\\xe38\\x00w\\x00\\xb7>\\xfb$\\xdf\\x9cM\\xbau\\xf29\\xc5\\xbaX\\xf4l]\\xfcB\\xcfz\\x9f5\\xc4\\x9e\\x1d \\x81%\\xed\\xb4\\x99\\x00\\x00\\x01\\x7fVoe\\\\\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xe7\\x1b\\x8e3_`\\xfd\\x8dr\\xe8\\xdeJ\\xb4\\xb0\\xf3\\xf6\\x0b}\\\\Y$\\xfaUM\\xa0\\xb5O/\\xdbY\\x82#\\x02!\\x00\\x92\\xc7\\xd3\\xa7\\xb7a\\xc2\\xad\\xbbG\\xd2\\xd1k\\x85J\\xcbV\\xfdy\\xd8\\xd7\\x8b\\x81\\xa9 \\x86ro\\xe6:Y\\x17",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "649e00ec75731fbacafec1d3032dc508a18f640c3afa71dd198901ad780412a4",
+              "sha1": "396e4a7c8ce4ef6c4176b478ffdd7ba1b38d690e"
+            },
+            "serial": 1.2696946303789567e+37,
+            "subject": {
+              "C": "US",
+              "CN": "www.bestbuy.com",
+              "businessCategory": "Private Organization",
+              "jurisdictionST": "Minnesota",
+              "serialNumber": "1K-1056",
+              "L": "Richfield",
+              "O": "Best Buy Co, Inc.",
+              "ST": "Minnesota",
+              "jurisdictionC": "US"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "www.digicert.com",
+              "O": "DigiCert Inc",
+              "CN": "DigiCert ECC Extended Validation Server CA"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "F825D9A639C7C38187253E3054911821409B179D",
+            "cert_status": "good",
+            "produced_at": "2022-03-12 20:37:01",
+            "signature_algorithm": "ecdsa-with-SHA384",
+            "next_update": "2022-03-19 19:36:01",
+            "this_update": "2022-03-12 20:21:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "F3101C1B8B812D20456A286ABF0DEBB0DCB643AC",
+              "issuer_name_key": "F825D9A639C7C38187253E3054911821409B179D",
+              "serial_number": "098D57C8E0418DF08A59970DB8E635D0"
+            }
+          }
+        },
+        "hostnames": [
+          "www-ssl.bestbuy.ca",
+          "app.bestbuy.com",
+          "www.bestbuy.com.mx",
+          "m-ssl.bestbuy.ca",
+          "api-ssl.bestbuy.ca",
+          "www.bby.ca",
+          "css-ssl.bbystatic.com",
+          "msi.bbycastatic.ca",
+          "logistics.bestbuy.com",
+          "www.bestbuy.com",
+          "m.bestbuy.ca",
+          "remotesupport.bestbuy.ca",
+          "pisces-ssl.bbystatic.com",
+          "app-ssl.bestbuy.com",
+          "streams.bestbuy.com",
+          "www-ssl.bestbuy.com",
+          "bby.ca",
+          "bestbuy.com.mx",
+          "img.bbystatic.com",
+          "www.bestbuy.ca",
+          "healthcare.bestbuy.com",
+          "hub.bestbuy.com",
+          "misc-ssl.bbystatic.com",
+          "js-ssl.bbystatic.com",
+          "a23-194-108-46.deploy.static.akamaitechnologies.com",
+          "api.bestbuy.ca",
+          "workforce.bestbuy.com",
+          "bestbuy.ca",
+          "context.bestbuy.com",
+          "images.bestbuy.com",
+          "mexico.bbystatic.com",
+          "images-ssl.bbystatic.com",
+          "bestbuy.com",
+          "kiosk.bestbuy.ca",
+          "deals.bestbuy.com",
+          "pisces.bbystatic.com",
+          "flyer.bestbuy.ca",
+          "partner.bestbuy.ca",
+          "gltm.bestbuy.com",
+          "assets.bbystatic.com"
+        ],
+        "port": 443,
+        "location": {
+          "city": "Somerset",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.48849,
+          "latitude": 40.4976,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 398617646,
+        "domains": [
+          "bestbuy.ca",
+          "bestbuy.com",
+          "bestbuy.com.mx",
+          "bby.ca",
+          "bbystatic.com",
+          "bbycastatic.ca",
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "77d14e54-7cda-49f4-a77a-9e658f996ff7",
+          "module": "https",
+          "options": {}
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/15 21:25:32 23.194.108.46:443 - SAFE\n"
+        },
+        "ip_str": "23.194.108.46"
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "23.194.108.46"
+  }
