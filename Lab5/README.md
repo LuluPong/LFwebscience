@@ -5,6 +5,8 @@ _____________________________________
 **This was an individual lab**
 
 ------------------------------
+**I have included a folder(ipCollection) with 100 test JSON files.**
+------------------------------
 
 For this lab, I started by partially preloading my MongoDB collection. Unfortunately, some of the JSON files I downloaded from my API
 did not successfully import to MongoDB. I preloaded around 45 documents before I decided to start making the node endpoints for 
