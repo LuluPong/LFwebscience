@@ -1,0 +1,320 @@
+{
+    "doc_id": 6,
+    "city": "Taipei",
+    "region_code": "04",
+    "os": null,
+    "tags": [],
+    "ip": 1728709848,
+    "isp": "ASUSTek COMPUTER INC.",
+    "area_code": null,
+    "longitude": 121.53185,
+    "last_update": "2022-03-18T22:40:22.443536",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 25.04776,
+    "hostnames": [
+      "www.asus.gallery",
+      "asus.xn--fiq66s",
+      "zenui.com.4.10.103.in-addr.arpa",
+      "asus.com"
+    ],
+    "country_code": "TW",
+    "country_name": "Taiwan",
+    "domains": [
+      "xn--fiq66s.",
+      "103.in-addr.arpa",
+      "asus.gallery",
+      "asus.com"
+    ],
+    "org": "ASUSTek COMPUTER INC.",
+    "data": [
+      {
+        "hash": 1772231750,
+        "product": "Microsoft IIS httpd",
+        "hostnames": [
+          "www.asus.gallery",
+          "zenui.com.4.10.103.in-addr.arpa",
+          "asus.xn--fiq66s"
+        ],
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Document Moved",
+          "sitemap_hash": null,
+          "html_hash": -1340118668,
+          "robots": null,
+          "favicon": {
+            "hash": -869158581,
+            "data": "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\n",
+            "location": "http://103.10.4.216:80/favicon.ico"
+          },
+          "host": "103.10.4.216",
+          "html": "<head><title>Document Moved</title></head>\n<body><h1>Object Moved</h1>This document may be found <a HREF=\"https://www.asus.com/\">here</a></body>",
+          "location": "/",
+          "components": {},
+          "server": "Microsoft-IIS/10.0",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 1728709848,
+        "org": "ASUSTek COMPUTER INC.",
+        "isp": "ASUSTek COMPUTER INC.",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:microsoft:internet_information_services:10.0",
+          "cpe:/o:microsoft:windows"
+        ],
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-Type: text/html; charset=UTF-8\r\nLocation: https://www.asus.com/\r\nServer: Microsoft-IIS/10.0\r\nDate: Mon, 14 Mar 2022 04:46:34 GMT\r\nContent-Length: 144\r\n\r\n",
+        "asn": "AS131144",
+        "port": 80,
+        "version": "10.0",
+        "cpe23": [
+          "cpe:2.3:a:microsoft:internet_information_services:10.0",
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "timestamp": "2022-03-14T04:46:35.392317",
+        "domains": [
+          "asus.gallery",
+          "103.in-addr.arpa",
+          "xn--fiq66s."
+        ],
+        "ip_str": "103.10.4.216",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "46b7bcf7-05b8-4b38-b3de-d2315bcaeec8",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {},
+        "location": {
+          "city": "Taipei",
+          "region_code": "04",
+          "area_code": null,
+          "longitude": 121.53185,
+          "latitude": 25.04776,
+          "country_code": "TW",
+          "country_name": "Taiwan"
+        }
+      },
+      {
+        "ip": 1728709848,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Document Moved",
+          "sitemap_hash": null,
+          "html_hash": -1340118668,
+          "robots": null,
+          "favicon": {
+            "hash": -869158581,
+            "data": "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\n",
+            "location": "https://tw.asus.com:443/favicon.ico"
+          },
+          "host": "tw.asus.com",
+          "html": "<head><title>Document Moved</title></head>\n<body><h1>Object Moved</h1>This document may be found <a HREF=\"https://www.asus.com/\">here</a></body>",
+          "location": "/",
+          "components": {},
+          "server": "Microsoft-IIS/10.0",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "version": "10.0",
+        "location": {
+          "city": "Taipei",
+          "region_code": "04",
+          "area_code": null,
+          "longitude": 121.53185,
+          "latitude": 25.04776,
+          "country_code": "TW",
+          "country_name": "Taiwan"
+        },
+        "product": "Microsoft IIS httpd",
+        "hash": -1624642466,
+        "timestamp": "2022-03-18T22:40:22.443536",
+        "ssl": {
+          "chain_sha256": [
+            "f99df9cd8001c862322a84e4f873ed27d0ce90a11f653e6ecc2a702fdf342b90",
+            "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+            "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+          ],
+          "jarm": "2ad2ad0000000000002ad2ad2ad2ad0f0dcb2ae084f34cae790be1eab88c30",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIGpTCCBY2gAwIBAgIMebF7LQpelEFvKJbwMA0GCSqGSIb3DQEBCwUAMFAxCzAJ\nBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1H\nbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODAeFw0yMDA0MTAxMTU2NTlaFw0y\nMjA2MjgwMzA2NThaMIGAMQswCQYDVQQGEwJUVzEPMA0GA1UECBMGVEFJUEVJMQ8w\nDQYDVQQHEwZUQUlQRUkxETAPBgNVBAsTCE1JUyBERVBUMScwJQYDVQQKEx5BU1VT\nVEVLIENPTVBVVEVSIElOQ09SUE9SQVRJT04xEzARBgNVBAMMCiouYXN1cy5jb20w\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxYsvBJqkWp7QLNH3KI7ZR\n4lN2QbTLi0oo0IINUcLoRAR1Apl6sQ42ubH/PMdmlEFtKSP1x0C7lmM+k+YB5PhR\nluJBcgQKXHcqKfw7EV6+0PtCeWgNrXbIHC3yG/wDBAT9ctnIdV3ltn0RlCPhqQ38\nn2wT4xkn8DosgbpYtJO3LUuJU/1vKxJHJUEvJHS3wjUySCrkLHPtVV/nUQASytB7\nU9qtXbWeKNyKWMQjIIbtFcFPEFqZPLGPCEVHq47aKaeINDwushYCM3UN+XbKtxA0\ng66VNkeA0zYihsQSMjQXLB9m2VMiWAieZWCJJyU7UTqHc6LuEMCxa+EBSin82ZN1\nAgMBAAGjggNMMIIDSDAOBgNVHQ8BAf8EBAMCBaAwgY4GCCsGAQUFBwEBBIGBMH8w\nRAYIKwYBBQUHMAKGOGh0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0\nL2dzcnNhb3Zzc2xjYTIwMTguY3J0MDcGCCsGAQUFBzABhitodHRwOi8vb2NzcC5n\nbG9iYWxzaWduLmNvbS9nc3JzYW92c3NsY2EyMDE4MFYGA1UdIARPME0wQQYJKwYB\nBAGgMgEUMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29t\nL3JlcG9zaXRvcnkvMAgGBmeBDAECAjAJBgNVHRMEAjAAMD8GA1UdHwQ4MDYwNKAy\noDCGLmh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vZ3Nyc2FvdnNzbGNhMjAxOC5j\ncmwwHwYDVR0RBBgwFoIKKi5hc3VzLmNvbYIIYXN1cy5jb20wHQYDVR0lBBYwFAYI\nKwYBBQUHAwEGCCsGAQUFBwMCMB8GA1UdIwQYMBaAFPjvf/LNeGeo3m+PJI2I8YcD\nArPrMB0GA1UdDgQWBBTx4n/hX6v5ovCoUvpfNfvYsy/dKzCCAX8GCisGAQQB1nkC\nBAIEggFvBIIBawFpAHcApLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BAA\nAAFxY/NQPQAABAMASDBGAiEAz8ubONod/95tsTZYdkYSqHBqt7sAvUdYhDuRgORB\nNSMCIQDFE1E3lDrSWwwsBUpH0I91mWBu4Go9UGeM9k46mnmUuQB2AG9Tdqwx8DEZ\n2JkApFEV/3cVHBHZAsEAKQaNsgiaN9kTAAABcWPzTPsAAAQDAEcwRQIhAKkh+R5y\n37RlmhIjNgkg59r8CdXs5xuhxap0SZ1TZiNQAiBdIyIQ7iV3Jq5fyt91y+0et7W1\n7PWfCwfvCR1eqmE2JgB2AFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXl\nAAABcWPzT9AAAAQDAEcwRQIhAJAY6QmR2tvwfNspHqCuhHp5v6eJirIJW6yN2Bz4\nBl9rAiBKcMaoaS9bpJglwaOfdy/GG2KtzhSZKYyCNqtbzgfa2jANBgkqhkiG9w0B\nAQsFAAOCAQEAV56e+x8wSrc+SDpKx4Jtt1LcCPL0roX9Lgin7CDwU3n6DE3Rifu4\n08b8AypUdIeF6vt+R/x/WxMEAcZr1zKyww6TxVh4e+cQ26WzYdVcc8nhVP5HSBl6\nmOlhhNvJf2yWZo8q88HhSvjw4VUpjk6a8TH8igUK7MinNMzRse/QgUxdJmUUWqvl\npQcf1RPaZVww1TaZpVruq3hOFNcM5HgLiU2byBY/BsSq0kgR4l7sMg2HewQ8rPJN\n6nXVTfOxChtEDGRuVmd4utM6NbDM1+P0LrIp+A7gZyyjQPONbxB58gKteeKsDC1M\nTRnNStSsdpUieQtxVyB5yvDgeU49bpwpJg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIETjCCAzagAwIBAgINAe5fIh38YjvUMzqFVzANBgkqhkiG9w0BAQsFADBMMSAw\nHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFs\nU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjAeFw0xODExMjEwMDAwMDBaFw0yODEx\nMjEwMDAwMDBaMFAxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52\nLXNhMSYwJAYDVQQDEx1HbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODCCASIw\nDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKdaydUMGCEAI9WXD+uu3Vxoa2uP\nUGATeoHLl+6OimGUSyZ59gSnKvuk2la77qCk8HuKf1UfR5NhDW5xUTolJAgvjOH3\nidaSz6+zpz8w7bXfIa7+9UQX/dhj2S/TgVprX9NHsKzyqzskeU8fxy7quRU6fBhM\nabO1IFkJXinDY+YuRluqlJBJDrnw9UqhCS98NE3QvADFBlV5Bs6i0BDxSEPouVq1\nlVW9MdIbPYa+oewNEtssmSStR8JvA+Z6cLVwzM0nLKWMjsIYPJLJLnNvBhBWk0Cq\no8VS++XFBdZpaFwGue5RieGKDkFNm5KQConpFmvv73W+eka440eKHRwup08CAwEA\nAaOCASkwggElMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMB0G\nA1UdDgQWBBT473/yzXhnqN5vjySNiPGHAwKz6zAfBgNVHSMEGDAWgBSP8Et/qC5F\nJK5NUPpjmove4t0bvDA+BggrBgEFBQcBAQQyMDAwLgYIKwYBBQUHMAGGImh0dHA6\nLy9vY3NwMi5nbG9iYWxzaWduLmNvbS9yb290cjMwNgYDVR0fBC8wLTAroCmgJ4Yl\naHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9yb290LXIzLmNybDBHBgNVHSAEQDA+\nMDwGBFUdIAAwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j\nb20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAJmQyC1fQorUC2bbmANz\nEdSIhlIoU4r7rd/9c446ZwTbw1MUcBQJfMPg+NccmBqixD7b6QDjynCy8SIwIVbb\n0615XoFYC20UgDX1b10d65pHBf9ZjQCxQNqQmJYaumxtf4z1s4DfjGRzNpZ5eWl0\n6r/4ngGPoJVpjemEuunl1Ig423g7mNA2eymw0lIYkN5SQwCuaifIFJ6GlazhgDEw\nfpolu4usBCOmmQDo8dIm7A9+O4orkjgTHY+GzYZSR+Y0fFukAj6KYXwidlNalFMz\nhriSqHKvoflShx8xpfywgVcvzfTO3PYkz6fiNJBonf6q8amaEsybwMbDqKWwIX7e\nSPY=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4G\nA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNp\nZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4\nMTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEG\nA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZI\nhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8\nRgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsT\ngHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmm\nKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zd\nQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZ\nXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAw\nDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+o\nLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZU\nRUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMp\njjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK\n6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQX\nmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecs\nMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpH\nWD9f\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 5,
+              "name": "status_request"
+            },
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            }
+          ],
+          "ja3s": "1d9c3e8c45ab7a2112263449a3ad9ece",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20200410115659Z",
+            "expires": "20220628030658Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x7f0D\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x868http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt07\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86+http://ocsp.globalsign.com/gsrsaovsslca2018",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0M0A\\x06 +\\x06\\x01\\x04\\x01\\xa02\\x01\\x140402\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16&https://www.globalsign.com/repository/0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0604\\xa02\\xa00\\x86.http://crl.globalsign.com/gsrsaovsslca2018.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0\\x16\\x82\n*.asus.com\\x82\\x08asus.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\xf8\\xef\\x7f\\xf2\\xcdxg\\xa8\\xdeo\\x8f$\\x8d\\x88\\xf1\\x87\\x03\\x02\\xb3\\xeb",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xf1\\xe2\\x7f\\xe1_\\xab\\xf9\\xa2\\xf0\\xa8R\\xfa_5\\xfb\\xd8\\xb3/\\xdd+",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00w\\x00\\xa4\\xb9 \\x90\\xb4\\x18X\\x14\\x87\\xbb\\x13\\xa2\\xccgp\n<5\\x98\\x04\\xf9\\x1b\\xdf\\xb8\\xe3w\\xcd\\x0e\\xc8\r\\xdc\\x10\\x00\\x00\\x01qc\\xf3P=\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xcf\\xcb\\x9b8\\xda\\x1d\\xff\\xdem\\xb16XvF\\x12\\xa8pj\\xb7\\xbb\\x00\\xbdGX\\x84;\\x91\\x80\\xe4A5#\\x02!\\x00\\xc5\\x13Q7\\x94:\\xd2[\\x0c,\\x05JG\\xd0\\x8fu\\x99`n\\xe0j=Pg\\x8c\\xf6N:\\x9ay\\x94\\xb9\\x00v\\x00oSv\\xac1\\xf01\\x19\\xd8\\x99\\x00\\xa4Q\\x15\\xffw\\x15\\x1c\\x11\\xd9\\x02\\xc1\\x00)\\x06\\x8d\\xb2\\x08\\x9a7\\xd9\\x13\\x00\\x00\\x01qc\\xf3L\\xfb\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xa9!\\xf9\\x1er\\xdf\\xb4e\\x9a\\x12#6  \\xe7\\xda\\xfc \\xd5\\xec\\xe7\\x1b\\xa1\\xc5\\xaatI\\x9dSf#P\\x02 ]#\"\\x10\\xee%w&\\xae_\\xca\\xdfu\\xcb\\xed\\x1e\\xb7\\xb5\\xb5\\xec\\xf5\\x9f\\x0b\\x07\\xef \\x1d^\\xaaa6&\\x00v\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01qc\\xf3O\\xd0\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x90\\x18\\xe9 \\x91\\xda\\xdb\\xf0|\\xdb)\\x1e\\xa0\\xae\\x84zy\\xbf\\xa7\\x89\\x8a\\xb2 [\\xac\\x8d\\xd8\\x1c\\xf8\\x06_k\\x02 Jp\\xc6\\xa8i/[\\xa4\\x98%\\xc1\\xa3\\x9fw/\\xc6\\x1bb\\xad\\xce\\x14\\x99)\\x8c\\x826\\xab[\\xce\\x07\\xda\\xda",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "f99df9cd8001c862322a84e4f873ed27d0ce90a11f653e6ecc2a702fdf342b90",
+              "sha1": "a4af32429792fc94bf0688e3217e5db13194cff0"
+            },
+            "serial": 3.7662247740382616e+28,
+            "subject": {
+              "C": "TW",
+              "CN": "*.asus.com",
+              "L": "TAIPEI",
+              "O": "ASUSTEK COMPUTER INCORPORATION",
+              "ST": "TAIPEI",
+              "OU": "MIS DEPT"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "BE",
+              "CN": "GlobalSign RSA OV SSL CA 2018",
+              "O": "GlobalSign nv-sa"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "www.asus.gallery",
+          "asus.xn--fiq66s",
+          "zenui.com.4.10.103.in-addr.arpa",
+          "asus.com"
+        ],
+        "org": "ASUSTek COMPUTER INC.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-Type: text/html; charset=UTF-8\r\nLocation: https://www.asus.com/\r\nServer: Microsoft-IIS/10.0\r\nDate: Fri, 18 Mar 2022 22:35:04 GMT\r\nContent-Length: 144\r\n\r\n",
+        "asn": "AS131144",
+        "cpe23": [
+          "cpe:2.3:a:microsoft:internet_information_services:10.0",
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "isp": "ASUSTek COMPUTER INC.",
+        "cpe": [
+          "cpe:/a:microsoft:internet_information_services:10.0",
+          "cpe:/o:microsoft:windows"
+        ],
+        "domains": [
+          "asus.gallery",
+          "xn--fiq66s.",
+          "103.in-addr.arpa",
+          "asus.com"
+        ],
+        "ip_str": "103.10.4.216",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "tw.asus.com",
+            "scan": "fZ2JLPhHJ6JZkk3r"
+          },
+          "id": "4791a054-d5db-405c-a8ce-bb567c8c426d",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {}
+      }
+    ],
+    "asn": "AS131144",
+    "ip_str": "103.10.4.216"
+  }

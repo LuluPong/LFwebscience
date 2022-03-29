@@ -1,0 +1,25 @@
+
+<app-topmenu></app-topmenu>
+<div class="container container d-flex flex-column min-vh-100 justify-content-center align-items-center pt-1">
+    <div class="row">
+        <div class="col float-end">
+            <app-my-ipbutton></app-my-ipbutton>
+            <app-ip-form></app-ip-form>
+            <app-link-form></app-link-form>
+            <div class="btn-group" role="group">
+                <app-ssl-button></app-ssl-button>
+                <app-db-content></app-db-content>
+            </div>
+        </div>
+        <div class="col float-end">
+            <app-reg-dashboard></app-reg-dashboard>
+        </div>
+        <div class="col float-end">
+            <app-ssl-dashboard></app-ssl-dashboard>
+        </div>
+    </div>
+    <div class="mt-5 row access-db collapse">
+        <app-db-form></app-db-form>
+    </div>
+</div>
+<router-outlet></router-outlet>

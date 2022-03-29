@@ -1,0 +1,525 @@
+{
+    "doc_id": 61,
+    "city": "Dublin",
+    "region_code": "L",
+    "os": null,
+    "tags": [
+      "cloud"
+    ],
+    "ip": 678447309,
+    "isp": "Microsoft Corporation",
+    "area_code": null,
+    "longitude": -6.24889,
+    "last_update": "2022-03-18T21:26:00.349741",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 53.33306,
+    "hostnames": [
+      "ignite.microsoft.com",
+      "mi.microsoft.com",
+      "real-stories.microsoft.com",
+      "hxd.research.microsoft.com",
+      "oemcommunity.microsoft.com",
+      "stream.microsoft.com",
+      "mkb.microsoft.com",
+      "communities.microsoft.com",
+      "example.microsoft.com",
+      "snackbox.microsoft.com",
+      "mac.microsoft.com",
+      "spur.microsoft.com",
+      "www.formspro.microsoft.com",
+      "explore-smb.microsoft.com",
+      "tco.microsoft.com",
+      "grv.microsoft.com",
+      "sponsors.microsoft.com",
+      "develop.microsoft.com",
+      "quantum.microsoft.com",
+      "mac2.microsoft.com",
+      "learnanalytics.microsoft.com",
+      "openness.microsoft.com",
+      "expressions.microsoft.com",
+      "reroute443.microsoft.com",
+      "microsoft.com",
+      "msdnwiki.microsoft.com",
+      "shop.microsoft.com",
+      "www.aep.microsoft.com",
+      "connect.microsoft.com",
+      "innovationcontest.microsoft.com",
+      "empresas.microsoft.com",
+      "studentpartners.microsoft.com",
+      "garage.microsoft.com",
+      "build.microsoft.com",
+      "dataplatform.microsoft.com",
+      "domains.microsoft.com",
+      "cloud-immersion.microsoft.com",
+      "sponsor.microsoft.com",
+      "design.microsoft.com",
+      "pme.microsoft.com",
+      "ga.microsoft.com",
+      "pinunblock.microsoft.com",
+      "mcsp.microsoft.com",
+      "rss.microsoft.com",
+      "aep.microsoft.com",
+      "gigjam.microsoft.com",
+      "alerts.microsoft.com",
+      "iotschool.microsoft.com",
+      "ondernemers.microsoft.com",
+      "mspress.microsoft.com",
+      "skypeandteams.fasttrack.microsoft.com",
+      "onlinelearning.microsoft.com",
+      "www.microsoftdlapartnerow.microsoft.com",
+      "futuredecoded.microsoft.com",
+      "enterprise.microsoft.com",
+      "minecraft.microsoft.com",
+      "open.microsoft.com",
+      "pmi.microsoft.com",
+      "partnercommunity.microsoft.com",
+      "successionplanninguat.microsoft.com",
+      "mydatahealth.microsoft.com",
+      "businesscentral.microsoft.com",
+      "phoenixcataloguat.microsoft.com",
+      "music.microsoft.com",
+      "www.skypeandteams.fasttrack.microsoft.com",
+      "msctec.microsoft.com",
+      "stationq.microsoft.com",
+      "kleinunternehmen.microsoft.com",
+      "itpro.microsoft.com",
+      "communities2.microsoft.com",
+      "connectevent.microsoft.com",
+      "businessplatform.microsoft.com",
+      "mango.microsoft.com",
+      "businessmobilitycenter.microsoft.com",
+      "analyticspartner.microsoft.com",
+      "store.microsoft.com",
+      "szkolyprzyszlosci.microsoft.com",
+      "s.microsoft.com",
+      "ieak.microsoft.com",
+      "www.aer.microsoft.com",
+      "afflink.microsoft.com",
+      "techacademy.microsoft.com",
+      "crawlmsdn.microsoft.com",
+      "upgradecenter.microsoft.com",
+      "hup.microsoft.com",
+      "aer.microsoft.com",
+      "madeira.microsoft.com",
+      "learning.microsoft.com",
+      "pymes.microsoft.com",
+      "mspartnerira.microsoft.com",
+      "entrepreneur.microsoft.com",
+      "online.microsoft.com",
+      "msdnisv.microsoft.com",
+      "lumiaconversationsuk.microsoft.com",
+      "terraserver.microsoft.com",
+      "community.microsoft.com",
+      "messenger.microsoft.com",
+      "iotcentral.microsoft.com",
+      "aistories.microsoft.com",
+      "backoffice.microsoft.com",
+      "explore-marketing.microsoft.com",
+      "explore-security.microsoft.com",
+      "sar.microsoft.com",
+      "www.powerautomate.microsoft.com",
+      "pinpoint.microsoft.com",
+      "aether.microsoft.com",
+      "successionplanning.microsoft.com",
+      "commercialappcertification.microsoft.com",
+      "business.microsoft.com",
+      "fuse.microsoft.com",
+      "partnerincentives.microsoft.com",
+      "wwwbeta.microsoft.com"
+    ],
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "domains": [
+      "microsoft.com"
+    ],
+    "org": "Microsoft Corporation",
+    "data": [
+      {
+        "hash": -1451276426,
+        "product": "Kestrel",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Kestrel",
+          "host": "microsoft.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "ip": 678447309,
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Fri, 18 Mar 2022 20:18:20 GMT\r\nServer: Kestrel\r\nContent-Length: 0\r\nLocation: https://www.microsoft.com/\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\n\r\n",
+        "asn": "AS8075",
+        "port": 80,
+        "cloud": {
+          "region": "northeurope",
+          "service": "AzureCloud",
+          "provider": "Azure"
+        },
+        "hostnames": [],
+        "transport": "tcp",
+        "timestamp": "2022-03-18T20:23:37.657796",
+        "domains": [],
+        "ip_str": "40.112.72.205",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "microsoft.com",
+            "scan": "UZCN44eBZVcSbld2"
+          },
+          "id": "27d67df9-c1e0-4e3c-8a57-8385003e33ae",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Dublin",
+          "region_code": "L",
+          "area_code": null,
+          "longitude": -6.24889,
+          "latitude": 53.33306,
+          "country_code": "IE",
+          "country_name": "Ireland"
+        }
+      },
+      {
+        "hash": -786219241,
+        "product": "Kestrel",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Kestrel",
+          "host": "microsoft.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "ip": 678447309,
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Fri, 18 Mar 2022 21:20:42 GMT\r\nServer: Kestrel\r\nContent-Length: 0\r\nLocation: https://www.microsoft.com/\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\n\r\n",
+        "asn": "AS8075",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "2b01b46751c307cda93854d686a215d7a83ce3bcf1ed800e9513fcb0319182f7",
+            "48ff8b494668c752304b48bfe818758987def6582e5f09b921f4b60bb3d6a8dd",
+            "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f"
+          ],
+          "jarm": "2ad2ad00000000000041d41d000000bb38434970f9ff5df16a5227d5bd9fa2",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIITYzCCEUugAwIBAgITMwAoZ3uxMMkOpnUasQAAAChnezANBgkqhkiG9w0BAQwF\nADBZMQswCQYDVQQGEwJVUzEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9u\nMSowKAYDVQQDEyFNaWNyb3NvZnQgQXp1cmUgVExTIElzc3VpbmcgQ0EgMDYwHhcN\nMjIwMTI0MDQzOTU2WhcNMjMwMTE5MDQzOTU2WjBkMQswCQYDVQQGEwJVUzELMAkG\nA1UECBMCV0ExEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBD\nb3Jwb3JhdGlvbjEWMBQGA1UEAxMNbWljcm9zb2Z0LmNvbTCCASIwDQYJKoZIhvcN\nAQEBBQADggEPADCCAQoCggEBAOQEAE5s2SaoAJhlyqPLY+wkuaYISvIxYPsXDfsz\nfoE7szsxCJf64VxawAc3iXUWOqiPuHMB+jdYz7z4h636tGzAUNrrAjdbq3cBmasV\nws5P4YiUF1hN/A6+9LjprRupquvLrIHPLjF+Q5uCeWrWDu/VjFnyVOnErcVTAVDQ\n4jeu743V3F3I6/ocLGj+huCEai5+hbd3j8cKsG1R+Jioo52IWsryPpWzRxBuKQYm\n1derwos4LzIsZUzfAwPfQK8h138Ic5vbmTqlXykWboawbAQdhm6kKxRAlavP1jIP\nuVeFFS3e1lmr2l7nbxd4LjFQIjBij5vv2RzABBApo+sM5IkCAwEAAaOCDxcwgg8T\nMIIBgAYKKwYBBAHWeQIEAgSCAXAEggFsAWoAdgCt9776fP8QyIudPZwePhhqtGcp\nXc+xDCTKhYY069yCigAAAX6Ka1Y+AAAEAwBHMEUCIQDBkv7Rff+Dqw98aAYsebo3\nynM4evuYd4pZDr+lBptxFAIgS0kaBEzCWuM5zPFNvSGw1p/9qzRSU4vPO4zqb5Jg\nFRgAdwB6MoxU2LcttiDqOOBSHumEFnAyE4VNO9IrwTpXo1LrUgAAAX6Ka1aQAAAE\nAwBIMEYCIQC7MRY74UcIYN1yM+T2DQQs7XjiRJA5EA4wg9uxAJiuIgIhAJukGNT9\njeTideto7WtbMtIlHROgRvYaASPFPRF9InKOAHcAs3N3B+GEUPhjhtYFqdwRCUp5\nLbFnDAuH3PADDnk2pZoAAAF+imtWvgAABAMASDBGAiEA297k4xz9rd2SHtzUUWHs\nZ3ccSUBrC+Lk/DGsINx1AvoCIQCy5Ji/+KYfJnBMSuULez6gOTCF4SjOUASaaRZq\nDeg3vjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMBMDwG\nCSsGAQQBgjcVBwQvMC0GJSsGAQQBgjcVCIe91xuB5+tGgoGdLo7QDIfw2h1dgoTl\naYLzpz4CAWQCASMwga4GCCsGAQUFBwEBBIGhMIGeMG0GCCsGAQUFBzAChmFodHRw\nOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NlcnRzL01pY3Jvc29mdCUyMEF6\ndXJlJTIwVExTJTIwSXNzdWluZyUyMENBJTIwMDYlMjAtJTIweHNpZ24uY3J0MC0G\nCCsGAQUFBzABhiFodHRwOi8vb25lb2NzcC5taWNyb3NvZnQuY29tL29jc3AwHQYD\nVR0OBBYEFD/NOl8gJlgWNVFbht67ZFD1P8nTMA4GA1UdDwEB/wQEAwIEsDCCCzYG\nA1UdEQSCCy0wggspgg1taWNyb3NvZnQuY29tgg9zLm1pY3Jvc29mdC5jb22CEGdh\nLm1pY3Jvc29mdC5jb22CEG1pLm1pY3Jvc29mdC5jb22CEWFlcC5taWNyb3NvZnQu\nY29tghFhZXIubWljcm9zb2Z0LmNvbYIRZ3J2Lm1pY3Jvc29mdC5jb22CEWh1cC5t\naWNyb3NvZnQuY29tghFtYWMubWljcm9zb2Z0LmNvbYIRbWtiLm1pY3Jvc29mdC5j\nb22CEXBtZS5taWNyb3NvZnQuY29tghFwbWkubWljcm9zb2Z0LmNvbYIRcnNzLm1p\nY3Jvc29mdC5jb22CEXNhci5taWNyb3NvZnQuY29tghF0Y28ubWljcm9zb2Z0LmNv\nbYISZnVzZS5taWNyb3NvZnQuY29tghJpZWFrLm1pY3Jvc29mdC5jb22CEm1hYzIu\nbWljcm9zb2Z0LmNvbYISbWNzcC5taWNyb3NvZnQuY29tghJvcGVuLm1pY3Jvc29m\ndC5jb22CEnNob3AubWljcm9zb2Z0LmNvbYISc3B1ci5taWNyb3NvZnQuY29tghNi\ndWlsZC5taWNyb3NvZnQuY29tghNpdHByby5taWNyb3NvZnQuY29tghNtYW5nby5t\naWNyb3NvZnQuY29tghNtdXNpYy5taWNyb3NvZnQuY29tghNweW1lcy5taWNyb3Nv\nZnQuY29tghNzdG9yZS5taWNyb3NvZnQuY29tghRhZXRoZXIubWljcm9zb2Z0LmNv\nbYIUYWxlcnRzLm1pY3Jvc29mdC5jb22CFGRlc2lnbi5taWNyb3NvZnQuY29tghRn\nYXJhZ2UubWljcm9zb2Z0LmNvbYIUZ2lnamFtLm1pY3Jvc29mdC5jb22CFGlnbml0\nZS5taWNyb3NvZnQuY29tghRtc2N0ZWMubWljcm9zb2Z0LmNvbYIUb25saW5lLm1p\nY3Jvc29mdC5jb22CFHN0cmVhbS5taWNyb3NvZnQuY29tghVhZmZsaW5rLm1pY3Jv\nc29mdC5jb22CFWNvbm5lY3QubWljcm9zb2Z0LmNvbYIVZGV2ZWxvcC5taWNyb3Nv\nZnQuY29tghVkb21haW5zLm1pY3Jvc29mdC5jb22CFWV4YW1wbGUubWljcm9zb2Z0\nLmNvbYIVbWFkZWlyYS5taWNyb3NvZnQuY29tghVtc2RuaXN2Lm1pY3Jvc29mdC5j\nb22CFW1zcHJlc3MubWljcm9zb2Z0LmNvbYIVcXVhbnR1bS5taWNyb3NvZnQuY29t\nghVzcG9uc29yLm1pY3Jvc29mdC5jb22CFXd3dy5hZXAubWljcm9zb2Z0LmNvbYIV\nd3d3LmFlci5taWNyb3NvZnQuY29tghV3d3diZXRhLm1pY3Jvc29mdC5jb22CFmJ1\nc2luZXNzLm1pY3Jvc29mdC5jb22CFmVtcHJlc2FzLm1pY3Jvc29mdC5jb22CFmxl\nYXJuaW5nLm1pY3Jvc29mdC5jb22CFm1zZG53aWtpLm1pY3Jvc29mdC5jb22CFm9w\nZW5uZXNzLm1pY3Jvc29mdC5jb22CFnBpbnBvaW50Lm1pY3Jvc29mdC5jb22CFnNu\nYWNrYm94Lm1pY3Jvc29mdC5jb22CFnNwb25zb3JzLm1pY3Jvc29mdC5jb22CFnN0\nYXRpb25xLm1pY3Jvc29mdC5jb22CF2Fpc3Rvcmllcy5taWNyb3NvZnQuY29tghdj\nb21tdW5pdHkubWljcm9zb2Z0LmNvbYIXY3Jhd2xtc2RuLm1pY3Jvc29mdC5jb22C\nF2lvdHNjaG9vbC5taWNyb3NvZnQuY29tghdtZXNzZW5nZXIubWljcm9zb2Z0LmNv\nbYIXbWluZWNyYWZ0Lm1pY3Jvc29mdC5jb22CGGJhY2tvZmZpY2UubWljcm9zb2Z0\nLmNvbYIYZW50ZXJwcmlzZS5taWNyb3NvZnQuY29tghhpb3RjZW50cmFsLm1pY3Jv\nc29mdC5jb22CGHBpbnVuYmxvY2subWljcm9zb2Z0LmNvbYIYcmVyb3V0ZTQ0My5t\naWNyb3NvZnQuY29tghljb21tdW5pdGllcy5taWNyb3NvZnQuY29tghlleHBsb3Jl\nLXNtYi5taWNyb3NvZnQuY29tghlleHByZXNzaW9ucy5taWNyb3NvZnQuY29tghlv\nbmRlcm5lbWVycy5taWNyb3NvZnQuY29tghl0ZWNoYWNhZGVteS5taWNyb3NvZnQu\nY29tghl0ZXJyYXNlcnZlci5taWNyb3NvZnQuY29tghpjb21tdW5pdGllczIubWlj\ncm9zb2Z0LmNvbYIaY29ubmVjdGV2ZW50Lm1pY3Jvc29mdC5jb22CGmRhdGFwbGF0\nZm9ybS5taWNyb3NvZnQuY29tghplbnRyZXByZW5ldXIubWljcm9zb2Z0LmNvbYIa\naHhkLnJlc2VhcmNoLm1pY3Jvc29mdC5jb22CGm1zcGFydG5lcmlyYS5taWNyb3Nv\nZnQuY29tghpteWRhdGFoZWFsdGgubWljcm9zb2Z0LmNvbYIab2VtY29tbXVuaXR5\nLm1pY3Jvc29mdC5jb22CGnJlYWwtc3Rvcmllcy5taWNyb3NvZnQuY29tghp3d3cu\nZm9ybXNwcm8ubWljcm9zb2Z0LmNvbYIbZnV0dXJlZGVjb2RlZC5taWNyb3NvZnQu\nY29tght1cGdyYWRlY2VudGVyLm1pY3Jvc29mdC5jb22CHGxlYXJuYW5hbHl0aWNz\nLm1pY3Jvc29mdC5jb22CHG9ubGluZWxlYXJuaW5nLm1pY3Jvc29mdC5jb22CHWJ1\nc2luZXNzY2VudHJhbC5taWNyb3NvZnQuY29tgh1jbG91ZC1pbW1lcnNpb24ubWlj\ncm9zb2Z0LmNvbYIdc3R1ZGVudHBhcnRuZXJzLm1pY3Jvc29mdC5jb22CHmFuYWx5\ndGljc3BhcnRuZXIubWljcm9zb2Z0LmNvbYIeYnVzaW5lc3NwbGF0Zm9ybS5taWNy\nb3NvZnQuY29tgh5leHBsb3JlLXNlY3VyaXR5Lm1pY3Jvc29mdC5jb22CHmtsZWlu\ndW50ZXJuZWhtZW4ubWljcm9zb2Z0LmNvbYIecGFydG5lcmNvbW11bml0eS5taWNy\nb3NvZnQuY29tgh9leHBsb3JlLW1hcmtldGluZy5taWNyb3NvZnQuY29tgh9pbm5v\ndmF0aW9uY29udGVzdC5taWNyb3NvZnQuY29tgh9wYXJ0bmVyaW5jZW50aXZlcy5t\naWNyb3NvZnQuY29tgh9waG9lbml4Y2F0YWxvZ3VhdC5taWNyb3NvZnQuY29tgh9z\nemtvbHlwcnp5c3psb3NjaS5taWNyb3NvZnQuY29tgh93d3cucG93ZXJhdXRvbWF0\nZS5taWNyb3NvZnQuY29tgiBzdWNjZXNzaW9ucGxhbm5pbmcubWljcm9zb2Z0LmNv\nbYIibHVtaWFjb252ZXJzYXRpb25zdWsubWljcm9zb2Z0LmNvbYIjc3VjY2Vzc2lv\nbnBsYW5uaW5ndWF0Lm1pY3Jvc29mdC5jb22CJGJ1c2luZXNzbW9iaWxpdHljZW50\nZXIubWljcm9zb2Z0LmNvbYIlc2t5cGVhbmR0ZWFtcy5mYXN0dHJhY2subWljcm9z\nb2Z0LmNvbYInd3d3Lm1pY3Jvc29mdGRsYXBhcnRuZXJvdy5taWNyb3NvZnQuY29t\ngihjb21tZXJjaWFsYXBwY2VydGlmaWNhdGlvbi5taWNyb3NvZnQuY29tgil3d3cu\nc2t5cGVhbmR0ZWFtcy5mYXN0dHJhY2subWljcm9zb2Z0LmNvbTBkBgNVHR8EXTBb\nMFmgV6BVhlNodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20vcGtpb3BzL2NybC9NaWNy\nb3NvZnQlMjBBenVyZSUyMFRMUyUyMElzc3VpbmclMjBDQSUyMDA2LmNybDBmBgNV\nHSAEXzBdMFEGDCsGAQQBgjdMg30BATBBMD8GCCsGAQUFBwIBFjNodHRwOi8vd3d3\nLm1pY3Jvc29mdC5jb20vcGtpb3BzL0RvY3MvUmVwb3NpdG9yeS5odG0wCAYGZ4EM\nAQICMB8GA1UdIwQYMBaAFNXBZzrCo530d1JbWRI4KeZVaLulMB0GA1UdJQQWMBQG\nCCsGAQUFBwMCBggrBgEFBQcDATANBgkqhkiG9w0BAQwFAAOCAgEAcTl61hx6IV10\ngzl4WWIZdviTTqApZ0XGMCq4ed/X2BJF+8TwiLTMZlSw7+TgnHlp3riAN9HS+4aW\n1kq0E3wCNGfpGHWzbtxACfjRw5/qgxJLp4Zz+4RQZa04NOsCwkF8Hjmud5lxn+xW\nK5P+R1WVOX9+XxaJ+x18CgLkj4KXmjJvC+J2cZOdTAEWOm92eTIoDYwu+3asJe64\nDjf9KPXI8nTbv8zFgI0c+fbU0IguIeoW4pv5qKEJ0UBHjQ1wj67mqHIKQW4cH3SB\nV2imA5H28jiIgKvWgWfO5sGDbxhyWdSkEhuiLjKJMLwFh/s2V8JsoyKepBjfrcsj\n46Cd6nbJnd+EBb63G79Fv+8xFcImy31iCaaUiQ4AdxaUT5JZAyin2ymF2WD9Vq1j\nVj4FGlx58veVIsJNcyq7l9pLlbNSbMtnaHMjLjIBJQ1KVZSPrKbzTgoY2Ne07lDX\nT1g3M+U5Q+oehlEDAv/17I0M3kGGJqgvA9AudjK1Zi7OkAtHFxVMHG+pi0A8PEIP\n0Ew/bU6b6/+SbEYDjncMA0VWGHCet9w2Dm5LAOkq1w2c0SXhMOxLioq1Oc26sGK1\nK7dFrf3QdOFdQnQl8+zvT/evzMjOOS+aMIYw2nRwQzKbuD1+NyZ9b9XkQ2U8oqNK\nfKafURi3nB9wx6vzoPJeWnXl4/UBvnQ=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIF8zCCBNugAwIBAgIQAueRcfuAIek/4tmDg0xQwDANBgkqhkiG9w0BAQwFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBH\nMjAeFw0yMDA3MjkxMjMwMDBaFw0yNDA2MjcyMzU5NTlaMFkxCzAJBgNVBAYTAlVT\nMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24xKjAoBgNVBAMTIU1pY3Jv\nc29mdCBBenVyZSBUTFMgSXNzdWluZyBDQSAwNjCCAiIwDQYJKoZIhvcNAQEBBQAD\nggIPADCCAgoCggIBALVGARl56bx3KBUSGuPc4H5uoNFkFH4e7pvTCxRi4j/+z+Xb\nwjEz+5CipDOqjx9/jWjskL5dk7PaQkzItidsAAnDCW1leZBOIi68Lff1bjTeZgMY\niwdRd3Y39b/lcGpiuP2d23W95YHkMMT8IlWosYIX0f4kYb62rphyfnAjYb/4Od99\nThnhlAxGtfvSbXcBVIKCYfZgqRvV+5lReUnd1aNjRYVzPOoifgSx2fRyy1+pO1Uz\naMMNnIOE71bVYW0A1hr19w7kOb0KkJXoALTDDj1ukUEDqQuBfBxReL5mXiu1O7WG\n0vltg0VZ/SZzctBsdBlx1BkmWYBW261KZgBivrql5ELTKKd8qgtHcLQA5fl6JB0Q\ngs5XDaWehN86Gps5JW8ArjGtjcWAIP+X8CQaWfaCnuRm6Bk/03PQWhgdi84qwA0s\nsRfFJwHUPTNSnE8EiGVk2frt0u8PG1pwSQsFuNJfcYIHEv1vOzP7uEOuDydsmCjh\nlxuoK2n5/2aVR3BMTu+p4+gl8alXoBycyLmj3J/PUgqD8SL5fTCUegGsdia/Sa60\nN2oV7vQ17wjMN+LXa2rjj/b4ZlZgXVojDmAjDwIRdDUujQu0RVsJqFLMzSIHpp2C\nZp7mIoLrySay2YYBu7SiNwL95X6He2kS8eefBBHjzwW/9FxGqry57i71c2cDAgMB\nAAGjggGtMIIBqTAdBgNVHQ4EFgQU1cFnOsKjnfR3UltZEjgp5lVou6UwHwYDVR0j\nBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1Ud\nJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMHYG\nCCsGAQUFBwEBBGowaDAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQu\nY29tMEAGCCsGAQUFBzAChjRodHRwOi8vY2FjZXJ0cy5kaWdpY2VydC5jb20vRGln\naUNlcnRHbG9iYWxSb290RzIuY3J0MHsGA1UdHwR0MHIwN6A1oDOGMWh0dHA6Ly9j\ncmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwN6A1oDOG\nMWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5j\ncmwwHQYDVR0gBBYwFDAIBgZngQwBAgEwCAYGZ4EMAQICMBAGCSsGAQQBgjcVAQQD\nAgEAMA0GCSqGSIb3DQEBDAUAA4IBAQB2oWc93fB8esci/8esixj++N22meiGDjgF\n+rA2LUK5IOQOgcUSTGKSqF9lYfAxPjrqPjDCUPHCURv+26ad5P/BYtXtbmtxJWu+\ncS5BhMDPPeG3oPZwXRHBJFAkY4O4AF7RIAAUW6EzDflUoDHKv83zOiPfYGcpHc9s\nkxAInCedk7QSgXvMARjjOqdakor21DTmNIUotxo8kHv5hwRlGhBJwps6fEVi1Bt0\ntrpM/3wYxlr473WSPUFZPgP1j519kLpWOJ8z09wxay+Br29irPcBYv0GMXlHqThy\n8y4m/HyTQeI2IMvMrQnwqPpY+rLIXyviI2vLoI+4xKE4Rn38ZZ8m\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBH\nMjAeFw0xMzA4MDExMjAwMDBaFw0zODAxMTUxMjAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IEcyMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzfNNNx7a8myaJCtSnX/RrohCgiN9RlUyfuI\n2/Ou8jqJkTx65qsGGmvPrC3oXgkkRLpimn7Wo6h+4FR1IAWsULecYxpsMNzaHxmx\n1x7e/dfgy5SDN67sH0NO3Xss0r0upS/kqbitOtSZpLYl6ZtrAGCSYP9PIUkY92eQ\nq2EGnI/yuum06ZIya7XzV+hdG82MHauVBJVJ8zUtluNJbd134/tJS7SsVQepj5Wz\ntCO7TG1F8PapspUwtP1MVYwnSlcUfIKdzXOS0xZKBgyMUNGPHgm+F6HmIcr9g+UQ\nvIOlCsRnKPZzFBQ9RnbDhxSJITRNrw9FDKZJobq7nMWxM4MphQIDAQABo0IwQDAP\nBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBhjAdBgNVHQ4EFgQUTiJUIBiV\n5uNu5g/6+rkS7QYXjzkwDQYJKoZIhvcNAQELBQADggEBAGBnKJRvDkhj6zHd6mcY\n1Yl9PMWLSn/pvtsrF9+wX3N3KjITOYFnQoQj8kVnNeyIv/iPsGEMNKSuIEyExtv4\nNeF22d+mQrvHRAiGfzZ0JFrabA0UWTW98kndth/Jsw1HKj2ZL7tcu7XUIOGZX1NG\nFdtom/DzMNU+MeKNhJ7jitralj41E6Vf8PlwUHBHQRFXGU7Aj64GxJUTFy8bJZ91\n8rGOmaFvE7FBcf6IKshPECBV1/MUReXgRPTqh5Uykw7+U0b6LJ3/iyK5S9kJRaTe\npLiaWN0bfVKfjllDiIGknibVb63dDcY3fe0Dkhvld1927jyNxF1WW6LZZm6zNTfl\nMrY=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "e35df3e00ca4ef31d42b34bebaa2f86e",
+          "cert": {
+            "sig_alg": "sha384WithRSAEncryption",
+            "issued": "20220124043956Z",
+            "expires": "20230119043956Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "\\x04\\x82\\x01l\\x01j\\x00v\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01~\\x8akV>\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xc1\\x92\\xfe\\xd1}\\xff\\x83\\xab\\x0f|h\\x06,y\\xba7\\xcas8z\\xfb\\x98w\\x8aY\\x0e\\xbf\\xa5\\x06\\x9bq\\x14\\x02 KI\\x1a\\x04L\\xc2Z\\xe39\\xcc\\xf1M\\xbd!\\xb0\\xd6\\x9f\\xfd\\xab4RS\\x8b\\xcf;\\x8c\\xeao\\x92`\\x15\\x18\\x00w\\x00z2\\x8cT\\xd8\\xb7-\\xb6 \\xea8\\xe0R\\x1e\\xe9\\x84\\x16p2\\x13\\x85M;\\xd2+\\xc1:W\\xa3R\\xebR\\x00\\x00\\x01~\\x8akV\\x90\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xbb1\\x16;\\xe1G\\x08`\\xddr3\\xe4\\xf6\r\\x04,\\xedx\\xe2D\\x909\\x10\\x0e0\\x83\\xdb\\xb1\\x00\\x98\\xae\"\\x02!\\x00\\x9b\\xa4\\x18\\xd4\\xfd\\x8d\\xe4\\xe2u\\xebh\\xedk[2\\xd2%\\x1d\\x13\\xa0F\\xf6\\x1a\\x01#\\xc5=\\x11}\"r\\x8e\\x00w\\x00\\xb3sw\\x07\\xe1\\x84P\\xf8c\\x86\\xd6\\x05\\xa9\\xdc\\x11 Jy-\\xb1g\\x0c\\x0b\\x87\\xdc\\xf0\\x03\\x0ey6\\xa5\\x9a\\x00\\x00\\x01~\\x8akV\\xbe\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xdb\\xde\\xe4\\xe3\\x1c\\xfd\\xad\\xdd\\x92\\x1e\\xdc\\xd4Qa\\xecgw\\x1cI@k\\x0b\\xe2\\xe4\\xfc1\\xac \\xdcu\\x02\\xfa\\x02!\\x00\\xb2\\xe4\\x98\\xbf\\xf8\\xa6\\x1f&pLJ\\xe5\\x0b{>\\xa090\\x85\\xe1(\\xceP\\x04\\x9ai\\x16j\r\\xe87\\xbe",
+                "name": "ct_precert_scts"
+              },
+              {
+                "data": "0\\x180\n\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x020\n\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01",
+                "name": "UNDEF"
+              },
+              {
+                "data": "0-\\x06%+\\x06\\x01\\x04\\x01\\x827\\x15\\x08\\x87\\xbd\\xd7\\x1b\\x81\\xe7\\xebF\\x82\\x81\\x9d.\\x8e\\xd0\\x0c\\x87\\xf0\\xda\\x1d]\\x82\\x84\\xe5i\\x82\\xf3\\xa7>\\x02\\x01d\\x02\\x01#",
+                "name": "UNDEF"
+              },
+              {
+                "data": "0\\x81\\x9e0m\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86ahttp://www.microsoft.com/pkiops/certs/Microsoft%20Azure%20TLS%20Issuing%20CA%2006%20-%20xsign.crt0-\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86!http://oneocsp.microsoft.com/ocsp",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "\\x04\\x14?\\xcd:_ &X\\x165Q[\\x86\\xde\\xbbdP\\xf5?\\xc9\\xd3",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x04\\xb0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x82\\x0b)\\x82\rmicrosoft.com\\x82\\x0fs.microsoft.com\\x82\\x10ga.microsoft.com\\x82\\x10mi.microsoft.com\\x82\\x11aep.microsoft.com\\x82\\x11aer.microsoft.com\\x82\\x11grv.microsoft.com\\x82\\x11hup.microsoft.com\\x82\\x11mac.microsoft.com\\x82\\x11mkb.microsoft.com\\x82\\x11pme.microsoft.com\\x82\\x11pmi.microsoft.com\\x82\\x11rss.microsoft.com\\x82\\x11sar.microsoft.com\\x82\\x11tco.microsoft.com\\x82\\x12fuse.microsoft.com\\x82\\x12ieak.microsoft.com\\x82\\x12mac2.microsoft.com\\x82\\x12mcsp.microsoft.com\\x82\\x12open.microsoft.com\\x82\\x12shop.microsoft.com\\x82\\x12spur.microsoft.com\\x82\\x13build.microsoft.com\\x82\\x13itpro.microsoft.com\\x82\\x13mango.microsoft.com\\x82\\x13music.microsoft.com\\x82\\x13pymes.microsoft.com\\x82\\x13store.microsoft.com\\x82\\x14aether.microsoft.com\\x82\\x14alerts.microsoft.com\\x82\\x14design.microsoft.com\\x82\\x14garage.microsoft.com\\x82\\x14gigjam.microsoft.com\\x82\\x14ignite.microsoft.com\\x82\\x14msctec.microsoft.com\\x82\\x14online.microsoft.com\\x82\\x14stream.microsoft.com\\x82\\x15afflink.microsoft.com\\x82\\x15connect.microsoft.com\\x82\\x15develop.microsoft.com\\x82\\x15domains.microsoft.com\\x82\\x15example.microsoft.com\\x82\\x15madeira.microsoft.com\\x82\\x15msdnisv.microsoft.com\\x82\\x15mspress.microsoft.com\\x82\\x15quantum.microsoft.com\\x82\\x15sponsor.microsoft.com\\x82\\x15www.aep.microsoft.com\\x82\\x15www.aer.microsoft.com\\x82\\x15wwwbeta.microsoft.com\\x82\\x16business.microsoft.com\\x82\\x16empresas.microsoft.com\\x82\\x16learning.microsoft.com\\x82\\x16msdnwiki.microsoft.com\\x82\\x16openness.microsoft.com\\x82\\x16pinpoint.microsoft.com\\x82\\x16snackbox.microsoft.com\\x82\\x16sponsors.microsoft.com\\x82\\x16stationq.microsoft.com\\x82\\x17aistories.microsoft.com\\x82\\x17community.microsoft.com\\x82\\x17crawlmsdn.microsoft.com\\x82\\x17iotschool.microsoft.com\\x82\\x17messenger.microsoft.com\\x82\\x17minecraft.microsoft.com\\x82\\x18backoffice.microsoft.com\\x82\\x18enterprise.microsoft.com\\x82\\x18iotcentral.microsoft.com\\x82\\x18pinunblock.microsoft.com\\x82\\x18reroute443.microsoft.com\\x82\\x19communities.microsoft.com\\x82\\x19explore-smb.microsoft.com\\x82\\x19expressions.microsoft.com\\x82\\x19ondernemers.microsoft.com\\x82\\x19techacademy.microsoft.com\\x82\\x19terraserver.microsoft.com\\x82\\x1acommunities2.microsoft.com\\x82\\x1aconnectevent.microsoft.com\\x82\\x1adataplatform.microsoft.com\\x82\\x1aentrepreneur.microsoft.com\\x82\\x1ahxd.research.microsoft.com\\x82\\x1amspartnerira.microsoft.com\\x82\\x1amydatahealth.microsoft.com\\x82\\x1aoemcommunity.microsoft.com\\x82\\x1areal-stories.microsoft.com\\x82\\x1awww.formspro.microsoft.com\\x82\\x1bfuturedecoded.microsoft.com\\x82\\x1bupgradecenter.microsoft.com\\x82\\x1clearnanalytics.microsoft.com\\x82\\x1conlinelearning.microsoft.com\\x82\\x1dbusinesscentral.microsoft.com\\x82\\x1dcloud-immersion.microsoft.com\\x82\\x1dstudentpartners.microsoft.com\\x82\\x1eanalyticspartner.microsoft.com\\x82\\x1ebusinessplatform.microsoft.com\\x82\\x1eexplore-security.microsoft.com\\x82\\x1ekleinunternehmen.microsoft.com\\x82\\x1epartnercommunity.microsoft.com\\x82\\x1fexplore-marketing.microsoft.com\\x82\\x1finnovationcontest.microsoft.com\\x82\\x1fpartnerincentives.microsoft.com\\x82\\x1fphoenixcataloguat.microsoft.com\\x82\\x1fszkolyprzyszlosci.microsoft.com\\x82\\x1fwww.powerautomate.microsoft.com\\x82 successionplanning.microsoft.com\\x82\"lumiaconversationsuk.microsoft.com\\x82#successionplanninguat.microsoft.com\\x82$businessmobilitycenter.microsoft.com\\x82%skypeandteams.fasttrack.microsoft.com\\x82\\'www.microsoftdlapartnerow.microsoft.com\\x82(commercialappcertification.microsoft.com\\x82)www.skypeandteams.fasttrack.microsoft.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0[0Y\\xa0W\\xa0U\\x86Shttp://www.microsoft.com/pkiops/crl/Microsoft%20Azure%20TLS%20Issuing%20CA%2006.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0]0Q\\x06\\x0c+\\x06\\x01\\x04\\x01\\x827L\\x83}\\x01\\x010A0?\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x163http://www.microsoft.com/pkiops/Docs/Repository.htm0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\xd5\\xc1g:\\xc2\\xa3\\x9d\\xf4wR[Y\\x128)\\xe6Uh\\xbb\\xa5",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01",
+                "name": "extendedKeyUsage"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "2b01b46751c307cda93854d686a215d7a83ce3bcf1ed800e9513fcb0319182f7",
+              "sha1": "6f1e219c4356fbd2609f5c5e06000eed512b2adb"
+            },
+            "serial": 1.1373517539724685e+45,
+            "subject": {
+              "CN": "microsoft.com",
+              "C": "US",
+              "L": "Redmond",
+              "O": "Microsoft Corporation",
+              "ST": "WA"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "Microsoft Azure TLS Issuing CA 06",
+              "O": "Microsoft Corporation"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "cloud": {
+          "region": "northeurope",
+          "service": "AzureCloud",
+          "provider": "Azure"
+        },
+        "hostnames": [
+          "ignite.microsoft.com",
+          "mi.microsoft.com",
+          "real-stories.microsoft.com",
+          "hxd.research.microsoft.com",
+          "oemcommunity.microsoft.com",
+          "stream.microsoft.com",
+          "mkb.microsoft.com",
+          "aistories.microsoft.com",
+          "example.microsoft.com",
+          "snackbox.microsoft.com",
+          "mac.microsoft.com",
+          "spur.microsoft.com",
+          "www.formspro.microsoft.com",
+          "explore-smb.microsoft.com",
+          "tco.microsoft.com",
+          "grv.microsoft.com",
+          "sponsors.microsoft.com",
+          "develop.microsoft.com",
+          "quantum.microsoft.com",
+          "mac2.microsoft.com",
+          "learnanalytics.microsoft.com",
+          "openness.microsoft.com",
+          "expressions.microsoft.com",
+          "reroute443.microsoft.com",
+          "microsoft.com",
+          "msdnwiki.microsoft.com",
+          "shop.microsoft.com",
+          "cloud-immersion.microsoft.com",
+          "kleinunternehmen.microsoft.com",
+          "connect.microsoft.com",
+          "innovationcontest.microsoft.com",
+          "empresas.microsoft.com",
+          "studentpartners.microsoft.com",
+          "garage.microsoft.com",
+          "build.microsoft.com",
+          "dataplatform.microsoft.com",
+          "domains.microsoft.com",
+          "www.aep.microsoft.com",
+          "sponsor.microsoft.com",
+          "design.microsoft.com",
+          "pme.microsoft.com",
+          "ga.microsoft.com",
+          "pinunblock.microsoft.com",
+          "mcsp.microsoft.com",
+          "aep.microsoft.com",
+          "www.powerautomate.microsoft.com",
+          "alerts.microsoft.com",
+          "iotschool.microsoft.com",
+          "ondernemers.microsoft.com",
+          "mspress.microsoft.com",
+          "skypeandteams.fasttrack.microsoft.com",
+          "onlinelearning.microsoft.com",
+          "www.microsoftdlapartnerow.microsoft.com",
+          "futuredecoded.microsoft.com",
+          "enterprise.microsoft.com",
+          "madeira.microsoft.com",
+          "open.microsoft.com",
+          "pmi.microsoft.com",
+          "partnercommunity.microsoft.com",
+          "successionplanninguat.microsoft.com",
+          "mydatahealth.microsoft.com",
+          "businesscentral.microsoft.com",
+          "phoenixcataloguat.microsoft.com",
+          "music.microsoft.com",
+          "www.skypeandteams.fasttrack.microsoft.com",
+          "msctec.microsoft.com",
+          "stationq.microsoft.com",
+          "businessplatform.microsoft.com",
+          "itpro.microsoft.com",
+          "communities2.microsoft.com",
+          "connectevent.microsoft.com",
+          "rss.microsoft.com",
+          "mango.microsoft.com",
+          "businessmobilitycenter.microsoft.com",
+          "analyticspartner.microsoft.com",
+          "store.microsoft.com",
+          "szkolyprzyszlosci.microsoft.com",
+          "s.microsoft.com",
+          "ieak.microsoft.com",
+          "www.aer.microsoft.com",
+          "afflink.microsoft.com",
+          "techacademy.microsoft.com",
+          "crawlmsdn.microsoft.com",
+          "upgradecenter.microsoft.com",
+          "hup.microsoft.com",
+          "aer.microsoft.com",
+          "minecraft.microsoft.com",
+          "learning.microsoft.com",
+          "pymes.microsoft.com",
+          "mspartnerira.microsoft.com",
+          "entrepreneur.microsoft.com",
+          "online.microsoft.com",
+          "msdnisv.microsoft.com",
+          "lumiaconversationsuk.microsoft.com",
+          "terraserver.microsoft.com",
+          "community.microsoft.com",
+          "messenger.microsoft.com",
+          "iotcentral.microsoft.com",
+          "communities.microsoft.com",
+          "backoffice.microsoft.com",
+          "explore-marketing.microsoft.com",
+          "explore-security.microsoft.com",
+          "sar.microsoft.com",
+          "gigjam.microsoft.com",
+          "pinpoint.microsoft.com",
+          "aether.microsoft.com",
+          "successionplanning.microsoft.com",
+          "commercialappcertification.microsoft.com",
+          "business.microsoft.com",
+          "fuse.microsoft.com",
+          "partnerincentives.microsoft.com",
+          "wwwbeta.microsoft.com"
+        ],
+        "transport": "tcp",
+        "timestamp": "2022-03-18T21:26:00.349741",
+        "domains": [
+          "microsoft.com"
+        ],
+        "ip_str": "40.112.72.205",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "microsoft.com",
+            "scan": "g0DNBkrUaQqKeKw5"
+          },
+          "id": "5cd9fbdb-b38c-4d47-ab64-d390422b4cd1",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 21:27:03 40.112.72.205:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Dublin",
+          "region_code": "L",
+          "area_code": null,
+          "longitude": -6.24889,
+          "latitude": 53.33306,
+          "country_code": "IE",
+          "country_name": "Ireland"
+        }
+      }
+    ],
+    "asn": "AS8075",
+    "ip_str": "40.112.72.205"
+  }

@@ -1,0 +1,402 @@
+{
+    "doc_id": 22,
+    "city": "New York City",
+    "region_code": "NY",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 389325853,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.00597,
+    "last_update": "2022-03-17T20:49:54.887952",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.71427,
+    "hostnames": [
+      "qa.global.fncstatic.com",
+      "foxnews.com",
+      "events.foxnews.com",
+      "beta.video.foxbusiness.com",
+      "affiliates.radio.foxnews.com",
+      "beta.video.magazine.foxnews.com",
+      "hp.staging-cms.foxnews.com",
+      "foxnewsinternational.com",
+      "foxbusiness.com",
+      "ak.podcast.foxnewsradio.com",
+      "dev-try.nation.foxnews.com",
+      "secure.media.foxnews.com",
+      "video.magazine.foxnews.com",
+      "beta.video.insider.foxnews.com",
+      "beta.video.foxnews.com",
+      "video.insider.foxnews.com",
+      "stage-pre-try.nation.foxnews.com",
+      "pre-try.nation.foxnews.com",
+      "ak.cuts.foxnewsradio.com",
+      "ak.podcast-testing.foxnewsradio.com",
+      "video.latino.foxnews.com",
+      "feeds.foxnews.com",
+      "a23-52-164-29.deploy.static.akamaitechnologies.com",
+      "public.media.foxnews.com",
+      "hp.dev-cms.foxnews.com",
+      "video.imag.foxnews.com",
+      "try.nation.foxnews.com",
+      "wildcard.foxnews.com",
+      "feeds.foxbusiness.com",
+      "ak.premium.foxnewsradio.com",
+      "foxnewsinsider.com",
+      "hp.cms.foxnews.com",
+      "beta.video.latino.foxnews.com",
+      "stage-try.nation.foxnews.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "fncstatic.com",
+      "foxbusiness.com",
+      "foxnews.com",
+      "akamaitechnologies.com",
+      "foxnewsradio.com",
+      "foxnewsinsider.com",
+      "foxnewsinternational.com"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "hash": 1759548,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "www.fncstatic.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-17T16:02:36.438859",
+        "org": "Akamai Technologies, Inc.",
+        "isp": "Akamai Technologies, Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: AkamaiGHost\r\nContent-Length: 0\r\nLocation: https://www.fncstatic.com/\r\nCache-Control: must-revalidate, max-age=0\r\nExpires: Thu, 17 Mar 2022 16:02:35 GMT\r\nDate: Thu, 17 Mar 2022 16:02:35 GMT\r\nConnection: keep-alive\r\nServer-Timing: cdn-cache; desc=HIT\r\nServer-Timing: edge; dur=1\r\nTiming-Allow-Origin: *\r\nTiming-Allow-Origin: *\r\n\r\n",
+        "asn": "AS16625",
+        "port": 80,
+        "hostnames": [
+          "a23-52-164-29.deploy.static.akamaitechnologies.com"
+        ],
+        "transport": "tcp",
+        "ip": 389325853,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "ip_str": "23.52.164.29",
+        "os": null,
+        "_shodan": {
+          "crawler": "8c108d59c81b65bba32b3225a760bb40705b85da",
+          "options": {
+            "hostname": "www.fncstatic.com",
+            "scan": "I1m2tjPr8ha9bauQ"
+          },
+          "id": "58946252-206b-4ecb-874e-6ce9056e1ff6",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "ip": 389325853,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache",
+          "host": "www.fncstatic.com",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>301 Moved Permanently</title>\n</head><body>\n<h1>Moved Permanently</h1>\n<p>The document has moved <a href=\"http://www.foxnews.com/\">here</a>.</p>\n</body></html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1478440859,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Apache httpd",
+        "hash": 1329131277,
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-17T20:49:54.887952",
+        "ssl": {
+          "chain_sha256": [
+            "a6ef2997530383ea3dca99b59a103b73aa0e67fce610d62bbdd1bfd84832dbfa",
+            "154c433c491929c5ef686e838e323664a00e6a0d822ccc958fb4dab03e49a08f",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "28d28d28d2ad28d22c42d42d000000996c218236a1fd203fd29824aa76026c",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIJjjCCCHagAwIBAgIQA2KjnANAtrhzsbEfI9qOeTANBgkqhkiG9w0BAQsFADBN\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E\naWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjExMjA4MDAwMDAwWhcN\nMjIxMjA4MjM1OTU5WjByMQswCQYDVQQGEwJVUzERMA8GA1UECBMITmV3IFlvcmsx\nETAPBgNVBAcTCE5ldyBZb3JrMR4wHAYDVQQKExVGb3ggTmV3cyBOZXR3b3JrLCBM\nTEMxHTAbBgNVBAMTFHdpbGRjYXJkLmZveG5ld3MuY29tMFkwEwYHKoZIzj0CAQYI\nKoZIzj0DAQcDQgAE2eH0vdA0Ajdb4tSzSb53o7KeBdjYMm0mED39OH6OXEpxzgTS\naPpOGZZ1lWCJPG1fK+N39c0sQoM9AY7p7iaGcqOCBw4wggcKMB8GA1UdIwQYMBaA\nFA+AYRyCMWHVLyjnjUY4tCzhxtniMB0GA1UdDgQWBBQmnSKjQApWDTfMkFB5IpoI\nymomSDCCA9oGA1UdEQSCA9EwggPNgg8qLmZibnN0YXRpYy5jb22CDyouZm5jc3Rh\ndGljLmNvbYIRKi5mb3hidXNpbmVzcy5jb22CDSouZm94bmV3cy5jb22CGiouZm94\nbmV3c2ludGVybmF0aW9uYWwuY29tghIqLmZveG5ld3NyYWRpby5jb22CHGFmZmls\naWF0ZXMucmFkaW8uZm94bmV3cy5jb22CGGFrLmN1dHMuZm94bmV3c3JhZGlvLmNv\nbYIjYWsucG9kY2FzdC10ZXN0aW5nLmZveG5ld3NyYWRpby5jb22CG2FrLnBvZGNh\nc3QuZm94bmV3c3JhZGlvLmNvbYIbYWsucHJlbWl1bS5mb3huZXdzcmFkaW8uY29t\nghpiZXRhLnZpZGVvLmZveGJ1c2luZXNzLmNvbYIWYmV0YS52aWRlby5mb3huZXdz\nLmNvbYIeYmV0YS52aWRlby5pbnNpZGVyLmZveG5ld3MuY29tgh1iZXRhLnZpZGVv\nLmxhdGluby5mb3huZXdzLmNvbYIfYmV0YS52aWRlby5tYWdhemluZS5mb3huZXdz\nLmNvbYIaZGV2LXRyeS5uYXRpb24uZm94bmV3cy5jb22CEmV2ZW50cy5mb3huZXdz\nLmNvbYIVZmVlZHMuZm94YnVzaW5lc3MuY29tghFmZWVkcy5mb3huZXdzLmNvbYIP\nZm94YnVzaW5lc3MuY29tggtmb3huZXdzLmNvbYISZm94bmV3c2luc2lkZXIuY29t\nghhmb3huZXdzaW50ZXJuYXRpb25hbC5jb22CEmhwLmNtcy5mb3huZXdzLmNvbYIW\naHAuZGV2LWNtcy5mb3huZXdzLmNvbYIaaHAuc3RhZ2luZy1jbXMuZm94bmV3cy5j\nb22CGnByZS10cnkubmF0aW9uLmZveG5ld3MuY29tghhwdWJsaWMubWVkaWEuZm94\nbmV3cy5jb22CF3FhLmdsb2JhbC5mbmNzdGF0aWMuY29tghhzZWN1cmUubWVkaWEu\nZm94bmV3cy5jb22CIHN0YWdlLXByZS10cnkubmF0aW9uLmZveG5ld3MuY29tghxz\ndGFnZS10cnkubmF0aW9uLmZveG5ld3MuY29tghZ0cnkubmF0aW9uLmZveG5ld3Mu\nY29tghZ2aWRlby5pbWFnLmZveG5ld3MuY29tghl2aWRlby5pbnNpZGVyLmZveG5l\nd3MuY29tghh2aWRlby5sYXRpbm8uZm94bmV3cy5jb22CGnZpZGVvLm1hZ2F6aW5l\nLmZveG5ld3MuY29tghR3aWxkY2FyZC5mb3huZXdzLmNvbTAOBgNVHQ8BAf8EBAMC\nB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMG8GA1UdHwRoMGYwMaAv\noC2GK2h0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zc2NhLXNoYTItZzYtMS5jcmww\nMaAvoC2GK2h0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9zc2NhLXNoYTItZzYtMS5j\ncmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3\ndy5kaWdpY2VydC5jb20vQ1BTMHwGCCsGAQUFBwEBBHAwbjAkBggrBgEFBQcwAYYY\naHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEYGCCsGAQUFBzAChjpodHRwOi8vY2Fj\nZXJ0cy5kaWdpY2VydC5jb20vRGlnaUNlcnRTSEEyU2VjdXJlU2VydmVyQ0EuY3J0\nMAwGA1UdEwEB/wQCMAAwggF8BgorBgEEAdZ5AgQCBIIBbASCAWgBZgB1ACl5vvCe\nOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABfZedvkQAAAQDAEYwRAIgZg28\nNDlyphkQbXwL2m9K8AlMpC/VxrLPTWZy8Gcv7I8CIDela41U7EI9y3pcq5uFn+al\n2j4/DvQdPk3Odc49HlXtAHYAUaOw9f0BeZxWbbg3eI8MpHrMGyfL956IQpoN/tSL\nBeUAAAF9l52+eAAABAMARzBFAiB0ND5/C0jId8/LUTTPIYqRnMg1wceypfTz8kWD\ndwFBjgIhAMmP9xO3cIZBd0MBEBtgOHctJZbEJ6E4rlvyfo1UVW/HAHUAQcjKsd8i\nRkoQxqE6CUKHXk4xixsD6+tLx2jwkGKWBvYAAAF9l5299gAABAMARjBEAiAwlYT9\nEThHXLAhTC2FzNfQgWy7YbaOhQQzjDm83XxCDwIgdvSCFFNtAxjaHIZbQfoL3j41\n4kPFd9nL85bcFLMW+u4wDQYJKoZIhvcNAQELBQADggEBAHPjxnIw9UAtjc0Sez8A\nd4et40V1Vpa8VEBgVoLN2t/Iw7YmYv6/lQ+PykerMdohXzmNLm0pzmtujXHVDMdh\ngM25RsroyDrf63OoDZqAss6PhDf/ejwUuJY/7IjVyYq5GEQNIECDWY1ZlMkz+/V+\naBkx+hH4OdqahhIaKWRWYtmviAK/cKwZydxj34eVnn+QOnhpwKVzg1j0UNW8j2jo\nEJZTeOBEEzGjHn6pcscgns8CAlqFK1NG9ls1ymNuaXCmvUMdiWEpmMV9NxWSx1mR\nh2MCYx+dyVQ+g3Vky95LjVfRtLCtN0CEOLPNDnwswI3tcEkf7E81hf/SkbXZvIOy\nXEk=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0xMzAzMDgxMjAwMDBaFw0yMzAzMDgxMjAwMDBaME0xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxJzAlBgNVBAMTHkRpZ2lDZXJ0IFNIQTIg\nU2VjdXJlIFNlcnZlciBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB\nANyuWJBNwcQwFZA1W248ghX1LFy949v/cUP6ZCWA1O4Yok3wZtAKc24RmDYXZK83\nnf36QYSvx6+M/hpzTc8zl5CilodTgyu5pnVILR1WN3vaMTIa16yrBvSqXUu3R0bd\nKpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f\n/ld0Uzs1gN2ujkSYs58O09rg1/RrKatEp0tYhG2SS4HD2nOLEpdIkARFdRrdNzGX\nkujNVA075ME/OV4uuPNcfhCOhkEAjUVmR7ChZc6gqikJTvOX6+guqw9ypzAO+sf0\n/RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C\nAQAwDgYDVR0PAQH/BAQDAgGGMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYY\naHR0cDovL29jc3AuZGlnaWNlcnQuY29tMHsGA1UdHwR0MHIwN6A1oDOGMWh0dHA6\nLy9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RDQS5jcmwwN6A1\noDOGMWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RD\nQS5jcmwwPQYDVR0gBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8v\nd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwHQYDVR0OBBYEFA+AYRyCMWHVLyjnjUY4tCzh\nxtniMB8GA1UdIwQYMBaAFAPeUDVW0Uy7ZvCj4hsbw5eyPdFVMA0GCSqGSIb3DQEB\nCwUAA4IBAQAjPt9L0jFCpbZ+QlwaRMxp0Wi0XUvgBCFsS+JtzLHgl4+mUwnNqipl\n5TlPHoOlblyYoiQm5vuh7ZPHLgLGTUq/sELfeNqzqPlt/yGFUzZgTHbO7Djc1lGA\n8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC\n2iDJ6m6K7hQGrn2iWZiIqBtvLfTyyRRfJs8sjX7tN8Cp1Tm5gr8ZDOo0rwAhaPit\nc+LJMto4JQtV05od8GiG7S5BNO98pVAdvzr508EIDObtHopYJeS4d60tbvVS3bR0\nj6tJLp07kzQoH3jOlOrHvdPJbRzeXDLz\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211208000000Z",
+            "expires": "20221208235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\x0f\\x80a\\x1c\\x821a\\xd5/(\\xe7\\x8dF8\\xb4,\\xe1\\xc6\\xd9\\xe2",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14&\\x9d\"\\xa3@\nV\r7\\xcc\\x90Py\"\\x9a\\x08\\xcaj&H",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x03\\xcd\\x82\\x0f*.fbnstatic.com\\x82\\x0f*.fncstatic.com\\x82\\x11*.foxbusiness.com\\x82\r*.foxnews.com\\x82\\x1a*.foxnewsinternational.com\\x82\\x12*.foxnewsradio.com\\x82\\x1caffiliates.radio.foxnews.com\\x82\\x18ak.cuts.foxnewsradio.com\\x82#ak.podcast-testing.foxnewsradio.com\\x82\\x1bak.podcast.foxnewsradio.com\\x82\\x1bak.premium.foxnewsradio.com\\x82\\x1abeta.video.foxbusiness.com\\x82\\x16beta.video.foxnews.com\\x82\\x1ebeta.video.insider.foxnews.com\\x82\\x1dbeta.video.latino.foxnews.com\\x82\\x1fbeta.video.magazine.foxnews.com\\x82\\x1adev-try.nation.foxnews.com\\x82\\x12events.foxnews.com\\x82\\x15feeds.foxbusiness.com\\x82\\x11feeds.foxnews.com\\x82\\x0ffoxbusiness.com\\x82\\x0bfoxnews.com\\x82\\x12foxnewsinsider.com\\x82\\x18foxnewsinternational.com\\x82\\x12hp.cms.foxnews.com\\x82\\x16hp.dev-cms.foxnews.com\\x82\\x1ahp.staging-cms.foxnews.com\\x82\\x1apre-try.nation.foxnews.com\\x82\\x18public.media.foxnews.com\\x82\\x17qa.global.fncstatic.com\\x82\\x18secure.media.foxnews.com\\x82 stage-pre-try.nation.foxnews.com\\x82\\x1cstage-try.nation.foxnews.com\\x82\\x16try.nation.foxnews.com\\x82\\x16video.imag.foxnews.com\\x82\\x19video.insider.foxnews.com\\x82\\x18video.latino.foxnews.com\\x82\\x1avideo.magazine.foxnews.com\\x82\\x14wildcard.foxnews.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0f01\\xa0/\\xa0-\\x86+http://crl3.digicert.com/ssca-sha2-g6-1.crl01\\xa0/\\xa0-\\x86+http://crl4.digicert.com/ssca-sha2-g6-1.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0n0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0F\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01h\\x01f\\x00u\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01}\\x97\\x9d\\xbeD\\x00\\x00\\x04\\x03\\x00F0D\\x02 f\r\\xbc49r\\xa6\\x19\\x10m|\\x0b\\xdaoJ\\xf0 L\\xa4/\\xd5\\xc6\\xb2\\xcfMfr\\xf0g/\\xec\\x8f\\x02 7\\xa5k\\x8dT\\xecB=\\xcbz\\\\\\xab\\x9b\\x85\\x9f\\xe6\\xa5\\xda>?\\x0e\\xf4\\x1d>M\\xceu\\xce=\\x1eU\\xed\\x00v\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01}\\x97\\x9d\\xbex\\x00\\x00\\x04\\x03\\x00G0E\\x02 t4>\\x7f\\x0bH\\xc8w\\xcf\\xcbQ4\\xcf!\\x8a\\x91\\x9c\\xc85\\xc1\\xc7\\xb2\\xa5\\xf4\\xf3\\xf2E\\x83w\\x01A\\x8e\\x02!\\x00\\xc9\\x8f\\xf7\\x13\\xb7p\\x86AwC\\x01\\x10\\x1b`8w-%\\x96\\xc4\\'\\xa18\\xae[\\xf2~\\x8dTUo\\xc7\\x00u\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01}\\x97\\x9d\\xbd\\xf6\\x00\\x00\\x04\\x03\\x00F0D\\x02 0\\x95\\x84\\xfd\\x118G\\\\\\xb0!L-\\x85\\xcc\\xd7\\xd0\\x81l\\xbba\\xb6\\x8e\\x85\\x043\\x8c9\\xbc\\xdd|B\\x0f\\x02 v\\xf4\\x82\\x14Sm\\x03\\x18\\xda\\x1c\\x86[A\\xfa\\x0b\\xde>5\\xe2C\\xc5w\\xd9\\xcb\\xf3\\x96\\xdc\\x14\\xb3\\x16\\xfa\\xee",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "a6ef2997530383ea3dca99b59a103b73aa0e67fce610d62bbdd1bfd84832dbfa",
+              "sha1": "8a8229f6e7be3cbe0e69b478b6c036392a70c9bc"
+            },
+            "serial": 4.4998474728565975e+36,
+            "subject": {
+              "CN": "wildcard.foxnews.com",
+              "C": "US",
+              "L": "New York",
+              "O": "Fox News Network, LLC",
+              "ST": "New York"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert SHA2 Secure Server CA",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "0F80611C823161D52F28E78D4638B42CE1C6D9E2",
+            "cert_status": "good",
+            "produced_at": "2022-03-16 09:48:27",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-23 08:48:01",
+            "this_update": "2022-03-16 09:33:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "105FA67A80089DB5279F35CE830B43889EA3C70D",
+              "issuer_name_key": "0F80611C823161D52F28E78D4638B42CE1C6D9E2",
+              "serial_number": "0362A39C0340B6B873B1B11F23DA8E79"
+            }
+          }
+        },
+        "hostnames": [
+          "qa.global.fncstatic.com",
+          "foxnews.com",
+          "events.foxnews.com",
+          "beta.video.foxbusiness.com",
+          "affiliates.radio.foxnews.com",
+          "beta.video.magazine.foxnews.com",
+          "hp.staging-cms.foxnews.com",
+          "foxbusiness.com",
+          "foxnewsinternational.com",
+          "ak.podcast.foxnewsradio.com",
+          "dev-try.nation.foxnews.com",
+          "secure.media.foxnews.com",
+          "video.magazine.foxnews.com",
+          "beta.video.insider.foxnews.com",
+          "beta.video.foxnews.com",
+          "video.insider.foxnews.com",
+          "stage-pre-try.nation.foxnews.com",
+          "pre-try.nation.foxnews.com",
+          "ak.cuts.foxnewsradio.com",
+          "ak.podcast-testing.foxnewsradio.com",
+          "video.latino.foxnews.com",
+          "feeds.foxnews.com",
+          "a23-52-164-29.deploy.static.akamaitechnologies.com",
+          "public.media.foxnews.com",
+          "feeds.foxbusiness.com",
+          "video.imag.foxnews.com",
+          "try.nation.foxnews.com",
+          "wildcard.foxnews.com",
+          "hp.dev-cms.foxnews.com",
+          "stage-try.nation.foxnews.com",
+          "foxnewsinsider.com",
+          "hp.cms.foxnews.com",
+          "beta.video.latino.foxnews.com",
+          "ak.premium.foxnewsradio.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: Apache\r\nLocation: http://www.foxnews.com/\r\nContent-Length: 231\r\nContent-Type: text/html; charset=iso-8859-1\r\nCache-Control: must-revalidate, max-age=59976\r\nExpires: Fri, 18 Mar 2022 13:29:30 GMT\r\nDate: Thu, 17 Mar 2022 20:49:54 GMT\r\nConnection: keep-alive\r\nServer-Timing: cdn-cache; desc=HIT\r\nServer-Timing: edge; dur=2\r\nTiming-Allow-Origin: *\r\nStrict-Transport-Security: max-age=15768000 ; preload\r\nTiming-Allow-Origin: *\r\n\r\n",
+        "asn": "AS16625",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server"
+        ],
+        "isp": "Akamai Technologies, Inc.",
+        "cpe": [
+          "cpe:/a:apache:http_server"
+        ],
+        "domains": [
+          "fncstatic.com",
+          "foxnews.com",
+          "foxbusiness.com",
+          "foxnewsinternational.com",
+          "foxnewsradio.com",
+          "akamaitechnologies.com",
+          "foxnewsinsider.com"
+        ],
+        "ip_str": "23.52.164.29",
+        "os": null,
+        "_shodan": {
+          "crawler": "8c108d59c81b65bba32b3225a760bb40705b85da",
+          "options": {
+            "referrer": "58946252-206b-4ecb-874e-6ce9056e1ff6",
+            "hostname": "www.fncstatic.com",
+            "scan": "I1m2tjPr8ha9bauQ"
+          },
+          "id": "94378e37-61f9-445a-93e4-8620b9bd27f3",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 20:51:15 23.52.164.29:443 - SAFE\n"
+        }
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "23.52.164.29"
+  }

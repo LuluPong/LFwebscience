@@ -1,0 +1,103 @@
+{
+    "doc_id": 88,
+    "city": "Alexandria",
+    "region_code": "VA",
+    "os": null,
+    "tags": [],
+    "ip": 3630411843,
+    "isp": "Exelon Corporation",
+    "area_code": null,
+    "longitude": -77.04692,
+    "last_update": "2022-03-26T17:33:24.107777",
+    "ports": [
+      80
+    ],
+    "latitude": 38.80484,
+    "hostnames": [
+      "sharefilelogout.exeloncorp.com",
+      "comedgames.com",
+      "excldshared.exeloncorp.com",
+      "temp.oneokenergymarketing.com",
+      "www.comedgames.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "exeloncorp.com",
+      "oneokenergymarketing.com",
+      "comedgames.com"
+    ],
+    "org": "Exelon Corporation",
+    "data": [
+      {
+        "ip": 3630411843,
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Bad Request",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Microsoft-HTTPAPI/2.0",
+          "host": "216.99.176.67",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Bad Request</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad Request - Invalid Hostname</h2>\r\n<hr><p>HTTP Error 400. The request hostname is invalid.</p>\r\n</BODY></HTML>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1298793639,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 80,
+        "transport": "tcp",
+        "version": "2.0",
+        "location": {
+          "city": "Alexandria",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.04692,
+          "latitude": 38.80484,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Microsoft HTTPAPI httpd",
+        "hash": 1345809912,
+        "timestamp": "2022-03-26T17:33:24.107777",
+        "hostnames": [
+          "excldshared.exeloncorp.com",
+          "temp.oneokenergymarketing.com",
+          "www.comedgames.com",
+          "comedgames.com",
+          "sharefilelogout.exeloncorp.com"
+        ],
+        "org": "Exelon Corporation",
+        "data": "HTTP/1.1 400 Bad Request\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 26 Mar 2022 17:28:06 GMT\r\nConnection: close\r\nContent-Length: 334\r\n\r\n",
+        "asn": "AS23503",
+        "cpe23": [
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "info": "SSDP/UPnP",
+        "isp": "Exelon Corporation",
+        "cpe": [
+          "cpe:/o:microsoft:windows"
+        ],
+        "domains": [
+          "exeloncorp.com",
+          "oneokenergymarketing.com",
+          "comedgames.com"
+        ],
+        "ip_str": "216.99.176.67",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {},
+          "id": "1e782b4b-57d7-497a-b234-63eba80d71df",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {}
+      }
+    ],
+    "asn": "AS23503",
+    "ip_str": "216.99.176.67"
+  }

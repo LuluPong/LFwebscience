@@ -1,0 +1,327 @@
+{
+    "doc_id": 39,
+    "city": "San Francisco",
+    "region_code": "CA",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 2540011929,
+    "isp": "Fastly",
+    "area_code": null,
+    "longitude": -122.3971,
+    "last_update": "2022-03-18T23:26:43.691073",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 37.7621,
+    "hostnames": [
+      "customclub.nfl.com",
+      "chargers.com",
+      "redskins.com",
+      "titansonline.com",
+      "www.titansonline.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "chargers.com",
+      "redskins.com",
+      "titansonline.com",
+      "nfl.com"
+    ],
+    "org": "Fastly",
+    "data": [
+      {
+        "hash": 633194115,
+        "product": "Varnish",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [
+            {
+              "host": "titansonline.com",
+              "data": "HTTP/1.1 301 Moved Permanently\r\nServer: Varnish\r\nRetry-After: 0\r\nLocation: http://www.titansonline.com/\r\nCache-Control: private\r\nContent-Length: 0\r\nAccept-Ranges: bytes\r\nDate: Fri, 18 Mar 2022 23:21:23 GMT\r\nVia: 1.1 varnish\r\nConnection: close\r\nX-NFL-Geo: country_code=US\r\nX-NFL-Dma: 825\r\nX-Served-By: cache-bur-kbur8200062-SMO\r\nX-Cache: HIT\r\nX-Cache-Hits: 0\r\n\r\n",
+              "location": "/"
+            },
+            {
+              "host": "www.titansonline.com",
+              "data": "HTTP/1.1 302 Found\r\nServer: Varnish\r\nRetry-After: 0\r\nLocation: http://www.tennesseetitans.com/\r\nCache-Control: private\r\nContent-Length: 0\r\nAccept-Ranges: bytes\r\nDate: Fri, 18 Mar 2022 23:21:23 GMT\r\nVia: 1.1 varnish\r\nConnection: close\r\nX-NFL-Geo: country_code=US\r\nX-NFL-Dma: 825\r\nX-Served-By: cache-lax10649-LGB\r\nX-Cache: HIT\r\nX-Cache-Hits: 0\r\n\r\n",
+              "location": "/"
+            }
+          ],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": "Varnish",
+          "host": "www.tennesseetitans.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "ip": 2540011929,
+        "isp": "Fastly",
+        "transport": "tcp",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: Varnish\r\nRetry-After: 0\r\nLocation: https://www.tennesseetitans.com/\r\nCache-Control: private\r\nContent-Length: 0\r\nAccept-Ranges: bytes\r\nDate: Fri, 18 Mar 2022 23:21:25 GMT\r\nVia: 1.1 varnish\r\nConnection: close\r\nX-NFL-Geo: country_code=US\r\nX-NFL-Dma: 825\r\nX-Served-By: cache-lax10648-LGB\r\nX-Cache: HIT\r\nX-Cache-Hits: 0\r\n\r\n",
+        "asn": "AS54113",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "San Francisco",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -122.3971,
+          "latitude": 37.7621,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-18T23:26:43.691073",
+        "domains": [],
+        "org": "Fastly",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "titansonline.com",
+            "scan": "Ammg0FyUoiT4DqrN"
+          },
+          "id": "580bda46-ab89-46bc-948a-cbafd1e4f9b1",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "151.101.129.153"
+      },
+      {
+        "hash": -1657770201,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": "Varnish",
+          "host": "titansonline.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "ip": 2540011929,
+        "isp": "Fastly",
+        "transport": "tcp",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nConnection: close\r\nContent-Length: 0\r\nServer: Varnish\r\nRetry-After: 0\r\nLocation: https://www.titansonline.com/\r\nCache-Control: private\r\nAccept-Ranges: bytes\r\nDate: Fri, 18 Mar 2022 22:38:09 GMT\r\nVia: 1.1 varnish\r\nX-NFL-Geo: country_code=US\r\nX-NFL-Dma: 825\r\nX-Served-By: cache-lax10640-LGB\r\nX-Cache: HIT\r\nX-Cache-Hits: 0\r\n\r\n",
+        "asn": "AS54113",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "5d832c6dde5067b0dcad10199642558cf9b3008e1a0c1533989e70dacce0fc4d",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "29d29d00029d29d21c29d29d29d29d703dc1bf20eb9604decefea997eabff7",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIGkDCCBXigAwIBAgISBLXjzYfM6OKBiNCRbCR8w/KeMA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAyMTUwNzQ0MjJaFw0yMjA1MTYwNzQ0MjFaMB0xGzAZBgNVBAMT\nEmN1c3RvbWNsdWIubmZsLmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoC\nggIBALWCdSwtA2Ss2pKDEzrMxQew2UN97esbPn21jgkg3xIRT733mCVlMjWpsG+2\nWNvhdlRNQpWEKTEjTA6Ekqy4XL/rQGyMPeGKLQK4ivCGkKi3ILFb+e8DlWgnAP+t\ne04Vh2WzCjBSkegNsKHHCqLWsXuaYSN7Xp1lhAzcA5CB/Aor3+sYfRu4xFtw79ja\nsAgDpBg7BHHcTmYfc5MvWLRSoYQbhQ/EIQEtPsX3jCk3tBLstMVvZibK+SJETfiB\nHb5DeJzNP2KBIHBr+v1rKQ/2lFReW+x6fZspywXbF7l+wMgJE3OOhF21wPQWR1Gh\nMBkvh+KdjwlO/NMEidDR/1C/Gla/9fW7pvQUGePx67OktwDyJ98LlhzpRY8G3QN0\n5kzytL0fNFVzcIwgvDIYhgwOW21RBCI6//gHA6lq9Qgbdsjh2e1AwBBr9uel9hbO\nRaBeEuQfGFaVTw/5oW1uBzZrnVfX3imEp8Pgl0bRT7EfjtWDDW9wOMw9KWWwU/Do\nnkRp6KjZySVI12XJu39dOchAq6PNlPV3D6lQ5AxyFKSCwuGWHUNfJmoS7F7HBykH\nX2wOfJNIFjSI4aKlGE1XWjpYC/n6jiJfJDRap2FvEFkxdkKDHdLo3xbyvjGadf8P\ngM7i7g8YVxaCkGnOC7yVWc08LvEi39qggTSWFZjsOJKLRyRTAgMBAAGjggKzMIIC\nrzAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMC\nMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFG5UVM15Jpu8UPWAhSvl8au5+DJSMB8G\nA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAh\nBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZo\ndHRwOi8vcjMuaS5sZW5jci5vcmcvMIGBBgNVHREEejB4gg4qLmNoYXJnZXJzLmNv\nbYIOKi5yZWRza2lucy5jb22CDGNoYXJnZXJzLmNvbYISY3VzdG9tY2x1Yi5uZmwu\nY29tggxyZWRza2lucy5jb22CEHRpdGFuc29ubGluZS5jb22CFHd3dy50aXRhbnNv\nbmxpbmUuY29tMEwGA1UdIARFMEMwCAYGZ4EMAQIBMDcGCysGAQQBgt8TAQEBMCgw\nJgYIKwYBBQUHAgEWGmh0dHA6Ly9jcHMubGV0c2VuY3J5cHQub3JnMIIBBQYKKwYB\nBAHWeQIEAgSB9gSB8wDxAHcAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVd\nx4QAAAF+/I3eLAAABAMASDBGAiEAhTgs8vZG6pLYrav1WW1CyKsK0S237sM5Ze42\nktMMDj8CIQCntNYitfXbdUADGnYLNPiax1B7aKUBje0a3bXEUmDjbQB2AN+lXqto\ngk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABfvyN4CIAAAQDAEcwRQIhANnM\nsbgVuZTkrASiCt1UaPmVsnTwF+Xewg0TsNzAgv8/AiBquZqh7IJbdBIRMZO/AfYD\n7pWgp+4z19tN5l7T6p26jzANBgkqhkiG9w0BAQsFAAOCAQEAZaseyChweUj3J7C3\nZLpZUsP6AFgMlI9KNYVFQKFApYvlrj6xks1Mhuvux5B//uP0DIhCa5vILJdZhbsK\njg+UOMrg3bPxUTLJ6YGvV456S87uBhlefJiKvxUxD41cer4EgioAeYbQmt/YLclz\nkdXGN1AESaWpYbw8Tolni531l3XRb5kLcS580Chy7P7Mpmj2/Vy4Q0ayye8eFjsl\nSZm8ACoL4J0J+Q9ZwuSx7BkeBx9qml/7taq4gbAHdn8tr/4G/nsYDNInp+RxkvfZ\neUCEXMZlgwfdcv6krRs0cciG/hyfrbXS/6IPtmZD3U9d/y8ezmFpOTMKdkVPd2vl\nNlroOQ==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "0c0aff9ccea5e7e1de5c3a0069d103f3",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220215074422Z",
+            "expires": "20220516074421Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14nTT\\xcdy&\\x9b\\xbcP\\xf5\\x80\\x85+\\xe5\\xf1\\xab\\xb9\\xf82R",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0x\\x82\\x0e*.chargers.com\\x82\\x0e*.redskins.com\\x82\\x0cchargers.com\\x82\\x12customclub.nfl.com\\x82\\x0credskins.com\\x82\\x10titansonline.com\\x82\\x14www.titansonline.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf3\\x00\\xf1\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01~\\xfc\\x8d\\xde,\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x858,\\xf2\\xf6F\\xea\\x92\\xd8\\xad\\xab\\xf5YmB\\xc8\\xab\n\\xd1-\\xb7\\xee\\xc39e\\xee6\\x92\\xd3\\x0c\\x0e?\\x02!\\x00\\xa7\\xb4\\xd6\"\\xb5\\xf5\\xdbu@\\x03\\x1av\\x0b4\\xf8\\x9a\\xc7P{h\\xa5\\x01\\x8d\\xed\\x1a\\xdd\\xb5\\xc4R`\\xe3m\\x00v\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01~\\xfc\\x8d\\xe0\"\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xd9\\xcc\\xb1\\xb8\\x15\\xb9\\x94\\xe4\\xac\\x04\\xa2\n\\xddTh\\xf9\\x95\\xb2t\\xf0\\x17\\xe5\\xde\\xc2\r\\x13\\xb0\\xdc\\xc0\\x82\\xff?\\x02 j\\xb9\\x9a\\xa1\\xec\\x82[t\\x12\\x111\\x93\\xbf\\x01\\xf6\\x03\\xee\\x95\\xa0\\xa7\\xee3\\xd7\\xdbM\\xe6^\\xd3\\xea\\x9d\\xba\\x8f",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "5d832c6dde5067b0dcad10199642558cf9b3008e1a0c1533989e70dacce0fc4d",
+              "sha1": "2d33686d87bae77e8bab4c11128cbcf7d370f9d1"
+            },
+            "serial": 4.1034305406999e+41,
+            "subject": {
+              "CN": "customclub.nfl.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 4096
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "C = US, O = Let's Encrypt, CN = R3",
+            "cert_status": "good",
+            "produced_at": "2022-03-15 08:29:00",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-22 07:59:58",
+            "this_update": "2022-03-15 08:00:00",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "48DAC9A0FB2BD32D4FF0DE68D2F567B735F9B3C4",
+              "issuer_name_key": "142EB317B75856CBAE500940E61FAF9D8B14C2C6",
+              "serial_number": "04872DB1BB2161E36179851C3C149D987701"
+            }
+          }
+        },
+        "hostnames": [
+          "customclub.nfl.com",
+          "chargers.com",
+          "redskins.com",
+          "titansonline.com",
+          "www.titansonline.com"
+        ],
+        "location": {
+          "city": "San Francisco",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -122.3971,
+          "latitude": 37.7621,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-18T22:43:27.382875",
+        "domains": [
+          "nfl.com",
+          "chargers.com",
+          "redskins.com",
+          "titansonline.com"
+        ],
+        "org": "Fastly",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "titansonline.com",
+            "scan": "Ammg0FyUoiT4DqrN"
+          },
+          "id": "dcbfaf4c-0e90-497f-9900-7b6f7a8359c3",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 22:43:54 151.101.129.153:443 - SAFE\n"
+        },
+        "ip_str": "151.101.129.153"
+      }
+    ],
+    "asn": "AS54113",
+    "ip_str": "151.101.129.153"
+  }

@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form [formGroup]="mdbForm" (ngSubmit)="onSubmit($event)">
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Document ID</span>
+                        <input type="text" name="doc_number" id="doc_number" formControlName="document_number" class="form-control" placeholder="Not available on POST">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Content</span>
+                        <textarea name="content" id="content" formControlName="content" class="form-control" rows="5" placeholder="ALL DOCUMENTS MUST HAVE A DOC_ID KEY WITH A NUMBER VALUE WITHIN JSON TO BE RETRIEVABLE."></textarea>
+                    </div>
+                    <div class="btn-group mt-3 mx-5" role="group">
+                        <button type="submit" name="get" class="btn rounded-pill search col-md me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="If Document ID is empty or 0, entire collection will be returned">GET</button>
+                        <button type="submit" name="post" class="btn rounded-pill search mx-2">POST</button>
+                        <button type="submit" name="put" class="btn rounded-pill search mx-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="If Document ID is empty or 0, entire collection will be updated">PUT</button>
+                        <button type="submit" name="delete" class="btn rounded-pill search ms-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="If Document ID is empty or 0, entire collection will be DELETED">DELETE</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="db_results col input-group">
+            <span class="input-group-text">Result</span>
+            <textarea [innerHTML]="returnedContent" rows="10" cols="40" class="overflow-scroll" wrap="off" class="form-control" readonly></textarea>
+        </div>
+    </div>
+</div>
