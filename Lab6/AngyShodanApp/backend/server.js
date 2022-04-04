@@ -5,7 +5,7 @@ const fs = require('fs')
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const app = express()
-const fetch = require('node-fetch')
+const fetch = require('node-fetch');
 const port = 3000
 
 //node-fetch@2.6.6, express, body-parser
@@ -23,6 +23,14 @@ function myfunct(item) {
 }
 
 const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true';
+
+
+app.get('/etl', (req, res) => {
+    
+
+    //res.send('test')
+})
+
 
 app.route('/db')
     .get((req, res) => {
@@ -140,7 +148,6 @@ app.route('/db/:number')
         })
 
     })
-
 
 app.get('/', (req, res) => {
     res.json({test: 1})
