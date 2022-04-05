@@ -25,11 +25,20 @@ function myfunct(item) {
 const url_mongo = 'mongodb+srv://primaryUser:5oDennkTOjAknf8y@cluster0.jbtsz.mongodb.net/test?authSource=admin&replicaSet=atlas-tzykff-shard-0&readPreference=primary&appname=MongoDB+Compass&ssl=true';
 
 
-app.get('/etl', (req, res) => {
-    
-
-    //res.send('test')
-})
+app.route('/lab6')
+    .delete((req, res) => {
+        MongoClient.connect(url_mongo, function(err, db) {
+            if (err) throw (err)
+            var dbo = db.db("testdb");
+            dbo.collection("lab6").deleteMany({}, (err, result) => {
+                if (err) {
+                    res.status(500).json({delete: "failed"})
+                } else {
+                    res.status(200).json({delete: "successful"})
+                }
+            })
+        })
+    })
 
 
 app.route('/db')
@@ -47,18 +56,78 @@ app.route('/db')
         })
     })
     .post((req, res) => {
-        console.log(req.body.doc_id)
+        console.log(req.body.con)
+        yg = req.body.con
+
         MongoClient.connect(url_mongo, function (err, db) {
             if (err) throw (err);
             var dbo = db.db('testdb');
-            dbo.collection("test").insertOne(req.body, (err, result) => {
-                if(err) {
-                    res.json({post: "failed"})
-                } else {
-                    res.json({post: "successful"})
+
+            if (req.body.col == 'test collection') {
+                dbo.collection("test").insertOne(req.body.con, (err, result) => {
+                    if(err) {
+                        res.json({post: "failed"})
+                    } else {
+                        res.json({post: "successful"})
+                    }
+                    db.close()
+                })
+            } else {
+
+                if (yg.doc_id < 101) {
+                    post_schema = 
+                    {
+                        "id": yg.doc_id,
+                        "ip_address": yg.ip_str,
+                        "organization": yg.org,
+                        "country": yg.country_code,
+                        "region": yg.region_code,
+                        "ISP": yg.isp
+
+                    }
+                } else if (yg.doc_id < 201) {
+                    post_schema = 
+                    {
+                        "id": yg.doc_id,
+                        "ip_address": yg.properties.dns.a,
+                        "organization": yg.properties.geo.org,
+                        "country": yg.properties.geo.countrycode,
+                        "region": yg.properties.geo.region,
+                        "ISP": yg.properties.whois.registrar
+                    }
+                } else if (yg.doc_id < 301) {
+                    post_schema = 
+                    {
+                        "id": yg.doc_id,
+                        "ip_address": yg.data.items.hosts_enrichment.ip,
+                        "organization": yg.data.items.hosts_enrichment.as_org,
+                        "country": yg.data.items.cert_summary.subject.country,
+                        "region": yg.data.items.whois_parsed.admin.province,
+                        "ISP": yg.data.items.hosts_enrichment.isp
+                    }
+                } else if (yg.doc_id > 300) {
+                    /*post_schema = 
+                    {
+                        "id": yg.doc_id,
+                        "ip_address": yg.data,
+                        "organization": yg.,
+                        "country": yg.,
+                        "region": yg.,
+                        "ISP": yg.
+                    }*/
                 }
-                db.close()
-            })
+
+                dbo.collection("lab6").insertOne(post_schema, (err, result) => {
+                    if (err) {
+                        res.json({post: "failed"})
+                    } else {
+                        res.json({post: "successful"})
+                    }
+                    db.close()
+                })
+            }
+
+            
         })
     })
     .put((req, res) => {

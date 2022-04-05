@@ -13,6 +13,8 @@ export class HttpService {
   private dbTopAPI = "http://localhost:3000/db";
   public db_spec = `http://localhost:3000/db/`;
 
+  public etl_ = `http://localhost:3000/lab6`;
+
   constructor(private httpClient: HttpClient) { }
 
   public sendGetRequest() {
@@ -50,6 +52,10 @@ export class HttpService {
     return this.httpClient.post(this.dbTopAPI, JSON.parse(content_));
   }
 
+  public addDoc_Dup(content_: string) {
+    return this.httpClient.post(this.dbTopAPI, JSON.parse(content_));
+  }
+
   // Put ---------------------------------------------------
 
   public upDate(content_: string) {
@@ -57,6 +63,7 @@ export class HttpService {
   }
 
   public upDateSpec(docID: number, content_: string) {
+    console.log('checkpoint 2')
     this.db_spec = `http://localhost:3000/db/${docID}`
     return this.httpClient.put(this.db_spec, JSON.parse(content_))
   }
@@ -71,4 +78,9 @@ export class HttpService {
   public deleteFIN() {
     return this.httpClient.delete(this.dbTopAPI)
   }
+
+  public deleteFIN_Dup() {
+    return this.httpClient.delete(this.etl_)
+  }
+
 }

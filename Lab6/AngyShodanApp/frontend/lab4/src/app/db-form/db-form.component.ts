@@ -25,6 +25,7 @@ export class DbFormComponent implements OnInit {
 
   onSubmit(event: SubmitEvent) {
     const doc:string = this.mdbForm.get('content')?.value
+    const col_type:string = this.mdbForm.get('collection_choice')?.value
     //Keys have to be a string encapsulated in ""
     if (event?.submitter?.innerHTML == "PUT") {
       console.log("THIS IS A PUT REQUEST")
@@ -42,14 +43,28 @@ export class DbFormComponent implements OnInit {
       }
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
-
-      if (this.mdbForm.get('document_number')?.value == '') {
-        this.httpService.addDoc(doc).subscribe((data) => {
-          console.log(data)
-          this.returnedContent = "Document added"
-        })
+      if (this.mdbForm.get('collection_choice')?.value == 'test collection') {
+        if (this.mdbForm.get('document_number')?.value == '') {
+          this.httpService.addDoc(doc).subscribe((data) => {
+            console.log(data)
+            this.returnedContent = "Document added"
+          })
+        } else {
+          this.returnedContent = "Document cannot be added to another document.\nPlease clear the document ID field."
+        }
       } else {
-        this.returnedContent = "Document cannot be added to another document.\nPlease clear the document ID field."
+        console.log('lab 6 collection instead')
+        if (this.mdbForm.get('document_number')?.value == '') {
+          
+          const idk:string = `{"col": "lab 6", "con": ${doc}}` 
+
+          this.httpService.addDoc_Dup(idk).subscribe((data) => {
+            console.log(data)
+            this.returnedContent = "Document added"
+          })
+        } else {
+          this.returnedContent = "Document cannot be added to another document.\nPlease clear the document ID field."
+        }
       }
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
@@ -73,14 +88,22 @@ export class DbFormComponent implements OnInit {
     } else if (event?.submitter?.innerHTML == "DELETE") {
       const doc_numero:string = this.mdbForm.get('document_number')?.value
       console.log("THIS IS A DELETE REQUEST")
-      if (doc_numero == '' || doc_numero == '0') {
-        this.httpService.deleteFIN().subscribe((data) => {
-          this.returnedContent = "All documents deleted successfully"
-        })
+      if (col_type == "test collection") {
+        if (doc_numero == '' || doc_numero == '0') {
+          this.httpService.deleteFIN().subscribe((data) => {
+            this.returnedContent = "All documents deleted successfully"
+          })
+        } else {
+          this.httpService.deleteSpec(doc_numero).subscribe((data) => {
+            this.returnedContent = `Document ${doc_numero} deleted successfully`
+          })
+        }
       } else {
-        this.httpService.deleteSpec(doc_numero).subscribe((data) => {
-          this.returnedContent = `Document ${doc_numero} deleted successfully`
-        })
+        if (doc_numero == '' || doc_numero == '0') {
+          this.httpService.deleteFIN_Dup().subscribe((data) => {
+            this.returnedContent = "All documents deleted successfully"
+          })
+        }
       }
     }
   }
