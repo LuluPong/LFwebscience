@@ -96,32 +96,33 @@ app.route('/db')
                         "ISP": yg.properties.whois.registrar
                     }
                 } else if (yg.doc_id < 301) {
+                    console.log()
                     post_schema = 
                     {
                         "id": yg.doc_id,
-                        "ip_address": yg.data.items.hosts_enrichment.ip,
-                        "organization": yg.data.items.hosts_enrichment.as_org,
-                        "country": yg.data.items.cert_summary.subject.country,
-                        "region": yg.data.items.whois_parsed.admin.province,
-                        "ISP": yg.data.items.hosts_enrichment.isp
+                        "ip_address": yg.data.items[0].hosts_enrichment[0].ip,
+                        "organization": yg.data.items[0].hosts_enrichment[0].as_org,
+                        "country": yg.data.items[0].cert_summary.subject.country,
+                        "region": yg.data.items[0].whois_parsed.admin.province,
+                        "ISP": yg.data.items[0].hosts_enrichment[0].isp
                     }
                 } else if (yg.doc_id > 300) {
-                    /*post_schema = 
+                    post_schema = 
                     {
                         "id": yg.doc_id,
-                        "ip_address": yg.data,
-                        "organization": yg.,
-                        "country": yg.,
-                        "region": yg.,
-                        "ISP": yg.
-                    }*/
+                        "ip_address": yg.ip,
+                        "organization": yg.org,
+                        "country": yg.country_code,
+                        "region": yg.region,
+                        "ISP": yg.isp
+                    }
                 }
 
                 dbo.collection("lab6").insertOne(post_schema, (err, result) => {
                     if (err) {
-                        res.json({post: "failed"})
+                        res.status(500).json({post: "failed"})
                     } else {
-                        res.json({post: "successful"})
+                        res.status(200).json({post: "successful"})
                     }
                     db.close()
                 })
@@ -139,9 +140,9 @@ app.route('/db')
             dbo.collection("test").updateMany({}, upD, (err, result) => {
                 if (err) {
                     //throw (err)
-                    res.json({update: "failed"})
+                    res.status(500).json({update: "failed"})
                 } else {
-                    res.json({update: "passed"})
+                    res.status(200).json({update: "passed"})
                 }
                 db.close()
             })
