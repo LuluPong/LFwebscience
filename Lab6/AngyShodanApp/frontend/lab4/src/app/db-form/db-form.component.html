@@ -3,6 +3,15 @@
         <div class="col">
             <form [formGroup]="mdbForm" (ngSubmit)="onSubmit($event)">
                 <div class="form-group">
+                    <fieldset>
+                        <legend>Collection</legend>
+                        <div class="form-check">
+                            <input type="radio" id="col_sel" name="col_sel" value="test collection" formControlName="collection_choice">
+                            <label for="col_sel" class="search form-check-label">Test Col</label>
+                            <input type="radio" id="col_sel" name="col_sel" value="lab 6" formControlName="collection_choice">
+                            <label for="col_sel" class="search form-check-label">Lab 6</label>
+                        </div>
+                    </fieldset>
                     <div class="input-group mb-3">
                         <span class="input-group-text">Document ID</span>
                         <input type="text" name="doc_number" id="doc_number" formControlName="document_number" class="form-control" placeholder="Not available on POST">

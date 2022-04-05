@@ -19,7 +19,8 @@ export class DbFormComponent implements OnInit {
 
   mdbForm = new FormGroup ({
     document_number: new FormControl(''),
-    content: new FormControl('')
+    content: new FormControl(''),
+    collection_choice: new FormControl('')
   })
 
   onSubmit(event: SubmitEvent) {
@@ -53,6 +54,7 @@ export class DbFormComponent implements OnInit {
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
+      console.log(this.mdbForm.get('collection_choice')?.value)
       if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == '0') {
         this.httpService.getfullCol().subscribe((data) => {
           this.returnedContent = JSON.stringify(data, undefined, 4)
@@ -63,7 +65,6 @@ export class DbFormComponent implements OnInit {
           if (JSON.stringify(data) === "[]") {
             this.returnedContent = "There is no document in the database with this ID.\nPlease enter a valid document ID (doc_id)."
           } else {
-            console.log(JSON.stringify(data) === "[]")
             this.returnedContent = JSON.stringify(data, undefined, 4)
           }
         })
