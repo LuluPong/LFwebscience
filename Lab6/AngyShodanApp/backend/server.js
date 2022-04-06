@@ -172,13 +172,24 @@ app.route('/db/:number')
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err);
             var dbo = db.db('testdb')
-            dbo.collection("test").find({doc_id: Number(doc_num)}).toArray(function(err, result) {
-                if (err) throw (err)
-                res.json(result)
-                db.close()
-                //THIS FUNCTION WORKS
-                //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
-            })
+
+            if (Number(doc_num) > -1) {
+                dbo.collection("test").find({doc_id: Number(doc_num)}).toArray(function(err, result) {
+                    if (err) throw (err)
+                    res.json(result)
+                    db.close()
+                    //THIS FUNCTION WORKS
+                    //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
+                })
+            } else {
+                dbo.collection("lab6").find({}).toArray(function(err, result) {
+                    if (err) {
+                        res.status(500).json({retrieval: "failed"})
+                    } else {
+                        res.status(200).json(result)
+                    }
+                })
+            }
         })
 
     })
@@ -204,17 +215,30 @@ app.route('/db/:number')
     })
     .delete((req, res) => {
         doc_num = req.params.number
+
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
-            dbo.collection("test").deleteOne({doc_id: Number(doc_num)}, (err, result) => {
-                if (err) {
-                    res.json({deletion: "failed"})
-                } else {
-                    res.json({deletion: "successful"})
-                }
-                db.close()
-            })
+
+            if (Number(doc_num) > -1) {
+                dbo.collection("test").deleteOne({doc_id: Number(doc_num)}, (err, result) => {
+                    if (err) {
+                        res.json({deletion: "failed"})
+                    } else {
+                        res.json({deletion: "successful"})
+                    }
+                    db.close()
+                })
+            } else {
+                dbo.collection("lab6").deleteMany({}, (err, result) => {
+                    if (err) {
+                        res.status(500).json({deletion: "failed"})
+                    } else {
+                        res.status(200).json({deletion: "successful"})
+                    }
+                    db.close()
+                })
+            }
         })
 
     })

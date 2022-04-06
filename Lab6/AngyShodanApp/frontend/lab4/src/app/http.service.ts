@@ -79,8 +79,5 @@ export class HttpService {
     return this.httpClient.delete(this.dbTopAPI)
   }
 
-  public deleteFIN_Dup() {
-    return this.httpClient.delete(this.etl_)
-  }
-
+  
 }

@@ -100,7 +100,7 @@ export class DbFormComponent implements OnInit {
         }
       } else {
         if (doc_numero == '' || doc_numero == '0') {
-          this.httpService.deleteFIN_Dup().subscribe((data) => {
+          this.httpService.deleteSpec("-1").subscribe((data) => {
             this.returnedContent = "All documents deleted successfully"
           })
         }
