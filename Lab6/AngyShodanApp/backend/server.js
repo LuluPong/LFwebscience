@@ -32,9 +32,9 @@ app.route('/lab6')
             var dbo = db.db("testdb");
             dbo.collection("lab6").deleteMany({}, (err, result) => {
                 if (err) {
-                    res.status(500).json({delete: "failed"})
+                    res.sendStatus(500).json({delete: "failed"})
                 } else {
-                    res.status(200).json({delete: "successful"})
+                    res.sendStatus(200).json({delete: "successful"})
                 }
             })
         })
@@ -48,9 +48,9 @@ app.route('/db')
             var dbo = db.db("testdb");
             dbo.collection("test").find({}).toArray(function(err, result) {
                 if (err) {
-                    res.json({get: "failed"})
+                    res.sendStatus(500).json({get: "failed"})
                 } else {
-                    res.json(result)
+                    res.sendStatus(200).json(result)
                 }
             })
         })
@@ -66,9 +66,9 @@ app.route('/db')
             if (req.body.col == 'test collection') {
                 dbo.collection("test").insertOne(req.body.con, (err, result) => {
                     if(err) {
-                        res.json({post: "failed"})
+                        res.sendStatus(500).json({post: "failed"})
                     } else {
-                        res.json({post: "successful"})
+                        res.sendStatus(200).json({post: "successful"})
                     }
                     db.close()
                 })
@@ -96,7 +96,6 @@ app.route('/db')
                         "ISP": yg.properties.whois.registrar
                     }
                 } else if (yg.doc_id < 301) {
-                    console.log()
                     post_schema = 
                     {
                         "id": yg.doc_id,
@@ -120,9 +119,9 @@ app.route('/db')
 
                 dbo.collection("lab6").insertOne(post_schema, (err, result) => {
                     if (err) {
-                        res.status(500).json({post: "failed"})
+                        res.sendStatus(500).json({post: "failed"})
                     } else {
-                        res.status(200).json({post: "successful"})
+                        res.sendStatus(200).json({post: "successful"})
                     }
                     db.close()
                 })
@@ -140,9 +139,9 @@ app.route('/db')
             dbo.collection("test").updateMany({}, upD, (err, result) => {
                 if (err) {
                     //throw (err)
-                    res.status(500).json({update: "failed"})
+                    res.sendStatus(500).json({update: "failed"})
                 } else {
-                    res.status(200).json({update: "passed"})
+                    res.sendStatus(200).json({update: "passed"})
                 }
                 db.close()
             })
@@ -154,9 +153,9 @@ app.route('/db')
             var dbo = db.db('testdb')
             dbo.collection("test").deleteMany({}, (err, result) => {
                 if (err) {
-                    res.json({deletion: "failed"})
+                    res.sendStatus(500).json({deletion: "failed"})
                 } else {
-                    res.json({deletion: "successful"})
+                    res.sendStatus(200).json({deletion: "successful"})
                 }
             })
         })
@@ -176,7 +175,7 @@ app.route('/db/:number')
             if (Number(doc_num) > -1) {
                 dbo.collection("test").find({doc_id: Number(doc_num)}).toArray(function(err, result) {
                     if (err) throw (err)
-                    res.json(result)
+                    res.sendStatus(500).json(result)
                     db.close()
                     //THIS FUNCTION WORKS
                     //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
@@ -184,9 +183,9 @@ app.route('/db/:number')
             } else {
                 dbo.collection("lab6").find({}).toArray(function(err, result) {
                     if (err) {
-                        res.status(500).json({retrieval: "failed"})
+                        res.sendStatus(500).json({retrieval: "failed"})
                     } else {
-                        res.status(200).json(result)
+                        res.sendStatus(200).json(result)
                     }
                 })
             }
@@ -199,15 +198,28 @@ app.route('/db/:number')
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
-            upD = {$set: req.body}
-            dbo.collection("test").updateOne({doc_id: Number(doc_num)}, upD, (err, result) => {
-                if (err) {
-                    res.json({update: "failed"})
-                } else {
-                    res.json({update: "successful"})
-                }
-                db.close()
-            })
+
+            if (Number(doc_num) > -1) {
+                upD = {$set: req.body}
+                dbo.collection("test").updateOne({doc_id: Number(doc_num)}, upD, (err, result) => {
+                    if (err) {
+                        res.json({update: "failed"})
+                    } else {
+                        res.json({update: "successful"})
+                    }
+                    db.close()
+                })
+            } else {
+                upD = {$set: req.body}
+                dbo.collection("lab6").updateMany({}, upD, (err, result) => {
+                    if (err) {
+                        res.status(500).json({update: "failed"})
+                    } else {
+                        res.status(200).json({update: "successful"})
+                    }
+                    db.close()
+                })
+            }
         })
         
     }).post((req, res) => {

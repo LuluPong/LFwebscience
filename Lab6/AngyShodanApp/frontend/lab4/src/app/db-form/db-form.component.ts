@@ -41,6 +41,29 @@ export class DbFormComponent implements OnInit {
           this.returnedContent = "Document updated"
         })
       }
+
+      if (col_type == "test collection") {
+        if (DN == '' || DN == '0') {
+          this.httpService.upDate(doc).subscribe((data) => {
+            console.log(data)
+            this.returnedContent = "All documents updated"
+          })
+        } else if (!(DN == '' || DN == '0')) {
+          this.httpService.upDateSpec(Number(DN), CN).subscribe((data) => {
+            this.returnedContent = "Document updated"
+          })
+        }
+      } else {
+        if (DN == '' || DN == '0') {
+          this.httpService.upDateSpec(-1, CN).subscribe((data) => {
+            console.log(data)
+            this.returnedContent = "All documents updated"
+          })
+        }
+        
+      }
+
+
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "POST") {
       if (this.mdbForm.get('collection_choice')?.value == 'test collection') {
@@ -69,21 +92,36 @@ export class DbFormComponent implements OnInit {
       // -------------------------------------------------
     } else if (event?.submitter?.innerHTML == "GET") {
       console.log("THIS IS A GET REQUEST")
-      console.log(this.mdbForm.get('collection_choice')?.value)
-      if (this.mdbForm.get('document_number')?.value == '' || this.mdbForm.get('document_number')?.value == '0') {
-        this.httpService.getfullCol().subscribe((data) => {
-          this.returnedContent = JSON.stringify(data, undefined, 4)
-        })
-      } else {
-        const doc_numero:number = this.mdbForm.get('document_number')?.value
-        this.httpService.getSpecCol(doc_numero).subscribe((data) => {
-          if (JSON.stringify(data) === "[]") {
-            this.returnedContent = "There is no document in the database with this ID.\nPlease enter a valid document ID (doc_id)."
-          } else {
+      
+      const doc_numero:string = this.mdbForm.get('document_number')?.value
+      
+
+      if (col_type == "test collection") {
+        if (doc_numero == '' || doc_numero == '0') {
+          this.httpService.getfullCol().subscribe((data) => {
             this.returnedContent = JSON.stringify(data, undefined, 4)
-          }
-        })
+          })
+        } else {
+          this.httpService.getSpecCol(Number(doc_numero)).subscribe((data) => {
+            if (JSON.stringify(data) === "[]") {
+              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid document ID (doc_id)."
+            } else {
+              this.returnedContent = JSON.stringify(data, undefined, 4)
+            }
+          })
+        }
+      } else {
+        if (doc_numero == '' || doc_numero == '0') {
+          this.httpService.getSpecCol(-1).subscribe((data) => {
+            if (JSON.stringify(data) === "[]") {
+              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid document ID (doc_id)."
+            } else {
+              this.returnedContent = JSON.stringify(data, undefined, 4)
+            }
+          })
+        }
       }
+
       // ---------------------------------------------------
     } else if (event?.submitter?.innerHTML == "DELETE") {
       const doc_numero:string = this.mdbForm.get('document_number')?.value
