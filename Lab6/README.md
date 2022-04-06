@@ -16,4 +16,6 @@ Once I reduced the schema and found 3 APIs to use, I had issues correctly depict
 
 Once ^^ALL OF THAT^^ was finished, I edited my server.js to accomodate the new changes. At first, I wanted to create a new API for my lab 6 collection; however, I thought it would be easier and save space in my code to just use the *db/number* endpoint for get, put, and delete. The post endpoint was edited in th main */db* endpoint. It works but its weird. I used regular document id numbers from the submitted form and converted them to negative numbers. I passed this to node. Node would then use the absolute value of the negative number specifically for the lab 6 collection. I used several if statements to check if a document was supposed to go to/be accessed from one of the collections. It somehow works.
 
-**Extra**: *My biggest peeve was adding all the documents to the Mongo collection. While I could create an extra endpoint to handle this, just ran out of time.*
+**Extra**: *My biggest peeve was adding all the documents to the Mongo collection. While I could create an extra endpoint to handle this, just ran out of time. Another weird issue was radio button validation. For some reason, using the "required" attribute did not validate the radio buttons. Just found out Angular automatically disables native form validation...*
+
+After attempting to add validation for the radio buttons my entire application is now broken. Reverting to previous commits does solve the issue.
