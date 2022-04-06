@@ -31,16 +31,6 @@ export class DbFormComponent implements OnInit {
       console.log("THIS IS A PUT REQUEST")
       const DN:string = this.mdbForm.get('document_number')?.value
       const CN:string = this.mdbForm.get('content')?.value
-      if (DN == '' || DN == '0') {
-        this.httpService.upDate(doc).subscribe((data) => {
-          console.log(data)
-          this.returnedContent = "All documents updated"
-        })
-      } else if (!(DN == '' || DN == '0')) {
-        this.httpService.upDateSpec(Number(DN), CN).subscribe((data) => {
-          this.returnedContent = "Document updated"
-        })
-      }
 
       if (col_type == "test collection") {
         if (DN == '' || DN == '0') {
@@ -59,6 +49,10 @@ export class DbFormComponent implements OnInit {
             console.log(data)
             this.returnedContent = "All documents updated"
           })
+        } else {
+          this.httpService.upDateSpec((Number(DN) * -1), CN).subscribe((data) => {
+            this.returnedContent = `Document ${DN} updated successfully.`
+          })
         }
         
       }
@@ -69,7 +63,6 @@ export class DbFormComponent implements OnInit {
       if (this.mdbForm.get('collection_choice')?.value == 'test collection') {
         if (this.mdbForm.get('document_number')?.value == '') {
           this.httpService.addDoc(doc).subscribe((data) => {
-            console.log(data)
             this.returnedContent = "Document added"
           })
         } else {
@@ -122,7 +115,6 @@ export class DbFormComponent implements OnInit {
         } else {
           this.httpService.getSpecCol((Number(doc_numero) * -1)).subscribe((data) => {
             if (JSON.stringify(data) === "[]") {
-              console.log(data)
               this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid \ndocument ID (doc_id)."
             } else {
               this.returnedContent = JSON.stringify(data, undefined, 4)
@@ -149,6 +141,10 @@ export class DbFormComponent implements OnInit {
         if (doc_numero == '' || doc_numero == '0') {
           this.httpService.deleteSpec("0").subscribe((data) => {
             this.returnedContent = "All documents deleted successfully"
+          })
+        } else {
+          this.httpService.deleteSpec(`-${doc_numero}`).subscribe((data) => {
+            this.returnedContent = `Document ${doc_numero} deleted successfully`
           })
         }
       }

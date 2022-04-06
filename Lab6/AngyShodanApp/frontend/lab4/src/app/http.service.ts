@@ -62,7 +62,6 @@ export class HttpService {
   }
 
   public upDateSpec(docID: number, content_: string) {
-    console.log('checkpoint 2')
     this.db_spec = `http://localhost:3000/db/${docID}`
     return this.httpClient.put(this.db_spec, JSON.parse(content_))
   }

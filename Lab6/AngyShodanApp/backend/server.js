@@ -167,6 +167,7 @@ app.route('/db/:number')
     .get((req, res) => {
         doc_num = req.params.number
         console.log(doc_num)
+        let sub = Math.abs(Number(doc_num))
         
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err);
@@ -189,7 +190,6 @@ app.route('/db/:number')
                     }
                 })
             } else {
-                let sub = Math.abs(Number(doc_num))
                 dbo.collection("lab6").find({id: sub}).toArray(function(err, result) {
                     if (err) {
                         res.status(500).json({retrieval: "failed"})
@@ -204,6 +204,7 @@ app.route('/db/:number')
     .put((req, res) => {
         doc_num = req.params.number
         console.log(req.body)
+        let sub = Math.abs(Number(doc_num))
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
@@ -212,15 +213,25 @@ app.route('/db/:number')
                 upD = {$set: req.body}
                 dbo.collection("test").updateOne({doc_id: Number(doc_num)}, upD, (err, result) => {
                     if (err) {
-                        res.json({update: "failed"})
+                        res.status(500).json({update: "failed"})
                     } else {
-                        res.json({update: "successful"})
+                        res.status(200).json({update: "successful"})
+                    }
+                    db.close()
+                })
+            } else if (Number(doc_num) == 0) {
+                upD = {$set: req.body}
+                dbo.collection("lab6").updateMany({}, upD, (err, result) => {
+                    if (err) {
+                        res.status(500).json({update: "failed"})
+                    } else {
+                        res.status(200).json({update: "successful"})
                     }
                     db.close()
                 })
             } else {
                 upD = {$set: req.body}
-                dbo.collection("lab6").updateMany({}, upD, (err, result) => {
+                dbo.collection("lab6").updateOne({id: sub}, upD, (err, result) => {
                     if (err) {
                         res.status(500).json({update: "failed"})
                     } else {
@@ -232,11 +243,11 @@ app.route('/db/:number')
         })
         
     }).post((req, res) => {
-        res.json({post: "invalid"})
+        res.sendStatus(404)
     })
     .delete((req, res) => {
         doc_num = req.params.number
-
+        let sub = Math.abs(Number(doc_num))
         MongoClient.connect(url_mongo, function(err, db) {
             if (err) throw (err)
             var dbo = db.db('testdb')
@@ -250,8 +261,17 @@ app.route('/db/:number')
                     }
                     db.close()
                 })
-            } else {
+            } else if (Number(doc_num) == 0) {
                 dbo.collection("lab6").deleteMany({}, (err, result) => {
+                    if (err) {
+                        res.status(500).json({deletion: "failed"})
+                    } else {
+                        res.status(200).json({deletion: "successful"})
+                    }
+                    db.close()
+                })
+            } else {
+                dbo.collection("lab6").deleteOne({id: sub}, (err, result) => {
                     if (err) {
                         res.status(500).json({deletion: "failed"})
                     } else {
