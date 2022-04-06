@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { Validators } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -38,7 +37,6 @@ import { DbContentComponent } from './db-content/db-content.component';
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    Validators
   ],
   providers: [],
   bootstrap: [AppComponent]
