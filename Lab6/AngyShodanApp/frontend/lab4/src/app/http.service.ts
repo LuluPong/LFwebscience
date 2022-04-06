@@ -13,7 +13,6 @@ export class HttpService {
   private dbTopAPI = "http://localhost:3000/db";
   public db_spec = `http://localhost:3000/db/`;
 
-  public etl_ = `http://localhost:3000/lab6`;
 
   constructor(private httpClient: HttpClient) { }
 
@@ -79,5 +78,5 @@ export class HttpService {
     return this.httpClient.delete(this.dbTopAPI)
   }
 
-  
+
 }

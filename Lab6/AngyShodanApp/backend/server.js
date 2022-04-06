@@ -32,9 +32,9 @@ app.route('/lab6')
             var dbo = db.db("testdb");
             dbo.collection("lab6").deleteMany({}, (err, result) => {
                 if (err) {
-                    res.sendStatus(500).json({delete: "failed"})
+                    res.status(500).json({delete: "failed"})
                 } else {
-                    res.sendStatus(200).json({delete: "successful"})
+                    res.status(200).json({delete: "successful"})
                 }
             })
         })
@@ -48,9 +48,9 @@ app.route('/db')
             var dbo = db.db("testdb");
             dbo.collection("test").find({}).toArray(function(err, result) {
                 if (err) {
-                    res.sendStatus(500).json({get: "failed"})
+                    res.status(500).json({get: "failed"})
                 } else {
-                    res.sendStatus(200).json(result)
+                    res.status(200).json(result)
                 }
             })
         })
@@ -66,9 +66,9 @@ app.route('/db')
             if (req.body.col == 'test collection') {
                 dbo.collection("test").insertOne(req.body.con, (err, result) => {
                     if(err) {
-                        res.sendStatus(500).json({post: "failed"})
+                        res.status(500).json({post: "failed"})
                     } else {
-                        res.sendStatus(200).json({post: "successful"})
+                        res.status(200).json({post: "successful"})
                     }
                     db.close()
                 })
@@ -119,9 +119,9 @@ app.route('/db')
 
                 dbo.collection("lab6").insertOne(post_schema, (err, result) => {
                     if (err) {
-                        res.sendStatus(500).json({post: "failed"})
+                        res.status(500).json({post: "failed"})
                     } else {
-                        res.sendStatus(200).json({post: "successful"})
+                        res.status(200).json({post: "successful"})
                     }
                     db.close()
                 })
@@ -139,9 +139,9 @@ app.route('/db')
             dbo.collection("test").updateMany({}, upD, (err, result) => {
                 if (err) {
                     //throw (err)
-                    res.sendStatus(500).json({update: "failed"})
+                    res.status(500).json({update: "failed"})
                 } else {
-                    res.sendStatus(200).json({update: "passed"})
+                    res.status(200).json({update: "passed"})
                 }
                 db.close()
             })
@@ -153,9 +153,9 @@ app.route('/db')
             var dbo = db.db('testdb')
             dbo.collection("test").deleteMany({}, (err, result) => {
                 if (err) {
-                    res.sendStatus(500).json({deletion: "failed"})
+                    res.status(500).json({deletion: "failed"})
                 } else {
-                    res.sendStatus(200).json({deletion: "successful"})
+                    res.status(200).json({deletion: "successful"})
                 }
             })
         })
@@ -172,20 +172,29 @@ app.route('/db/:number')
             if (err) throw (err);
             var dbo = db.db('testdb')
 
-            if (Number(doc_num) > -1) {
+            if (Number(doc_num) > 0) {
                 dbo.collection("test").find({doc_id: Number(doc_num)}).toArray(function(err, result) {
                     if (err) throw (err)
-                    res.sendStatus(500).json(result)
+                    res.status(200).json(result)
                     db.close()
                     //THIS FUNCTION WORKS
                     //RESULT IS OUTPUT TO NODE CONSOLE (REQUESTED DOCUMENT ONLY (USING doc_id key))
                 })
-            } else {
+            } else if (Number(doc_num) == 0) {
                 dbo.collection("lab6").find({}).toArray(function(err, result) {
                     if (err) {
-                        res.sendStatus(500).json({retrieval: "failed"})
+                        res.status(500).json({retrieval: "failed"})
                     } else {
-                        res.sendStatus(200).json(result)
+                        res.status(200).json(result)
+                    }
+                })
+            } else {
+                let sub = Math.abs(Number(doc_num))
+                dbo.collection("lab6").find({id: sub}).toArray(function(err, result) {
+                    if (err) {
+                        res.status(500).json({retrieval: "failed"})
+                    } else {
+                        res.status(200).json(result)
                     }
                 })
             }
@@ -199,7 +208,7 @@ app.route('/db/:number')
             if (err) throw (err)
             var dbo = db.db('testdb')
 
-            if (Number(doc_num) > -1) {
+            if (Number(doc_num) > 0) {
                 upD = {$set: req.body}
                 dbo.collection("test").updateOne({doc_id: Number(doc_num)}, upD, (err, result) => {
                     if (err) {
@@ -232,7 +241,7 @@ app.route('/db/:number')
             if (err) throw (err)
             var dbo = db.db('testdb')
 
-            if (Number(doc_num) > -1) {
+            if (Number(doc_num) > 0) {
                 dbo.collection("test").deleteOne({doc_id: Number(doc_num)}, (err, result) => {
                     if (err) {
                         res.json({deletion: "failed"})

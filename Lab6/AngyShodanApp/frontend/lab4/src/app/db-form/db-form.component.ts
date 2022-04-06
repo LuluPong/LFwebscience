@@ -55,7 +55,7 @@ export class DbFormComponent implements OnInit {
         }
       } else {
         if (DN == '' || DN == '0') {
-          this.httpService.upDateSpec(-1, CN).subscribe((data) => {
+          this.httpService.upDateSpec(0, CN).subscribe((data) => {
             console.log(data)
             this.returnedContent = "All documents updated"
           })
@@ -104,7 +104,7 @@ export class DbFormComponent implements OnInit {
         } else {
           this.httpService.getSpecCol(Number(doc_numero)).subscribe((data) => {
             if (JSON.stringify(data) === "[]") {
-              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid document ID (doc_id)."
+              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid \ndocument ID (doc_id)."
             } else {
               this.returnedContent = JSON.stringify(data, undefined, 4)
             }
@@ -112,9 +112,18 @@ export class DbFormComponent implements OnInit {
         }
       } else {
         if (doc_numero == '' || doc_numero == '0') {
-          this.httpService.getSpecCol(-1).subscribe((data) => {
+          this.httpService.getSpecCol(0).subscribe((data) => {
             if (JSON.stringify(data) === "[]") {
-              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid document ID (doc_id)."
+              this.returnedContent = "There is no document in the database."
+            } else {
+              this.returnedContent = JSON.stringify(data, undefined, 4)
+            }
+          })
+        } else {
+          this.httpService.getSpecCol((Number(doc_numero) * -1)).subscribe((data) => {
+            if (JSON.stringify(data) === "[]") {
+              console.log(data)
+              this.returnedContent = "There is no document in the database with \nthis ID. Please enter a valid \ndocument ID (doc_id)."
             } else {
               this.returnedContent = JSON.stringify(data, undefined, 4)
             }
@@ -138,7 +147,7 @@ export class DbFormComponent implements OnInit {
         }
       } else {
         if (doc_numero == '' || doc_numero == '0') {
-          this.httpService.deleteSpec("-1").subscribe((data) => {
+          this.httpService.deleteSpec("0").subscribe((data) => {
             this.returnedContent = "All documents deleted successfully"
           })
         }
