@@ -1,0 +1,317 @@
+{
+    "doc_id": 69,
+    "city": "Enschede",
+    "region_code": "OV",
+    "os": null,
+    "tags": [],
+    "ip": 2186908749,
+    "isp": "SURF B.V.",
+    "area_code": null,
+    "longitude": 6.89583,
+    "last_update": "2022-03-13T17:34:17.976509",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 52.21833,
+    "hostnames": [
+      "klecker-misc.debian.org",
+      "www.debian.org"
+    ],
+    "country_code": "NL",
+    "country_name": "Netherlands",
+    "domains": [
+      "debian.org"
+    ],
+    "org": "Drienerlolaan 5",
+    "data": [
+      {
+        "hash": 811722256,
+        "product": "Apache httpd",
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Welcome to klecker!",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache",
+          "host": "130.89.148.77",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 3.2//EN\">\n<HTML>\n<HEAD>\n   <TITLE>Welcome to klecker!</TITLE>\n</HEAD>\n<BODY>\n\n<H1>Welcome to klecker!</H1>\n\nThis is klecker, a system run by and for the <a href=\"https://www.debian.org/\">Debian Project</a>.\nShe does stuff.\nWhat kind of stuff and who our kind sponsors are you might learn on\n<a href=\"https://db.debian.org/machines.cgi?host=klecker\">db.debian.org</a>.\n\n<P>\n<HR NOSHADE />\n<FONT size=\"-1\">DSA</FONT>\n\n</BODY>\n</HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1724772880,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 2186908749,
+        "org": "Drienerlolaan 5",
+        "isp": "SURF B.V.",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:apache:http_server"
+        ],
+        "data": "HTTP/1.1 200 OK\r\nDate: Sat, 12 Mar 2022 13:23:00 GMT\r\nServer: Apache\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: sameorigin\r\nReferrer-Policy: no-referrer\r\nX-Xss-Protection: 1\r\nPermissions-Policy: interest-cohort=()\r\nUpgrade: h2,h2c\r\nConnection: Upgrade\r\nLast-Modified: Sun, 12 Apr 2020 14:02:56 GMT\r\nETag: \"1d8-5a3186c6617e9\"\r\nAccept-Ranges: bytes\r\nContent-Length: 472\r\nVary: Accept-Encoding\r\nX-Clacks-Overhead: GNU Terry Pratchett\r\nContent-Type: text/html\r\n\r\n",
+        "asn": "AS1133",
+        "port": 80,
+        "hostnames": [
+          "klecker-misc.debian.org"
+        ],
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server"
+        ],
+        "timestamp": "2022-03-12T13:23:00.692816",
+        "domains": [
+          "debian.org"
+        ],
+        "ip_str": "130.89.148.77",
+        "os": null,
+        "_shodan": {
+          "crawler": "ada8582d54117e5eb7c72186882e76f0854a54ae",
+          "options": {},
+          "id": "6f9a2c69-471c-47be-b5a2-29844cc18ae1",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Enschede",
+          "region_code": "OV",
+          "area_code": null,
+          "longitude": 6.89583,
+          "latitude": 52.21833,
+          "country_code": "NL",
+          "country_name": "Netherlands"
+        }
+      },
+      {
+        "hash": -1886905197,
+        "product": "Apache httpd",
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Debian -- The Universal Operating System ",
+          "sitemap_hash": null,
+          "html_hash": -1502519217,
+          "robots": null,
+          "favicon": {
+            "hash": 1320981061,
+            "data": "AAABAAQAICAAAAEAIACoEAAARgAAACAgAgABAAEAMAEAAO4QAAAQEAAAAQAgAGgEAAAeEgAAEBAC\nAAEAAQCwAAAAhhYAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEAwX8l\nALffVQDWvwAAwX8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAABVANa/QADA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAABVANa/QADA/yUAt98AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AAwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAwP8lALffAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMD/QADA/wAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AA\nwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAFUA1r9AAMD/VQDWvwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AAwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACUAt99AAMD/AAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AAwP8AAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAwP9A\nAMD/QADA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWAKxfVQDWvzMA\nzZ9WAKxfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAMwDNn0AAwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANa/\nJQC33yUAt99AAMD/QADA/0AAwP9AAMD/MwDNnwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMD/QADA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAMF/JQC33yUAt98lALffAADBfwAAAAAAAAAAAAAAAFYArF9AAMD/QADA/1YArF8AAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBf0AAwP9AAMD/AAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAFYArF8lALffMwDNnwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABW\nAKxfQADA/1UA1r8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMF/QADA/1UA\n1r8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJQC330AAwP8AAAAAAAAAAAAAAAAAAMF/AADW\nvwAAAAAAAAAAAAAAAAAAAABWAKxfQADA/1YArF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAwX9AAMD/AADBfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwX9AAMD/VgCsXwAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAA1r8AAAAAAAAAAAAAAAAlALffQADA/1YArF8AAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAVQDWv0AAwP9VANa/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADB\nf0AAwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADBfwAAAAAAAAAAAAAAAAAAAABAAMD/\nVgCsXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMF/QADA/yUAt98AAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAMF/QADA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAEAAwP8lALffAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwX9AAMD/QADA\n/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAACBAMF/AAAAAAAAAAAAAAAAQADA/0AAwP9WAKxfAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAMwDNn0AAwP9AAMD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYArF8zAM2fAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAMD/QADA/1YArF8AAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAABWAKxfQADA/0AAwP8AAMF/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAACUAt99WAKxfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMF/AAAAAAAAAAAAAAAAAAAAAEAAwP8l\nALffAADBfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYArF8AANa/QADA/yUAt98AAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAADBf0AAwP8AAMF/AAAAAAAAAAAAAAAAAAAAAFYArF8AAAAAAAAA\nAAAAAABWAKxfQADA/yUAt99WAKxfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVgCsX0AAwP9AAMD/\nQADA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVgCsXyUAt99AAMD/QADA/0AAwP8A\nAMF/AAAAAAAAAAAAAAAAAAAAADMAzZ9AAMD/AADWv1YArF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAEAAwP9AAMD/JQC33wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AAwP8AAMF/AADBfwAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMF/AAAAAEAAwP9AAMD/JQC33wAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwX9AAMD/QADA/0AA\nwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwDNn0AAwP9AAMD/QADA\n/1YArF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nQADA/0AAwP9AAMD/JQC33wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAQADA/0AAwP9AAMD/QADA/wAAwX8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAEAAwP9AAMD/QADA/0AAwP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAQADA/0AAwP9AAMD/QADA/0AAwP9VANa/AAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAACUAt99AAMD/QADA/0AAwP9AAMD/AAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJQC330AAwP9AAMD/QADA/0AA\nwP9AAMD/QADA/0AAwP9AAMD/QADA/0AAwP9AAMD/QADA/0AAwP9AAMD/QADA/wAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAEAAwP9AAMD/QADA/0AAwP9AAMD/QADA/0AAwP9AAMD/QADA/0AAwP9AAMD/JQC331YArF8A\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlALffQADA/0AAwP8lALffAADWv1UA1r8zAM2fAADB\nfwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//5////5////4///\n/8////+f////P////n////x////8////+f////n////x/8//8/4B//P8fP/z/P8/8/nvv/f7+5/j\n+//f8/v/z/P7/8/j/f/P8/3/z/H+/8/x/w+P+P//n/x//4/8P/8P/h/+H/8D+D//gAB//+AB///4\nD/8oAAAAIAAAAEAAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAD//j////n/\n///j////z////5////8////+f////H////z////4////+P////n/z//z/gH/8/x8f/P5/z/z+++f\n4/P7n+Pz/d/j9//P4/P9z+P5/8fz/f3H8f77x/n/D4/4//+P/H//D/w//x/+H/4f/wP4P/+AAH//\n4AH///gP///+P///+f///+P////P////n////z////5////8f////P////j////4////+f/P//P+\nAf/z/Hx/8/n/P/P775/j8/uf4/P93+P3/8/j8/3P4/n/x/P9/cfx/vvH+f8Pj/j//4/8f/8P/D//\nH/4f/h//A/g//4AAf//gAf//+A//KAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYArF8lALffAADBf1YArF8AAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUA1r8lALffVgCsXwAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAzZ8lALffVgCsXwAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMAzZ8lALffVgCsXwAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFYArF9AAMD/AADBfwAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKu/QADA/wAA\nAAAAAAAAAAAAAAAAAAAAAMF/AADBf1YArF8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABWAKxfQADA\n/1YArF8AAAAAAAAAAAAAwX9VANa/JQC330AAwP9AAMD/VQDWv1YArF8AAAAAAAAAAAAAAAAAAAAA\nAADBf0AAwP8AAAAAAAAAAAAAAABVANa/AADBfwAAAAAAAAAAAAAAACUAt98lALffVgCsXwAAAAAA\nAAAAAAAAADMAzZ9AAMD/AAAAAAAAAAAAAMF/AACrvwAAAABWAKxfAADBfwAAAAAAAAAAVQDWv1UA\n1r8AAAAAAAAAAAAAAAAzAM2fJQC33wAAAAAAAAAAAADBfwAAq78AAAAAAAAAAAAAAAAAAMF/AAAA\nADMAzZ8lALffVgCsXwAAAAAAAAAAAADBf0AAwP8AAAAAAAAAAAAAAAAzAM2fAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAMF/QADA/1YArF8AAAAAAAAAAFYArF9AAMD/MwDNnwAAAAAAAAAAAAAAADMAzZ9V\nANa/MwDNnwAAAAAAAAAAVQDWvyUAt99WAKxfAAAAAAAAAAAAAAAAVQDWvyUAt99WAKxfAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAVgCsX0AAwP9VANa/AAAAAAAAAAAAAAAAAAAAAFYArF8lALffQADA\n/wAAwX8AAAAAAAAAAAAAAAAAAAAAVgCsX1UA1r9AAMD/VgCsXwAAAAAAAAAAAAAAAAAAAAAAAAAA\nVgCsXyUAt99AAMD/AACrv1UA1r9VANa/AACrvyUAt99AAMD/VgCsXwAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAABWAKxfAADBfwAAq79AAMD/QADA/wAAq78AAMF/VgCsXwAAAAAAAAAAAAAAAAAA\nAAD+/wAA+f8AAPP/AADn/wAA7/8AAM//AADeDwAA3ecAAJ3zAACd8wAA3fsAAM4zAADP8wAA5+cA\nAPAPAAD8PwAAKAAAABAAAAAgAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAAA\n/n8AAPn/AADz/wAA5/8AAM//AADeHwAAnMcAAJnzAACbMwAAm9kAAJ3ZAADOOQAAx/MAAOPjAADw\nBwAA+B8AAP5/AAD5/wAA8/8AAOf/AADP/wAA3h8AAJzHAACZ8wAAmzMAAJvZAACd2QAAzjkAAMfz\nAADj4wAA8AcAAPgfAAA=\n",
+            "location": "https://130.89.148.77:443/favicon.ico"
+          },
+          "host": "130.89.148.77",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\">\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\n  <title>Debian -- The Universal Operating System </title>\n  <link rel=\"author\" href=\"mailto:webmaster@debian.org\">\n  <meta name=\"Description\" content=\"Debian is an operating system and a distribution of Free Software. It is maintained and updated through the work of many users who volunteer their time and effort.\">\n  <meta name=\"Generator\" content=\"WML 2.12.2\">\n  <meta name=\"Modified\" content=\"2022-03-02 07:26:20\">\n  <meta name=\"viewport\" content=\"width=device-width\">\n  <meta name=\"mobileoptimized\" content=\"300\">\n  <meta name=\"HandheldFriendly\" content=\"true\">\n<link rel=\"alternate\" type=\"application/rss+xml\"\n title=\"Debian News\" href=\"News/news\">\n<link rel=\"alternate\" type=\"application/rss+xml\"\n title=\"Debian Project News\" href=\"News/weekly/dwn\">\n<link rel=\"alternate\" type=\"application/rss+xml\"\n title=\"Debian Security Advisories (titles only)\" href=\"security/dsa\">\n<link rel=\"alternate\" type=\"application/rss+xml\"\n title=\"Debian Security Advisories (summaries)\" href=\"security/dsa-long\">\n<link href=\"./debhome.css\" rel=\"stylesheet\" type=\"text/css\">\n   <link href=\"./startpage.css\" rel=\"stylesheet\" type=\"text/css\">\n   <link href=\"./5img-carousel-slider.css\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"./debian-en.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\">\n  <link rel=\"shortcut icon\" href=\"favicon.ico\">\n  <meta name=\"Keywords\" content=\"debian, GNU, linux, unix, open source, free, DFSG\">\n<link rel=\"search\" type=\"application/opensearchdescription+xml\" title=\"Debian website search\" href=\"./search.en.xml\">\n</head>\n<body>\n<div id=\"header\">\n  <div id=\"upperheader\">\n    <div id=\"logo\">\n    <a href=\"./\" title=\"Debian Home\"><img src=\"./Pics/openlogo-50.png\" alt=\"Debian\" width=\"50\" height=\"61\"></a>\n    </div> <!-- end logo -->\n    <div id=\"searchbox\">\n      <form name=\"p\" method=\"get\" action=\"https://search.debian.org/cgi-bin/omega\">\n      <p>\n<input type=\"hidden\" name=\"DB\" value=\"en\">\n        <input name=\"P\" value=\"\" size=\"14\">\n        <input type=\"submit\" value=\"Search\">\n      </p>\n      </form>\n    </div>   <!-- end sitetools -->\n  </div> <!-- end upperheader -->\n  <!--UdmComment-->\n  <div id=\"navbar\">\n    <p class=\"hidecss\"><a href=\"#content\">Skip Quicknav</a></p>\n    <ul>\n      <!-- Link to Debian's own Social Media resources -->\n      <li><a href=\"https://bits.debian.org/\" title=\"Bits from Debian\">Blog</a></li>\n      <li><a href=\"https://micronews.debian.org\" title=\"Micronews from Debian\">Micronews</a></li>\n      <li><a href=\"https://planet.debian.org/\" title=\"The Planet of Debian\">Planet</a></li>\n    </ul>\n  </div> <!-- end navbar -->\n  <p id=\"breadcrumbs\">&nbsp; </p>\n</div> <!-- end header -->\n<!--/UdmComment-->\n<div id=\"content\">\n<div id=\"splash\">\n  <h1>Debian</h1>\n</div>\n<!-- The first row of columns on the site. -->\n<div class=\"row\">\n  <div class=\"column column-left\">\n    <div style=\"text-align: center\">\n      <h1>The Community</h1>\n      <h2>Debian is a Community of People!</h2>\n<!-- The following div is containing the static image carousel.\n     Currently made of five images. -->\n<div class=\"wrapper\">\n  <input checked type=\"radio\" name=\"slider\" id=\"slide1\">\n  <input type=\"radio\" name=\"slider\" id=\"slide2\">\n  <input type=\"radio\" name=\"slider\" id=\"slide3\">\n  <input type=\"radio\" name=\"slider\" id=\"slide4\">\n  <input type=\"radio\" name=\"slider\" id=\"slide5\">\n  <div class=\"slider-wrapper\">\n    <div class=\"inner\">\n     <article>\n      <div class=\"info top-left\">\n       <h3>Mini DebConf Regensburg 2021</h3>\n      </div>\n      <img src=\"Pics//mini-dc21-regensburg.jpg\" alt=\"Group photo of the MiniDebConf in Regensburg 2021\" width=\"1024\" height=\"576\">\n     </article>\n     <article>\n      <div class=\"info bottom-right\">\n       <h3>DC19 Group Photo</h3>\n      </div>\n      <img src=\"Pics/Debconf19_group_photo.jpg\" alt=\"DebConf19 Group Photo\" width=\"1024\" height=\"525\">\n     </article>\n     <article>\n      <div class=\"info top-left\">\n       <h3>Screenshot Calamares Installer</h3>\n      </div>\n      <img src=\"Pics/calamares-bullseye.png\" alt=\"Screenshot from the Calamares installer\" width=\"1024\" height=\"576\">\n     </article>\n     <article>\n      <div class=\"info top-left\">\n       <h3>Debian is like a Swiss Army Knife</h3>\n      </div>\n      <img src=\"Pics/debian-swiss-knife-hands-1024x576.jpg\" alt=\"Debian is like a Swiss Army Knife\" width=\"1024\" height=\"576\">\n     </article>\n     <article>\n      <div class=\"info top-left\">\n       <h3>People have fun with Debian</h3>\n      </div>\n      <img src=\"Pics/debian-funny-people-1024x576.jpg\" alt=\"Debian people at Debconf18 in Hsinchu really having fun\" width=\"1024\" height=\"576\">\n     </article>\n    </div>  <!-- .inner -->\n  </div>  <!-- .slider-wrapper -->\n  <div class=\"slider-prev-next-control\">\n   <label for=\"slide1\"></label>\n   <label for=\"slide2\"></label>\n   <label for=\"slide3\"></label>\n   <label for=\"slide4\"></label>\n   <label for=\"slide5\"></label>\n  </div>  <!-- .slider-prev-next-control -->\n  <div class=\"slider-dot-control\">\n   <label for=\"slide1\"></label>\n   <label for=\"slide2\"></label>\n   <label for=\"slide3\"></label>\n   <label for=\"slide4\"></label>\n   <label for=\"slide5\"></label>\n  </div>  <!-- .slider-dot-control -->\n </div>\n</div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"intro/people\" aria-hidden=\"true\">\n          <img src=\"Pics/users.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"intro/people\">People</a></h2>\n        <p>Who we are and what we do</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"intro/philosophy\" aria-hidden=\"true\">\n          <img src=\"Pics/heartbeat.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"intro/philosophy\">Our Philosophy</a></h2>\n        <p>Why we do it, and how we do it</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"devel/join/\" aria-hidden=\"true\">\n          <img src=\"Pics/user-plus.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"devel/join/\">Get Involved, Contribute</a></h2>\n        <p>How you can join us!</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"intro/index#community\" aria-hidden=\"true\">\n          <img src=\"Pics/list.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"intro/index#community\">More...</a></h2>\n        <p>Additional information about the Debian community</p>\n      </div>\n    </div>\n  </div>\n  <div class=\"column column-right\">\n    <div style=\"text-align: center\">\n      <h1>The Operating System</h1>\n      <h2>Debian is a complete Free Operating System!</h2>\n      <div class=\"os-img-container\">\n        <img src=\"Pics/debian-logo-1024x576.png\" alt=\"Debian\" width=\"1024\" height=\"576\">\n        <a href=\"./download\" class=\"os-dl-btn\">Download</a>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"intro/why_debian\" aria-hidden=\"true\">\n          <img src=\"Pics/trophy.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"intro/why_debian\">Why Debian</a></h2>\n        <p>What makes Debian special</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"support\" aria-hidden=\"true\">\n          <img src=\"Pics/life-ring.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"support\">User Support</a></h2>\n        <p>Getting help and documentation</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"security/\" aria-hidden=\"true\">\n          <img src=\"Pics/security.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"security/\">Security Updates</a></h2>\n        <p>Debian Security Advisories (DSA)</p>\n      </div>\n    </div>\n    <div class=\"row\">\n      <div class=\"community column\">\n        <a href=\"intro/index#software\" aria-hidden=\"true\">\n          <img src=\"Pics/list.svg\" width=\"512\" alt=\"\">\n        </a>\n      </div>\n      <div class=\"styled-href-blue column-4-parts\">\n        <h2><a href=\"intro/index#software\">More...</a></h2>\n        <p>Further links to downloads and software</p>\n      </div>\n    </div>\n  </div>\n</div>\n<hr>\n<!-- An optional row highlighting events happening now, such as releases, point releases, debconf and minidebconfs, and elections (dpl, GRs...). -->\n<!-- The next row of columns on the site. -->\n<!-- The News will be selected by the press team. -->\n<div class=\"row\">\n  <div class=\"column styled-href-blue column-left\">\n    <div style=\"text-align: center\">\n      <h1>Project News</h1>\n      <h2>News and Announcements about Debian</h2>\n    </div>\n    <div class=\"project-news\"><time datetime=\"18 Dec 2021\" class=\"date-as-calendar position-em size1_25x\"><span class=\"day\">18</span><span class=\"month\">December</span><span class=\"year\">2021</span></time><div class=\"project-news-content\"><a href=\"News/2021/20211218\">Updated Debian 11: 11.2 released</a></div></div>\n<div class=\"project-news\"><time datetime=\"17 Nov 2021\" class=\"date-as-calendar position-em size1_25x\"><span class=\"day\">17</span><span class=\"month\">November</span><span class=\"year\">2021</span></time><div class=\"project-news-content\"><a href=\"News/2021/20211117\">Statement on Daniel Pocock</a></div></div>\n<div class=\"project-news\"><time datetime=\"09 Oct 2021\" class=\"date-as-calendar position-em size1_25x\"><span class=\"day\">09</span><span class=\"month\">October</span><span class=\"year\">2021</span></time><div class=\"project-news-content\"><a href=\"News/2021/2021100902\">Updated Debian 10: 10.11 released</a></div></div>\n<div class=\"project-news\"><time datetime=\"28 Aug 2021\" class=\"date-as-calendar position-em size1_25x\"><span class=\"day\">28</span><span class=\"month\">August</span><span class=\"year\">2021</span></time><div class=\"project-news-content\"><a href=\"News/2021/20210828\">DebConf21 online closes</a></div></div>\n<div class=\"project-news\"><time datetime=\"15 Aug 2021\" class=\"date-as-calendar position-em size1_25x\"><span class=\"day\">15</span><span class=\"month\">August</span><span class=\"year\">2021</span></time><div class=\"project-news-content\"><a href=\"News/2021/20210815\">Debian Edu / Skolelinux Bullseye \\u2014 a complete Linux solution for your school</a></div></div>\n    <!-- No more News entries behind this line! -->\n    <div class=\"project-news\">\n      <div class=\"end-of-list-arrow\"></div>\n      <div class=\"project-news-content project-news-content-end\">\n        <a href=\"News\">All the news</a> &emsp;&emsp;\n <a class=\"rss_logo\" style=\"float: none\" href=\"News/news\">RSS</a>\n      </div>\n    </div>\n  </div>\n</div>\n<div class=\"clr\"></div>\n</div> <!-- end content -->\n<div id=\"footer\">\n  <hr class=\"hidecss\">\n  <!--UdmComment-->\n<div id=\"pageLang\">\n<div id=\"langSelector\">\nThis page is also available in the following languages:\n<div id=\"langContainer\">\n <a href=\"index.ar.html\" title=\"Arabic\" hreflang=\"ar\" lang=\"ar\" rel=\"alternate\">&#1593;&#1585;&#1576;&#1610;&#1577;&nbsp;(Arabiya)</a>\n <a href=\"index.bg.html\" title=\"Bulgarian\" hreflang=\"bg\" lang=\"bg\" rel=\"alternate\">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;&nbsp;(B&#601;lgarski)</a>\n <a href=\"index.ca.html\" title=\"Catalan\" hreflang=\"ca\" lang=\"ca\" rel=\"alternate\">catal&agrave;</a>\n <a href=\"index.da.html\" title=\"Danish\" hreflang=\"da\" lang=\"da\" rel=\"alternate\">dansk</a>\n <a href=\"index.de.html\" title=\"German\" hreflang=\"de\" lang=\"de\" rel=\"alternate\">Deutsch</a>\n <a href=\"index.el.html\" title=\"Greek\" hreflang=\"el\" lang=\"el\" rel=\"alternate\">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;&nbsp;(Ellinika)</a>\n <a href=\"index.es.html\" title=\"Spanish\" hreflang=\"es\" lang=\"es\" rel=\"alternate\">espa&ntilde;ol</a>\n <a href=\"index.fa.html\" title=\"Persian\" hreflang=\"fa\" lang=\"fa\" rel=\"alternate\">&#x0641;&#x0627;&#x0631;&#x0633;&#x06cc;&nbsp;(Farsi)</a>\n <a href=\"index.fr.html\" title=\"French\" hreflang=\"fr\" lang=\"fr\" rel=\"alternate\">fran&ccedil;ais</a>\n <a href=\"index.hy.html\" title=\"Armenian\" hreflang=\"hy\" lang=\"hy\" rel=\"alternate\">&#1344;&#1377;&#1397;&#1381;&#1408;&#1381;&#1398;&nbsp;(hayeren)</a>\n <a href=\"index.id.html\" title=\"Indonesian\" hreflang=\"id\" lang=\"id\" rel=\"alternate\">Indonesia</a>\n <a href=\"index.it.html\" title=\"Italian\" hreflang=\"it\" lang=\"it\" rel=\"alternate\">Italiano</a>\n <a href=\"index.ko.html\" title=\"Korean\" hreflang=\"ko\" lang=\"ko\" rel=\"alternate\">&#54620;&#44397;&#50612;&nbsp;(Korean)</a>\n <a href=\"index.hu.html\" title=\"Hungarian\" hreflang=\"hu\" lang=\"hu\" rel=\"alternate\">magyar</a>\n <a href=\"index.nl.html\" title=\"Dutch\" hreflang=\"nl\" lang=\"nl\" rel=\"alternate\">Nederlands</a>\n <a href=\"index.nb.html\" title=\"Norwegian\" hreflang=\"nb\" lang=\"nb\" rel=\"alternate\">norsk&nbsp;(bokm&aring;l)</a>\n <a href=\"index.pl.html\" title=\"Polish\" hreflang=\"pl\" lang=\"pl\" rel=\"alternate\">polski</a>\n <a href=\"index.pt.html\" title=\"Portuguese\" hreflang=\"pt\" lang=\"pt\" rel=\"alternate\">Portugu&ecirc;s</a>\n <a href=\"index.ru.html\" title=\"Russian\" hreflang=\"ru\" lang=\"ru\" rel=\"alternate\">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;&nbsp;(Russkij)</a>\n <a href=\"index.sv.html\" title=\"Swedish\" hreflang=\"sv\" lang=\"sv\" rel=\"alternate\">svenska</a>\n <a href=\"index.vi.html\" title=\"Vietnamese\" hreflang=\"vi\" lang=\"vi\" rel=\"alternate\">Ti&#7871;ng Vi&#7879;t</a>\n <a href=\"index.uk.html\" title=\"Ukrainian\" hreflang=\"uk\" lang=\"uk\" rel=\"alternate\">&#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;&nbsp;(ukrajins'ka)</a>\n <a href=\"index.zh-cn.html\" title=\"Chinese (China)\" hreflang=\"zh-CN\" lang=\"zh-CN\" rel=\"alternate\">&#20013;&#25991;(&#31616;)</a>\n <a href=\"index.zh-hk.html\" title=\"Chinese (Hong Kong)\" hreflang=\"zh-HK\" lang=\"zh-HK\" rel=\"alternate\">&#20013;&#25991;(HK)</a>\n <a href=\"index.zh-tw.html\" title=\"Chinese (Taiwan)\" hreflang=\"zh-TW\" lang=\"zh-TW\" rel=\"alternate\">&#20013;&#25991;(&#32321;)</a>\n</div>\nHow to set <a href=\"./intro/cn\">the default document language</a>\n</div></div><!--/UdmComment-->\n<hr>\n<!--UdmComment-->\n<div id=\"fineprint\">\n  <p>To report a problem with the web site, please e-mail our publicly archived mailing list <a href=\"mailto:debian-www@lists.debian.org\">debian-www@lists.debian.org</a> in English. For other contact information, see the Debian <a href=\"./contact\">contact page</a>. Web site source code is <a href=\"https://salsa.debian.org/webmaster-team/webwml\">available</a>.</p>\n<p>\nLast Modified: Wed, Mar 2 05:10:57 UTC 2022\n&emsp;\nLast Built: Wed, Mar 2 07:26:20 UTC 2022\n  <br>\n  Copyright &copy; 1997-2022\n <a href=\"https://www.spi-inc.org/\">SPI</a> and others; See <a href=\"./license\" rel=\"copyright\">license terms</a><br>\n  Debian is a registered <a href=\"./trademark\">trademark</a> of Software in the Public Interest, Inc.\n</p>\n</div>\n<!--/UdmComment-->\n</div> <!-- end footer -->\n</body>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "server": "Apache",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 2186908749,
+        "org": "Drienerlolaan 5",
+        "isp": "SURF B.V.",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:apache:http_server"
+        ],
+        "data": "HTTP/1.1 200 OK\r\nDate: Sun, 13 Mar 2022 17:34:17 GMT\r\nServer: Apache\r\nContent-Location: index.en.html\r\nVary: negotiate,accept-language,Accept-Encoding,cookie\r\nTCN: choice\r\nX-Content-Type-Options: nosniff\r\nX-Frame-Options: sameorigin\r\nReferrer-Policy: no-referrer\r\nX-Xss-Protection: 1\r\nPermissions-Policy: interest-cohort=()\r\nStrict-Transport-Security: max-age=15552000\r\nUpgrade: h2,h2c\r\nConnection: Upgrade\r\nLast-Modified: Wed, 02 Mar 2022 07:26:20 GMT\r\nETag: \"3bd1-5d93732b776ff\"\r\nAccept-Ranges: bytes\r\nContent-Length: 15313\r\nCache-Control: max-age=86400\r\nExpires: Mon, 14 Mar 2022 17:34:17 GMT\r\nX-Clacks-Overhead: GNU Terry Pratchett\r\nContent-Type: text/html\r\nContent-Language: en\r\n\r\n",
+        "asn": "AS1133",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "f9c1050bae2527e09a70bce5f278f41ed8182f9de5bcb7b3548c19d45a516b8e",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "15d3fd16d29d29d00042d43d000000eed8083ffe0365e3dd86aa60eff5d3bb",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "99d5c412f449d2438d9a21096f67a476ddb00980cec7c8ab90f1ff6fc3aebc3641b47eaac8a69f5f8b10de2f09c95a57aaf735052b178919f5d0c69767193a466c37deaa46bd5e1a76d5f6340999b578acdca20a9ba48438b7ee62553d515b4fe54b2b56582a3e8afa33de623c226cc5c4ce840fda9d2bd32a15d3c826fd37311862c53177891b125593ad33d7ca00577763032a12c8878ee5b8c802c4250ec582e0cc50d862352106694f62e93f500765346da145e0db4e0393f25454c804da46661275837b38e4c63acfb558eeba31fd462a328adea9278416c6057ad4ca5a57a8406492814aed68d0d284b83703e0ff06f5cf2c829ab54b6d2c6887c7e2e8ef02a54d4cf380d17b75e0fbec761de8fbe891fa4e4f119f7d25af752d1099d0938806a7c4def9ee2ba577345c63af59d18a403aa09b173c7078e53321b66c6fa2fe34c5ae090ea4660ea64a8dcee650a2ddec6fd4145fdecf1edc3f03a4215b3ca49b7a0980b911008b706c4c82347ed338481470c13233328044f3916b4924beb487e613e181282c52241d984305ae8de24d10d413934ea1fe76e659a02afa7a41b4e726f4017482ff1da7ef6bf9272b47852e87dcfdd7aa5dc9d0d03e47c17fcecf9beeadbf66b06a68c4a8fd5d657bfcf8c9f0f3adeedf4c7659ee4a8020f88d3fd3e4160e8d5e66ee2e66749757ee02acf6061758ecb9a62ed38af65d1b",
+            "public_key": "499556a5208e571912b533612f78bc082774836d623409b6f90ac4d33493e413b4fdfaba7c6a0dfd5db488615a68b86ebb7cf8ba4bdcaaba2348f7995889765fffd18a0f79acad8858fe39c3a72eba61cd0dce4e9b5e57801725307d2b3d46b98c34422e91ee59f18db0af17f4cba744cc9a268b31b3537a123907305f4166b10d0246a8d4e43f5e8b086c2308fc3a4c49905a26fecbda5fe9c3cfa9a9c270085a05850133835f1a8cb2083b94e07ca2f29c1081f78bf6eef823dbd0499c1ca37a79dede39b265c5dbd9d79394d0d4233aa194080382280ae693cb3a907a2eecd69679c5bb78d2913da1bc4505adca85842ff880a51d1f157108396a7e25169e9184e7de8d14cd590aee55edfba53fb3cbf3e748e03305f5f846260037d34b123229233a8b905d5e7a00798fa89337bb189b02700e571bfb2fa1b12f1598c7c68fe777344044bac88f433f2be444bf135c3967f40fe5fbdda6e369a4864650bc7738f69c427a5ba733b1c51132abd89d455a04dcfcbaa1b9b5f40b6fd68569f1569ebb02fd54c2a115f849e6f07156e344174156f7cda2e7e2f8c152d9b928f7c890a175bef18ab11172223a489f863621898411880a8fbcb2cd8e2d190bcf87ca51f3c99d2bb213b5c5d59110ba3070b04bc44809bdd3c0e6f94fc79094e2fb8681d8003eb0cd75059352e0213d4981186a8c6b28327be491844a28fb64dc91",
+            "bits": 4096,
+            "generator": 2
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "452c3b3abf0ed48df1b925f6977db72b",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220224004303Z",
+            "expires": "20220525004302Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14\\xc5\\xd3\\xb5[\\x90\\x08dt\\\\c_\\xa1\\xad\\x00\\xb9\\xca\\x08\\xe3\\xb87",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x10\\x82\\x0ewww.debian.org",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf3\\x00\\xf1\\x00v\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01\\x7f)e`e\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xf9\\x97v\\xb7W\\xe2\\x98\\x16\\x1e\\x15\\xe3\\x14_\\x92\\xff\\xcd\\xe45\\x12\\x02\\xd1,4\\x99\\x0e\\xea\\xfb\\xd6j|\\xdf&\\x02 g\\xb7$w;\\x10q\\xab\\x02\\x0b0\\xc7\r!_)\\xf7%\\xb5\\xaa)P\\xaa\\xa8\\xd8\\xb7\\xf1,)6\\xf7\\xfd\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01\\x7f)e`d\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xd6\\xa8yy\\xb9@\\xff\\xb56\\x82\\xed\\xe1 \\xe9\\xbc\\xbd\\xf7\\xca\\xb4\\xa1j\\x91t\\x85\\xcd\\xf2\\xb9\\x18\\x96\\xdeQ\\x13\\x02!\\x00\\x9c\r9\\x8a\\x93}hk\\x03\\xe8\\xa7*\\xdd\\xc6\\x16\\xe3yuN\\xdf,\\xd37\\xbe\\xe8H\\xa7\\x83\\x14s\\x86\\xdc",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "f9c1050bae2527e09a70bce5f278f41ed8182f9de5bcb7b3548c19d45a516b8e",
+              "sha1": "13fb354a8705418ce0924be84fbab0c201f34ea7"
+            },
+            "serial": 3.8633900839957706e+41,
+            "subject": {
+              "CN": "www.debian.org"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 4096
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "C = US, O = Let's Encrypt, CN = R3",
+            "cert_status": "good",
+            "produced_at": "2022-03-13 13:43:00",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-20 12:59:58",
+            "this_update": "2022-03-13 13:00:00",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "48DAC9A0FB2BD32D4FF0DE68D2F567B735F9B3C4",
+              "issuer_name_key": "142EB317B75856CBAE500940E61FAF9D8B14C2C6",
+              "serial_number": "046F592A7F047470ECFFF910262DE44787D7"
+            }
+          }
+        },
+        "hostnames": [
+          "www.debian.org",
+          "klecker-misc.debian.org"
+        ],
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server"
+        ],
+        "timestamp": "2022-03-13T17:34:17.976509",
+        "domains": [
+          "debian.org"
+        ],
+        "ip_str": "130.89.148.77",
+        "os": null,
+        "_shodan": {
+          "crawler": "6f55d367cbfc8dfe8f206264b1aea3853dd5b496",
+          "options": {},
+          "id": "069e81b2-468f-4024-a954-1be67b504c7f",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/13 17:34:31 130.89.148.77:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Enschede",
+          "region_code": "OV",
+          "area_code": null,
+          "longitude": 6.89583,
+          "latitude": 52.21833,
+          "country_code": "NL",
+          "country_name": "Netherlands"
+        }
+      }
+    ],
+    "asn": "AS1133",
+    "ip_str": "130.89.148.77"
+  }

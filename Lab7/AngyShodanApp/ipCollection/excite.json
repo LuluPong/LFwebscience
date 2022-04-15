@@ -1,0 +1,478 @@
+{
+    "doc_id": 79,
+    "city": "New York City",
+    "region_code": "NY",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 2540032626,
+    "isp": "Fastly",
+    "area_code": null,
+    "longitude": -74.00597,
+    "last_update": "2022-03-26T17:10:22.380820",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.71427,
+    "hostnames": [
+      "mageuat-agence-gke.bricoman.fr",
+      "altair.weldom.fr",
+      "preprod.weldom.fr",
+      "oldloginis6.leroymerlin.fr",
+      "mageuat-mkp-gke.bricoman.fr",
+      "preprod-prodotti.bricocenter.it",
+      "webops.adeo.cloud",
+      "preprod-adeo-gke.bricoman.it",
+      "bricoman.de",
+      "frlm.public.instala.adeo.cloud",
+      "pllm.public.instala.adeo.cloud",
+      "instala-direct.leroymerlin.pt",
+      "baserh.migration.groupeadeo.com",
+      "beforeprod.adeo.com",
+      "lesmagasinsparisiens.leroymerlin.fr",
+      "photos.zodio.fr",
+      "password.prep.adeo.com",
+      "notification.pgw.frzd.cookie.tech.adeo.cloud",
+      "prep-comfour.leroymerlin.com",
+      "bricoman.se",
+      "prep-loginis6.leroymerlin.fr",
+      "prep-cuisineis6.leroymerlin.fr",
+      "lesmagparisiens.leroymerlin.fr",
+      "preprod-altair.weldom.fr",
+      "oaa-v2.leroymerlin.fr",
+      "uat1-ptlm.direct.nprd.instala.adeo.cloud",
+      "bricoman.pl",
+      "old.weldom.fr",
+      "lmv.vn",
+      "www.bricoman.pl",
+      "magepreprod-agence-gke.bricoman.fr",
+      "prep-oldloginis6.leroymerlin.fr",
+      "uat1-ptlm.public.nprd.instala.adeo.cloud",
+      "prep-apipd.leroymerlin.fr",
+      "prep-storeis6.leroymerlin.fr",
+      "storeis6.leroymerlin.fr",
+      "instala-cockpit.leroymerlin.pt",
+      "frlm.direct.instala.adeo.cloud",
+      "cybersecurityservices.adeo.com",
+      "uat1-itlm.public.nprd.instala.adeo.cloud",
+      "ttf.leroymerlin.fr",
+      "ccdp.uat.leroymerlin.it",
+      "notification.pgw.frlm.cookie.tech.adeo.cloud",
+      "knowledge-base.adeo.com",
+      "webops.adeo.com",
+      "prep-jeu-enki.leroymerlin.fr",
+      "prep-magazine.leroymerlin.fr",
+      "loginis6.leroymerlin.fr",
+      "www.weldom.fr",
+      "my-loyalty-bmfr.adeo.com",
+      "uat1-frlm.public.nprd.instala.adeo.cloud",
+      "preprod.webops.adeo.com",
+      "apipd.leroymerlin.fr",
+      "ptlm.public.instala.adeo.cloud",
+      "notification.pgw.itlm.cookie.tech.adeo.cloud",
+      "developer.adeo.com",
+      "itlm.public.instala.adeo.cloud",
+      "uat1-pllm.public.nprd.instala.adeo.cloud",
+      "tempo-order-admin.prep.cdp.adeo.cloud",
+      "preprod.webops.adeo.cloud",
+      "mageuat-24-gke.bricoman.fr",
+      "preprod-gke.bricoman.it",
+      "cybersecurity.adeo.com",
+      "jeu-enki.leroymerlin.fr",
+      "prep-productinfois6.leroymerlin.fr",
+      "notification.pgw.eslm.cookie.tech.adeo.cloud",
+      "prod-gke.bricoman.it",
+      "ptlm.direct.instala.adeo.cloud",
+      "www.zodio.fr",
+      "productinfois6.leroymerlin.fr",
+      "itlm.direct.instala.adeo.cloud",
+      "notification.pgw.esbm.cookie.tech.adeo.cloud",
+      "prep-last-mile.leroymerlin.fr",
+      "www.bricoman.de",
+      "prep.adeo.com",
+      "weldom.fr",
+      "www.bricoman.se",
+      "pllm.direct.instala.adeo.cloud",
+      "www.lmv.vn",
+      "prep-inspiration.leroymerlin.fr"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "leroymerlin.pt",
+      "groupeadeo.com",
+      "bricocenter.it",
+      "adeo.cloud",
+      "bricoman.it",
+      "adeo.com",
+      "bricoman.fr",
+      "zodio.fr",
+      "bricoman.se",
+      "lmv.vn",
+      "bricoman.pl",
+      "bricoman.de",
+      "leroymerlin.fr",
+      "leroymerlin.com",
+      "leroymerlin.it",
+      "weldom.fr"
+    ],
+    "org": "Fastly",
+    "data": [
+      {
+        "hash": 1546888441,
+        "product": "Varnish",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": "Varnish",
+          "host": "www.huffpost.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "ip": 2540032626,
+        "isp": "Fastly",
+        "transport": "tcp",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: Varnish\r\nRetry-After: 0\r\nLocation: https://www.huffpost.com/\r\nContent-Length: 0\r\nAccept-Ranges: bytes\r\nDate: Sat, 26 Mar 2022 05:17:45 GMT\r\nVia: 1.1 varnish\r\nConnection: close\r\nX-Served-By: cache-ewr18127-EWR\r\nX-Cache: HIT\r\nX-Cache-Hits: 0\r\nX-Timer: S1648271866.997943,VS0,VE0\r\nX-Content-Type-Options: nosniff\r\nStrict-Transport-Security: max-age=31536000\r\nReferrer-Policy: no-referrer-when-downgrade\r\nX-XSS-Protection: 1; mode=block\r\ncontent-security-policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;\r\nSet-Cookie: ccpa=true; expires=Sat, 09 Apr 2022 05:17:45 GMT; path=/; domain=www.huffpost.com;\r\n\r\n",
+        "asn": "AS54113",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-26T05:17:46.281606",
+        "domains": [],
+        "org": "Fastly",
+        "os": null,
+        "_shodan": {
+          "crawler": "6d5195c331613d103027c23dc52e6d32fd2a74af",
+          "options": {
+            "hostname": "www.huffpost.com",
+            "scan": "5mjps6MtZ7XRV4l0"
+          },
+          "id": "48e513b3-3a47-43ef-8609-3a8827a83c42",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "151.101.210.114"
+      },
+      {
+        "hash": 1218558716,
+        "http": {
+          "status": 403,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "bricoman.de",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "www.bricoman.de",
+          "html": "<html><head><title>bricoman.de</title><style>#cmsg{animation: A 1.5s;}@keyframes A{0%{opacity:0;}99%{opacity:0;}100%{opacity:1;}}</style></head><body style=\"margin:0\"><p id=\"cmsg\">Please enable JS and disable any ad blocker</p><script>var dd={'cid':'AHrlqAAAAAMAsTgbaLie6tMAj8bhxQ==','hsh':'66E06B39D6E1CFB0C08AB412B13F3A','t':'fe','s':15262,'host':'geo.captcha-delivery.com'}</script><script src=\"https://ct.captcha-delivery.com/c.js\"></script></body></html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1836147908,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "ip": 2540032626,
+        "isp": "Fastly",
+        "transport": "tcp",
+        "data": "HTTP/1.1 403 Forbidden\r\nConnection: keep-alive\r\nContent-Length: 460\r\nX-DataDome: protected\r\nContent-Type: text/html;charset=utf-8\r\nCharset: utf-8\r\nCache-Control: max-age=0, private, no-cache, no-store, must-revalidate\r\nPragma: no-cache\r\nX-DataDome-CID: AHrlqAAAAAMAsTgbaLie6tMAj8bhxQ==\r\nSet-Cookie: datadome=r4YBi8nPWS88HZimdYbvUFq85nXUv5edVNLEJx3qQFhaeBhjsJj5QKiQb12t9xHS8wF~8SnC0ADjpQ2DZ1H60K_uLPNaaBftKxTN1oHItxBA1RadbnZL~OA2WlW08L5; Max-Age=31536000; Domain=.bricoman.de; Path=/; Secure; SameSite=Lax\r\nX-DataDome-ruletype: AI Threats Detection\r\nX-DataDome-requestid: 4af954cd-0dc0-ba8b-5e17-1c77d0451b41\r\nAccept-Ranges: bytes\r\nDate: Sat, 26 Mar 2022 17:10:20 GMT\r\nX-Served-By: cache-ewr18155-EWR\r\nX-Cache: MISS\r\nX-Cache-Hits: 0\r\nX-Timer: S1648314621.936709,VS0,VE10\r\nstrict-transport-security: max-age=31536000\r\nVary: Cookie\r\n\r\n",
+        "asn": "AS54113",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "1a5fb8fc4cadc4236cc579325fb94492302e9608a211ca72a35609f9f5df1247",
+            "b65fe6a1bf2d52ff68b7d3e9d0f06b300a1c3f248309b70405ca7bdec054bddd",
+            "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+          ],
+          "jarm": "29d29d00029d29d00042d43d00041d2aa5ce6a70de7ba95aef77a77b00a0af",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIPlTCCDn2gAwIBAgIQAeoV30tk2BpT+93bDyiRxDANBgkqhkiG9w0BAQsFADBV\nMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTErMCkGA1UE\nAxMiR2xvYmFsU2lnbiBBdGxhcyBSMyBEViBUTFMgQ0EgMjAyMDAeFw0yMTA0MjAx\nNzAzNDNaFw0yMjA1MjIxNzAzNDJaMBsxGTAXBgNVBAMMECouY2RwLmFkZW8uY2xv\ndWQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIL5Mspe0jY55lS/VR\nl4On6oGSFwEX6w+FiHVv5hrVDrt5bQ9qrEvTiWdFGz8/vSuzXKFyDpYmyegSwI7I\n+MQDi6p49L5U9I7JCeQj/inyMEjsIaaYTavNOfwJ/PSvpaZRaiWQBWyaNfUqzyAz\nGoVJmMHMN8rFfwIz/y4hwiZmLacao9MgqyJwYQHw3nObOj7Y/qpYW1P5cjAV4q47\njtQPWbr/6nC7vpTqsQylO2tZCD0ghYXe/SUxC2ZsSeBNhjXzig78bTp52O3oycOY\nDab4hTMgZoBZcaxPpRLcjpTixEscKD31iImm7feuZSoFf3SB6W1xKuRLVEdIOfmv\n2dWpAgMBAAGjggyZMIIMlTCCCdMGA1UdEQSCCcowggnGghAqLmNkcC5hZGVvLmNs\nb3Vkgi4qLm5vdGlmaWNhdGlvbi5wZ3cuZXNibS5jb29raWUudGVjaC5hZGVvLmNs\nb3Vkgi4qLm5vdGlmaWNhdGlvbi5wZ3cuZXNsbS5jb29raWUudGVjaC5hZGVvLmNs\nb3Vkgi4qLm5vdGlmaWNhdGlvbi5wZ3cuZnJsbS5jb29raWUudGVjaC5hZGVvLmNs\nb3Vkgi4qLm5vdGlmaWNhdGlvbi5wZ3cuZnJ6ZC5jb29raWUudGVjaC5hZGVvLmNs\nb3Vkgi4qLm5vdGlmaWNhdGlvbi5wZ3cuaXRsbS5jb29raWUudGVjaC5hZGVvLmNs\nb3VkghUqLm5wcmQuY2RwLmFkZW8uY2xvdWSCEGFsdGFpci53ZWxkb20uZnKCFGFw\naXBkLmxlcm95bWVybGluLmZygh9iYXNlcmgubWlncmF0aW9uLmdyb3VwZWFkZW8u\nY29tghNiZWZvcmVwcm9kLmFkZW8uY29tggticmljb21hbi5kZYILYnJpY29tYW4u\ncGyCC2JyaWNvbWFuLnNlghdjY2RwLnVhdC5sZXJveW1lcmxpbi5pdIIWY3liZXJz\nZWN1cml0eS5hZGVvLmNvbYIeY3liZXJzZWN1cml0eXNlcnZpY2VzLmFkZW8uY29t\nghJkZXZlbG9wZXIuYWRlby5jb22CHmZybG0uZGlyZWN0Lmluc3RhbGEuYWRlby5j\nbG91ZIIeZnJsbS5wdWJsaWMuaW5zdGFsYS5hZGVvLmNsb3Vkgh5pbnN0YWxhLWNv\nY2twaXQubGVyb3ltZXJsaW4ucHSCHWluc3RhbGEtZGlyZWN0Lmxlcm95bWVybGlu\nLnB0gh5pdGxtLmRpcmVjdC5pbnN0YWxhLmFkZW8uY2xvdWSCHml0bG0ucHVibGlj\nLmluc3RhbGEuYWRlby5jbG91ZIIXamV1LWVua2kubGVyb3ltZXJsaW4uZnKCF2tu\nb3dsZWRnZS1iYXNlLmFkZW8uY29tgiNsZXNtYWdhc2luc3BhcmlzaWVucy5sZXJv\neW1lcmxpbi5mcoIebGVzbWFncGFyaXNpZW5zLmxlcm95bWVybGluLmZyggZsbXYu\ndm6CF2xvZ2luaXM2Lmxlcm95bWVybGluLmZygiJtYWdlcHJlcHJvZC1hZ2VuY2Ut\nZ2tlLmJyaWNvbWFuLmZyghptYWdldWF0LTI0LWdrZS5icmljb21hbi5mcoIebWFn\nZXVhdC1hZ2VuY2UtZ2tlLmJyaWNvbWFuLmZyghttYWdldWF0LW1rcC1na2UuYnJp\nY29tYW4uZnKCGG15LWxveWFsdHktYm1mci5hZGVvLmNvbYIsbm90aWZpY2F0aW9u\nLnBndy5lc2JtLmNvb2tpZS50ZWNoLmFkZW8uY2xvdWSCLG5vdGlmaWNhdGlvbi5w\nZ3cuZXNsbS5jb29raWUudGVjaC5hZGVvLmNsb3Vkgixub3RpZmljYXRpb24ucGd3\nLmZybG0uY29va2llLnRlY2guYWRlby5jbG91ZIIsbm90aWZpY2F0aW9uLnBndy5m\ncnpkLmNvb2tpZS50ZWNoLmFkZW8uY2xvdWSCLG5vdGlmaWNhdGlvbi5wZ3cuaXRs\nbS5jb29raWUudGVjaC5hZGVvLmNsb3VkghVvYWEtdjIubGVyb3ltZXJsaW4uZnKC\nDW9sZC53ZWxkb20uZnKCGm9sZGxvZ2luaXM2Lmxlcm95bWVybGluLmZyghZwYXNz\nd29yZC5wcmVwLmFkZW8uY29tgg9waG90b3Muem9kaW8uZnKCHnBsbG0uZGlyZWN0\nLmluc3RhbGEuYWRlby5jbG91ZIIecGxsbS5wdWJsaWMuaW5zdGFsYS5hZGVvLmNs\nb3VkghlwcmVwLWFwaXBkLmxlcm95bWVybGluLmZyghxwcmVwLWNvbWZvdXIubGVy\nb3ltZXJsaW4uY29tgh5wcmVwLWN1aXNpbmVpczYubGVyb3ltZXJsaW4uZnKCH3By\nZXAtaW5zcGlyYXRpb24ubGVyb3ltZXJsaW4uZnKCHHByZXAtamV1LWVua2kubGVy\nb3ltZXJsaW4uZnKCHXByZXAtbGFzdC1taWxlLmxlcm95bWVybGluLmZyghxwcmVw\nLWxvZ2luaXM2Lmxlcm95bWVybGluLmZyghxwcmVwLW1hZ2F6aW5lLmxlcm95bWVy\nbGluLmZygh9wcmVwLW9sZGxvZ2luaXM2Lmxlcm95bWVybGluLmZygiJwcmVwLXBy\nb2R1Y3RpbmZvaXM2Lmxlcm95bWVybGluLmZyghxwcmVwLXN0b3JlaXM2Lmxlcm95\nbWVybGluLmZygg1wcmVwLmFkZW8uY29tghxwcmVwcm9kLWFkZW8tZ2tlLmJyaWNv\nbWFuLml0ghhwcmVwcm9kLWFsdGFpci53ZWxkb20uZnKCF3ByZXByb2QtZ2tlLmJy\naWNvbWFuLml0gh9wcmVwcm9kLXByb2RvdHRpLmJyaWNvY2VudGVyLml0ghlwcmVw\ncm9kLndlYm9wcy5hZGVvLmNsb3VkghdwcmVwcm9kLndlYm9wcy5hZGVvLmNvbYIR\ncHJlcHJvZC53ZWxkb20uZnKCFHByb2QtZ2tlLmJyaWNvbWFuLml0gh1wcm9kdWN0\naW5mb2lzNi5sZXJveW1lcmxpbi5mcoIecHRsbS5kaXJlY3QuaW5zdGFsYS5hZGVv\nLmNsb3Vkgh5wdGxtLnB1YmxpYy5pbnN0YWxhLmFkZW8uY2xvdWSCF3N0b3JlaXM2\nLmxlcm95bWVybGluLmZygiV0ZW1wby1vcmRlci1hZG1pbi5wcmVwLmNkcC5hZGVv\nLmNsb3VkghJ0dGYubGVyb3ltZXJsaW4uZnKCKHVhdDEtZnJsbS5wdWJsaWMubnBy\nZC5pbnN0YWxhLmFkZW8uY2xvdWSCKHVhdDEtaXRsbS5wdWJsaWMubnByZC5pbnN0\nYWxhLmFkZW8uY2xvdWSCKHVhdDEtcGxsbS5wdWJsaWMubnByZC5pbnN0YWxhLmFk\nZW8uY2xvdWSCKHVhdDEtcHRsbS5kaXJlY3QubnByZC5pbnN0YWxhLmFkZW8uY2xv\ndWSCKHVhdDEtcHRsbS5wdWJsaWMubnByZC5pbnN0YWxhLmFkZW8uY2xvdWSCEXdl\nYm9wcy5hZGVvLmNsb3Vkgg93ZWJvcHMuYWRlby5jb22CCXdlbGRvbS5mcoIPd3d3\nLmJyaWNvbWFuLmRlgg93d3cuYnJpY29tYW4ucGyCD3d3dy5icmljb21hbi5zZYIK\nd3d3Lmxtdi52boINd3d3LndlbGRvbS5mcoIMd3d3LnpvZGlvLmZyMA4GA1UdDwEB\n/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHQYDVR0OBBYE\nFDWrHHGSx8ZuUlC7x8LtnzaHSU7ZMFYGA1UdIARPME0wQQYJKwYBBAGgMgEKMDQw\nMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNpZ24uY29tL3JlcG9zaXRv\ncnkvMAgGBmeBDAECATAJBgNVHRMEAjAAMIGaBggrBgEFBQcBAQSBjTCBijA+Bggr\nBgEFBQcwAYYyaHR0cDovL29jc3AuZ2xvYmFsc2lnbi5jb20vY2EvZ3NhdGxhc3Iz\nZHZ0bHNjYTIwMjAwSAYIKwYBBQUHMAKGPGh0dHA6Ly9zZWN1cmUuZ2xvYmFsc2ln\nbi5jb20vY2FjZXJ0L2dzYXRsYXNyM2R2dGxzY2EyMDIwLmNydDAfBgNVHSMEGDAW\ngBRCbVctTx8md3SmJ2T2gPqPSGj+fDBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8v\nY3JsLmdsb2JhbHNpZ24uY29tL2NhL2dzYXRsYXNyM2R2dGxzY2EyMDIwLmNybDCC\nAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AEalVet1+pEgMLWiiWn0830RLEF0vv1J\nuIWr8vxw/m1HAAABePA85ysAAAQDAEcwRQIgDIzjywpdaSd2XvByFcJJSwdf6NiD\n3jpxDkvgd/RF7i4CIQCDz+SYW4A7QTIsp32op3UxEfLzqeeQPprQ8h+TN2ctswB1\nAFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABePA857cAAAQDAEYw\nRAIgLAkJoj2JmxFi5DI5wOFEchR8F7UqnV7HfxF4BmUg0i4CIDtZkni4sBtGqZHU\n1+01URtDbIM+pgHoLlH21dzVCwWFMA0GCSqGSIb3DQEBCwUAA4IBAQAVUWvBjUIB\nC3fWVrVubeRHCamuBQ5HpCj0Np5QbF0vNdJ6BhDxQ7SSDcRS8ECb40NskNtNa+Yt\nLxlgKEWAguTs7h3JMoyShmqvZIyy0peWQ0qX3Uh/2kNA4t6tsBVRPjBlPDlYGp1Q\ndqZIBOhdAShtEfC8rRaHa6+cylOEFdMkZ/ewmjapSKH1xkWmnps7SYqveQ8impg/\nui7B3G7KNv5D3XAYEoW2WvMGs21yolafm32WJV6hLWUfaJQcwiW2ieMayza15NC0\nUSAessuuL2jjel1LKjiNCuLpia/opTbHLADKesriMMsAmgHPNE5/sdEoIRpQtb2r\nNqQjf2bOh7Nu\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEsjCCA5qgAwIBAgIQeAMYIM8CNvOmhRi677f3ATANBgkqhkiG9w0BAQsFADBM\nMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xv\nYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjAeFw0yMDA3MjgwMDAwMDBaFw0y\nOTAzMTgwMDAwMDBaMFUxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWdu\nIG52LXNhMSswKQYDVQQDEyJHbG9iYWxTaWduIEF0bGFzIFIzIERWIFRMUyBDQSAy\nMDIwMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiadP0GINVgdrVQ2m\nH8m0i+g3Wi/SjCBCpz9LZ989eWRrag4zjUc5s2WJ9PWv1XObF0bhLtNnrz0bCoaw\ntQun6dNl5mHYB1fbFIiSIU++I9V9bGHs49abmgAPWLSF4UfpKoJhJ/bdj9DX3/LP\nCZ+70/sRXXG/qsLYI05WGWEtqnVn4wXEL+hWoCn8yQjsbwUwACq0MjIgRypabmT3\nOROLGE6/2fHuQ5P0IHjLUpovkFzIiTdoX33LGFGts3Hc7+DaIW8MsU1bt2UJrknl\nLhGZl39APhnalmf5AqFwscOlCkq05pmvYRycvi5Voov+BSc5qYE2LcS4qk39EC56\nQn/vBQIDAQABo4IBhTCCAYEwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsG\nAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBRC\nbVctTx8md3SmJ2T2gPqPSGj+fDAfBgNVHSMEGDAWgBSP8Et/qC5FJK5NUPpjmove\n4t0bvDB7BggrBgEFBQcBAQRvMG0wLgYIKwYBBQUHMAGGImh0dHA6Ly9vY3NwMi5n\nbG9iYWxzaWduLmNvbS9yb290cjMwOwYIKwYBBQUHMAKGL2h0dHA6Ly9zZWN1cmUu\nZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L3Jvb3QtcjMuY3J0MDYGA1UdHwQvMC0wK6Ap\noCeGJWh0dHA6Ly9jcmwuZ2xvYmFsc2lnbi5jb20vcm9vdC1yMy5jcmwwRwYDVR0g\nBEAwPjA8BgRVHSAAMDQwMgYIKwYBBQUHAgEWJmh0dHBzOi8vd3d3Lmdsb2JhbHNp\nZ24uY29tL3JlcG9zaXRvcnkvMA0GCSqGSIb3DQEBCwUAA4IBAQAi5uFmB7bAY7Ey\nyc8XLXoMO6x3qoj1IXhR+XMQF4XI4nMtMCOnu68TTuG10JnKjTVgG1nEx6THkhWp\n9gABl4W9qxQjSpWBfnqffokXOjN513rN3/wJ2ZQ+G0xZmqfQuuICpYaXebK7wqZv\nCj5cT1LK+FwY0rWUbvoCkZsWgcte4sXdoGVjKBpJpB5tZelIABdSiPjD43/x0utk\nzw4BBcD8J2uQKdkK+NTX47klgcddkRduQnfLApsKlS/PlgRTn1fgcgsWfkw2Fhuq\nJwGNLMwQmK3FBOE4o9ZhkkA6wTNFJVuRYnTIRqV7j1nWGmDwAVmWqheoEPn39qqM\nK6oYIXfj\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4G\nA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNp\nZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4\nMTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEG\nA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZI\nhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8\nRgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsT\ngHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmm\nKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zd\nQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZ\nXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAw\nDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+o\nLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZU\nRUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMp\njjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK\n6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQX\nmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecs\nMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpH\nWD9f\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "0c0aff9ccea5e7e1de5c3a0069d103f3",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210420170343Z",
+            "expires": "20220522170342Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x82 \\xc6\\x82\\x10*.cdp.adeo.cloud\\x82.*.notification.pgw.esbm.cookie.tech.adeo.cloud\\x82.*.notification.pgw.eslm.cookie.tech.adeo.cloud\\x82.*.notification.pgw.frlm.cookie.tech.adeo.cloud\\x82.*.notification.pgw.frzd.cookie.tech.adeo.cloud\\x82.*.notification.pgw.itlm.cookie.tech.adeo.cloud\\x82\\x15*.nprd.cdp.adeo.cloud\\x82\\x10altair.weldom.fr\\x82\\x14apipd.leroymerlin.fr\\x82\\x1fbaserh.migration.groupeadeo.com\\x82\\x13beforeprod.adeo.com\\x82\\x0bbricoman.de\\x82\\x0bbricoman.pl\\x82\\x0bbricoman.se\\x82\\x17ccdp.uat.leroymerlin.it\\x82\\x16cybersecurity.adeo.com\\x82\\x1ecybersecurityservices.adeo.com\\x82\\x12developer.adeo.com\\x82\\x1efrlm.direct.instala.adeo.cloud\\x82\\x1efrlm.public.instala.adeo.cloud\\x82\\x1einstala-cockpit.leroymerlin.pt\\x82\\x1dinstala-direct.leroymerlin.pt\\x82\\x1eitlm.direct.instala.adeo.cloud\\x82\\x1eitlm.public.instala.adeo.cloud\\x82\\x17jeu-enki.leroymerlin.fr\\x82\\x17knowledge-base.adeo.com\\x82#lesmagasinsparisiens.leroymerlin.fr\\x82\\x1elesmagparisiens.leroymerlin.fr\\x82\\x06lmv.vn\\x82\\x17loginis6.leroymerlin.fr\\x82\"magepreprod-agence-gke.bricoman.fr\\x82\\x1amageuat-24-gke.bricoman.fr\\x82\\x1emageuat-agence-gke.bricoman.fr\\x82\\x1bmageuat-mkp-gke.bricoman.fr\\x82\\x18my-loyalty-bmfr.adeo.com\\x82,notification.pgw.esbm.cookie.tech.adeo.cloud\\x82,notification.pgw.eslm.cookie.tech.adeo.cloud\\x82,notification.pgw.frlm.cookie.tech.adeo.cloud\\x82,notification.pgw.frzd.cookie.tech.adeo.cloud\\x82,notification.pgw.itlm.cookie.tech.adeo.cloud\\x82\\x15oaa-v2.leroymerlin.fr\\x82\rold.weldom.fr\\x82\\x1aoldloginis6.leroymerlin.fr\\x82\\x16password.prep.adeo.com\\x82\\x0fphotos.zodio.fr\\x82\\x1epllm.direct.instala.adeo.cloud\\x82\\x1epllm.public.instala.adeo.cloud\\x82\\x19prep-apipd.leroymerlin.fr\\x82\\x1cprep-comfour.leroymerlin.com\\x82\\x1eprep-cuisineis6.leroymerlin.fr\\x82\\x1fprep-inspiration.leroymerlin.fr\\x82\\x1cprep-jeu-enki.leroymerlin.fr\\x82\\x1dprep-last-mile.leroymerlin.fr\\x82\\x1cprep-loginis6.leroymerlin.fr\\x82\\x1cprep-magazine.leroymerlin.fr\\x82\\x1fprep-oldloginis6.leroymerlin.fr\\x82\"prep-productinfois6.leroymerlin.fr\\x82\\x1cprep-storeis6.leroymerlin.fr\\x82\rprep.adeo.com\\x82\\x1cpreprod-adeo-gke.bricoman.it\\x82\\x18preprod-altair.weldom.fr\\x82\\x17preprod-gke.bricoman.it\\x82\\x1fpreprod-prodotti.bricocenter.it\\x82\\x19preprod.webops.adeo.cloud\\x82\\x17preprod.webops.adeo.com\\x82\\x11preprod.weldom.fr\\x82\\x14prod-gke.bricoman.it\\x82\\x1dproductinfois6.leroymerlin.fr\\x82\\x1eptlm.direct.instala.adeo.cloud\\x82\\x1eptlm.public.instala.adeo.cloud\\x82\\x17storeis6.leroymerlin.fr\\x82%tempo-order-admin.prep.cdp.adeo.cloud\\x82\\x12ttf.leroymerlin.fr\\x82(uat1-frlm.public.nprd.instala.adeo.cloud\\x82(uat1-itlm.public.nprd.instala.adeo.cloud\\x82(uat1-pllm.public.nprd.instala.adeo.cloud\\x82(uat1-ptlm.direct.nprd.instala.adeo.cloud\\x82(uat1-ptlm.public.nprd.instala.adeo.cloud\\x82\\x11webops.adeo.cloud\\x82\\x0fwebops.adeo.com\\x82 weldom.fr\\x82\\x0fwww.bricoman.de\\x82\\x0fwww.bricoman.pl\\x82\\x0fwww.bricoman.se\\x82\nwww.lmv.vn\\x82\rwww.weldom.fr\\x82\\x0cwww.zodio.fr",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "\\x04\\x145\\xab\\x1cq\\x92\\xc7\\xc6nRP\\xbb\\xc7\\xc2\\xed\\x9f6\\x87IN\\xd9",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0M0A\\x06 +\\x06\\x01\\x04\\x01\\xa02\\x01\n0402\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16&https://www.globalsign.com/repository/0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x01",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0\\x81\\x8a0>\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x862http://ocsp.globalsign.com/ca/gsatlasr3dvtlsca20200H\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86<http://secure.globalsign.com/cacert/gsatlasr3dvtlsca2020.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x16\\x80\\x14BmW-O\\x1f&wt\\xa6\\'d\\xf6\\x80\\xfa\\x8fHh\\xfe|",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0=0;\\xa09\\xa07\\x865http://crl.globalsign.com/ca/gsatlasr3dvtlsca2020.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "\\x04\\x81\\xf1\\x00\\xef\\x00v\\x00F\\xa5U\\xebu\\xfa\\x91 0\\xb5\\xa2\\x89i\\xf4\\xf3}\\x11,At\\xbe\\xfdI\\xb8\\x85\\xab\\xf2\\xfcp\\xfemG\\x00\\x00\\x01x\\xf0<\\xe7+\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x0c\\x8c\\xe3\\xcb\n]i\\'v^\\xf0r\\x15\\xc2IK\\x07_\\xe8\\xd8\\x83\\xde:q\\x0eK\\xe0w\\xf4E\\xee.\\x02!\\x00\\x83\\xcf\\xe4\\x98[\\x80;A2,\\xa7}\\xa8\\xa7u1\\x11\\xf2\\xf3\\xa9\\xe7\\x90>\\x9a\\xd0\\xf2\\x1f\\x937g-\\xb3\\x00u\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01x\\xf0<\\xe7\\xb7\\x00\\x00\\x04\\x03\\x00F0D\\x02 ,  \\xa2=\\x89\\x9b\\x11b\\xe429\\xc0\\xe1Dr\\x14|\\x17\\xb5*\\x9d^\\xc7\\x7f\\x11x\\x06e \\xd2.\\x02 ;Y\\x92x\\xb8\\xb0\\x1bF\\xa9\\x91\\xd4\\xd7\\xed5Q\\x1bCl\\x83>\\xa6\\x01\\xe8.Q\\xf6\\xd5\\xdc\\xd5\\x0b\\x05\\x85",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "1a5fb8fc4cadc4236cc579325fb94492302e9608a211ca72a35609f9f5df1247",
+              "sha1": "5bc74e2e96a922934c3cb4df355a59d63985b0f1"
+            },
+            "serial": 2.5446690824972718e+36,
+            "subject": {
+              "CN": "*.cdp.adeo.cloud"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "BE",
+              "CN": "GlobalSign Atlas R3 DV TLS CA 2020",
+              "O": "GlobalSign nv-sa"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "mageuat-agence-gke.bricoman.fr",
+          "altair.weldom.fr",
+          "preprod.weldom.fr",
+          "oldloginis6.leroymerlin.fr",
+          "mageuat-mkp-gke.bricoman.fr",
+          "webops.adeo.cloud",
+          "preprod-prodotti.bricocenter.it",
+          "notification.pgw.itlm.cookie.tech.adeo.cloud",
+          "preprod-adeo-gke.bricoman.it",
+          "uat1-ptlm.public.nprd.instala.adeo.cloud",
+          "uat1-frlm.public.nprd.instala.adeo.cloud",
+          "prep.adeo.com",
+          "pllm.public.instala.adeo.cloud",
+          "instala-direct.leroymerlin.pt",
+          "baserh.migration.groupeadeo.com",
+          "beforeprod.adeo.com",
+          "lesmagasinsparisiens.leroymerlin.fr",
+          "photos.zodio.fr",
+          "password.prep.adeo.com",
+          "notification.pgw.frzd.cookie.tech.adeo.cloud",
+          "bricoman.se",
+          "prep-loginis6.leroymerlin.fr",
+          "prep-cuisineis6.leroymerlin.fr",
+          "lesmagparisiens.leroymerlin.fr",
+          "preprod-altair.weldom.fr",
+          "oaa-v2.leroymerlin.fr",
+          "uat1-ptlm.direct.nprd.instala.adeo.cloud",
+          "ptlm.public.instala.adeo.cloud",
+          "www.lmv.vn",
+          "old.weldom.fr",
+          "lmv.vn",
+          "magepreprod-agence-gke.bricoman.fr",
+          "prep-oldloginis6.leroymerlin.fr",
+          "ccdp.uat.leroymerlin.it",
+          "prep-apipd.leroymerlin.fr",
+          "webops.adeo.com",
+          "storeis6.leroymerlin.fr",
+          "tempo-order-admin.prep.cdp.adeo.cloud",
+          "prep-jeu-enki.leroymerlin.fr",
+          "frlm.direct.instala.adeo.cloud",
+          "prod-gke.bricoman.it",
+          "cybersecurityservices.adeo.com",
+          "uat1-itlm.public.nprd.instala.adeo.cloud",
+          "ttf.leroymerlin.fr",
+          "itlm.direct.instala.adeo.cloud",
+          "notification.pgw.frlm.cookie.tech.adeo.cloud",
+          "www.zodio.fr",
+          "prep-magazine.leroymerlin.fr",
+          "instala-cockpit.leroymerlin.pt",
+          "apipd.leroymerlin.fr",
+          "loginis6.leroymerlin.fr",
+          "www.weldom.fr",
+          "my-loyalty-bmfr.adeo.com",
+          "frlm.public.instala.adeo.cloud",
+          "preprod.webops.adeo.com",
+          "www.bricoman.se",
+          "prep-inspiration.leroymerlin.fr",
+          "bricoman.de",
+          "developer.adeo.com",
+          "itlm.public.instala.adeo.cloud",
+          "uat1-pllm.public.nprd.instala.adeo.cloud",
+          "preprod.webops.adeo.cloud",
+          "weldom.fr",
+          "knowledge-base.adeo.com",
+          "mageuat-24-gke.bricoman.fr",
+          "cybersecurity.adeo.com",
+          "prep-productinfois6.leroymerlin.fr",
+          "notification.pgw.eslm.cookie.tech.adeo.cloud",
+          "prep-storeis6.leroymerlin.fr",
+          "ptlm.direct.instala.adeo.cloud",
+          "productinfois6.leroymerlin.fr",
+          "bricoman.pl",
+          "notification.pgw.esbm.cookie.tech.adeo.cloud",
+          "prep-last-mile.leroymerlin.fr",
+          "www.bricoman.de",
+          "prep-comfour.leroymerlin.com",
+          "preprod-gke.bricoman.it",
+          "pllm.direct.instala.adeo.cloud",
+          "www.bricoman.pl",
+          "jeu-enki.leroymerlin.fr"
+        ],
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-26T17:10:22.380820",
+        "domains": [
+          "bricoman.fr",
+          "weldom.fr",
+          "leroymerlin.fr",
+          "adeo.cloud",
+          "bricocenter.it",
+          "bricoman.it",
+          "adeo.com",
+          "leroymerlin.pt",
+          "groupeadeo.com",
+          "zodio.fr",
+          "bricoman.se",
+          "lmv.vn",
+          "leroymerlin.it",
+          "bricoman.de",
+          "bricoman.pl",
+          "leroymerlin.com"
+        ],
+        "org": "Fastly",
+        "os": null,
+        "_shodan": {
+          "crawler": "3b30ded3f602a16b2b9b09425b50a05614063bc0",
+          "options": {
+            "hostname": "www.bricoman.de",
+            "scan": "6pf9T2J8yQzNKMwy"
+          },
+          "id": "c9e890c2-03cb-4447-95bb-01ed151f7b2a",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/26 17:11:35 151.101.210.114:443 - SAFE\n"
+        },
+        "ip_str": "151.101.210.114"
+      }
+    ],
+    "asn": "AS54113",
+    "ip_str": "151.101.210.114"
+  }

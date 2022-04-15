@@ -1,0 +1,283 @@
+{
+    "doc_id": 90,
+    "city": "Dallas",
+    "region_code": "TX",
+    "os": null,
+    "tags": [],
+    "ip": 1072823211,
+    "isp": "AT&T Enhanced Network Services",
+    "area_code": null,
+    "longitude": -96.80667,
+    "last_update": "2022-03-26T13:37:25.671653",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 32.78306,
+    "hostnames": [
+      "www.turnerconstruction.com",
+      "join.turnerconstruction.com",
+      "turnerconstruction.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "turnerconstruction.com"
+    ],
+    "org": "Turner Construction",
+    "data": [
+      {
+        "hash": 87562597,
+        "product": "BigIP",
+        "http": {
+          "status": 302,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "BigIP",
+          "host": "63.241.251.171",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 1072823211,
+        "isp": "AT&T Enhanced Network Services",
+        "transport": "tcp",
+        "data": "HTTP/1.0 302 Moved Temporarily\r\nLocation: https://63.241.251.171/\r\nServer: BigIP\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS17227",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "Dallas",
+          "region_code": "TX",
+          "area_code": null,
+          "longitude": -96.80667,
+          "latitude": 32.78306,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-24T23:44:11.546403",
+        "domains": [],
+        "org": "Turner Construction",
+        "os": null,
+        "_shodan": {
+          "crawler": "dfd12d70c30ccb3812bf26f89905deeb85e98c77",
+          "options": {},
+          "id": "8ee43a87-7ba0-45b4-9007-d4d2c44bf638",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "63.241.251.171"
+      },
+      {
+        "ip": 1072823211,
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Bad Request",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Microsoft-HTTPAPI/2.0",
+          "host": "63.241.251.171",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Bad Request</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad Request - Invalid Hostname</h2>\r\n<hr><p>HTTP Error 400. The request hostname is invalid.</p>\r\n</BODY></HTML>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1298793639,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "version": "2.0",
+        "location": {
+          "city": "Dallas",
+          "region_code": "TX",
+          "area_code": null,
+          "longitude": -96.80667,
+          "latitude": 32.78306,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Microsoft HTTPAPI httpd",
+        "hash": 2102129309,
+        "timestamp": "2022-03-26T13:37:25.671653",
+        "ssl": {
+          "chain_sha256": [
+            "4be977db6820669b208fb81ad238ae2544973008ce23a0f2fb7f351f5a58e392",
+            "52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "29d29d00029d29d00029d29d29d29dcb09dd549309271837f87ac5dad15fa7",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHCjCCBfKgAwIBAgIQDEx5DhOFMwmIqTKPVLv44zANBgkqhkiG9w0BAQsFADBP\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE\naWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTEwMDUwMDAwMDBa\nFw0yMjEwMDUyMzU5NTlaMHoxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhOZXcgWW9y\nazERMA8GA1UEBxMITmV3IFlvcmsxJDAiBgNVBAoTG1R1cm5lciBDb25zdHJ1Y3Rp\nb24gQ29tcGFueTEfMB0GA1UEAxMWdHVybmVyY29uc3RydWN0aW9uLmNvbTCCASIw\nDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN+Zfnp2BeSbTDaFsXjZMVrTdxQx\nn+uBtFI/qoCn7o6W1C1vHQEbEHdWvisoEiuph79sXN/L3/q43Vls3S4XXIac4k/Y\neo1K72VI/TX2MFjjsmenuQuPZ6MEJTmg6PnBfw4avCn0+szUnA8kA/f3aif+kKcQ\nKc0HvzbZ4vbNbFuD5socfFqSQaqiFQAUzmpgWJrTydc+8zBWH+TuoPN5pBJeOYhu\nE0WzCKTbjgL6bvyrezhx0LJeARKuW8kgbv1KI1Kx/IzVYBthkcg9PVr5imA9pjL/\nhVvK459ev/QsYhcsV/EjMiutYXuhjjig7bZSze+N3maG/bCVILvCY88aF0sCAwEA\nAaOCA7UwggOxMB8GA1UdIwQYMBaAFLdrouqoqoSMeeq02g+YssWVdrn0MB0GA1Ud\nDgQWBBT0z/cV3ggT4TQLkKUTTgxW6Rk3KzBaBgNVHREEUzBRghZ0dXJuZXJjb25z\ndHJ1Y3Rpb24uY29tghp3d3cudHVybmVyY29uc3RydWN0aW9uLmNvbYIbam9pbi50\ndXJuZXJjb25zdHJ1Y3Rpb24uY29tMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAU\nBggrBgEFBQcDAQYIKwYBBQUHAwIwgY8GA1UdHwSBhzCBhDBAoD6gPIY6aHR0cDov\nL2NybDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00\nLmNybDBAoD6gPIY6aHR0cDovL2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExT\nUlNBU0hBMjU2MjAyMENBMS00LmNybDA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcG\nCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwfwYIKwYBBQUH\nAQEEczBxMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wSQYI\nKwYBBQUHMAKGPWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRM\nU1JTQVNIQTI1NjIwMjBDQTEtMS5jcnQwDAYDVR0TAQH/BAIwADCCAYEGCisGAQQB\n1nkCBAIEggFxBIIBbQFrAHcAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVd\nx4QAAAF8Up6qDgAABAMASDBGAiEA08FTYv/Rz8Cj3b/O0qAuL9e33Z44lOOKaQEK\nFDHcPqACIQCJzh+cTGK0yvMO9aHGCaOtddcYg/Fgmzr865AoXfcyvgB3AFGjsPX9\nAXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAABfFKeqfIAAAQDAEgwRgIhAOrF\n0l3gw7mDpxR2P/UYt5dXtpR4SW3b+by55KJHSC2WAiEAy+5d6Yh/VD0CtOZw8wDO\nDmwDeI2ojVHZlxdu3+6G2yUAdwBByMqx3yJGShDGoToJQodeTjGLGwPr60vHaPCQ\nYpYG9gAAAXxSnqmVAAAEAwBIMEYCIQC5lPACPmzKovvfBdfj/Q5rs/eIauEwjoCq\nLujy88RV1wIhAMEA82RM4B5XAEJ9jT13oyRzd9lQ7dNxyuLBlESSxe2/MA0GCSqG\nSIb3DQEBCwUAA4IBAQAdsW+w+EIhSWDeQrfffHDgnUr8enQfAM96qpQveISbglvd\nnufW+pk4y+saqN6WkYnWTGE22LsY4Ev7TrG7OtmOU2cZRXEUe+Qf1084Tv+ASl2F\nlmC+rNmivyRDBYles1gTAWegl8oCjhdgWYIuGTAjidLZXmcsS86vZ/6QytToyk1p\nvwxKbDBHvQlRTapL8Xpliu/HHLQqRoM/AhHGP/gN+TJVhAvl8GHdJY+jHx7meFCo\n1F1C8dsWBRXdNdxbUzQRyEtr0TwRTRJyfnejYt9pT9zYueBL+MLlwZik8AJpnZ8r\n6u6TfjoXamPCQXt64hbj16HQF/NN8MG2DY6zDHtH\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS\nU0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a\nqXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn\ng9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW\nraKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB\nAfr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r\neacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU\nA95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG\nCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG\nGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh\nY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV\nHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH\nbG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB\nMAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB\nAQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z\nax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h\nqG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC\nEXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6\nce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E\nA7sKPPcw7+uvTPyLNhBzPvOk\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            }
+          ],
+          "ja3s": "303951d4c50efb2e991652225a6f02b1",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211005000000Z",
+            "expires": "20221005235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\xb7k\\xa2\\xea\\xa8\\xaa\\x84\\x8cy\\xea\\xb4\\xda\\x0f\\x98\\xb2\\xc5\\x95v\\xb9\\xf4",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xf4\\xcf\\xf7\\x15\\xde\\x08\\x13\\xe14\\x0b\\x90\\xa5\\x13N\\x0cV\\xe9\\x197+",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0Q\\x82\\x16turnerconstruction.com\\x82\\x1awww.turnerconstruction.com\\x82\\x1bjoin.turnerconstruction.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x840@\\xa0>\\xa0<\\x86:http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl0@\\xa0>\\xa0<\\x86:http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0q0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0I\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86=http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01m\\x01k\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01|R\\x9e\\xaa\\x0e\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xd3\\xc1Sb\\xff\\xd1\\xcf\\xc0\\xa3\\xdd\\xbf\\xce\\xd2\\xa0./\\xd7\\xb7\\xdd\\x9e8\\x94\\xe3\\x8ai\\x01\n\\x141\\xdc>\\xa0\\x02!\\x00\\x89\\xce\\x1f\\x9cLb\\xb4\\xca\\xf3\\x0e\\xf5\\xa1\\xc6 \\xa3\\xadu\\xd7\\x18\\x83\\xf1`\\x9b:\\xfc\\xeb\\x90(]\\xf72\\xbe\\x00w\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01|R\\x9e\\xa9\\xf2\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xea\\xc5\\xd2]\\xe0\\xc3\\xb9\\x83\\xa7\\x14v?\\xf5\\x18\\xb7\\x97W\\xb6\\x94xIm\\xdb\\xf9\\xbc\\xb9\\xe4\\xa2GH-\\x96\\x02!\\x00\\xcb\\xee]\\xe9\\x88\\x7fT=\\x02\\xb4\\xe6p\\xf3\\x00\\xce\\x0el\\x03x\\x8d\\xa8\\x8dQ\\xd9\\x97\\x17n\\xdf\\xee\\x86\\xdb%\\x00w\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01|R\\x9e\\xa9\\x95\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xb9\\x94\\xf0\\x02>l\\xca\\xa2\\xfb\\xdf\\x05\\xd7\\xe3\\xfd\\x0ek\\xb3\\xf7\\x88j\\xe10\\x8e\\x80\\xaa.\\xe8\\xf2\\xf3\\xc4U\\xd7\\x02!\\x00\\xc1\\x00\\xf3dL\\xe0\\x1eW\\x00B}\\x8d=w\\xa3$sw\\xd9P\\xed\\xd3q\\xca\\xe2\\xc1\\x94D\\x92\\xc5\\xed\\xbf",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "4be977db6820669b208fb81ad238ae2544973008ce23a0f2fb7f351f5a58e392",
+              "sha1": "f4fc66307f9b3bc179798da34222a6e24edfa41b"
+            },
+            "serial": 1.6347805797465198e+37,
+            "subject": {
+              "CN": "turnerconstruction.com",
+              "C": "US",
+              "L": "New York",
+              "O": "Turner Construction Company",
+              "ST": "New York"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS RSA SHA256 2020 CA1",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "www.turnerconstruction.com",
+          "join.turnerconstruction.com",
+          "turnerconstruction.com"
+        ],
+        "org": "Turner Construction",
+        "data": "HTTP/1.1 400 Bad Request\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Sat, 26 Mar 2022 13:37:24 GMT\r\nConnection: close\r\nContent-Length: 334\r\nVary: Accept-Encoding\r\n\r\n",
+        "asn": "AS17227",
+        "cpe23": [
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "info": "SSDP/UPnP",
+        "isp": "AT&T Enhanced Network Services",
+        "cpe": [
+          "cpe:/o:microsoft:windows"
+        ],
+        "domains": [
+          "turnerconstruction.com"
+        ],
+        "ip_str": "63.241.251.171",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "9cb41459-56ae-4e8e-a1ff-b686bb318b65",
+          "module": "https",
+          "options": {}
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/26 13:38:32 63.241.251.171:443 - SAFE\n"
+        }
+      }
+    ],
+    "asn": "AS17227",
+    "ip_str": "63.241.251.171"
+  }

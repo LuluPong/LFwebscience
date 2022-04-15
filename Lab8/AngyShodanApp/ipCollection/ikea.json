@@ -1,0 +1,360 @@
+{
+    "doc_id": 29,
+    "city": "Edison",
+    "region_code": "NJ",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 1751548325,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.4121,
+    "last_update": "2022-03-16T20:57:25.821152",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.51872,
+    "hostnames": [
+      "kitchenplanner1.ikea.net",
+      "shop.static.ingka.ikea.com",
+      "kitchenplanner.ikea.com",
+      "kitchen.planner.ikea.com",
+      "secure.ikea.com",
+      "m2.ikea.com",
+      "kitchenplanner2.ikea.net",
+      "kitchenplanner3.ikea.net",
+      "a104-102-129-165.deploy.static.akamaitechnologies.com",
+      "api.kitchen.planner.ikea.com",
+      "shop.api.ingka.ikea.com",
+      "ww8.ikea.com",
+      "ikea.com",
+      "www.ikea.com",
+      "polyfill.ikea.net",
+      "kiosk.kitchen.planner.ikea.com",
+      "kitchenplanner4.ikea.net",
+      "m.ikea.com",
+      "securem.ikea.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "ikea.com",
+      "akamaitechnologies.com",
+      "ikea.net"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "104.102.129.165",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;d43a2217&#46;1647464245&#46;4a53e752\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1265133111,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-16T20:57:25.821152",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Wed, 16 Mar 2022 20:57:25 GMT\r\nDate: Wed, 16 Mar 2022 20:57:25 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": 1137888435,
+        "hostnames": [
+          "a104-102-129-165.deploy.static.akamaitechnologies.com"
+        ],
+        "port": 80,
+        "location": {
+          "city": "Edison",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.4121,
+          "latitude": 40.51872,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 1751548325,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "f4bb88763d8ed3a0f3f91439c2c62b77fb9e06f3",
+          "options": {},
+          "id": "79026000-d406-45f4-9de4-97ea213ad46c",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "104.102.129.165"
+      },
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "104.102.129.165",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;c53a2217&#46;1647371699&#46;2903e893\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -908132581,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-15T19:14:59.657076",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Tue, 15 Mar 2022 19:14:59 GMT\r\nDate: Tue, 15 Mar 2022 19:14:59 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": -1200454209,
+        "ssl": {
+          "chain_sha256": [
+            "33a9575cb594d22e712a8738835170382a9b5f787653167747c0e14ff9ed57e0",
+            "403e062a2653059113285baf80a0d4ae422c848c9f78fad01fc94bc5b87fef1a",
+            "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+          ],
+          "jarm": "28d28d28d2ad28d00042d42d000000bd133fde671db50adc016473d0d15112",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHzDCCBrSgAwIBAgIQC+7RYev6KyllU7uURxe2xDANBgkqhkiG9w0BAQsFADB1\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVk\nIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTIxMTAxNDAwMDAwMFoXDTIyMTAxNDIz\nNTk1OVowgbAxHTAbBgNVBA8MFFByaXZhdGUgT3JnYW5pemF0aW9uMRMwEQYLKwYB\nBAGCNzwCAQMTAk5MMREwDwYDVQQFEwgyNzIzMjg4NjELMAkGA1UEBhMCTkwxFTAT\nBgNVBAgTDFp1aWQtSG9sbGFuZDEOMAwGA1UEBxMFRGVsZnQxIDAeBgNVBAoTF0lu\ndGVyIElLRUEgU3lzdGVtcyBCLlYuMREwDwYDVQQDEwhpa2VhLmNvbTBZMBMGByqG\nSM49AgEGCCqGSM49AwEHA0IABHYzGXk+pvp0ltY+DDJbj9WhD85qYbwyEyoAhkzv\nObRIC1LdCfTWv5DL5qWdcFliBy2NDDopJBCaLoz7TL3V3+OjggTlMIIE4TAfBgNV\nHSMEGDAWgBQ901Cl1qCt7vNKYApl0yHU+PjWDzAdBgNVHQ4EFgQU2sFjfyjAJ0Yr\nVmYWw8zpISV3k88wggGQBgNVHREEggGHMIIBg4IcYXBpLmtpdGNoZW4ucGxhbm5l\nci5pa2VhLmNvbYIIaWtlYS5jb22CHmtpb3NrLmtpdGNoZW4ucGxhbm5lci5pa2Vh\nLmNvbYIYa2l0Y2hlbi5wbGFubmVyLmlrZWEuY29tghdraXRjaGVucGxhbm5lci5p\na2VhLmNvbYIYa2l0Y2hlbnBsYW5uZXIxLmlrZWEubmV0ghhraXRjaGVucGxhbm5l\ncjIuaWtlYS5uZXSCGGtpdGNoZW5wbGFubmVyMy5pa2VhLm5ldIIYa2l0Y2hlbnBs\nYW5uZXI0LmlrZWEubmV0ggptLmlrZWEuY29tggttMi5pa2VhLmNvbYIRcG9seWZp\nbGwuaWtlYS5uZXSCD3NlY3VyZS5pa2VhLmNvbYIQc2VjdXJlbS5pa2VhLmNvbYIX\nc2hvcC5hcGkuaW5na2EuaWtlYS5jb22CGnNob3Auc3RhdGljLmluZ2thLmlrZWEu\nY29tggx3dzguaWtlYS5jb22CDHd3dy5pa2VhLmNvbTAOBgNVHQ8BAf8EBAMCB4Aw\nHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHUGA1UdHwRuMGwwNKAyoDCG\nLmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zaGEyLWV2LXNlcnZlci1nMy5jcmww\nNKAyoDCGLmh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9zaGEyLWV2LXNlcnZlci1n\nMy5jcmwwSgYDVR0gBEMwQTALBglghkgBhv1sAgEwMgYFZ4EMAQEwKTAnBggrBgEF\nBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMIGIBggrBgEFBQcBAQR8\nMHowJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBSBggrBgEF\nBQcwAoZGaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0U0hBMkV4\ndGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNydDAMBgNVHRMBAf8EAjAAMIIBfgYK\nKwYBBAHWeQIEAgSCAW4EggFqAWgAdgApeb7wnjk5IfBWc59jpXflvld9nGAK+PlN\nXSZcJV3HhAAAAXx/Xiv0AAAEAwBHMEUCIQCwearA1XQOy5Lbyx1nNOiGt8o4G/3v\nDiCY6Erobu7J5gIgSfR6Qt4E4Y2aO33BmY41+35v/neHGsnZaD8Sq22tBTgAdQBR\no7D1/QF5nFZtuDd4jwykeswbJ8v3nohCmg3+1IsF5QAAAXx/XixiAAAEAwBGMEQC\nIC7fxH3vbyfOTevBJPLSco5fOmgNl+XckMjYUJAI2c21AiAZkdcc0EwUVZQmyo+w\nWYoncKqEa46Af7UdxxXKiLZsCgB3AEHIyrHfIkZKEMahOglCh15OMYsbA+vrS8do\n8JBilgb2AAABfH9eLB0AAAQDAEgwRgIhAJZCVQjWPrzbvICjXRHqQZrhMCSGkQsE\neHT6nv5LsxH3AiEA2Z+nzQMB9sXQDLk6LuJsM8cGsgmUorbVywaNULrpwOIwDQYJ\nKoZIhvcNAQELBQADggEBAAmzYX72t6EFGgwyxdW9IfyMDTpT15pFoiJkwKcgO1S5\nrDw2h7PzXAFj2Xnh8VLLcloaWlN0KFy7V6frM9sJo94OWIDHZGnQ2ghhIzxtlMHy\nhSPKq7u/whgZKp3u4VVwKijj9X6cyrT2Aw0acM8A8xLpUZtZ2DiStHYuDj8E4pIH\n+qmK+MQZKEDFEv0vJ1VneOg9iGH5JGfqOTglm3SUKJ5d6IZTHJFJs2XJMref0p6g\ntE1kXs+K8o2pVETpbLMcG88OP0rFbxQ/MNbwkcVKtUw3Rp+mL34hBqtdKjPaoep7\nAG7EfPcuonYM88AEPh1UsLMp23ChB2LsDDepu+yj3XU=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEtjCCA56gAwIBAgIQDHmpRLCMEZUgkmFf4msdgzANBgkqhkiG9w0BAQsFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTEzMTAyMjEyMDAwMFoXDTI4MTAyMjEyMDAwMFowdTEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTE0MDIGA1UEAxMrRGlnaUNlcnQgU0hBMiBFeHRlbmRlZCBW\nYWxpZGF0aW9uIFNlcnZlciBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBANdTpARR+JmmFkhLZyeqk0nQOe0MsLAAh/FnKIaFjI5j2ryxQDji0/XspQUY\nuD0+xZkXMuwYjPrxDKZkIYXLBxA0sFKIKx9om9KxjxKws9LniB8f7zh3VFNfgHk/\nLhqqqB5LKw2rt2O5Nbd9FLxZS99RStKh4gzikIKHaq7q12TWmFXo/a8aUGxUvBHy\n/Urynbt/DvTVvo4WiRJV2MBxNO723C3sxIclho3YIeSwTQyJ3DkmF93215SF2AQh\ncJ1vb/9cuhnhRctWVyh+HA1BV6q3uCe7seT6Ku8hI3UarS2bhjWMnHe1c63YlC3k\n8wyd7sFOYn4XwHGeLN7x+RAoGTMCAwEAAaOCAUkwggFFMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF\nBQcDAjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRp\nZ2ljZXJ0LmNvbTBLBgNVHR8ERDBCMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2Vy\ndC5jb20vRGlnaUNlcnRIaWdoQXNzdXJhbmNlRVZSb290Q0EuY3JsMD0GA1UdIAQ2\nMDQwMgYEVR0gADAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5j\nb20vQ1BTMB0GA1UdDgQWBBQ901Cl1qCt7vNKYApl0yHU+PjWDzAfBgNVHSMEGDAW\ngBSxPsNpA/i/RwHUmCYaCALvY2QrwzANBgkqhkiG9w0BAQsFAAOCAQEAnbbQkIbh\nhgLtxaDwNBx0wY12zIYKqPBKikLWP8ipTa18CK3mtlC4ohpNiAexKSHc59rGPCHg\n4xFJcKx6HQGkyhE6V6t9VypAdP3THYUYUN9XR3WhfVUgLkc3UHKMf4Ib0mKPLQNa\n2sPIoc4sUqIAY+tzunHISScjl2SFnjgOrWNoPLpSgVh5oywM395t6zHyuqB8bPEs\n1OG9d4Q3A84ytciagRpKkk47RpqF/oOi+Z6Mo8wNXrM9zwR4jxQUezKcxwCmXMS1\noVWNWlZopCJwqjyBcdmdqEU79OX2olHdx3ti6G8MdOu42vi/hw15UJGQmxg7kVkn\n8TUoE6smftX3eg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDxTCCAq2gAwIBAgIQAqxcJmoLQJuPC3nyrkYldzANBgkqhkiG9w0BAQUFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTMxMTExMDAwMDAwMFowbDEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTErMCkGA1UEAxMiRGlnaUNlcnQgSGlnaCBBc3N1cmFuY2Ug\nRVYgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbM5XPm\n+9S75S0tMqbf5YE/yc0lSbZxKsPVlDRnogocsF9ppkCxxLeyj9CYpKlBWTrT3JTW\nPNt0OKRKzE0lgvdKpVMSOO7zSW1xkX5jtqumX8OkhPhPYlG++MXs2ziS4wblCJEM\nxChBVfvLWokVfnHoNb9Ncgk9vjo4UFt3MRuNs8ckRZqnrG0AFFoEt7oT61EKmEFB\nIk5lYYeBQVCmeVyJ3hlKV9Uu5l0cUyx+mM0aBhakaHPQNAQTXKFx01p8VdteZOE3\nhzBWBOURtCmAEvF5OYiiAhF8J2a3iLd48soKqDirCmTCv2ZdlYTBoSUeh10aUAsg\nEsxBu24LUTi4S8sCAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQF\nMAMBAf8wHQYDVR0OBBYEFLE+w2kD+L9HAdSYJhoIAu9jZCvDMB8GA1UdIwQYMBaA\nFLE+w2kD+L9HAdSYJhoIAu9jZCvDMA0GCSqGSIb3DQEBBQUAA4IBAQAcGgaX3Nec\nnzyIZgYIVyHbIUf4KmeqvxgydkAQV8GK83rZEWWONfqe/EW1ntlMMUu4kehDLI6z\neM7b41N5cdblIZQB2lWHmiRk9opmzN6cN82oNLFpmyPInngiK3BD41VHMWEZ71jF\nhS9OMPagMRYjyOfiZRYzy78aG6A9+MpeizGLYAiJLQwGXFK3xPkKmNEVX58Svnw2\nYzi9RKR/5CYrCsSXaQ3pjOLAEFe4yHYSkVXySGnYvCoCWw9E1CAx2/S6cCZdkGCe\nvEsXCS+0yx5DaMkHJ8HSXPfqIbloEpw8nL+e/IBcm2PN7EeqJSdnoDfzAIJ9VNep\n+OkuE6N36B9K\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211014000000Z",
+            "expires": "20221014235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14=\\xd3P\\xa5\\xd6\\xa0\\xad\\xee\\xf3J`\ne\\xd3!\\xd4\\xf8\\xf8\\xd6\\x0f",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xda\\xc1c\\x7f(\\xc0\\'F+Vf\\x16\\xc3\\xcc\\xe9!%w\\x93\\xcf",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x01\\x83\\x82\\x1capi.kitchen.planner.ikea.com\\x82\\x08ikea.com\\x82\\x1ekiosk.kitchen.planner.ikea.com\\x82\\x18kitchen.planner.ikea.com\\x82\\x17kitchenplanner.ikea.com\\x82\\x18kitchenplanner1.ikea.net\\x82\\x18kitchenplanner2.ikea.net\\x82\\x18kitchenplanner3.ikea.net\\x82\\x18kitchenplanner4.ikea.net\\x82\nm.ikea.com\\x82\\x0bm2.ikea.com\\x82\\x11polyfill.ikea.net\\x82\\x0fsecure.ikea.com\\x82\\x10securem.ikea.com\\x82\\x17shop.api.ingka.ikea.com\\x82\\x1ashop.static.ingka.ikea.com\\x82\\x0cww8.ikea.com\\x82\\x0cwww.ikea.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0l04\\xa02\\xa00\\x86.http://crl3.digicert.com/sha2-ev-server-g3.crl04\\xa02\\xa00\\x86.http://crl4.digicert.com/sha2-ev-server-g3.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0A0\\x0b\\x06 `\\x86H\\x01\\x86\\xfdl\\x02\\x0102\\x06\\x05g\\x81\\x0c\\x01\\x010)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0z0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0R\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Fhttp://cacerts.digicert.com/DigiCertSHA2ExtendedValidationServerCA.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01j\\x01h\\x00v\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01|\\x7f^+\\xf4\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xb0y\\xaa\\xc0\\xd5t\\x0e\\xcb\\x92\\xdb\\xcb\\x1dg4\\xe8\\x86\\xb7\\xca8\\x1b\\xfd\\xef\\x0e \\x98\\xe8J\\xe8n\\xee\\xc9\\xe6\\x02 I\\xf4zB\\xde\\x04\\xe1\\x8d\\x9a;}\\xc1\\x99\\x8e5\\xfb~o\\xfew\\x87\\x1a\\xc9\\xd9h?\\x12\\xabm\\xad\\x058\\x00u\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01|\\x7f^,b\\x00\\x00\\x04\\x03\\x00F0D\\x02 .\\xdf\\xc4}\\xefo\\'\\xceM\\xeb\\xc1$\\xf2\\xd2r\\x8e_:h\r\\x97\\xe5\\xdc\\x90\\xc8\\xd8P\\x90\\x08\\xd9\\xcd\\xb5\\x02 \\x19\\x91\\xd7\\x1c\\xd0L\\x14U\\x94&\\xca\\x8f\\xb0Y\\x8a\\'p\\xaa\\x84k\\x8e\\x80\\x7f\\xb5\\x1d\\xc7\\x15\\xca\\x88\\xb6l\n\\x00w\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01|\\x7f^,\\x1d\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x96BU\\x08\\xd6>\\xbc\\xdb\\xbc\\x80\\xa3]\\x11\\xeaA\\x9a\\xe10$\\x86\\x91\\x0b\\x04xt\\xfa\\x9e\\xfeK\\xb3\\x11\\xf7\\x02!\\x00\\xd9\\x9f\\xa7\\xcd\\x03\\x01\\xf6\\xc5\\xd0\\x0c\\xb9:.\\xe2l3\\xc7\\x06\\xb2 \\x94\\xa2\\xb6\\xd5\\xcb\\x06\\x8dP\\xba\\xe9\\xc0\\xe2",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "33a9575cb594d22e712a8738835170382a9b5f787653167747c0e14ff9ed57e0",
+              "sha1": "bd68042d9556186205f663f797fc5fd5a7582b30"
+            },
+            "serial": 1.5861521387735702e+37,
+            "subject": {
+              "C": "NL",
+              "CN": "ikea.com",
+              "businessCategory": "Private Organization",
+              "serialNumber": "27232886",
+              "L": "Delft",
+              "O": "Inter IKEA Systems B.V.",
+              "ST": "Zuid-Holland",
+              "jurisdictionC": "NL"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "www.digicert.com",
+              "O": "DigiCert Inc",
+              "CN": "DigiCert SHA2 Extended Validation Server CA"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F",
+            "cert_status": "good",
+            "produced_at": "2022-03-09 00:25:12",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-15 23:24:01",
+            "this_update": "2022-03-09 00:09:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "49F4BD8A18BF760698C5DE402D683B716AE4E686",
+              "issuer_name_key": "3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F",
+              "serial_number": "0BEED161EBFA2B296553BB944717B6C4"
+            }
+          }
+        },
+        "hostnames": [
+          "ww8.ikea.com",
+          "shop.static.ingka.ikea.com",
+          "kitchenplanner.ikea.com",
+          "m.ikea.com",
+          "m2.ikea.com",
+          "secure.ikea.com",
+          "kitchenplanner2.ikea.net",
+          "kitchenplanner3.ikea.net",
+          "api.kitchen.planner.ikea.com",
+          "kitchenplanner4.ikea.net",
+          "a104-102-129-165.deploy.static.akamaitechnologies.com",
+          "shop.api.ingka.ikea.com",
+          "ikea.com",
+          "kiosk.kitchen.planner.ikea.com",
+          "www.ikea.com",
+          "polyfill.ikea.net",
+          "kitchen.planner.ikea.com",
+          "kitchenplanner1.ikea.net",
+          "securem.ikea.com"
+        ],
+        "port": 443,
+        "location": {
+          "city": "Edison",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.4121,
+          "latitude": 40.51872,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 1751548325,
+        "domains": [
+          "ikea.com",
+          "ikea.net",
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "91597136eb9b132d7cc954511e0d9cbe7ce2e377",
+          "options": {},
+          "id": "9e972d28-61d0-4999-83aa-b858c3f11028",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/15 19:15:07 104.102.129.165:443 - SAFE\n"
+        },
+        "ip_str": "104.102.129.165"
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "104.102.129.165"
+  }

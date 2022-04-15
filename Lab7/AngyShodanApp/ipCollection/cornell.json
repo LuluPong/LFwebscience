@@ -1,0 +1,287 @@
+{
+    "doc_id": 15,
+    "city": "Ithaca",
+    "region_code": "NY",
+    "os": null,
+    "tags": [],
+    "ip": 2164108789,
+    "isp": "Cornell University",
+    "area_code": null,
+    "longitude": -76.49661,
+    "last_update": "2022-03-12T14:27:13.540645",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 42.44063,
+    "hostnames": [
+      "www.cornell.edu",
+      "ad5.cornell.edu",
+      "cornell.edu"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "cornell.edu"
+    ],
+    "org": "Cornell University",
+    "data": [
+      {
+        "hash": 1260175826,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "128.253.173.245",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-10T07:08:36.398900",
+        "org": "Cornell University",
+        "isp": "Cornell University",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nLocation: https://www.cornell.edu/\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS26",
+        "port": 80,
+        "hostnames": [
+          "ad5.cornell.edu"
+        ],
+        "transport": "tcp",
+        "ip": 2164108789,
+        "domains": [
+          "cornell.edu"
+        ],
+        "ip_str": "128.253.173.245",
+        "os": null,
+        "_shodan": {
+          "crawler": "621591a63b031d098ca76175401cfed505d8b4a7",
+          "options": {},
+          "id": "bcdb46f9-a750-4c67-9d21-7d77915d0874",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Ithaca",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -76.49661,
+          "latitude": 42.44063,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 1260175826,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "128.253.173.245",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-12T14:27:13.540645",
+        "org": "Cornell University",
+        "isp": "Cornell University",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nLocation: https://www.cornell.edu/\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS26",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "fb8a42663c83af253252876cd20af1bb6f2a2c52883be5b498f3efea567bdfa5",
+            "0a05c462756390dd1f1d5dd82794c300f04be789dce76d7e312f790d68fd385a",
+            "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+          ],
+          "jarm": "16d16d16d2ad2ad09c16d16d16d2ad7642623dd3db06eb49a23c5bbfe3d49d",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIGxjCCBa6gAwIBAgIQJslO6KVy4WHQ+Z1nfJMC2TANBgkqhkiG9w0BAQsFADB2\nMQswCQYDVQQGEwJVUzELMAkGA1UECBMCTUkxEjAQBgNVBAcTCUFubiBBcmJvcjES\nMBAGA1UEChMJSW50ZXJuZXQyMREwDwYDVQQLEwhJbkNvbW1vbjEfMB0GA1UEAxMW\nSW5Db21tb24gUlNBIFNlcnZlciBDQTAeFw0yMjAyMjEwMDAwMDBaFw0yMzAyMjEy\nMzU5NTlaMHQxCzAJBgNVBAYTAlVTMREwDwYDVQQIEwhOZXcgWW9yazEbMBkGA1UE\nChMSQ29ybmVsbCBVbml2ZXJzaXR5MR8wHQYDVQQLExZDZXJ0aWZpY2F0ZSBNYW5h\nZ2VtZW50MRQwEgYDVQQDEwtjb3JuZWxsLmVkdTCCASIwDQYJKoZIhvcNAQEBBQAD\nggEPADCCAQoCggEBAJ71swfTHSS53v2dO59McZ/iVHqnkcQEtOBF0URGeIUhbMYx\nCgkt0Oo73ty4jv3pjCOF6B0JXaE7RAHnbtgGOJVJk53GAzZtoHZ9umm03sbLO/Uz\nVbPAe6NSwIKY9kfJJqp0cYM4cDFGl5XA7LRrjAMci87OkrJJm79jkN62qDgh2LNB\n2TvJxplx6g3mzFS8Jf3IGJdnTyYbAhFomdGhiBBiQFNkSxJGLDfpjXFO5oQ14j57\ns5GlmjgEronIUHq8NuNjChdwEdj3tYDUwrONP14QURlkkcHGr27madY1QkDCVDR/\n4f/3zWFT6XBTyHWGX4kbUkhvTvqkFHTEcDUBAA0CAwEAAaOCA1AwggNMMB8GA1Ud\nIwQYMBaAFB4Fo3ePbJbiW4dLprSGrHEADOc4MB0GA1UdDgQWBBRHC1MLNdJThPeh\nUQ9z9VsAyHDMXzAOBgNVHQ8BAf8EBAMCBaAwDAYDVR0TAQH/BAIwADAdBgNVHSUE\nFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwZwYDVR0gBGAwXjBSBgwrBgEEAa4jAQQD\nAQEwQjBABggrBgEFBQcCARY0aHR0cHM6Ly93d3cuaW5jb21tb24ub3JnL2NlcnQv\ncmVwb3NpdG9yeS9jcHNfc3NsLnBkZjAIBgZngQwBAgIwRAYDVR0fBD0wOzA5oDeg\nNYYzaHR0cDovL2NybC5pbmNvbW1vbi1yc2Eub3JnL0luQ29tbW9uUlNBU2VydmVy\nQ0EuY3JsMHUGCCsGAQUFBwEBBGkwZzA+BggrBgEFBQcwAoYyaHR0cDovL2NydC51\nc2VydHJ1c3QuY29tL0luQ29tbW9uUlNBU2VydmVyQ0FfMi5jcnQwJQYIKwYBBQUH\nMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wggF8BgorBgEEAdZ5AgQCBIIB\nbASCAWgBZgB1AK33vvp8/xDIi509nB4+GGq0Zyldz7EMJMqFhjTr3IKKAAABfxzS\n108AAAQDAEYwRAIgbEEVZAGGvzKQ+JQ/5r80hfrDm8dPi8BSdeFLy4dXc7kCIB/9\nesRzHFw4YlnyuOluSIAcuxClPQpOmIGYjSJxdFvrAHUAejKMVNi3LbYg6jjgUh7p\nhBZwMhOFTTvSK8E6V6NS61IAAAF/HNLXDwAABAMARjBEAiBPa4yz/r3fb6oeGRNc\n0txahcE/UQfqFO+J4f+kH3ntCAIgNOWB61DratsOFxzj2Bf3OvAPEuyTlFB1J2hB\npj2zrxIAdgDoPtDaPvUGNTLnVyi8iWvJA9PL0RFr7Otp4Xd9bQa9bgAAAX8c0tbl\nAAAEAwBHMEUCIAgA1P5dMZ6TZwmzvC9rO4OGxUEAhRKEjlO4aY87KrCIAiEAp4Q4\nAY0jmlsD2TRE7Zi9tJQKxS1ABT9mqb3O0O7J6wswJwYDVR0RBCAwHoILY29ybmVs\nbC5lZHWCD3d3dy5jb3JuZWxsLmVkdTANBgkqhkiG9w0BAQsFAAOCAQEAFaIlxOyS\nMAN0e6XblWKvryzYEjBiavFX0NYa+BL/4yJ5asFTt53wD7yieS/O9GIswh4KhBZB\nfqtsyxbzSjMJO7CjYVLT8j3X5l4hYCyDUH9uhMbTYDMsMg9V4fI2GalmGeteGcO+\nX9CUyTx04bmue3z6ji9oAqhKKWJANMqQ5MGDKmhexTsY4nqny+ir1sfr0SvzPdmu\nrqPc4O3SHUuS0LmrqwQTcWVvA0528veFXNubZNMkbfYtbpIeXD0m+z7SDqyAJSpI\nWWlPpCewvH1yczyA00S903xNog4W58/Hc4yLKLXk2Sqp5u2smrDp84rstTiz74/N\nLsmCMAfdB8Fnnw==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIF+TCCA+GgAwIBAgIQRyDQ+oVGGn4XoWQCkYRjdDANBgkqhkiG9w0BAQwFADCB\niDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl\ncnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV\nBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTQx\nMDA2MDAwMDAwWhcNMjQxMDA1MjM1OTU5WjB2MQswCQYDVQQGEwJVUzELMAkGA1UE\nCBMCTUkxEjAQBgNVBAcTCUFubiBBcmJvcjESMBAGA1UEChMJSW50ZXJuZXQyMREw\nDwYDVQQLEwhJbkNvbW1vbjEfMB0GA1UEAxMWSW5Db21tb24gUlNBIFNlcnZlciBD\nQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJwb8bsvf2MYFVFRVA+e\nxU5NEFj6MJsXKZDmMwysE1N8VJG06thum4ltuzM+j9INpun5uukNDBqeso7JcC7v\nHgV9lestjaKpTbOc5/MZNrun8XzmCB5hJ0R6lvSoNNviQsil2zfVtefkQnI/tBPP\niwckRR6MkYNGuQmm/BijBgLsNI0yZpUn6uGX6Ns1oytW61fo8BBZ321wDGZq0GTl\nqKOYMa0dYtX6kuOaQ80tNfvZnjNbRX3EhigsZhLI2w8ZMA0/6fDqSl5AB8f2IHpT\neIFken5FahZv9JNYyWL7KSd9oX8hzudPR9aKVuDjZvjs3YncJowZaDuNi+L7RyML\nfzcCAwEAAaOCAW4wggFqMB8GA1UdIwQYMBaAFFN5v1qqK0rPVIDh2JvAnfKyA2bL\nMB0GA1UdDgQWBBQeBaN3j2yW4luHS6a0hqxxAAznODAOBgNVHQ8BAf8EBAMCAYYw\nEgYDVR0TAQH/BAgwBgEB/wIBADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH\nAwIwGwYDVR0gBBQwEjAGBgRVHSAAMAgGBmeBDAECAjBQBgNVHR8ESTBHMEWgQ6BB\nhj9odHRwOi8vY3JsLnVzZXJ0cnVzdC5jb20vVVNFUlRydXN0UlNBQ2VydGlmaWNh\ndGlvbkF1dGhvcml0eS5jcmwwdgYIKwYBBQUHAQEEajBoMD8GCCsGAQUFBzAChjNo\ndHRwOi8vY3J0LnVzZXJ0cnVzdC5jb20vVVNFUlRydXN0UlNBQWRkVHJ1c3RDQS5j\ncnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZI\nhvcNAQEMBQADggIBAC0RBjjW29dYaK+qOGcXjeIT16MUJNkGE+vrkS/fT2ctyNMU\n11ZlUp5uH5gIjppIG8GLWZqjV5vbhvhZQPwZsHURKsISNrqOcooGTie3jVgU0W+0\n+Wj8mN2knCVANt69F2YrA394gbGAdJ5fOrQmL2pIhDY0jqco74fzYefbZ/VS29fR\n5jBxu4uj1P+5ZImem4Gbj1e4ZEzVBhmO55GFfBjRidj26h1oFBHZ7heDH1Bjzw72\nhipu47Gkyfr2NEx3KoCGMLCj3Btx7ASn5Ji8FoU+hCazwOU1VX55mKPU1I2250Lo\nRCASN18JyfsD5PVldJbtyrmz9gn/TKbRXTr80U2q5JhyvjhLf4lOJo/UzL5WCXED\nSmyj4jWG3R7Z8TED9xNNCxGBMXnMete+3PvzdhssvbORDwBZByogQ9xL2LUZFI/i\neoQp0UM/L8zfP527vWjEzuDN5xwxMnhi+vCToh7J159o5ah29mP+aJnvujbXEnGa\nnrNxHzu+AGOePV8hwrGGG7hOIcPDQwkuYwzN/xT29iLp/cqf9ZhEtkGcQcIImH3b\noJ8ifsCnSbu0GB9L06Yqh7lcyvKDTEADslIaeSEINxhO2Y1fmcYFX/Fqrrp1WnhH\nOjplXuXE0OPa0utaKC25Aplgom88L2Z8mEWcyfoB7zKOfD759AN7JKZWCYwk\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIF3jCCA8agAwIBAgIQAf1tMPyjylGoG7xkDjUDLTANBgkqhkiG9w0BAQwFADCB\niDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl\ncnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV\nBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTAw\nMjAxMDAwMDAwWhcNMzgwMTE4MjM1OTU5WjCBiDELMAkGA1UEBhMCVVMxEzARBgNV\nBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0plcnNleSBDaXR5MR4wHAYDVQQKExVU\naGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNVBAMTJVVTRVJUcnVzdCBSU0EgQ2Vy\ndGlmaWNhdGlvbiBBdXRob3JpdHkwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK\nAoICAQCAEmUXNg7D2wiz0KxXDXbtzSfTTK1Qg2HiqiBNCS1kCdzOiZ/MPans9s/B\n3PHTsdZ7NygRK0faOca8Ohm0X6a9fZ2jY0K2dvKpOyuR+OJv0OwWIJAJPuLodMkY\ntJHUYmTbf6MG8YgYapAiPLz+E/CHFHv25B+O1ORRxhFnRghRy4YUVD+8M/5+bJz/\nFp0YvVGONaanZshyZ9shZrHUm3gDwFA66Mzw3LyeTP6vBZY1H1dat//O+T23LLb2\nVN3I5xI6Ta5MirdcmrS3ID3KfyI0rn47aGYBROcBTkZTmzNg95S+UzeQc0PzMsNT\n79uq/nROacdrjGCT3sTHDN/hMq7MkztReJVni+49Vv4M0GkPGw/zJSZrM233bkf6\nc0Plfg6lZrEpfDKEY1WJxA3Bk1QwGROs0303p+tdOmw1XNtB1xLaqUkL39iAigmT\nYo61Zs8liM2EuLE/pDkP2QKe6xJMlXzzawWpXhaDzLhn4ugTncxbgtNMs+1b/97l\nc6wjOy0AvzVVdAlJ2ElYGn+SNuZRkg7zJn0cTRe8yexDJtC/QV9AqURE9JnnV4ee\nUB9XVKg+/XRjL7FQZQnmWEIuQxpMtPAlR1n6BB6T1CZGSlCBst6+eLf8ZxXhyVeE\nHg9j1uliutZfVS7qXMYoCAQlObgOK6nyTJccBz8NUvXt7y+CDwIDAQABo0IwQDAd\nBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgEGMA8G\nA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEMBQADggIBAFzUfA3P9wF9QZllDHPF\nUp/L+M+ZBn8b2kMVn54CVVeWFPFSPCeHlCjtHzoBN6J2/FNQwISbxmtOuowhT6KO\nVWKR82kV2LyI48SqC/3vqOlLVSoGIG1VeCkZ7l8wXEskEVX/JJpuXior7gtNn3/3\nATiUFJVDBwn7YKnuHKsSjKCaXqeYalltiz8I+8jRRa8YFWSQEg9zKC7F4iRO/Fjs\n8PRF/iKz6y+O0tlFYQXBl2+odnKPi4w2r78NBc5xjeambx9spnFixdjQg3IM8WcR\niQycE0xyNN+81XHfqnHd4blsjDwSXWXavVcStkNr/+XeTWYRUc+ZruwXtuhxkYze\nSf7dNXGiFSeUHM9h4ya7b6NnJSFd5t0dCy5oGzuCr+yDZ4XUmFF0sbmZgIn/f3gZ\nXHlKYC6SQK5MNyosycdiyA5d9zZbyuAlJQG03RoHnHcAP9Dc1ew91Pq7P8yF1m9/\nqS3fuQL39ZeatTXaw2ewh0qpKJ4jjv9cJ2vhsE/zB+4ALtRZh8tSQZXq9EfX7mRB\nVXyNWQKV3WKdwrnuWih0hKWbt5DHDAff9Yk2dDLWKMGwsAvgnEzDHNb842m1R0aB\nL6KCq9NjRHDEjf8tM7qtj3u1cIiuPhnPQCjY/MiQu12ZIvVS5ljFH4gxQ+6IHdfG\njjxDah2nGN59PRbxYvnKkKj9\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "a80e0201b0d35513020b26e5962796410f6c0b766574853cf4f92f8bd0efefba3130cc7905ade02a2f3475b22316994b12d5d16a5d4715791163a3731da21354fca768f11dcee4d78f0cb092b24534492b2491951cb823ec2f0472681458057eecb798c57905c85e4ed41376a5beba86fbd258fa0aa933b38acaa2a0300c8713",
+            "public_key": "02e27dd4976bbbde028ad3178dfb9fb1f06e34ac00f466367695d0d111888fcb75d360bb758d4381df00097ccd881847d6e0e799477cfc9f150dc3b53f910ac4e0cb0ffdddb481004079f8cd04112d754898a87ccb9facbb62df6650bd95980ee441f0293d64efec62a2966e70a82fa19f12014bf10ed6f11f10f294fe25da02",
+            "bits": 1024,
+            "generator": 2
+          },
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            }
+          ],
+          "ja3s": "0debd3853f330c574b05e0b6d882dc27",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220221000000Z",
+            "expires": "20230221235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\x1e\\x05\\xa3w\\x8fl\\x96\\xe2[\\x87K\\xa6\\xb4\\x86\\xacq\\x00\\x0c\\xe78",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14G\\x0bS\\x0b5\\xd2S\\x84\\xf7\\xa1Q\\x0fs\\xf5[\\x00\\xc8p\\xcc_",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0^0R\\x06\\x0c+\\x06\\x01\\x04\\x01\\xae#\\x01\\x04\\x03\\x01\\x010B0@\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x164https://www.incommon.org/cert/repository/cps_ssl.pdf0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0;09\\xa07\\xa05\\x863http://crl.incommon-rsa.org/InCommonRSAServerCA.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0g0>\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x862http://crt.usertrust.com/InCommonRSAServerCA_2.crt0%\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x19http://ocsp.usertrust.com",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "\\x04\\x82\\x01h\\x01f\\x00u\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01\\x7f\\x1c\\xd2\\xd7O\\x00\\x00\\x04\\x03\\x00F0D\\x02 lA\\x15d\\x01\\x86\\xbf2\\x90\\xf8\\x94?\\xe6\\xbf4\\x85\\xfa\\xc3\\x9b\\xc7O\\x8b\\xc0Ru\\xe1K\\xcb\\x87Ws\\xb9\\x02 \\x1f\\xfdz\\xc4s\\x1c\\\\8bY\\xf2\\xb8\\xe9nH\\x80\\x1c\\xbb\\x10\\xa5=\nN\\x98\\x81\\x98\\x8d\"qt[\\xeb\\x00u\\x00z2\\x8cT\\xd8\\xb7-\\xb6 \\xea8\\xe0R\\x1e\\xe9\\x84\\x16p2\\x13\\x85M;\\xd2+\\xc1:W\\xa3R\\xebR\\x00\\x00\\x01\\x7f\\x1c\\xd2\\xd7\\x0f\\x00\\x00\\x04\\x03\\x00F0D\\x02 Ok\\x8c\\xb3\\xfe\\xbd\\xdfo\\xaa\\x1e\\x19\\x13\\\\\\xd2\\xdcZ\\x85\\xc1?Q\\x07\\xea\\x14\\xef\\x89\\xe1\\xff\\xa4\\x1fy\\xed\\x08\\x02 4\\xe5\\x81\\xebP\\xebj\\xdb\\x0e\\x17\\x1c\\xe3\\xd8\\x17\\xf7:\\xf0\\x0f\\x12\\xec\\x93\\x94Pu\\'hA\\xa6=\\xb3\\xaf\\x12\\x00v\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01\\x7f\\x1c\\xd2\\xd6\\xe5\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x08\\x00\\xd4\\xfe]1\\x9e\\x93g \\xb3\\xbc/k;\\x83\\x86\\xc5A\\x00\\x85\\x12\\x84\\x8eS\\xb8i\\x8f;*\\xb0\\x88\\x02!\\x00\\xa7\\x848\\x01\\x8d#\\x9a[\\x03\\xd94D\\xed\\x98\\xbd\\xb4\\x94\n\\xc5-@\\x05?f\\xa9\\xbd\\xce\\xd0\\xee\\xc9\\xeb\\x0b",
+                "name": "ct_precert_scts"
+              },
+              {
+                "data": "0\\x1e\\x82\\x0bcornell.edu\\x82\\x0fwww.cornell.edu",
+                "name": "subjectAltName"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "fb8a42663c83af253252876cd20af1bb6f2a2c52883be5b498f3efea567bdfa5",
+              "sha1": "e706a13ef1934aa3a75f8b15be4e2ca531fb6972"
+            },
+            "serial": 5.1555915968479e+37,
+            "subject": {
+              "CN": "cornell.edu",
+              "C": "US",
+              "OU": "Certificate Management",
+              "O": "Cornell University",
+              "ST": "New York"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "InCommon RSA Server CA",
+              "L": "Ann Arbor",
+              "O": "Internet2",
+              "ST": "MI",
+              "OU": "InCommon"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "h2"
+          ],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "www.cornell.edu",
+          "ad5.cornell.edu",
+          "cornell.edu"
+        ],
+        "transport": "tcp",
+        "ip": 2164108789,
+        "domains": [
+          "cornell.edu"
+        ],
+        "ip_str": "128.253.173.245",
+        "os": null,
+        "_shodan": {
+          "crawler": "d905ab419aeb10e9c57a336c7e1aa9629ae4a733",
+          "options": {},
+          "id": "d1667ed9-c5e7-487c-b831-3d5cce08c3e9",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/12 14:27:23 128.253.173.245:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Ithaca",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -76.49661,
+          "latitude": 42.44063,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS26",
+    "ip_str": "128.253.173.245"
+  }

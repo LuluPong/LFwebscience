@@ -1,0 +1,335 @@
+{
+    "doc_id": 95,
+    "city": "V\u00e4ster\u00e5s",
+    "region_code": "U",
+    "os": null,
+    "tags": [],
+    "ip": 1572602421,
+    "isp": "Loopia AB",
+    "area_code": null,
+    "longitude": 16.55276,
+    "last_update": "2022-03-26T17:38:37.291893",
+    "ports": [
+        80,
+        443,
+        8083
+    ],
+    "latitude": 59.61617,
+    "hostnames": [
+        "cybis.se",
+        "webfront3.webcluster.loopia.se"
+    ],
+    "country_code": "SE",
+    "country_name": "Sweden",
+    "domains": [
+        "cybis.se",
+        "loopia.se"
+    ],
+    "org": "Loopia AB",
+    "data": [
+        {
+            "hash": 270320666,
+            "product": "nginx",
+            "http": {
+                "status": 503,
+                "robots_hash": null,
+                "redirects": [],
+                "securitytxt": null,
+                "title": "The website is being configured",
+                "sitemap_hash": null,
+                "robots": null,
+                "server": "nginx",
+                "host": "93.188.2.53",
+                "html": "\n\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n\t<head>\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=EDGE\" />\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<title>The website is being configured</title>\n    \n    <link rel=\"apple-touch-icon\" media=\"screen and (resolution: 163dpi)\" href=\"https://static.loopia.se/responsive/images/iOS-57.png\" />\n    <link rel=\"apple-touch-icon\" media=\"screen and (resolution: 132dpi)\" href=\"https://static.loopia.se/responsive/images/iOS-72.png\" />\n    <link rel=\"apple-touch-icon\" media=\"screen and (resolution: 326dpi)\" href=\"https://static.loopia.se/responsive/images/iOS-114.png\" />\n    <meta name=\"viewport\" content=\"initial-scale=1.0, maximum-scale = 1.0, width=device-width\" />\n\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.loopia.se/responsive/styles/reset.css\" />   \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://static.loopia.se/responsive/styles/extra-pages-alt.css\" />\n\n\t<script src=\"https://static.loopia.se/responsive/js/respond-js/respond.src.js\"></script> <!-- Script that makes older browsers IE8, FF2 compatible with max- and min-width in MediaQueries -->    \n    \n    <script type=\"text/javascript\">\n\t\tfunction languageShow( lang )\n\t\t{\n\t\t\tdocument.body.className = 'lang_show_' + lang;\n\t\t}\n\n\t\tfunction flagInit( lang )\n\t\t{\n\t\t\tdocument.getElementById( 'flag_' + lang ).addEventListener( \n\t\t\t\t'click', \n\t\t\t\tfunction()\n\t\t    \t{\n\t\t    \t\tlanguageShow( lang );\n\t\t\t\t}, \n\t\t\t\tfalse \n\t\t\t);\n\t\t}\n\n\t\twindow.addEventListener('load', function() \n\t\t{\n\t\t\tvar language = navigator.languages && navigator.languages[0] ||\n               navigator.language ||\n               navigator.userLanguage;\n\t\t\t\n\n\t\t\tif ( language === 'sv-SE' || language === 'sv' || language === 'se')\n\t\t\t{\n\t\t\t\tlanguageShow( 'se' );\n\t\t\t}\n\t\t\telse if ( language === 'nb-NO' || language === 'nn-NO' || language === 'no' || language === 'nn' || language === 'nb')\n\t\t\t{\n\t\t\t\tlanguageShow( 'no' );\n\t\t\t}\n\t\t\telse if ( language === 'Cy-sr-SP' || language === 'Lt-sr-SP' || language === 'sr' || language === 'sh' )\n\t\t\t{\n\t\t\t\tlanguageShow( 'rs' );\n\t\t\t}\t\t\t\n\t\t\telse\n\t\t\t{\n\t\t\t\tlanguageShow( 'en' );\n\t\t\t}\n\n\t\t\tflagInit( 'en' );\n\t\t\tflagInit( 'se' );\n\t\t\tflagInit( 'no' );\n\t\t\tflagInit( 'rs' );\n\t\t});\n    </script>\n    \n    <style>\n\t    .lang_en, .lang_se, .lang_no, .lang_rs { display: none; }\n\t    .lang_show_en .lang_en { display: block; }\n\t    .lang_show_se .lang_se { display: block; }\n\t    .lang_show_no .lang_no { display: block; }\n\t\t.lang_show_rs .lang_rs { display: block; }\n    </style>\n\n</head>\n<body>\n\n\n\t<div class=\"content\">\n\t\t<div class=\"center\">\n\t\t\t<img src=\"https://static.loopia.se/responsive/images/extra_pages/construction.png\" alt=\"The website is currently not available\" id=\"top-image\" />\n\t\t</div>\t\t\n\t\t<div class=\"main\">\n\t\t<span id=\"content_en\" class=\"lang_en\">\n\t\t\t<h1>This website is not configured yet</h1>\n\t\t\t<p>\n\t\t\t\tThe website you wish to visit is not available right now since it has not been configured on the server yet.\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<strong>Are you the owner of the website and recently made a change regarding the domain?</strong> Please wait an hour to let the change process. If you suspect that something is wrong, please contact <a href=\"mailto:support@loopia.com\">support@loopia.com</a>.\n\t\t\t</p>\n\t\t</span>\n\t\t<span id=\"content_se\" class=\"lang_se\">\n\t\t\t<h1>Webbplatsen \u00e4r inte konfigurerad \u00e4nnu</h1>\n\t\t\t<p>\n\t\t\t\tWebbplatsen du vill bes\u00f6ka \u00e4r f\u00f6r tillf\u00e4llet inte tillg\u00e4nglig d\u00e5 den inte \u00e4nnu \u00e4r konfigurerad p\u00e5 servern. \n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<strong>\u00c4r du \u00e4gare av webbplatsen och har nyligen gjort en \u00e4ndring f\u00f6r dom\u00e4nen?</strong> Avvakta d\u00e5 n\u00e5gon timme f\u00f6r att l\u00e5ta \u00e4ndringen sl\u00e5 igenom. Om du misst\u00e4nker att n\u00e5got \u00e4r fel, kontakta d\u00e5 g\u00e4rna <a href=\"mailto:support@loopia.se\">support@loopia.se</a> f\u00f6r hj\u00e4lp. \n\t\t\t</p>\n\t\t</span>\n\t\t<span id=\"content_no\" class=\"lang_no\">\n\t\t\t<h1>Denne hjemmesiden er ikke konfigurert enn\u00e5</h1>\n\t\t\t<p>\n\t\t\t\tWebplassen du \u00f8nsker \u00e5 bes\u00f8ke er for tiden ikke tilgjengelig da den enn\u00e5 ikke er konfigurert p\u00e5 serveren. \n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<strong>Er du eier av webplassen?</strong> Kontakt <a href=\"mailto:support@loopia.no\">support@loopia.no</a> om du har noen sp\u00f8rsm\u00e5l.  \n\t\t\t</p>\n\t\t</span>\t\n\n\t\t<span id=\"content_rs\" class=\"lang_rs\">\n\t\t\t<h1>Ovaj sajt jo\u0161 uvek nije konfigurisan</h1>\n\t\t\t<p>\n\t\t\t\tSajt koji \u017eelite da posetite nije trenutno dostupan, jer nije konfigurisan na serveru.\n\t\t\t</p>\n\t\t\t<p>\n\t\t\t\t<strong>Da li ste Vi vlasnik ovog sajta?</strong>\n\t\t\t\tZa dodatna pitanja, kontaktirajte nas na <a href=\"mailto:support@loopia.rs\">support@loopia.rs</a>.\n\t\t\t</p>\n\t\t</span>\t\t\t\t\n\n\t\t<div class=\"language\" style=\"margin-top: 2.5em;\">\n\t\t\t<h4>This message is also available in...</h4>\n\t\t\t<a href=\"#\" id=\"flag_en\" class=\"lang_se lang_no lang_rs\"><img src=\"https://static.loopia.se/responsive/images/header/flag_en.png\" /><span>English</span></a>\n\t\t\t<a href=\"#\" id=\"flag_se\" class=\"lang_en lang_no lang_rs\"><img src=\"https://static.loopia.se/responsive/images/header/flag_se.png\" /><span>Svenska</span></a>\n\t\t\t<a href=\"#\" id=\"flag_no\" class=\"lang_en lang_se lang_rs\"><img src=\"https://static.loopia.se/responsive/images/header/flag_no.png\" /><span>Norsk</span></a> \n\t\t\t<a href=\"#\" id=\"flag_rs\" class=\"lang_en lang_se lang_no\"><img src=\"https://static.loopia.se/responsive/images/header/flag_sr.png\" /><span>Serbian</span></a> \n\t\t</div>\n\t\t\t\n\n\t\t</div><!-- /END .main -->\n\n\t\t<div id=\"footer\" class=\"center\">\n\t\t\t<span id=\"footer_en\" class='lang_en'>\n\t\t\t\t<a href=\"https://www.loopia.com\"><img src=\"https://static.loopia.se/responsive/images/footer/logo-grey.png\" alt=\"Loopia AB\" id=\"logo\" /></a><br />\n\t\t\t\t<p>\n\t\t\t\t<span class=\"no-linebreak\">Tel: +46 21-12 82 22</span> &nbsp; &middot; &nbsp; <span class=\"no-linebreak\">Fax: +46 21-12 82 33</span> &nbsp; &middot; &nbsp; E-mail: <a href=\"mailto:info@loopia.com\">info@loopia.com</a></p>\n\t\t\t</span>\n\t\t\t<span id=\"footer_se\" class='lang_se'>\n\t\t\t\t<a href=\"https://www.loopia.se\"><img src=\"https://static.loopia.se/responsive/images/footer/logo-grey.png\" alt=\"Loopia AB\" id=\"logo\" /></a><br />\n\t\t\t\t<p>\n\t\t\t\t<span class=\"no-linebreak\">Tel: 021-12 82 22</span> &nbsp; &middot; &nbsp; <span class=\"no-linebreak\">Fax: 021-12 82 33</span> &nbsp; &middot; &nbsp; E-post: <a href=\"mailto:info@loopia.se\">info@loopia.se</a></p>\n\t\t\t</span>\n\t\t\t<span id=\"footer_no\" class='lang_no'>\n\t\t\t\t<a href=\"https://www.loopia.no\"><img src=\"https://static.loopia.se/responsive/images/footer/logo-grey.png\" alt=\"Loopia\" id=\"logo\" /></a><br />\n\t\t\t\t<p>\n\t\t\t\t<span class=\"no-linebreak\">Tlf: 21 49 96 00</span> &nbsp; &middot; &nbsp; E-post: <a href=\"mailto:info@loopia.no\">info@loopia.se</a></p>\n\t\t\t</span>\t\n\t\t\t<span id=\"footer_rs\" class='lang_rs'>\n\t\t\t\t<a href=\"https://www.loopia.rs\"><img src=\"https://static.loopia.se/responsive/images/footer/logo-grey.png\" alt=\"Loopia\" id=\"logo\" /></a><br />\n\t\t\t\t<p>\n\t\t\t\t<span class=\"no-linebreak\">Tel: +381 (0)18 526 408</span> &nbsp; &middot; &nbsp; E-mail: <a href=\"mailto:info@loopia.rs\">info@loopia.rs</a></p>\n\t\t\t</span>\t\t\t\n\t\t</div><!-- /END #footer -->\n\t</div><!-- /END .content -->\n</body>\n</html>\n",
+                "location": "/",
+                "components": {},
+                "html_hash": -869627910,
+                "sitemap": null,
+                "securitytxt_hash": null
+            },
+            "ip": 1572602421,
+            "org": "Loopia AB",
+            "isp": "Loopia AB",
+            "transport": "tcp",
+            "cpe": [
+                "cpe:/a:igor_sysoev:nginx"
+            ],
+            "data": "HTTP/1.1 503 Service Temporarily Unavailable\r\nServer: nginx\r\nDate: Sat, 26 Mar 2022 17:38:37 GMT\r\nContent-Type: text/html\r\nContent-Length: 7192\r\nConnection: keep-alive\r\nETag: \"5bfe8214-1c18\"\r\nX-Loopia-Node: 127.0.0.1\r\n\r\n",
+            "asn": "AS39570",
+            "port": 80,
+            "hostnames": [
+                "webfront3.webcluster.loopia.se"
+            ],
+            "cpe23": [
+                "cpe:2.3:a:igor_sysoev:nginx"
+            ],
+            "timestamp": "2022-03-26T17:38:37.291893",
+            "domains": [
+                "loopia.se"
+            ],
+            "ip_str": "93.188.2.53",
+            "os": null,
+            "_shodan": {
+                "crawler": "7c8a517854004745d56289900cdd23806e84f988",
+                "options": {},
+                "id": "56c99ff8-7b76-4fb1-bff9-e6dc2b649f29",
+                "module": "http",
+                "ptr": true
+            },
+            "opts": {},
+            "location": {
+                "city": "V\u00e4ster\u00e5s",
+                "region_code": "U",
+                "area_code": null,
+                "longitude": 16.55276,
+                "latitude": 59.61617,
+                "country_code": "SE",
+                "country_name": "Sweden"
+            }
+        },
+        {
+            "hash": -955114740,
+            "product": "nginx",
+            "http": {
+                "status": 200,
+                "robots_hash": null,
+                "redirects": [],
+                "securitytxt": null,
+                "title": "Cybis.se: Technical writing, software development, dendrochronology",
+                "sitemap_hash": null,
+                "robots": null,
+                "server": "nginx",
+                "host": "cybis.se",
+                "html": "<!DOCTYPE html>\n<html>\n<head>\n\n<!-- Set charset -->\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\" />\n<meta charset=\"UTF-8\">\n\n<title>Cybis.se: Technical writing, software development, dendrochronology</title>\n<center><h3>Cybis Elektronik & Data AB<br/>\nTechnical writing, software development, photography and dendrochronology software</h3>\n<small><small>(At Loopia)</small></small></center>\n\n<base target=\"_self\">\n\n<script language=\"JavaScript\">\n<!--\nvar lang=\"%%e\";\n//-->\n</script>\n\n<noscript>\n<b>Your browser has JavaScript turned off.</b><br/>\nYou will experience a more enjoyable time <br/>\nat this Web site if you turn Javascript on.<br/>\nOpen your browser preferences, and enable JavaScript.<br/>\nYou do not have to restart your browser or your computer <br/>\nafter you enable JavaScript. <br/>\nSimply click the Reload or Refresh button.<br/></b>\n</noscript>\n</head>\n\n<body bgcolor=\"#BAE4E2\">\n\n<a href=indexs.htm target=\"_self\"><img src=\"flgswed.gif\" border=0 width=32 height=20 alt=Svenska></a>\n<a><img src=\"flgusa.gif\" border=0 width=32 height=20 alt=English></a>\n<a href=indexg.htm target=\"_self\"><img src=\"flggerm.gif\" border=0 width=32 height=20 alt=Deutsch></a>\n\n<table border=1 width=100% cellpadding=6>\n  <tr>\n  </tr>\n  <tr>\n    <td width=50% align=left>\n\n<b><big>\n<ul><li>\n<a href=cbeewing/index.htm target=\"_self\">\n<img src=\"cbeewing/bee1.gif\" width=\"92\" height=\"99\" border=\"0\" align=\"left\">\nFor bee-keepers: The CBeeWing program for wing index measurements</a>\n</li></ul>\n</big></b>\n\n<blockquote>\n<b><big>\n<br clear=\"left\"/>\n\n<li><a href=\"forfun/dendro/index.htm\" target=\"_self\">Dendrochronology - with the CDendro & CooRecorder programs!\n\n<img src=\"dendro.gif\" width=419 height=15 border=0 align=left hspace=10 ></a></li>\n<small><small><br/></small></small><br/>\n\n<li><a href=\"/dendro/home\" target=\"_self\">Cybis Dendrochronology and History</a><br/></li>\n\n<small><small><small><br/></small></small></small>\n\n<a href=\"forfun/index.htm\" target=\"_self\">\n\n<li>Photography, Stockholm, the archipelago, history</big></li>\n\n<blockquote>\n<li>Stockholm then and now<BR/></li>\n<li>The island of N\u00e4md\u00f6 and the Stockholm archipelago<BR/></li>\n<li>Sheep, cows and the hey harvest<br/></li>\n<li>Small steamers, ships and trains and historical photos<BR/></li>\n</blockquote>\n</b>\n</blockquote>\n\n<big><a href=\"https://www.ssnj.se\" target=\"_self\">\n<img src=\"mv15.gif\" width=80 height=94 border=0 align=left>\n<br/><br/><li><b>The train motor car \"Motorvagn 15\"</a></b></li>\n<br clear=left/>\n\n<A href=\"craft/birch/index.htm\" target=\"_self\">\n<img src=\"birch.gif\" width=77 height=80 border=0 align=left>\n<li>About birch sap and pollen allergy</a></li>\n</UL>\n<br/> <br/>\n    </td>\n    <td width=50% align=left>\n<A href=\"indexwe.htm\" target=\"_self\"></big>\n\n<h1>Our services:</h1><h2>\n<ul><LI>Documentation<br/></li>\n<li>Users manuals<BR/></li>\n<li>Writing for the internet<BR/></li>\n<li>Software development<BR/></UL></b></h2></A></li>\n<a href=\"indexwe.htm?cybisinfoe.htm#contact\" target=\"_parent\" alt=\"Lars-\u00c5ke & Petra\" ><h3>Contact information - About us</h3></a>\n</ul>\n    </td>\n  </tr>\n</h1>\n</table>\n\n</body>\n</html>\n",
+                "location": "/",
+                "components": {},
+                "html_hash": -889113481,
+                "sitemap": null,
+                "securitytxt_hash": null
+            },
+            "ip": 1572602421,
+            "org": "Loopia AB",
+            "isp": "Loopia AB",
+            "transport": "tcp",
+            "cpe": [
+                "cpe:/a:igor_sysoev:nginx"
+            ],
+            "data": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Sat, 26 Mar 2022 03:44:13 GMT\r\nContent-Type: text/html\r\nContent-Length: 3141\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nLast-Modified: Mon, 22 Mar 2021 11:04:00 GMT\r\nETag: \"c45-5be1e05d9a800\"\r\nAccept-Ranges: bytes\r\nX-Loopia-Node: 172.22.223.48\r\n\r\n",
+            "asn": "AS39570",
+            "port": 443,
+            "ssl": {
+                "chain_sha256": [
+                    "0dfd110397fc7674154bbf0c3604d54c5d86db6f65b81efae37e62b337e65ed0",
+                    "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+                    "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+                ],
+                "jarm": "28d28d28d00028d000000000000000aa82007b86d60406ecfb3ee67a2d6824",
+                "chain": [
+                    "-----BEGIN CERTIFICATE-----\nMIIFGDCCBACgAwIBAgISA7PZqVfAWRwMnXVsdchJe2gdMA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAyMDcwODU4MDFaFw0yMjA1MDgwODU4MDBaMBMxETAPBgNVBAMT\nCGN5YmlzLnNlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsKWxW/Hu\n3X9JXxvKZTHNOfHwnetnp1ZhK3Q3ZVCJrEBOiKXOMNHRU3ydwb/7jRDd8sW4gBzN\nBMpITJpHZjcprFUFis1dmcRQ/eK3rzykRB69R0SuDRn3JeawIGefX/iSR75sVtFq\nHJGD1bEff6j5MlRyR88Ebs4NsALfqFaHQx50X/870WiXho5ERT2gz/MWU9ZUU8o1\niJqB/EjY5St6DcJ3Rlv02vWS6XDbpM0qJ8sOYheYMvVTtYNkZpxo8KDuDgo/SSdX\nton/4PUczLLznXsmRnhefxqe5WDX0seoXTLMl1/Znya2/egULzRbBuY+UhsVgCpv\nKE/vOxgt8TspewIDAQABo4ICRTCCAkEwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQW\nMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTa\nF5Gn10qvFe3rkiq+DByN4+APijAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+d\nixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxl\nbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzATBgNV\nHREEDDAKgghjeWJpcy5zZTBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLf\nEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCC\nAQYGCisGAQQB1nkCBAIEgfcEgfQA8gB3AN+lXqtogk8fbK3uuF9OPlrqzaISpGpe\njjsSwCBEXCpzAAABftOeaIQAAAQDAEgwRgIhAOF7DCg0RpoEuqQDiOthGfi+Nq4h\nsJcPi4WpRyjfGiyvAiEA78lJo6ZMDJymdeiXQManmur/tTZ6ypomuPKeEC7IWscA\ndwBGpVXrdfqRIDC1oolp9PN9ESxBdL79SbiFq/L8cP5tRwAAAX7TnmitAAAEAwBI\nMEYCIQDOiho9v62GCfLiJNr2Ym3oDvAKzwXQNbUfpmi9irJA9wIhAM8wOeJqHeBU\n0QnOG8M0OaKf4m34McuKyBohhQ+Z1jXwMA0GCSqGSIb3DQEBCwUAA4IBAQAZWJ9D\neaeu6B11SS2225ys/BJ4VUGJzRt0l3Ex01VfRSm9+pehC7IlxEE63vOWMjnvu5GC\n5aq8MUnZwzoa9kvwVqIm9llOtVK6cS8V1tK4PsfQXsBmMcaWF9ftA1OCebbrVTSz\ne/aIXiXzqiWlS2gogBCgt0oBitNJzWB1p+eQcdN0I5vmuC0BbraTK6enBDIx7d/E\nkujFQOHGpbpNg/VCaB/3vKMQD6xnC9zon2p+B1tqgDjAazbci+/UWCSuB3zF5EOD\nE/FK2GGUlTRTTYXuJL6wjaI3llj6gkzs2DsTayJa1lWxQ2v6ztDrH5VakeSZ8bPO\no23Z+AE+tR7FfRYW\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+                ],
+                "dhparams": null,
+                "versions": [
+                    "-TLSv1",
+                    "-SSLv2",
+                    "-SSLv3",
+                    "-TLSv1.1",
+                    "TLSv1.2",
+                    "TLSv1.3"
+                ],
+                "acceptable_cas": [],
+                "tlsext": [
+                    {
+                        "id": 65281,
+                        "name": "renegotiation_info"
+                    },
+                    {
+                        "id": 11,
+                        "name": "ec_point_formats"
+                    }
+                ],
+                "ja3s": "cba9a2771b31d0fda85afc3ca06eeb5f",
+                "cert": {
+                    "sig_alg": "sha256WithRSAEncryption",
+                    "issued": "20220207085801Z",
+                    "expires": "20220508085800Z",
+                    "expired": false,
+                    "version": 2,
+                    "extensions": [
+                        {
+                            "critical": true,
+                            "data": "\\x03\\x02\\x05\\xa0",
+                            "name": "keyUsage"
+                        },
+                        {
+                            "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                            "name": "extendedKeyUsage"
+                        },
+                        {
+                            "critical": true,
+                            "data": "0\\x00",
+                            "name": "basicConstraints"
+                        },
+                        {
+                            "data": "\\x04\\x14\\xda\\x17\\x91\\xa7\\xd7J\\xaf\\x15\\xed\\xeb\\x92*\\xbe\\x0c\\x1c\\x8d\\xe3\\xe0\\x0f\\x8a",
+                            "name": "subjectKeyIdentifier"
+                        },
+                        {
+                            "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP\\t@\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                            "name": "authorityKeyIdentifier"
+                        },
+                        {
+                            "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                            "name": "authorityInfoAccess"
+                        },
+                        {
+                            "data": "0\\n\\x82\\x08cybis.se",
+                            "name": "subjectAltName"
+                        },
+                        {
+                            "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                            "name": "certificatePolicies"
+                        },
+                        {
+                            "data": "\\x04\\x81\\xf4\\x00\\xf2\\x00w\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01~\\xd3\\x9eh\\x84\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xe1{\\x0c(4F\\x9a\\x04\\xba\\xa4\\x03\\x88\\xeba\\x19\\xf8\\xbe6\\xae!\\xb0\\x97\\x0f\\x8b\\x85\\xa9G(\\xdf\\x1a,\\xaf\\x02!\\x00\\xef\\xc9I\\xa3\\xa6L\\x0c\\x9c\\xa6u\\xe8\\x97@\\xc6\\xa7\\x9a\\xea\\xff\\xb56z\\xca\\x9a&\\xb8\\xf2\\x9e\\x10.\\xc8Z\\xc7\\x00w\\x00F\\xa5U\\xebu\\xfa\\x91 0\\xb5\\xa2\\x89i\\xf4\\xf3}\\x11,At\\xbe\\xfdI\\xb8\\x85\\xab\\xf2\\xfcp\\xfemG\\x00\\x00\\x01~\\xd3\\x9eh\\xad\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xce\\x8a\\x1a=\\xbf\\xad\\x86\\t\\xf2\\xe2$\\xda\\xf6bm\\xe8\\x0e\\xf0\\n\\xcf\\x05\\xd05\\xb5\\x1f\\xa6h\\xbd\\x8a\\xb2@\\xf7\\x02!\\x00\\xcf09\\xe2j\\x1d\\xe0T\\xd1\\t\\xce\\x1b\\xc349\\xa2\\x9f\\xe2m\\xf81\\xcb\\x8a\\xc8\\x1a!\\x85\\x0f\\x99\\xd65\\xf0",
+                            "name": "ct_precert_scts"
+                        }
+                    ],
+                    "fingerprint": {
+                        "sha256": "0dfd110397fc7674154bbf0c3604d54c5d86db6f65b81efae37e62b337e65ed0",
+                        "sha1": "af7f646b43a4e2a9ae4ea33b1e2a944f829fe012"
+                    },
+                    "serial": 322536723227192164825909227527260818073629,
+                    "subject": {
+                        "CN": "cybis.se"
+                    },
+                    "pubkey": {
+                        "type": "rsa",
+                        "bits": 2048
+                    },
+                    "issuer": {
+                        "C": "US",
+                        "CN": "R3",
+                        "O": "Let's Encrypt"
+                    }
+                },
+                "cipher": {
+                    "version": "TLSv1/SSLv3",
+                    "bits": 256,
+                    "name": "DHE-RSA-AES256-GCM-SHA384"
+                },
+                "trust": {
+                    "revoked": false,
+                    "browser": {
+                        "mozilla": true,
+                        "apple": true,
+                        "microsoft": true
+                    }
+                },
+                "handshake_states": [
+                    "before/connect initialization",
+                    "SSLv2/v3 write client hello",
+                    "SSLv2/v3 read server hello",
+                    "SSLv3/TLS read server hello",
+                    "SSLv3/TLS read server certificate",
+                    "SSLv3/TLS read server key exchange",
+                    "SSLv3/TLS read server done",
+                    "SSLv3/TLS write client key exchange",
+                    "SSLv3/TLS write change cipher spec",
+                    "SSLv3/TLS write finished",
+                    "SSLv3/TLS flush data",
+                    "SSLv3/TLS read finished",
+                    "SSL negotiation finished successfully"
+                ],
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
+                "ocsp": {}
+            },
+            "hostnames": [
+                "cybis.se",
+                "webfront3.webcluster.loopia.se"
+            ],
+            "cpe23": [
+                "cpe:2.3:a:igor_sysoev:nginx"
+            ],
+            "timestamp": "2022-03-26T03:49:30.357390",
+            "domains": [
+                "cybis.se",
+                "loopia.se"
+            ],
+            "ip_str": "93.188.2.53",
+            "os": null,
+            "_shodan": {
+                "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+                "options": {
+                    "hostname": "cybis.se",
+                    "scan": "xf5GPGD85gft5N60"
+                },
+                "id": "9882df21-4b68-467d-a953-23387791e2c1",
+                "module": "https",
+                "ptr": true
+            },
+            "opts": {
+                "vulns": [],
+                "heartbleed": "2022/03/26 03:50:37 93.188.2.53:443 - SAFE\n"
+            },
+            "location": {
+                "city": "V\u00e4ster\u00e5s",
+                "region_code": "U",
+                "area_code": null,
+                "longitude": 16.55276,
+                "latitude": 59.61617,
+                "country_code": "SE",
+                "country_name": "Sweden"
+            }
+        },
+        {
+            "product": "nginx",
+            "hash": 513012131,
+            "timestamp": "2022-03-09T05:49:29.662795",
+            "org": "Loopia AB",
+            "isp": "Loopia AB",
+            "transport": "tcp",
+            "cpe": [
+                "cpe:/a:igor_sysoev:nginx"
+            ],
+            "data": "HTTP/1.1 403 Forbidden\r\nServer: nginx\r\nDate: Wed, 09 Mar 2022 05:49:29 GMT\r\nContent-Type: text/html\r\nContent-Length: 146\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\n\r\n<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+            "asn": "AS39570",
+            "port": 8083,
+            "hostnames": [
+                "webfront3.webcluster.loopia.se"
+            ],
+            "cpe23": [
+                "cpe:2.3:a:igor_sysoev:nginx"
+            ],
+            "ip": 1572602421,
+            "domains": [
+                "loopia.se"
+            ],
+            "ip_str": "93.188.2.53",
+            "os": null,
+            "_shodan": {
+                "crawler": "cdd92e2d835a37d2798fa6c7105171f4d214012f",
+                "options": {},
+                "id": "76dbc21d-7b1c-4fc5-b7df-b99ba025e26f",
+                "module": "https-simple-new",
+                "ptr": true
+            },
+            "opts": {},
+            "location": {
+                "city": "V\u00e4ster\u00e5s",
+                "region_code": "U",
+                "area_code": null,
+                "longitude": 16.55276,
+                "latitude": 59.61617,
+                "country_code": "SE",
+                "country_name": "Sweden"
+            }
+        }
+    ],
+    "asn": "AS39570",
+    "ip_str": "93.188.2.53"
+}

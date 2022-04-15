@@ -1,0 +1,345 @@
+{
+    "doc_id": 55,
+    "city": "Chicago",
+    "region_code": "IL",
+    "os": null,
+    "tags": [],
+    "ip": 3347467040,
+    "isp": "USDA",
+    "area_code": null,
+    "longitude": -87.65005,
+    "last_update": "2022-03-16T07:30:12.650470",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 41.85003,
+    "hostnames": [
+      "www.ascr.usda.gov",
+      "www.choosemyplate.gov",
+      "ams.usda.gov",
+      "www.cnpp.usda.gov",
+      "prod.usda.gov",
+      "farmtoschoolcensus.fns.usda.gov",
+      "ascr.usda.gov",
+      "outreach.usda.gov",
+      "secure.rd.usda.gov",
+      "www.obpa.usda.gov",
+      "rancher.usda.gov",
+      "wicgateway.fns.usda.gov",
+      "wicworks.fns.usda.gov",
+      "www.farmers.gov",
+      "www.fns.usda.gov",
+      "obpa.usda.gov",
+      "professionalstandards.fns.usda.gov",
+      "www.da.usda.gov",
+      "snaptoskills.fns.usda.gov",
+      "dm.usda.gov",
+      "www.outreach.usda.gov",
+      "www.ams.usda.gov",
+      "rd.usda.gov",
+      "rurdev.usda.gov",
+      "newfarmers.usda.gov",
+      "www.rurdev.usda.gov",
+      "www.dm.usda.gov",
+      "www.ocio.usda.gov",
+      "farmers.gov",
+      "intranet.usda.gov",
+      "snaped.fns.usda.gov",
+      "da.usda.gov",
+      "www.rd.usda.gov",
+      "www.one.usda.gov"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "usda.gov",
+      "choosemyplate.gov",
+      "farmers.gov"
+    ],
+    "org": "USDA Office of Operations",
+    "data": [
+      {
+        "hash": -1388140574,
+        "product": "BigIP",
+        "http": {
+          "status": 302,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "BigIP",
+          "host": "199.134.75.32",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 3347467040,
+        "isp": "USDA",
+        "transport": "tcp",
+        "data": "HTTP/1.0 302 Moved Temporarily\r\nLocation: https://199.134.75.32/\r\nServer: BigIP\r\nConnection: Keep-Alive\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS4152",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "Chicago",
+          "region_code": "IL",
+          "area_code": null,
+          "longitude": -87.65005,
+          "latitude": 41.85003,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-02-26T02:54:31.551286",
+        "domains": [],
+        "org": "USDA Office of Operations",
+        "os": null,
+        "_shodan": {
+          "crawler": "39b14a9546da27e415ae26323671171ec817f753",
+          "id": "91dd5790-9db9-4eb6-b4aa-7d53e476bd05",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {},
+        "ip_str": "199.134.75.32"
+      },
+      {
+        "hash": 680606434,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "waf": "CacheWall (Varnish)",
+          "robots": null,
+          "server": null,
+          "host": "www.outreach.usda.gov",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>301 Moved Permanently</title>\n</head><body>\n<h1>Moved Permanently</h1>\n<p>The document has moved <a href=\"https://www.usda.gov/partnerships\">here</a>.</p>\n</body></html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -587666275,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-16T07:30:12.650470",
+        "org": "USDA Office of Operations",
+        "isp": "USDA",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Wed, 16 Mar 2022 07:24:49 GMT\r\nContent-Type: text/html; charset=iso-8859-1\r\nContent-Length: 241\r\nConnection: keep-alive\r\nCache-Control: public, max-age=3600\r\nLocation: https://www.usda.gov/partnerships\r\nX-Varnish: 10321733 10665298\r\nAge: 3052\r\nVia: 1.1 varnish-v4\r\nStrict-Transport-Security: max-age=31536000; includeSubDomains\r\n\r\n",
+        "asn": "AS4152",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "984369f1f3bb7f69077814496e0b3fc06403d2398a19c8217980ac31584a4dc7",
+            "13efb39a2f6654e8c67bd04f4c6d4c90cd6cab5091bcedc73787f6b77d3d3fe7",
+            "43df5774b03e7fef5fe40d931a7bedf1bb2e6b42738c4e6d3841103d3aa7f339"
+          ],
+          "jarm": "29d29d00029d29d00029d29d29d29dcb09dd549309271837f87ac5dad15fa7",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIJSzCCCDOgAwIBAgIQH/asnq6xYN/M4NmDrN+W6zANBgkqhkiG9w0BAQsFADCB\nujELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsT\nH1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAy\nMDEyIEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEuMCwG\nA1UEAxMlRW50cnVzdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAtIEwxSzAeFw0y\nMTEyMTcxNzUwNTBaFw0yMzAxMTYxNzUwNTBaMHUxCzAJBgNVBAYTAlVTMREwDwYD\nVQQIEwhNaXNzb3VyaTEUMBIGA1UEBxMLS2Fuc2FzIENpdHkxJTAjBgNVBAoTHFVT\nIERlcGFydG1lbnQgb2YgQWdyaWN1bHR1cmUxFjAUBgNVBAMTDXByb2QudXNkYS5n\nb3YwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCrLcZdJF1ApDnK0goh\n/h0Qh7SNlYUaPZuQkH2oKaRCJ+b6jZipybUWuCisOt47x+wZu/eRjcnqt+OSEBR3\nMVuyJTUXEoANd635uvJOL+nKRCuv6vZpo3ec1Q3/mqbAN4HTW9JtLsxdOxPhKrY7\n+PnIbebKxJnOMCkMGzSWAkqTTDHAq9AvcTGM10dCGtJXDmQKM3ftY4Kz5/LmIOMr\njZtT96fTT048nYl6OL9MTDcIlZQd9oK+yvab37sqAq7/wMuDQc6V7nBae8RBNPzB\n118Myz5z6ChfHtbFExhJzifpA7mgMGyZ7MQLkA7joLQA/RXi1SDWAWoJr5+3M4eU\nmJojAgMBAAGjggWPMIIFizAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSAETrq0goG\nbiGIr7tQ7Q4FuwBP0DAfBgNVHSMEGDAWgBSConB03bxTP8971PfNf6dgxgpMvzBo\nBggrBgEFBQcBAQRcMFowIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVudHJ1c3Qu\nbmV0MDMGCCsGAQUFBzAChidodHRwOi8vYWlhLmVudHJ1c3QubmV0L2wxay1jaGFp\nbjI1Ni5jZXIwMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5lbnRydXN0Lm5l\ndC9sZXZlbDFrLmNybDCCApwGA1UdEQSCApMwggKPgg1wcm9kLnVzZGEuZ292ghBy\nYW5jaGVyLnVzZGEuZ292ggxhbXMudXNkYS5nb3aCC2RhLnVzZGEuZ292ggtmYXJt\nZXJzLmdvdoIfZmFybXRvc2Nob29sY2Vuc3VzLmZucy51c2RhLmdvdoIRaW50cmFu\nZXQudXNkYS5nb3aCE25ld2Zhcm1lcnMudXNkYS5nb3aCDW9icGEudXNkYS5nb3aC\nEW91dHJlYWNoLnVzZGEuZ292giJwcm9mZXNzaW9uYWxzdGFuZGFyZHMuZm5zLnVz\nZGEuZ292ggtyZC51c2RhLmdvdoISc2VjdXJlLnJkLnVzZGEuZ292ghNzbmFwZWQu\nZm5zLnVzZGEuZ292ghlzbmFwdG9za2lsbHMuZm5zLnVzZGEuZ292ghd3aWNnYXRl\nd2F5LmZucy51c2RhLmdvdoIVd2ljd29ya3MuZm5zLnVzZGEuZ292ghB3d3cuYW1z\nLnVzZGEuZ292ghF3d3cuYXNjci51c2RhLmdvdoIVd3d3LmNob29zZW15cGxhdGUu\nZ292ghF3d3cuY25wcC51c2RhLmdvdoIPd3d3LmRhLnVzZGEuZ292gg93d3cuZmFy\nbWVycy5nb3aCEHd3dy5mbnMudXNkYS5nb3aCEXd3dy5vYnBhLnVzZGEuZ292ghF3\nd3cub2Npby51c2RhLmdvdoIQd3d3Lm9uZS51c2RhLmdvdoIVd3d3Lm91dHJlYWNo\nLnVzZGEuZ292gg93d3cucmQudXNkYS5nb3aCDWFzY3IudXNkYS5nb3aCC2RtLnVz\nZGEuZ292gg93d3cuZG0udXNkYS5nb3aCE3d3dy5ydXJkZXYudXNkYS5nb3aCD3J1\ncmRldi51c2RhLmdvdjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUH\nAwEGCCsGAQUFBwMCMEwGA1UdIARFMEMwNwYKYIZIAYb6bAoBBTApMCcGCCsGAQUF\nBwIBFhtodHRwczovL3d3dy5lbnRydXN0Lm5ldC9ycGEwCAYGZ4EMAQICMIIBfQYK\nKwYBBAHWeQIEAgSCAW0EggFpAWcAdQBWFAaaL9fC7NP14b1Esj7HRna5vJkRXMDv\nlJhV1onQ3QAAAX3JhJ0nAAAEAwBGMEQCIGSey651juk56QPOE9wheIS0A3rwFcOj\nsGAaewcQtJ4OAiAwW9lKz4Gwzg8Ctf/aGC/qebvtC22DXYATKxxWJJwR0QB1AFWB\n1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABfcmEnTgAAAQDAEYwRAIg\nffWZD0im1koQp5jlqEdu22A4uTQX4mpXj5KYgcRRG8ECIE1yq8TQPPlwZGBiDdKv\niHfyrrsgxglnbgyHIwDaY6QnAHcArfe++nz/EMiLnT2cHj4YarRnKV3PsQwkyoWG\nNOvcgooAAAF9yYSdAQAABAMASDBGAiEAlCqZrCmTfkpds0ipm2M+kSkoiVISCzA9\nWPXVdADFjxwCIQDA/eZ4apKVbeDwZgdxpY1B1rRTCoiaZ/56k01ODO8mhjANBgkq\nhkiG9w0BAQsFAAOCAQEAu41H5PX+uv2JPM7LA6k0zzpHZ91ymTl+tM8maVn2/JSK\nuSbxmy1/NCBjn9JhxLocYxNXpdPRkOpRtDrinsvG1nVzx+o+vp8zljzCqHvEtjbS\nI0eJ2wS1ribf8cc78RLkcEI9DCdoO4DpruKwM/J8BP7MAWmfUkJ/kP+dgDrnoN3G\nL1Q8/Jb+4vPav7oleq4Pg3eq4EqC1Tyg4tS+CqbRVuw77OtkqIB+vb7DA1GX09bg\nIFkvhmE+w6tXeofgLX+dGqtbFgydKNeII26ad+9UjQz7sQ7WKl8LLq9SMTnD2KeZ\ngQU0VqIqRzG5fofu9zI3VgIHmiy/hXlmSdyypGQcpw==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFDjCCA/agAwIBAgIMDulMwwAAAABR03eFMA0GCSqGSIb3DQEBCwUAMIG+MQsw\nCQYDVQQGEwJVUzEWMBQGA1UEChMNRW50cnVzdCwgSW5jLjEoMCYGA1UECxMfU2Vl\nIHd3dy5lbnRydXN0Lm5ldC9sZWdhbC10ZXJtczE5MDcGA1UECxMwKGMpIDIwMDkg\nRW50cnVzdCwgSW5jLiAtIGZvciBhdXRob3JpemVkIHVzZSBvbmx5MTIwMAYDVQQD\nEylFbnRydXN0IFJvb3QgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgLSBHMjAeFw0x\nNTEwMDUxOTEzNTZaFw0zMDEyMDUxOTQzNTZaMIG6MQswCQYDVQQGEwJVUzEWMBQG\nA1UEChMNRW50cnVzdCwgSW5jLjEoMCYGA1UECxMfU2VlIHd3dy5lbnRydXN0Lm5l\ndC9sZWdhbC10ZXJtczE5MDcGA1UECxMwKGMpIDIwMTIgRW50cnVzdCwgSW5jLiAt\nIGZvciBhdXRob3JpemVkIHVzZSBvbmx5MS4wLAYDVQQDEyVFbnRydXN0IENlcnRp\nZmljYXRpb24gQXV0aG9yaXR5IC0gTDFLMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A\nMIIBCgKCAQEA2j+W0E25L0Tn2zlem1DuXKVh2kFnUwmqAJqOV38pa9vH4SEkqjrQ\njUcj0u1yFvCRIdJdt7hLqIOPt5EyaM/OJZMssn2XyP7BtBe6CZ4DkJN7fEmDImiK\nm95HwzGYei59QAvS7z7Tsoyqj0ip/wDoKVgG97aTWpRzJiatWA7lQrjV6nN5ZGhT\nJbiEz5R6rgZFDKNrTdDGvuoYpDbwkrK6HIiPOlJ/915tgxyd8B/lw9bdpXiSPbBt\nLOrJz5RBGXFEaLpHPATpXbo+8DX3Fbae8i4VHj9HyMg4p3NFXU2wO7GOFyk36t0F\nASK7lDYqjVs1/lMZLwhGwSqzGmIdTivZGwIDAQABo4IBDDCCAQgwDgYDVR0PAQH/\nBAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQAwMwYIKwYBBQUHAQEEJzAlMCMGCCsG\nAQUFBzABhhdodHRwOi8vb2NzcC5lbnRydXN0Lm5ldDAwBgNVHR8EKTAnMCWgI6Ah\nhh9odHRwOi8vY3JsLmVudHJ1c3QubmV0L2cyY2EuY3JsMDsGA1UdIAQ0MDIwMAYE\nVR0gADAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmVudHJ1c3QubmV0L3JwYTAd\nBgNVHQ4EFgQUgqJwdN28Uz/Pe9T3zX+nYMYKTL8wHwYDVR0jBBgwFoAUanImetAe\n733nO2lR1GyNn5ASZqswDQYJKoZIhvcNAQELBQADggEBADnVjpiDYcgsY9NwHRkw\ny/YJrMxp1cncN0HyMg/vdMNY9ngnCTQIlZIv19+4o/0OgemknNM/TWgrFTEKFcxS\nBJPok1DD2bHi4Wi3Ogl08TRYCj93mEC45mj/XeTIRsXsgdfJghhcg85x2Ly/rJkC\nk9uUmITSnKa1/ly78EqvIazCP0kkZ9Yujs+szGQVGHLlbHfTUqi53Y2sAEo1GdRv\nc6N172tkw+CNgxKhiucOhk3YtCAbvmqljEtoZuMrx1gL+1YQ1JH7HdMxWBCMRON1\nexCdtTix9qrKgWRs6PLigVWXUX/hwidQosk8WwBD9lu51aX8/wdQQGcHsFXwt35u\nLcw=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEPjCCAyagAwIBAgIESlOMKDANBgkqhkiG9w0BAQsFADCBvjELMAkGA1UEBhMC\nVVMxFjAUBgNVBAoTDUVudHJ1c3QsIEluYy4xKDAmBgNVBAsTH1NlZSB3d3cuZW50\ncnVzdC5uZXQvbGVnYWwtdGVybXMxOTA3BgNVBAsTMChjKSAyMDA5IEVudHJ1c3Qs\nIEluYy4gLSBmb3IgYXV0aG9yaXplZCB1c2Ugb25seTEyMDAGA1UEAxMpRW50cnVz\ndCBSb290IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IC0gRzIwHhcNMDkwNzA3MTcy\nNTU0WhcNMzAxMjA3MTc1NTU0WjCBvjELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUVu\ndHJ1c3QsIEluYy4xKDAmBgNVBAsTH1NlZSB3d3cuZW50cnVzdC5uZXQvbGVnYWwt\ndGVybXMxOTA3BgNVBAsTMChjKSAyMDA5IEVudHJ1c3QsIEluYy4gLSBmb3IgYXV0\naG9yaXplZCB1c2Ugb25seTEyMDAGA1UEAxMpRW50cnVzdCBSb290IENlcnRpZmlj\nYXRpb24gQXV0aG9yaXR5IC0gRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC6hLZy254Ma+KZ6TABp3bqMriVQRrJ2mFOWHLP/vaCeb9zYQYKpSfYs1/T\nRU4cctZOMvJyig/3gxnQaoCAAEUesMfnmr8SVycco2gvCoe9amsOXmXzHHfV1IWN\ncCG0szLni6LVhjkCsbjSR87kyUnEO6fe+1R9V77w6G7CebI6C1XiUJgWMhNcL3hW\nwcKUs/Ja5CeanyTXxuzQmyWC48zCxEXFjJd6BmsqEZ+pCm5IO2/b1BEZQvePB7/1\nU1+cPvQXLOZprE4yTGJ36rfo5bs0vBmLrpxR57d+tVOxMyLlbc9wPBr64ptntoP0\njaWvYkxN4FisZDQSA/i2jZRjJKRxAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAP\nBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBRqciZ60B7vfec7aVHUbI2fkBJmqzAN\nBgkqhkiG9w0BAQsFAAOCAQEAeZ8dlsa2eT8ijYfThwMEYGprmi5ZiXMRrEPR9RP/\njTkrwPK9T3CMqS/qF8QLVJ7UG5aYMzyorWKiAHarWWluBh1+xLlEjZivEtRh2woZ\nRkfz6/djwUAFQKXSt/S1mja/qYh2iARVBCuch38aNzx+LaUa2NSJXsq9rD1s2G2v\n1fN2D807iDginWyTmsQ9v4IbZT+mD12q/OWyFcq1rca8PdCE6OoGcrBNOTJ4vz4R\nnAuknZoh8/CbCzB428Hch0P+vGOaysXCHMnHjf87ElgI5rY97HosTvuDls4MPGmH\nVHOkc8KT/1EQrBVUAdj8BbGJoX90g5pJ19xOe4pIb4tF9g==\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            }
+          ],
+          "ja3s": "303951d4c50efb2e991652225a6f02b1",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211217175050Z",
+            "expires": "20230116175050Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14\\x80\\x11:\\xea\\xd2\n\\x06n!\\x88\\xaf\\xbbP\\xed\\x0e\\x05\\xbb\\x00O\\xd0",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x82\\xa2pt\\xdd\\xbcS?\\xcf{\\xd4\\xf7\\xcd\\x7f\\xa7`\\xc6\nL\\xbf",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0Z0#\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x17http://ocsp.entrust.net03\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\'http://aia.entrust.net/l1k-chain256.cer",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0*0(\\xa0&\\xa0$\\x86\"http://crl.entrust.net/level1k.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0\\x82\\x02\\x8f\\x82\rprod.usda.gov\\x82\\x10rancher.usda.gov\\x82\\x0cams.usda.gov\\x82\\x0bda.usda.gov\\x82\\x0bfarmers.gov\\x82\\x1ffarmtoschoolcensus.fns.usda.gov\\x82\\x11intranet.usda.gov\\x82\\x13newfarmers.usda.gov\\x82\robpa.usda.gov\\x82\\x11outreach.usda.gov\\x82\"professionalstandards.fns.usda.gov\\x82\\x0brd.usda.gov\\x82\\x12secure.rd.usda.gov\\x82\\x13snaped.fns.usda.gov\\x82\\x19snaptoskills.fns.usda.gov\\x82\\x17wicgateway.fns.usda.gov\\x82\\x15wicworks.fns.usda.gov\\x82\\x10www.ams.usda.gov\\x82\\x11www.ascr.usda.gov\\x82\\x15www.choosemyplate.gov\\x82\\x11www.cnpp.usda.gov\\x82\\x0fwww.da.usda.gov\\x82\\x0fwww.farmers.gov\\x82\\x10www.fns.usda.gov\\x82\\x11www.obpa.usda.gov\\x82\\x11www.ocio.usda.gov\\x82\\x10www.one.usda.gov\\x82\\x15www.outreach.usda.gov\\x82\\x0fwww.rd.usda.gov\\x82\rascr.usda.gov\\x82\\x0bdm.usda.gov\\x82\\x0fwww.dm.usda.gov\\x82\\x13www.rurdev.usda.gov\\x82\\x0frurdev.usda.gov",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0C07\\x06\n`\\x86H\\x01\\x86\\xfal\n\\x01\\x050)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttps://www.entrust.net/rpa0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x82\\x01i\\x01g\\x00u\\x00V\\x14\\x06\\x9a/\\xd7\\xc2\\xec\\xd3\\xf5\\xe1\\xbdD\\xb2>\\xc7Fv\\xb9\\xbc\\x99\\x11\\\\\\xc0\\xef\\x94\\x98U\\xd6\\x89\\xd0\\xdd\\x00\\x00\\x01}\\xc9\\x84\\x9d\\'\\x00\\x00\\x04\\x03\\x00F0D\\x02 d\\x9e\\xcb\\xaeu\\x8e\\xe99\\xe9\\x03\\xce\\x13\\xdc!x\\x84\\xb4\\x03z\\xf0\\x15\\xc3\\xa3\\xb0`\\x1a{\\x07\\x10\\xb4\\x9e\\x0e\\x02 0[\\xd9J\\xcf\\x81\\xb0\\xce\\x0f\\x02\\xb5\\xff\\xda\\x18/\\xeay\\xbb\\xed\\x0bm\\x83]\\x80\\x13+\\x1cV$\\x9c\\x11\\xd1\\x00u\\x00U\\x81\\xd4\\xc2\\x16\\x906\\x01J\\xea\\x0b\\x9bW<S\\xf0\\xc0\\xe48xp%\\x08\\x17/\\xa3\\xaa\\x1d\\x07\\x13\\xd3\\x0c\\x00\\x00\\x01}\\xc9\\x84\\x9d8\\x00\\x00\\x04\\x03\\x00F0D\\x02 }\\xf5\\x99\\x0fH\\xa6\\xd6J\\x10\\xa7\\x98\\xe5\\xa8Gn\\xdb`8\\xb94\\x17\\xe2jW\\x8f\\x92\\x98\\x81\\xc4Q\\x1b\\xc1\\x02 Mr\\xab\\xc4\\xd0<\\xf9pd`b\r\\xd2\\xaf\\x88w\\xf2\\xae\\xbb \\xc6 gn\\x0c\\x87#\\x00\\xdac\\xa4\\'\\x00w\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01}\\xc9\\x84\\x9d\\x01\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x94*\\x99\\xac)\\x93~J]\\xb3H\\xa9\\x9bc>\\x91)(\\x89R\\x12\\x0b0=X\\xf5\\xd5t\\x00\\xc5\\x8f\\x1c\\x02!\\x00\\xc0\\xfd\\xe6xj\\x92\\x95m\\xe0\\xf0f\\x07q\\xa5\\x8dA\\xd6\\xb4S\n\\x88\\x9ag\\xfez\\x93MN\\x0c\\xef&\\x86",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "984369f1f3bb7f69077814496e0b3fc06403d2398a19c8217980ac31584a4dc7",
+              "sha1": "145754ad94bb33eed0834f718c4836f771ea300a"
+            },
+            "serial": 4.2486874043098295e+37,
+            "subject": {
+              "CN": "prod.usda.gov",
+              "C": "US",
+              "L": "Kansas City",
+              "O": "US Department of Agriculture",
+              "ST": "Missouri"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "(c) 2012 Entrust, Inc. - for authorized use only",
+              "O": "Entrust, Inc.",
+              "CN": "Entrust Certification Authority - L1K"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "www.ascr.usda.gov",
+          "farmtoschoolcensus.fns.usda.gov",
+          "ams.usda.gov",
+          "www.cnpp.usda.gov",
+          "www.obpa.usda.gov",
+          "www.choosemyplate.gov",
+          "rancher.usda.gov",
+          "outreach.usda.gov",
+          "secure.rd.usda.gov",
+          "prod.usda.gov",
+          "wicgateway.fns.usda.gov",
+          "wicworks.fns.usda.gov",
+          "www.farmers.gov",
+          "www.fns.usda.gov",
+          "obpa.usda.gov",
+          "professionalstandards.fns.usda.gov",
+          "www.da.usda.gov",
+          "snaptoskills.fns.usda.gov",
+          "dm.usda.gov",
+          "ascr.usda.gov",
+          "www.outreach.usda.gov",
+          "www.ams.usda.gov",
+          "www.one.usda.gov",
+          "rurdev.usda.gov",
+          "newfarmers.usda.gov",
+          "www.rurdev.usda.gov",
+          "www.dm.usda.gov",
+          "www.ocio.usda.gov",
+          "farmers.gov",
+          "intranet.usda.gov",
+          "snaped.fns.usda.gov",
+          "da.usda.gov",
+          "www.rd.usda.gov",
+          "rd.usda.gov"
+        ],
+        "transport": "tcp",
+        "ip": 3347467040,
+        "domains": [
+          "usda.gov",
+          "choosemyplate.gov",
+          "farmers.gov"
+        ],
+        "ip_str": "199.134.75.32",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "www.outreach.usda.gov",
+            "scan": "CrLpS4WPjmfrLjEC"
+          },
+          "id": "8ef73729-8626-402f-84e9-f497b89b8d8d",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/16 07:31:07 199.134.75.32:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Chicago",
+          "region_code": "IL",
+          "area_code": null,
+          "longitude": -87.65005,
+          "latitude": 41.85003,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS4152",
+    "ip_str": "199.134.75.32"
+  }

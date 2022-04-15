@@ -1,0 +1,305 @@
+{
+    "doc_id": 21,
+    "city": "Ashburn",
+    "region_code": "VA",
+    "os": null,
+    "tags": [],
+    "ip": 2562921309,
+    "isp": "Verizon Business",
+    "area_code": null,
+    "longitude": -77.48749,
+    "last_update": "2022-03-17T22:43:28.605463",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 39.04372,
+    "hostnames": [
+      "fifa.com",
+      "fifa.digital"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "fifa.com",
+      "fifa.digital"
+    ],
+    "org": "ANS Communications, Inc",
+    "data": [
+      {
+        "hash": 1685965321,
+        "http": {
+          "status": 404,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "404 - Not Found",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "ECAcc (bsa/EB6C)",
+          "host": "152.195.19.93",
+          "html": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>404 - Not Found</h1>\n </body>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 789583739,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-17T22:43:28.605463",
+        "org": "ANS Communications, Inc",
+        "isp": "Verizon Business",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nDate: Thu, 17 Mar 2022 22:43:28 GMT\r\nServer: ECAcc (bsa/EB6C)\r\nContent-Length: 345\r\n\r\n",
+        "asn": "AS15133",
+        "port": 80,
+        "hostnames": [],
+        "transport": "tcp",
+        "ip": 2562921309,
+        "domains": [],
+        "ip_str": "152.195.19.93",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "8918b6bc-11fd-4ac2-985a-226583f570aa",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {},
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 1214844367,
+        "http": {
+          "status": 404,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "404 - Not Found",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "ECAcc (nyd/D19E)",
+          "host": "152.195.19.93",
+          "html": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>404 - Not Found</h1>\n </body>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 789583739,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-17T14:49:52.613251",
+        "org": "ANS Communications, Inc",
+        "isp": "Verizon Business",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nDate: Thu, 17 Mar 2022 14:49:52 GMT\r\nServer: ECAcc (nyd/D19E)\r\nContent-Length: 345\r\n\r\n",
+        "asn": "AS15133",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "c032294a3f84a08ba4392b169d137079a473f45e9e2bdde66ec5a559899c8bce",
+            "52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "29d29d15d29d29d00042d42d00000049d8801e4f5e9656b954b3b1ca4a680b",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHdjCCBl6gAwIBAgIQCKsk68fR24kJw14nHJkQ1zANBgkqhkiG9w0BAQsFADBP\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE\naWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMjAyMTkwMDAwMDBa\nFw0yMzAzMjIyMzU5NTlaMHYxCzAJBgNVBAYTAkNIMQ8wDQYDVQQHEwZadXJpY2gx\nQzBBBgNVBAoMOkbDqWTDqXJhdGlvbiBJbnRlcm5hdGlvbmFsZSBkZSBGb290YmFs\nbCBBc3NvY2lhdGlvbiAoRklGQSkxETAPBgNVBAMTCGZpZmEuY29tMIIBIjANBgkq\nhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo+7x3wmax3Movk/5LSGl1FaS9+EjNwO7\n5IXAVk7X2YKQ7r1wu9fByXJMsOYr/9Z3NPtvelYeYmwTDV0Gz+DlhtiZugEvpKHe\n+JzfHPL6uLgIC8IlNKuHgk3YyYsXPDmZHdNCUexUoIq+IWt4RKZQaD1KdsIk1l81\nHxtFwmWaHQUrwRsndCB1p+Prk2UWBQCfBF1QQlELlN8iHMcXvhIB75QYsJa1e9ea\n/nAF211AGb+/EXnooNYZeReR5NG8eqXOFodmQaadOQBYLYhQUzKfOV8BbKj8wlE9\nOLu3dJOgG7GEJqf6pfo2sW8isk3i/N854tU8c6tsNOJ51hhmmYJzWQIDAQABo4IE\nJTCCBCEwHwYDVR0jBBgwFoAUt2ui6qiqhIx56rTaD5iyxZV2ufQwHQYDVR0OBBYE\nFFW56fulhTrca7Nwb2jeR2Z2bKKbMIHOBgNVHREEgcYwgcOCCGZpZmEuY29tggxm\naWZhLmRpZ2l0YWyCCiouZmlmYS5jb22CDiouZmlmYS5kaWdpdGFsghEqLnFhLmZp\nZmEuZGlnaXRhbIIPKi50ZXN0LmZpZmEuY29tghIqLnByZC5maWZhLmRpZ2l0YWyC\nEioucHJlLmZpZmEuZGlnaXRhbIINKi5xYS5maWZhLmNvbYISKi50aWNrZXRzLmZp\nZmEuY29tgg4qLnByZS5maWZhLmNvbYIOKi5wcmQuZmlmYS5jb20wDgYDVR0PAQH/\nBAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjCBjwYDVR0fBIGH\nMIGEMECgPqA8hjpodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNS\nU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2Vy\ndC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTQuY3JsMD4GA1UdIAQ3\nMDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6Ly93d3cuZGlnaWNlcnQu\nY29tL0NQUzB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3Nw\nLmRpZ2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNl\ncnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAJBgNVHRME\nAjAAMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwDoPtDaPvUGNTLnVyi8iWvJ\nA9PL0RFr7Otp4Xd9bQa9bgAAAX8SI332AAAEAwBIMEYCIQCk7zWxc7c/9YZMWHOd\nNJYMdORpcBCdkNijbuOSGXTkcQIhAJD0favM1nuL/VAFspiXz1xF7cVE0mUaGACW\n5uZzDCYqAHYANc8ZG7+xbFe/D61MbULLu7YnICZR6j/hKu+oA8M71kwAAAF/EiN+\nEwAABAMARzBFAiEAvYnml3KwctgvjnAFMwJy6G/csTrkUJHfUx0ICCHwLsICID9d\nnHEFB2q3It56pLzGuEGUa2QyjJjL7d48dxl3tOiPAHYAs3N3B+GEUPhjhtYFqdwR\nCUp5LbFnDAuH3PADDnk2pZoAAAF/EiN+awAABAMARzBFAiEAxpt5vVY+XOnevOPi\nvonsvCOFjNB/xvg1dts+SitkzbcCIF4z1u8Bl5T4iht5PE2Wn1hExZv9q2DBaUeD\njkI+Dn4FMA0GCSqGSIb3DQEBCwUAA4IBAQAfR2AZVolKu+TsTdCnzM2UV1ZIQJ9r\nBfO7P15181ntdB8s9aKtgcBv3J+HIZvO8RuHyrrTLAQF5+4NO2I2LZ2atS+Ril1S\nGt0Gfn2w0GTofs76M8bNx0E6+zv2FXjnK0/CJR7t1ln2OsDBXW/jYYsokniRZ9+B\nf8dZBTLby9CdmFlZENrYJeGmeNt/xxcTAkVyyj6Mr5/lRTfDqiTKRfo4OntUtWyW\nWAmOR7tDIA00/G/JTcwiLd/u6nvSpmpg/YUwQDdRPf9bgSTRTWvzjjsQl6+LAj0C\nZh1K1MbjqAThjMcB1aYefxJBn/02qvjllhfxBfmesY0ln/y/ZVAZFOek\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS\nU0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a\nqXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn\ng9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW\nraKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB\nAfr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r\neacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU\nA95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG\nCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG\nGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh\nY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV\nHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH\nbG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB\nMAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB\nAQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z\nax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h\nqG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC\nEXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6\nce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E\nA7sKPPcw7+uvTPyLNhBzPvOk\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "d392e3b8cfff213eec022a56631bd16f8493f5c9e41bbedf527d43ba5d6ca0ab6b44a6bca8633db67cec081626402bfe18981557b3afcd9251804d2ed94d23f15cc697a218839fe37377af1be949c41da34498b5403330863ca839d6b1c46f38f080e882324a882631e3e1c7cb8f2759e8395e69594a4239b210131be13047219ad407f66a7983db87d9f78c345e2ea7febe9bc8f64dd5759142aae9d6cbd9c8acf6fcac266a9e6884392c46c664d1c8b5d449db268bbc1c99213846b2446339456da2d45b005caaeda50d5d3d36d1e381bdcf7a9e63f3a997e5809994c9628137212eeac8d3b2aec14499d4ab4477304edf770f612748d27d1bc4a85712030b",
+            "public_key": "cfe55e4b900d48c7abd31f15e587f71384108fed45a6affca79160088e91f4fc634723accabf2756357dd0936afe9c35a53545ddf0eeba9bf7ff38fbea4a5ee0870e101fe836d6e1f923b022dacd3243a8dc7fb7802595a46f7d3cf6a59cd04813076e4999e1749b4bcc14392a0fdf076bf4e7fe525cade4b665c3b5a0c7f9a35035f190ee6f39528f97e4a07a69923843c8a22dddb9fc29bae8ce5c459e4ad1778ce139a36f6b858a8d527e385a78d3ba3038d07275ed43ad1c7e8769800688b8fd8818aef2285dbe3baff86ed1422e49fbf9121353738fd3dfe5253203dcfa4ecc6ad05918cf57be04d98bd69537006e93cb76021aafd81fce7dcba045e6e3",
+            "bits": 2048,
+            "generator": 2
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "0c0aff9ccea5e7e1de5c3a0069d103f3",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220219000000Z",
+            "expires": "20230322235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\xb7k\\xa2\\xea\\xa8\\xaa\\x84\\x8cy\\xea\\xb4\\xda\\x0f\\x98\\xb2\\xc5\\x95v\\xb9\\xf4",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14U\\xb9\\xe9\\xfb\\xa5\\x85:\\xdck\\xb3poh\\xdeGfvl\\xa2\\x9b",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x81\\xc3\\x82\\x08fifa.com\\x82\\x0cfifa.digital\\x82\n*.fifa.com\\x82\\x0e*.fifa.digital\\x82\\x11*.qa.fifa.digital\\x82\\x0f*.test.fifa.com\\x82\\x12*.prd.fifa.digital\\x82\\x12*.pre.fifa.digital\\x82\r*.qa.fifa.com\\x82\\x12*.tickets.fifa.com\\x82\\x0e*.pre.fifa.com\\x82\\x0e*.prd.fifa.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x840@\\xa0>\\xa0<\\x86:http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl0@\\xa0>\\xa0<\\x86:http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-4.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0q0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0I\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86=http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00w\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01\\x7f\\x12#}\\xf6\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xa4\\xef5\\xb1s\\xb7?\\xf5\\x86LXs\\x9d4\\x96\\x0ct\\xe4ip\\x10\\x9d\\x90\\xd8\\xa3n\\xe3\\x92\\x19t\\xe4q\\x02!\\x00\\x90\\xf4}\\xab\\xcc\\xd6{\\x8b\\xfdP\\x05\\xb2\\x98\\x97\\xcf\\\\E\\xed\\xc5D\\xd2e\\x1a\\x18\\x00\\x96\\xe6\\xe6s\\x0c&*\\x00v\\x005\\xcf\\x19\\x1b\\xbf\\xb1lW\\xbf\\x0f\\xadLmB\\xcb\\xbb\\xb6\\' &Q\\xea?\\xe1*\\xef\\xa8\\x03\\xc3;\\xd6L\\x00\\x00\\x01\\x7f\\x12#~\\x13\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xbd\\x89\\xe6\\x97r\\xb0r\\xd8/\\x8ep\\x053\\x02r\\xe8o\\xdc\\xb1:\\xe4P\\x91\\xdfS\\x1d\\x08\\x08!\\xf0.\\xc2\\x02 ?]\\x9cq\\x05\\x07j\\xb7\"\\xdez\\xa4\\xbc\\xc6\\xb8A\\x94kd2\\x8c\\x98\\xcb\\xed\\xde<w\\x19w\\xb4\\xe8\\x8f\\x00v\\x00\\xb3sw\\x07\\xe1\\x84P\\xf8c\\x86\\xd6\\x05\\xa9\\xdc\\x11 Jy-\\xb1g\\x0c\\x0b\\x87\\xdc\\xf0\\x03\\x0ey6\\xa5\\x9a\\x00\\x00\\x01\\x7f\\x12#~k\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xc6\\x9by\\xbdV>\\\\\\xe9\\xde\\xbc\\xe3\\xe2\\xbe\\x89\\xec\\xbc#\\x85\\x8c\\xd0\\x7f\\xc6\\xf85v\\xdb>J+d\\xcd\\xb7\\x02 ^3\\xd6\\xef\\x01\\x97\\x94\\xf8\\x8a\\x1by<M\\x96\\x9fXD\\xc5\\x9b\\xfd\\xab`\\xc1iG\\x83\\x8eB>\\x0e~\\x05",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "c032294a3f84a08ba4392b169d137079a473f45e9e2bdde66ec5a559899c8bce",
+              "sha1": "f7f14b8edc0a6e45c024051d076dfe919578105b"
+            },
+            "serial": 1.1522455576293924e+37,
+            "subject": {
+              "C": "CH",
+              "L": "Zurich",
+              "O": "F\\u00e9d\\u00e9ration Internationale de Football Association (FIFA)",
+              "CN": "fifa.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS RSA SHA256 2020 CA1",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "h2",
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4",
+            "cert_status": "good",
+            "produced_at": "2022-03-15 18:12:54",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-22 17:12:01",
+            "this_update": "2022-03-15 17:57:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "E4E395A229D3D4C1C31FF0980C0B4EC0098AABD8",
+              "issuer_name_key": "B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4",
+              "serial_number": "08AB24EBC7D1DB8909C35E271C9910D7"
+            }
+          }
+        },
+        "hostnames": [
+          "fifa.com",
+          "fifa.digital"
+        ],
+        "transport": "tcp",
+        "ip": 2562921309,
+        "domains": [
+          "fifa.com",
+          "fifa.digital"
+        ],
+        "ip_str": "152.195.19.93",
+        "os": null,
+        "_shodan": {
+          "crawler": "78039f81a0245caa8ab71c98182f0eff0ce52aab",
+          "options": {},
+          "id": "6f5fde61-6df5-4f99-a597-f2308d124fb0",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 14:50:00 152.195.19.93:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS15133",
+    "ip_str": "152.195.19.93"
+  }
