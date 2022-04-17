@@ -1,0 +1,366 @@
+{
+    "doc_id": 40,
+    "city": "Secaucus",
+    "region_code": "NJ",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 399620179,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.05653,
+    "last_update": "2022-03-16T05:29:00.977140",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.78955,
+    "hostnames": [
+      "m.nike.com",
+      "nike.com",
+      "communityimpact.nike.com",
+      "www.nike.com.br",
+      "softlaunch.nike.com.br",
+      "news.nike.com",
+      "jobs.nike.com",
+      "unite.nike.com.br",
+      "help.nike.com",
+      "www.nike.com",
+      "secure-store.nike.com",
+      "www.nike.com.hk",
+      "elite.nike.com",
+      "a23-209-184-83.deploy.static.akamaitechnologies.com",
+      "img.nike.com.hk",
+      "niketeam.nike.com",
+      "store.nike.com",
+      "busca.nike.com.br",
+      "m.nike.com.hk",
+      "web.nike.com",
+      "about.nike.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "nike.com.hk",
+      "nike.com",
+      "akamaitechnologies.com",
+      "nike.com.br"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.209.184.83",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;7c012417&#46;1647167783&#46;412e3579\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1386613904,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-13T10:36:23.081834",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Sun, 13 Mar 2022 10:36:23 GMT\r\nDate: Sun, 13 Mar 2022 10:36:23 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": 1403588761,
+        "hostnames": [
+          "a23-209-184-83.deploy.static.akamaitechnologies.com"
+        ],
+        "port": 80,
+        "location": {
+          "city": "Secaucus",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.05653,
+          "latitude": 40.78955,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 399620179,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "e8a84877-3531-419e-b120-06fca147475e",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {},
+        "ip_str": "23.209.184.83"
+      },
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.209.184.83",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;17912f17&#46;1647408540&#46;510c2858\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1367608891,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-16T05:29:00.977140",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Wed, 16 Mar 2022 05:29:00 GMT\r\nDate: Wed, 16 Mar 2022 05:29:00 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": -2089797425,
+        "ssl": {
+          "chain_sha256": [
+            "ea24d8f02fe157153cd592697dd12e595141630ffc7fcfb1a893586c75bbb6a3",
+            "403e062a2653059113285baf80a0d4ae422c848c9f78fad01fc94bc5b87fef1a",
+            "7431e5f4c3c1ce4690774f0b61e05440883ba9a01ed00ba6abd7806ed3b118cf"
+          ],
+          "jarm": "28d28d28d2ad28d00042d42d000000bd133fde671db50adc016473d0d15112",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHqjCCBpKgAwIBAgIQDf09uN6pzCkXTRfExALf0DANBgkqhkiG9w0BAQsFADB1\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMTQwMgYDVQQDEytEaWdpQ2VydCBTSEEyIEV4dGVuZGVk\nIFZhbGlkYXRpb24gU2VydmVyIENBMB4XDTIxMDkyNDAwMDAwMFoXDTIyMDkyMjIz\nNTk1OVowgb8xHTAbBgNVBA8MFFByaXZhdGUgT3JnYW5pemF0aW9uMRMwEQYLKwYB\nBAGCNzwCAQMTAlVTMRcwFQYLKwYBBAGCNzwCAQITBk9yZWdvbjESMBAGA1UEBRMJ\nMDg3Mzk5LTE0MQswCQYDVQQGEwJVUzEPMA0GA1UECBMGT3JlZ29uMRIwEAYDVQQH\nEwlCZWF2ZXJ0b24xEzARBgNVBAoTCk5pa2UsIEluYy4xFTATBgNVBAMTDHd3dy5u\naWtlLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC+TEqgGt/ypsV1Mgoa7\nNNMQbSaaoynNxcL1VbbVWVuvEu8go3g3ZTou4WT2F5UOoN8W0n6CUaVXJq/Pwwor\nRAijggS0MIIEsDAfBgNVHSMEGDAWgBQ901Cl1qCt7vNKYApl0yHU+PjWDzAdBgNV\nHQ4EFgQUkiZdPARkrpgU3hzQgGx4cXwNcvQwggFgBgNVHREEggFXMIIBU4IOYWJv\ndXQubmlrZS5jb22CEWJ1c2NhLm5pa2UuY29tLmJyghhjb21tdW5pdHlpbXBhY3Qu\nbmlrZS5jb22CDmVsaXRlLm5pa2UuY29tgg1oZWxwLm5pa2UuY29tgg9pbWcubmlr\nZS5jb20uaGuCDWpvYnMubmlrZS5jb22CCm0ubmlrZS5jb22CDW0ubmlrZS5jb20u\naGuCDW5ld3MubmlrZS5jb22CCG5pa2UuY29tghFuaWtldGVhbS5uaWtlLmNvbYIV\nc2VjdXJlLXN0b3JlLm5pa2UuY29tghZzb2Z0bGF1bmNoLm5pa2UuY29tLmJygg5z\ndG9yZS5uaWtlLmNvbYIRdW5pdGUubmlrZS5jb20uYnKCDHdlYi5uaWtlLmNvbYIM\nd3d3Lm5pa2UuY29tgg93d3cubmlrZS5jb20uYnKCD3d3dy5uaWtlLmNvbS5oazAO\nBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMHUG\nA1UdHwRuMGwwNKAyoDCGLmh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zaGEyLWV2\nLXNlcnZlci1nMy5jcmwwNKAyoDCGLmh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9z\naGEyLWV2LXNlcnZlci1nMy5jcmwwSgYDVR0gBEMwQTALBglghkgBhv1sAgEwMgYF\nZ4EMAQEwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BT\nMIGIBggrBgEFBQcBAQR8MHowJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2lj\nZXJ0LmNvbTBSBggrBgEFBQcwAoZGaHR0cDovL2NhY2VydHMuZGlnaWNlcnQuY29t\nL0RpZ2lDZXJ0U0hBMkV4dGVuZGVkVmFsaWRhdGlvblNlcnZlckNBLmNydDAMBgNV\nHRMBAf8EAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0EggFpAWcAdQApeb7wnjk5IfBW\nc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXwZwXTAAAAEAwBGMEQCIGdLsf9irm0J\n5jsLaH6o1SGsh4GUVhaALERBqlfROPaqAiBTZ1a5Gmo0bGIM1kZrhIBBcPEaHcS4\nlb/itUMq2Sjj/wB1AFGjsPX9AXmcVm24N3iPDKR6zBsny/eeiEKaDf7UiwXlAAAB\nfBnBdRcAAAQDAEYwRAIgNIbpDc1OxbgCX6c4puMItM0YP6m9ls60s3dmkNZPdlgC\nIEPaGL71FN0gR7j2Ro+6Jb2H2EmDYmL7eq1byVSRHI/BAHcAQcjKsd8iRkoQxqE6\nCUKHXk4xixsD6+tLx2jwkGKWBvYAAAF8GcF07gAABAMASDBGAiEAsWY1WM+Bf7+P\nv6BvTeGOZPe9HJM0p9TVwo9QGYBYJT8CIQCIRFuxoC5CstfMYGBusse9fCwH5yW/\nEnIkseqHNcwrpjANBgkqhkiG9w0BAQsFAAOCAQEAlV6Rl5yrDccadcRD0aGSCGi1\nKYF4nYsgt9NiKx/dX3GTnjv7XYwNJ9qTVp4b6p1aluJMb5YzI/V0cI1VjkHy+E73\naOsOYne2FIu2ADGZQJzuRszrS5QI5ZM94HVmXcAHqBZDidPAyj0GEsl8VsGruoxC\nD3UPBVthgdLubYzkzjTlI4dIRHw17/IbDxIgTvFwUwgvXDECkdXvkTwXT/eckiL9\nufo3GK27/4jIyfcoqM6E58gs1fBem2Dw9zZJy5E/zNtaaeE2SEE+JjPbUQR1wXYp\nKSoTeUEl2INgS9qZnxV3wSnZrTCTl6jDCVGGDjeNmDMU9DWN1hB2+agl5oDMXA==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEtjCCA56gAwIBAgIQDHmpRLCMEZUgkmFf4msdgzANBgkqhkiG9w0BAQsFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTEzMTAyMjEyMDAwMFoXDTI4MTAyMjEyMDAwMFowdTEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTE0MDIGA1UEAxMrRGlnaUNlcnQgU0hBMiBFeHRlbmRlZCBW\nYWxpZGF0aW9uIFNlcnZlciBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC\nggEBANdTpARR+JmmFkhLZyeqk0nQOe0MsLAAh/FnKIaFjI5j2ryxQDji0/XspQUY\nuD0+xZkXMuwYjPrxDKZkIYXLBxA0sFKIKx9om9KxjxKws9LniB8f7zh3VFNfgHk/\nLhqqqB5LKw2rt2O5Nbd9FLxZS99RStKh4gzikIKHaq7q12TWmFXo/a8aUGxUvBHy\n/Urynbt/DvTVvo4WiRJV2MBxNO723C3sxIclho3YIeSwTQyJ3DkmF93215SF2AQh\ncJ1vb/9cuhnhRctWVyh+HA1BV6q3uCe7seT6Ku8hI3UarS2bhjWMnHe1c63YlC3k\n8wyd7sFOYn4XwHGeLN7x+RAoGTMCAwEAAaOCAUkwggFFMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF\nBQcDAjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRp\nZ2ljZXJ0LmNvbTBLBgNVHR8ERDBCMECgPqA8hjpodHRwOi8vY3JsNC5kaWdpY2Vy\ndC5jb20vRGlnaUNlcnRIaWdoQXNzdXJhbmNlRVZSb290Q0EuY3JsMD0GA1UdIAQ2\nMDQwMgYEVR0gADAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5j\nb20vQ1BTMB0GA1UdDgQWBBQ901Cl1qCt7vNKYApl0yHU+PjWDzAfBgNVHSMEGDAW\ngBSxPsNpA/i/RwHUmCYaCALvY2QrwzANBgkqhkiG9w0BAQsFAAOCAQEAnbbQkIbh\nhgLtxaDwNBx0wY12zIYKqPBKikLWP8ipTa18CK3mtlC4ohpNiAexKSHc59rGPCHg\n4xFJcKx6HQGkyhE6V6t9VypAdP3THYUYUN9XR3WhfVUgLkc3UHKMf4Ib0mKPLQNa\n2sPIoc4sUqIAY+tzunHISScjl2SFnjgOrWNoPLpSgVh5oywM395t6zHyuqB8bPEs\n1OG9d4Q3A84ytciagRpKkk47RpqF/oOi+Z6Mo8wNXrM9zwR4jxQUezKcxwCmXMS1\noVWNWlZopCJwqjyBcdmdqEU79OX2olHdx3ti6G8MdOu42vi/hw15UJGQmxg7kVkn\n8TUoE6smftX3eg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDxTCCAq2gAwIBAgIQAqxcJmoLQJuPC3nyrkYldzANBgkqhkiG9w0BAQUFADBs\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSswKQYDVQQDEyJEaWdpQ2VydCBIaWdoIEFzc3VyYW5j\nZSBFViBSb290IENBMB4XDTA2MTExMDAwMDAwMFoXDTMxMTExMDAwMDAwMFowbDEL\nMAkGA1UEBhMCVVMxFTATBgNVBAoTDERpZ2lDZXJ0IEluYzEZMBcGA1UECxMQd3d3\nLmRpZ2ljZXJ0LmNvbTErMCkGA1UEAxMiRGlnaUNlcnQgSGlnaCBBc3N1cmFuY2Ug\nRVYgUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMbM5XPm\n+9S75S0tMqbf5YE/yc0lSbZxKsPVlDRnogocsF9ppkCxxLeyj9CYpKlBWTrT3JTW\nPNt0OKRKzE0lgvdKpVMSOO7zSW1xkX5jtqumX8OkhPhPYlG++MXs2ziS4wblCJEM\nxChBVfvLWokVfnHoNb9Ncgk9vjo4UFt3MRuNs8ckRZqnrG0AFFoEt7oT61EKmEFB\nIk5lYYeBQVCmeVyJ3hlKV9Uu5l0cUyx+mM0aBhakaHPQNAQTXKFx01p8VdteZOE3\nhzBWBOURtCmAEvF5OYiiAhF8J2a3iLd48soKqDirCmTCv2ZdlYTBoSUeh10aUAsg\nEsxBu24LUTi4S8sCAwEAAaNjMGEwDgYDVR0PAQH/BAQDAgGGMA8GA1UdEwEB/wQF\nMAMBAf8wHQYDVR0OBBYEFLE+w2kD+L9HAdSYJhoIAu9jZCvDMB8GA1UdIwQYMBaA\nFLE+w2kD+L9HAdSYJhoIAu9jZCvDMA0GCSqGSIb3DQEBBQUAA4IBAQAcGgaX3Nec\nnzyIZgYIVyHbIUf4KmeqvxgydkAQV8GK83rZEWWONfqe/EW1ntlMMUu4kehDLI6z\neM7b41N5cdblIZQB2lWHmiRk9opmzN6cN82oNLFpmyPInngiK3BD41VHMWEZ71jF\nhS9OMPagMRYjyOfiZRYzy78aG6A9+MpeizGLYAiJLQwGXFK3xPkKmNEVX58Svnw2\nYzi9RKR/5CYrCsSXaQ3pjOLAEFe4yHYSkVXySGnYvCoCWw9E1CAx2/S6cCZdkGCe\nvEsXCS+0yx5DaMkHJ8HSXPfqIbloEpw8nL+e/IBcm2PN7EeqJSdnoDfzAIJ9VNep\n+OkuE6N36B9K\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210924000000Z",
+            "expires": "20220922235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14=\\xd3P\\xa5\\xd6\\xa0\\xad\\xee\\xf3J`\ne\\xd3!\\xd4\\xf8\\xf8\\xd6\\x0f",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\x92&]<\\x04d\\xae\\x98\\x14\\xde\\x1c\\xd0\\x80lxq|\rr\\xf4",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x01S\\x82\\x0eabout.nike.com\\x82\\x11busca.nike.com.br\\x82\\x18communityimpact.nike.com\\x82\\x0eelite.nike.com\\x82\rhelp.nike.com\\x82\\x0fimg.nike.com.hk\\x82\rjobs.nike.com\\x82\nm.nike.com\\x82\rm.nike.com.hk\\x82\rnews.nike.com\\x82\\x08nike.com\\x82\\x11niketeam.nike.com\\x82\\x15secure-store.nike.com\\x82\\x16softlaunch.nike.com.br\\x82\\x0estore.nike.com\\x82\\x11unite.nike.com.br\\x82\\x0cweb.nike.com\\x82\\x0cwww.nike.com\\x82\\x0fwww.nike.com.br\\x82\\x0fwww.nike.com.hk",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0l04\\xa02\\xa00\\x86.http://crl3.digicert.com/sha2-ev-server-g3.crl04\\xa02\\xa00\\x86.http://crl4.digicert.com/sha2-ev-server-g3.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0A0\\x0b\\x06 `\\x86H\\x01\\x86\\xfdl\\x02\\x0102\\x06\\x05g\\x81\\x0c\\x01\\x010)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0z0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0R\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Fhttp://cacerts.digicert.com/DigiCertSHA2ExtendedValidationServerCA.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01i\\x01g\\x00u\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01|\\x19\\xc1t\\xc0\\x00\\x00\\x04\\x03\\x00F0D\\x02 gK\\xb1\\xffb\\xaem \\xe6;\\x0bh~\\xa8\\xd5!\\xac\\x87\\x81\\x94V\\x16\\x80,DA\\xaaW\\xd18\\xf6\\xaa\\x02 SgV\\xb9\\x1aj4lb\\x0c\\xd6Fk\\x84\\x80Ap\\xf1\\x1a\\x1d\\xc4\\xb8\\x95\\xbf\\xe2\\xb5C*\\xd9(\\xe3\\xff\\x00u\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01|\\x19\\xc1u\\x17\\x00\\x00\\x04\\x03\\x00F0D\\x02 4\\x86\\xe9\r\\xcdN\\xc5\\xb8\\x02_\\xa78\\xa6\\xe3\\x08\\xb4\\xcd\\x18?\\xa9\\xbd\\x96\\xce\\xb4\\xb3wf\\x90\\xd6OvX\\x02 C\\xda\\x18\\xbe\\xf5\\x14\\xdd G\\xb8\\xf6F\\x8f\\xba%\\xbd\\x87\\xd8I\\x83bb\\xfbz\\xad[\\xc9T\\x91\\x1c\\x8f\\xc1\\x00w\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01|\\x19\\xc1t\\xee\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xb1f5X\\xcf\\x81\\x7f\\xbf\\x8f\\xbf\\xa0oM\\xe1\\x8ed\\xf7\\xbd\\x1c\\x934\\xa7\\xd4\\xd5\\xc2\\x8fP\\x19\\x80X%?\\x02!\\x00\\x88D[\\xb1\\xa0.B\\xb2\\xd7\\xcc``n\\xb2\\xc7\\xbd|,\\x07\\xe7%\\xbf\\x12r$\\xb1\\xea\\x875\\xcc+\\xa6",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "ea24d8f02fe157153cd592697dd12e595141630ffc7fcfb1a893586c75bbb6a3",
+              "sha1": "363753fee0249b8392959744cdfa3c5a34c35b28"
+            },
+            "serial": 1.8594866924291887e+37,
+            "subject": {
+              "C": "US",
+              "CN": "www.nike.com",
+              "businessCategory": "Private Organization",
+              "jurisdictionST": "Oregon",
+              "serialNumber": "087399-14",
+              "L": "Beaverton",
+              "O": "Nike, Inc.",
+              "ST": "Oregon",
+              "jurisdictionC": "US"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "www.digicert.com",
+              "O": "DigiCert Inc",
+              "CN": "DigiCert SHA2 Extended Validation Server CA"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F",
+            "cert_status": "good",
+            "produced_at": "2022-03-15 02:42:57",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-22 01:42:01",
+            "this_update": "2022-03-15 02:27:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "49F4BD8A18BF760698C5DE402D683B716AE4E686",
+              "issuer_name_key": "3DD350A5D6A0ADEEF34A600A65D321D4F8F8D60F",
+              "serial_number": "0DFD3DB8DEA9CC29174D17C4C402DFD0"
+            }
+          }
+        },
+        "hostnames": [
+          "nike.com",
+          "communityimpact.nike.com",
+          "www.nike.com.br",
+          "softlaunch.nike.com.br",
+          "news.nike.com",
+          "jobs.nike.com",
+          "unite.nike.com.br",
+          "a23-209-184-83.deploy.static.akamaitechnologies.com",
+          "help.nike.com",
+          "www.nike.com",
+          "secure-store.nike.com",
+          "www.nike.com.hk",
+          "elite.nike.com",
+          "img.nike.com.hk",
+          "store.nike.com",
+          "niketeam.nike.com",
+          "m.nike.com",
+          "m.nike.com.hk",
+          "busca.nike.com.br",
+          "web.nike.com",
+          "about.nike.com"
+        ],
+        "port": 443,
+        "location": {
+          "city": "Secaucus",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.05653,
+          "latitude": 40.78955,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 399620179,
+        "domains": [
+          "nike.com",
+          "nike.com.br",
+          "akamaitechnologies.com",
+          "nike.com.hk"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "bf213bc419cc8491376c12af31e32623c1b6f467",
+          "options": {},
+          "id": "c9a255c7-9d96-4244-9034-a9c3cb467512",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/16 05:29:08 23.209.184.83:443 - SAFE\n"
+        },
+        "ip_str": "23.209.184.83"
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "23.209.184.83"
+  }

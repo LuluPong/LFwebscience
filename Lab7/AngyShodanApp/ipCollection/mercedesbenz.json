@@ -1,0 +1,327 @@
+{
+    "doc_id": 35,
+    "city": "Ashburn",
+    "region_code": "VA",
+    "os": null,
+    "tags": [],
+    "ip": 3236274983,
+    "isp": "Verizon Business",
+    "area_code": null,
+    "longitude": -77.48749,
+    "last_update": "2022-03-16T12:15:40.380649",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 39.04372,
+    "hostnames": [
+      "mbvans.com",
+      "shesmercedes.mx",
+      "freightlinersprinterusa.com",
+      "mbusa.com",
+      "mbrise.com",
+      "smartusa.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "mbvans.com",
+      "shesmercedes.mx",
+      "freightlinersprinterusa.com",
+      "mbusa.com",
+      "mbrise.com",
+      "smartusa.com"
+    ],
+    "org": "Verizon Business",
+    "data": [
+      {
+        "hash": -914136919,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "waf": "Edgecast (Verizon Digital Media)",
+          "robots": null,
+          "server": "ECS (sab/5740)",
+          "host": "www.mbusa.com",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-10T03:58:37.946832",
+        "org": "Verizon Business",
+        "isp": "Verizon Business",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Thu, 10 Mar 2022 03:58:37 GMT\r\nLocation: https://www.mbusa.com/en/home\r\nServer: ECS (sab/5740)\r\nx-policy-version: v1.7.160\r\nX-UA-Compatible: IE=edge\r\nContent-Length: 0\r\n\r\n",
+        "asn": "AS15133",
+        "port": 80,
+        "hostnames": [],
+        "transport": "tcp",
+        "ip": 3236274983,
+        "domains": [],
+        "ip_str": "192.229.163.39",
+        "os": null,
+        "_shodan": {
+          "crawler": "6d5195c331613d103027c23dc52e6d32fd2a74af",
+          "options": {
+            "hostname": "www.mbusa.com",
+            "scan": "epfvfClgB38sjbAX"
+          },
+          "id": "316b6e44-c6a7-4596-a132-2420e19bee04",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1727587902,
+        "http": {
+          "status": 404,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "404 - Not Found",
+          "sitemap_hash": null,
+          "waf": "Edgecast (Verizon Digital Media)",
+          "robots": null,
+          "server": "ECS (bsa/EB13)",
+          "host": "192.229.163.39",
+          "html": "<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\n         \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\">\n <head>\n  <title>404 - Not Found</title>\n </head>\n <body>\n  <h1>404 - Not Found</h1>\n </body>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 789583739,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-16T12:15:40.380649",
+        "org": "Verizon Business",
+        "isp": "Verizon Business",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nDate: Wed, 16 Mar 2022 12:15:40 GMT\r\nServer: ECS (bsa/EB13)\r\nContent-Length: 345\r\n\r\n",
+        "asn": "AS15133",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "2cb949eae7f9f86b551bada9122cfc4cb99551714427a89952de330bcfc0bbc8",
+            "52274c57ce4dee3b49db7a7ff708c040f771898b3be88725a86fb4430182fe14",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "29d29d15d29d29d00042d42d00000049d8801e4f5e9656b954b3b1ca4a680b",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHujCCBqKgAwIBAgIQDBpojHwbsl7G6ep7rkErVzANBgkqhkiG9w0BAQsFADBP\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE\naWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMTA4MTcwMDAwMDBa\nFw0yMjA5MTcyMzU5NTlaMIGJMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZv\ncm5pYTEUMBIGA1UEBxMLTG9zIEFuZ2VsZXMxLTArBgNVBAoTJFZlcml6b24gRGln\naXRhbCBNZWRpYSBTZXJ2aWNlcywgSW5jLjEgMB4GA1UEAwwXKi5tZXJjZWRlcy1i\nZW56LXZhbnMuY2EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCCbx6X\noACVF6VpQvpKhZiwbtDS7veg4eHlxGwVKqe/CkYAdd4iEADPzDlXBLfyzmwUnfjU\nveeeZJLBwe9mWrgjQlrHdgC/pNTn6E+Yg97OSlmYaOspJRBIdDkCKnEXQO5PdCWs\nZwK2H3D9ZOWINiscCTrlDKYwfWnP43pIdcovBCYvh6Vi3rl/Xz9Jsf7Pap+0FQLg\n+kRkHsT//zsXY+BJWkZCkmRP3sa6JxTvKpIoQu/xPXAZSsanu7zuj4Gl8/SwEb9X\nqplkKspxg7R7knAjTwIUdWnluikpckgShhtx1o/bv3p7hjyR7mBrv851/iEisk4d\nM2Y8/M1G2EzR6BKBAgMBAAGjggRVMIIEUTAfBgNVHSMEGDAWgBS3a6LqqKqEjHnq\ntNoPmLLFlXa59DAdBgNVHQ4EFgQULyoiC7fiFvCtGod+xKJMSaOycL0wgfkGA1Ud\nEQSB8TCB7oIXKi5tZXJjZWRlcy1iZW56LXZhbnMuY2GCCW1idXNhLmNvbYILKi5t\nYnVzYS5jb22CDCoubWJ2YW5zLmNvbYIdKi5mcmVpZ2h0bGluZXJzcHJpbnRlcnVz\nYS5jb22CEioubWVyY2VkZXMtYmVuei5jYYIWKi5tZXJjZWRlcy1iZW56LmNvbS5t\neIIOKi5zbWFydHVzYS5jb22CD3NoZXNtZXJjZWRlcy5teIIKbWJ2YW5zLmNvbYIM\nc21hcnR1c2EuY29tghtmcmVpZ2h0bGluZXJzcHJpbnRlcnVzYS5jb22CCm1icmlz\nZS5jb20wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEF\nBQcDAjCBjwYDVR0fBIGHMIGEMECgPqA8hjpodHRwOi8vY3JsMy5kaWdpY2VydC5j\nb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0ExLTEuY3JsMECgPqA8hjpodHRw\nOi8vY3JsNC5kaWdpY2VydC5jb20vRGlnaUNlcnRUTFNSU0FTSEEyNTYyMDIwQ0Ex\nLTEuY3JsMD4GA1UdIAQ3MDUwMwYGZ4EMAQICMCkwJwYIKwYBBQUHAgEWG2h0dHA6\nLy93d3cuZGlnaWNlcnQuY29tL0NQUzB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUH\nMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDov\nL2NhY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENB\nMS0xLmNydDAMBgNVHRMBAf8EAjAAMIIBgQYKKwYBBAHWeQIEAgSCAXEEggFtAWsA\ndwApeb7wnjk5IfBWc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXtVxB+kAAAEAwBI\nMEYCIQCyxReyd/KeWvKMkr4r+Op2vjitg2iqpIooYDQ0bChyMAIhAOieHHy2so0m\n7lQmLCHS/alMOLgQSqeK0+D5vpGEvSTlAHcAUaOw9f0BeZxWbbg3eI8MpHrMGyfL\n956IQpoN/tSLBeUAAAF7VcQfqgAABAMASDBGAiEA46hh6Zugv2GKAd1yFHjXw1P+\nF+edh7mca9njCCf2qAsCIQDgJPmr2mucuKOhQUmidCz+O8PZdGq5XJcsH/j6pG5m\nlwB3AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABe1XEH3YAAAQD\nAEgwRgIhAKsUH1H1JpdEaS6aTrD5COf/xFrp+/H98kb0olwi74dQAiEAxMAXlTXq\nsUJlADoByHrtn/0OMx/BssgOna7h25OJTv4wDQYJKoZIhvcNAQELBQADggEBAJ8x\nZDqsmN1xJTe9tub7MWlbeTj7U6kTjxSoRPUpSh6S4iek7rJTHne5sgxUksiZct7z\nYTLsTDHs9BGliwDNPEEo8IDa6/jBkBz95R3NDYPLoU78HuT5YqfHeAbXGKn57pF3\nTX+kfbvbQLfVpXPSUrH4nOK2YsNJcJhfv0rglWLTCnA946vm6k6fkrg5l6EWGDMJ\ntHeN0jh2xQBxHvQ0UxrJkJVQ7dHBq/bC64kzEniV2hiMhwhuJvm7AZ6gqNMp/H7d\nscuvaaU2xM4zuicEFVeEElFfoBN/aMlfLFCssWjAqlfPdaZX45CIqPqHVc1p97GY\nrezpyk16us99/MSDnk4=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS\nU0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a\nqXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn\ng9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW\nraKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB\nAfr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r\neacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB\n/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU\nA95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG\nCCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG\nGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh\nY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV\nHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH\nbG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB\nMAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB\nAQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z\nax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h\nqG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC\nEXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6\nce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E\nA7sKPPcw7+uvTPyLNhBzPvOk\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "d392e3b8cfff213eec022a56631bd16f8493f5c9e41bbedf527d43ba5d6ca0ab6b44a6bca8633db67cec081626402bfe18981557b3afcd9251804d2ed94d23f15cc697a218839fe37377af1be949c41da34498b5403330863ca839d6b1c46f38f080e882324a882631e3e1c7cb8f2759e8395e69594a4239b210131be13047219ad407f66a7983db87d9f78c345e2ea7febe9bc8f64dd5759142aae9d6cbd9c8acf6fcac266a9e6884392c46c664d1c8b5d449db268bbc1c99213846b2446339456da2d45b005caaeda50d5d3d36d1e381bdcf7a9e63f3a997e5809994c9628137212eeac8d3b2aec14499d4ab4477304edf770f612748d27d1bc4a85712030b",
+            "public_key": "7831dcbd200818018bf5a6ff1019e6ce2b088e2e72446d1e2c66e58f00ef973b76ee634b550d69deccf51dd519a30e49875ebd54549c43e3d350e239cfb8e3b25f29426aa6f54b13fb8ea68d239e9cb308de4ca7476fd78b2bb294da4e7d11d18d3edbc85cd260bdf2ec44e0fe4578380099ee7250832fe2b22c8239b57a5de1b504b1d33a40a0da02ad5a96f2be675d02ec82e5e75183a67f67e13c31cec20cd6fcd233d2bb3166108846a4faf17f0efa3d51198c68c98559e72c24622934e8ba0771c2fa3420748a6329c16ee8ad725fd9f35c01d6ee8ad26a13590ac3f312ca1d8b160f94b366abf7eb0c3ebb8b7cd9f2b8abee638ed34e59ae3762448c76",
+            "bits": 2048,
+            "generator": 2
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "0c0aff9ccea5e7e1de5c3a0069d103f3",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210817000000Z",
+            "expires": "20220917235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\xb7k\\xa2\\xea\\xa8\\xaa\\x84\\x8cy\\xea\\xb4\\xda\\x0f\\x98\\xb2\\xc5\\x95v\\xb9\\xf4",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14/*\"\\x0b\\xb7\\xe2\\x16\\xf0\\xad\\x1a\\x87~\\xc4\\xa2LI\\xa3\\xb2p\\xbd",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x81\\xee\\x82\\x17*.mercedes-benz-vans.ca\\x82 mbusa.com\\x82\\x0b*.mbusa.com\\x82\\x0c*.mbvans.com\\x82\\x1d*.freightlinersprinterusa.com\\x82\\x12*.mercedes-benz.ca\\x82\\x16*.mercedes-benz.com.mx\\x82\\x0e*.smartusa.com\\x82\\x0fshesmercedes.mx\\x82\nmbvans.com\\x82\\x0csmartusa.com\\x82\\x1bfreightlinersprinterusa.com\\x82\nmbrise.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x840@\\xa0>\\xa0<\\x86:http://crl3.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crl0@\\xa0>\\xa0<\\x86:http://crl4.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0q0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0I\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86=http://cacerts.digicert.com/DigiCertTLSRSASHA2562020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01m\\x01k\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01{U\\xc4\\x1f\\xa4\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xb2\\xc5\\x17\\xb2w\\xf2\\x9eZ\\xf2\\x8c\\x92\\xbe+\\xf8\\xeav\\xbe8\\xad\\x83h\\xaa\\xa4\\x8a(`44l(r0\\x02!\\x00\\xe8\\x9e\\x1c|\\xb6\\xb2\\x8d&\\xeeT&,!\\xd2\\xfd\\xa9L8\\xb8\\x10J\\xa7\\x8a\\xd3\\xe0\\xf9\\xbe\\x91\\x84\\xbd$\\xe5\\x00w\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01{U\\xc4\\x1f\\xaa\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xe3\\xa8a\\xe9\\x9b\\xa0\\xbfa\\x8a\\x01\\xddr\\x14x\\xd7\\xc3S\\xfe\\x17\\xe7\\x9d\\x87\\xb9\\x9ck\\xd9\\xe3\\x08\\'\\xf6\\xa8\\x0b\\x02!\\x00\\xe0$\\xf9\\xab\\xdak\\x9c\\xb8\\xa3\\xa1AI\\xa2t,\\xfe;\\xc3\\xd9tj\\xb9\\\\\\x97,\\x1f\\xf8\\xfa\\xa4nf\\x97\\x00w\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01{U\\xc4\\x1fv\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xab\\x14\\x1fQ\\xf5&\\x97Di.\\x9aN\\xb0\\xf9\\x08\\xe7\\xff\\xc4Z\\xe9\\xfb\\xf1\\xfd\\xf2F\\xf4\\xa2\\\\\"\\xef\\x87P\\x02!\\x00\\xc4\\xc0\\x17\\x955\\xea\\xb1Be\\x00:\\x01\\xc8z\\xed\\x9f\\xfd\\x0e3\\x1f\\xc1\\xb2\\xc8\\x0e\\x9d\\xae\\xe1\\xdb\\x93\\x89N\\xfe",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "2cb949eae7f9f86b551bada9122cfc4cb99551714427a89952de330bcfc0bbc8",
+              "sha1": "de39011bb86a0ebc184f961d5577216101c31990"
+            },
+            "serial": 1.6087856168692053e+37,
+            "subject": {
+              "CN": "*.mercedes-benz-vans.ca",
+              "C": "US",
+              "L": "Los Angeles",
+              "O": "Verizon Digital Media Services, Inc.",
+              "ST": "California"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS RSA SHA256 2020 CA1",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "h2",
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4",
+            "cert_status": "good",
+            "produced_at": "2022-03-13 23:42:51",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-20 22:42:01",
+            "this_update": "2022-03-13 23:27:01",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "E4E395A229D3D4C1C31FF0980C0B4EC0098AABD8",
+              "issuer_name_key": "B76BA2EAA8AA848C79EAB4DA0F98B2C59576B9F4",
+              "serial_number": "0C1A688C7C1BB25EC6E9EA7BAE412B57"
+            }
+          }
+        },
+        "hostnames": [
+          "mbvans.com",
+          "shesmercedes.mx",
+          "freightlinersprinterusa.com",
+          "mbusa.com",
+          "mbrise.com",
+          "smartusa.com"
+        ],
+        "transport": "tcp",
+        "ip": 3236274983,
+        "domains": [
+          "mbvans.com",
+          "shesmercedes.mx",
+          "freightlinersprinterusa.com",
+          "mbusa.com",
+          "mbrise.com",
+          "smartusa.com"
+        ],
+        "ip_str": "192.229.163.39",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "58962d42-9ab4-4122-b5e5-896dc01d3697",
+          "module": "https",
+          "options": {}
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/16 12:16:56 192.229.163.39:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS15133",
+    "ip_str": "192.229.163.39"
+  }

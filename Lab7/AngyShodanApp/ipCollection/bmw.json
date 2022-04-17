@@ -1,0 +1,513 @@
+{
+    "doc_id": 11,
+    "city": "Berlin",
+    "region_code": "BE",
+    "os": null,
+    "tags": [],
+    "ip": 2687427237,
+    "isp": "Bayerische Motoren Werke Aktiengesellschaft",
+    "area_code": null,
+    "longitude": 13.41053,
+    "last_update": "2022-03-18T11:38:13.387855",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 52.52437,
+    "hostnames": [
+      "bmw.ee",
+      "bmw.my",
+      "bmw.cz",
+      "bmw.ro",
+      "bmw.ru",
+      "bmw.ca",
+      "bmw.com.uy",
+      "bmw.com.mx",
+      "bmw.es",
+      "bmw.co.nz",
+      "bmwlat.com",
+      "bmw.ch",
+      "bmw.at",
+      "bmw.cl",
+      "www-origin.bmw-prod2.com",
+      "bmw.com",
+      "www-origin-proda2.bmw.com",
+      "bmw.pt",
+      "bmw.com.br",
+      "bmw.lv",
+      "bmw.pl",
+      "bmw.lt",
+      "bmw.com.pe",
+      "bmw.de",
+      "bmw.com.pa",
+      "bmw.se",
+      "bmw.com.co",
+      "bmw.sk",
+      "bmw.fi",
+      "bmw.si",
+      "bmw.lu",
+      "bmw.dk",
+      "bmw.be",
+      "bmw.fr",
+      "bmw.bg",
+      "bmw.nl",
+      "bmw.no",
+      "bmw.co.kr",
+      "bmw.com.tr",
+      "bmw.com.py",
+      "bmw.co.uk",
+      "bmw.com.tw",
+      "bmw.com.au",
+      "bmw.ie",
+      "bmw.co.za",
+      "bmw.gr",
+      "bmw.co.jp",
+      "bmw.in",
+      "bmw.com.gt",
+      "next100.bmw",
+      "bmw.it",
+      "bmw.co.id",
+      "bmw-m.com",
+      "www-origin.bmw-prod3.com"
+    ],
+    "country_code": "DE",
+    "country_name": "Germany",
+    "domains": [
+      "bmw.ee",
+      "bmw-prod3.com",
+      "bmw.my",
+      "bmw.cz",
+      "bmw.ro",
+      "bmw.ru",
+      "bmw.ca",
+      "bmw.com.uy",
+      "bmw.com.mx",
+      "bmw.es",
+      "bmw.co.nz",
+      "bmwlat.com",
+      "bmw.ch",
+      "bmw.at",
+      "bmw.cl",
+      "bmw.com",
+      "bmw.co.jp",
+      "bmw.pt",
+      "bmw.com.br",
+      "bmw.lv",
+      "bmw.pl",
+      "bmw.lt",
+      "bmw.com.pe",
+      "bmw.de",
+      "bmw.com.pa",
+      "bmw.co.id",
+      "bmw.se",
+      "bmw.com.co",
+      "bmw.sk",
+      "bmw.fi",
+      "bmw.si",
+      "bmw.lu",
+      "bmw.dk",
+      "bmw.be",
+      "bmw.fr",
+      "bmw.bg",
+      "bmw.nl",
+      "bmw.no",
+      "bmw.co.kr",
+      "bmw.com.tr",
+      "bmw.com.py",
+      "bmw.co.uk",
+      "bmw.com.tw",
+      "bmw.com.au",
+      "bmw.ie",
+      "bmw.co.za",
+      "bmw.gr",
+      "bmw.in",
+      "bmw.com.gt",
+      "next100.bmw",
+      "bmw.it",
+      "bmw-prod2.com",
+      "bmw-m.com"
+    ],
+    "org": "BMW AG, Berlin production plant",
+    "data": [
+      {
+        "hash": 812611488,
+        "product": "Apache httpd",
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "BMW Group - no content deployed",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache",
+          "host": "160.46.226.165",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n       \"http://www.w3.org/TR/html4/loose.dtd\">\n<html>\n <head>\n <title>BMW Group - no content deployed</title>\n <meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\">\n <style type=\"text/css\">\n    body       { vertical-align: middle; }\n    p          { font-family: Verdana, Arial, Helvetica, sans-serif;\n                 text-align: center;\n                 font-size: 10pt; }\n    .bold      { font-weight: bold; }\n </style>\n </head>\n\n <body>\n  <div>\n    <p style=\"margin-top: 150px;\"/>\n    <p><img src=\"/webops-global-icons/bmw/bmw_group.png\" alt=\"BMW Group\"/></p>\n    <p class=\"bold\">BMW - New Installation (ML6)</p>\n    <p>This project didn't deploy any content yet.</p>\n  </div>\n\n </body>\n</html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 168381457,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 2687427237,
+        "org": "BMW AG, Berlin production plant",
+        "isp": "Bayerische Motoren Werke Aktiengesellschaft",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:apache:http_server"
+        ],
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 17 Mar 2022 17:12:23 GMT\r\nServer: Apache\r\nLast-Modified: Fri, 13 Feb 2015 17:06:06 GMT\r\nETag: \"307-50efb408b3be0\"\r\nAccept-Ranges: bytes\r\nContent-Length: 775\r\nContent-Type: text/html\r\n\r\n",
+        "asn": "AS8590",
+        "port": 80,
+        "hostnames": [],
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server"
+        ],
+        "timestamp": "2022-03-17T17:12:23.076621",
+        "domains": [],
+        "ip_str": "160.46.226.165",
+        "os": null,
+        "_shodan": {
+          "crawler": "7e008d8e260e7a871c74ebf9ca7fe5279d16ba80",
+          "options": {},
+          "id": "1f41d1b2-9b8b-4b3f-a704-9c1bff01455c",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Berlin",
+          "region_code": "BE",
+          "area_code": null,
+          "longitude": 13.41053,
+          "latitude": 52.52437,
+          "country_code": "DE",
+          "country_name": "Germany"
+        }
+      },
+      {
+        "hash": -98007827,
+        "product": "Apache httpd",
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "html_hash": -393131964,
+          "robots": null,
+          "favicon": {
+            "hash": 1125263655,
+            "data": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAABWdJREFU\nWAm1l0tMXFUYx+/MADImFVgYWoo2DsFoo3VjGzclkloWbYMVExeQukLTmJT3QyFWSlMWvAamphqr\nS1gYH4ig9JGo0UVTTHzF1kSHaG2BViPQtMDwGn9/uDO59zIDU6onOXPO+V7/737nO9854zISbE1N\nTSkTExP5iBe6XK7tjFnhcDhL6qxHGUZZX2Lsz8jI+AL5OfHWa671BGprazfPz88fxXgJskF6n8fj\n+ZZxLDU1VcDG7OysHNmyuLj4JONBHPIx9iYnJze3tbWNM4/b4joQCATuGRkZaUTzCOC9SUlJrR0d\nHX/IUnl5uaLwIdM8xseXlpYCbrf7Mb/f/5v41dXV2xYWFurgFbM86fP5TpSVlYXEc7aYDuir5+bm\nPkZ4MiUlpYyv+NWqWFFRcYh1Nf0HnHsYoDTmxV1dXd9b5bCTi50AtHTsPBcrGm6rguY1NTU7UBrm\ni75iL/c7wSUDoJd+lmku/TL9d7qXbmtsXRJyjbIlm7JtE2Bhc8Dc70GUjvFl/0xOTn5TX1//oFMJ\nnoc+zh4XIVsF/xpjilWOJJTt96A/wta8yrwZhwaFYZWLOqA9V9jxtgeBrQA8hPK5UCj0PiEvsip1\nLRZ82jWz50rbVN4LyL0I7wzOKEGjbWpq6hUWIfi5lZWV1d3d3adlWxjCiggmRSZmwk2ioAyvB/wE\n81KU3iS790L7yDjcf8AIG68bofldET2AM0nCrThahKM+6OfS09PPcGRfw8Yt1k9j53N4pcw/oD9h\nYh1lbiwnoRn6yxjbhbEJMngI5U0ovsTo/8XY9vzQdI7fMMIHpWRr7zxrS2SA9qNTgK1TjOM49jPy\nV+i3oR1mdLMVF5k/qqRc3gLznPcq4Thqf3O+9wB+AwOn//RklwxN+zgRMcBtnqwsOAmDXq+3BZvV\nRO4BqDp+b0Hfi/2gMLDdK0xpuMwK9xfnfEfknIsB/V72cbP/dn7HmuCOCEhXraGhIXNmZqahs7Oz\ngg8Jr1BXfs068SOn7H63WV6DVnCJ4cC0fyafkpvYl1sBNG9pabnOl54lAfc5eSZWUNjagkJ6n1No\nea2Eu4um7UBdCRyrCbPQTXi2m7XdLnTks2wjHI5mu52Z+IoojNTV1WU7NYQpbEVAF8mYU8CYW3xq\nFW0DBIC+5uzHsiXMLDceZkVuNZv98LJjNtJGFtSRa8Jw6gpT9GghcgqUe88bnNXM9vb2G06ebf3y\nJ7YMt/FYtN8UxV1uGN1Olu6UsHJg1LzPbQKiq8LZiBtduIzld4NV3cQcUw6IucXK1Jzr8wKFZLeT\nvqF1iudCDD1hjioHLpkvGZtMa2vrVaLgsxE3snC5Lhon9111qgpT2IpAP311jYdIAp1XbXcq39Ha\nZRyPIy/MfrcekExyVB6dgpTRAaJQoLLq5CW2dvUZbxcOOGVNrBxhuym5c4D06A3nFNQ6LS2tkZp+\n/I6dcBnfGUmbDsWyab4Xe4StLdBxa8aJYq5lPbFsDaFbOFGliyXx7eDLPfflGafy9R6wNWEIS5hi\nRO9yjDeTFDv1DgR0yaZlLqqqqg5wNJ9BbkQVTkWm/ebu61FZJZz2PEbYJYNdXX568g1zTyxfx9FC\npKdzMBj8kiu4BVm94VY15QTEAdV2ldeVY0qR0TnXUYuR7VYjpu10YUXo0QiIoJcRhofx8BgevhsR\n+i9GIlxK5N6gvuzUSyhi0+aAiHo681oZJLw97H1DvO2IGFhvVNj15WxdCTb38UL+yaqzygExzUjw\nDIv9x8RqYK25Eo6IBpCJ+8ckpgMyutZfs7VAxbvrv2ZWAEXDfLQm/OcU/RzyqEdHzbrfVruRedwI\nRAQiI3v5v/w9/xdq77qK6Zf8RwAAAABJRU5ErkJggg==\n",
+            "location": "https://m.bmw.com.my:443/favicon.ico"
+          },
+          "host": "m.bmw.com.my",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>301 Moved Permanently</title>\n</head><body>\n<h1>Moved Permanently</h1>\n<p>The document has moved <a href=\"https://www.bmw.com.my/\">here</a>.</p>\n</body></html>\n",
+          "location": "/",
+          "components": {},
+          "server": "Apache",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 2687427237,
+        "org": "BMW AG, Berlin production plant",
+        "isp": "Bayerische Motoren Werke Aktiengesellschaft",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:apache:http_server"
+        ],
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Fri, 18 Mar 2022 11:32:55 GMT\r\nServer: Apache\r\nX-Frame-Options: SAMEORIGIN\r\nStrict-Transport-Security: max-age=63072000; includeSubdomains;\r\nLocation: https://www.bmw.com.my/\r\nCache-Control: max-age=1800\r\nExpires: Fri, 18 Mar 2022 12:02:55 GMT\r\nContent-Length: 231\r\nContent-Type: text/html; charset=iso-8859-1\r\nServer-Timing: dtSInfo;desc=\"0\", dtRpid;desc=\"-105552041\"\r\n\r\n",
+        "asn": "AS8590",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "d7f998c75ecc952f603ac7f2dfe0407adcb53de02d88f2e2caf3b2f3da4f57a8",
+            "b676ffa3179e8812093a1b5eafee876ae7a6aaf231078dad1bfb21cd2893764a",
+            "cbb522d7b7f127ad6a0113865bdf1cd4102e7d0759af635a7cf4720dc963c53b"
+          ],
+          "jarm": "2ad2ad16d2ad2ad22c2ad2ad2ad2ad196218f8378b672bdd87235d4e419239",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIIvzCCB6egAwIBAgIMN9kM6++vO/civa8CMA0GCSqGSIb3DQEBCwUAMFAxCzAJ\nBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMSYwJAYDVQQDEx1H\nbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODAeFw0yMTEyMTUwNDQxMDlaFw0y\nMzAxMTYwNDQxMDlaMHoxCzAJBgNVBAYTAkRFMRAwDgYDVQQIEwdCYXZhcmlhMQ8w\nDQYDVQQHEwZNdW5pY2gxJDAiBgNVBAoTG0JheWVyaXNjaGUgTW90b3JlbiBXZXJr\nZSBBRzEiMCAGA1UEAxMZd3d3LW9yaWdpbi1wcm9kYTIuYm13LmNvbTCCASIwDQYJ\nKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMFG2I1/cqfRCPyFwhKah4pmYIaoieJW\nov8fYVHtdsTNv3VHgBBjkwnjl1Bqkipc861OYA8EEtQgE09zjE+qiX8J1e7Q0lGH\n/R23zoK4US90ClVdWNMZgopWoyaAOY488zlo0hNmxDWxCuAb2Zst5dUkZj4siqvQ\n+0i83b6ewO1U0pyxwS9rRPL89GAbvvFLu0W6fTRfJGS+e8M5gVVxiO/i3ZXyBMy7\nK3EPAlK4ValnRjuHzo2kVxSlrVaD4K7B/lpBxZHKtAf69ZN/4tDSu3OlOaxCEBWR\ntPsoHi8dYjJmdduUt/vbpxU110uLEy2WtRddHCfKMqirGMNBJ39Y48kCAwEAAaOC\nBW0wggVpMA4GA1UdDwEB/wQEAwIFoDCBjgYIKwYBBQUHAQEEgYEwfzBEBggrBgEF\nBQcwAoY4aHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9jYWNlcnQvZ3Nyc2Fv\ndnNzbGNhMjAxOC5jcnQwNwYIKwYBBQUHMAGGK2h0dHA6Ly9vY3NwLmdsb2JhbHNp\nZ24uY29tL2dzcnNhb3Zzc2xjYTIwMTgwVgYDVR0gBE8wTTBBBgkrBgEEAaAyARQw\nNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3Np\ndG9yeS8wCAYGZ4EMAQICMAkGA1UdEwQCMAAwPwYDVR0fBDgwNjA0oDKgMIYuaHR0\ncDovL2NybC5nbG9iYWxzaWduLmNvbS9nc3JzYW92c3NsY2EyMDE4LmNybDCCAj8G\nA1UdEQSCAjYwggIyghl3d3ctb3JpZ2luLXByb2RhMi5ibXcuY29tgglibXctbS5j\nb22CBmJtdy5hdIIGYm13LmJlggZibXcuYmeCBmJtdy5jYYIGYm13LmNoggZibXcu\nY2yCCWJtdy5jby5pZIIJYm13LmNvLmpwgglibXcuY28ua3KCCWJtdy5jby5ueoIJ\nYm13LmNvLnVrgglibXcuY28uemGCB2Jtdy5jb22CCmJtdy5jb20uYXWCCmJtdy5j\nb20uYnKCCmJtdy5jb20uY2+CCmJtdy5jb20uZ3SCCmJtdy5jb20ubXiCCmJtdy5j\nb20ucGGCCmJtdy5jb20ucGWCCmJtdy5jb20ucHmCCmJtdy5jb20udHKCCmJtdy5j\nb20udHeCCmJtdy5jb20udXmCBmJtdy5jeoIGYm13LmRlggZibXcuZGuCBmJtdy5l\nZYIGYm13LmVzggZibXcuZmmCBmJtdy5mcoIGYm13LmdyggZibXcuaWWCBmJtdy5p\nboIGYm13Lml0ggZibXcubHSCBmJtdy5sdYIGYm13Lmx2ggZibXcubXmCBmJtdy5u\nbIIGYm13Lm5vggZibXcucGyCBmJtdy5wdIIGYm13LnJvggZibXcucnWCBmJtdy5z\nZYIGYm13LnNpggZibXcuc2uCCmJtd2xhdC5jb22CC25leHQxMDAuYm13ghh3d3ct\nb3JpZ2luLmJtdy1wcm9kMi5jb22CGHd3dy1vcmlnaW4uYm13LXByb2QzLmNvbTAd\nBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwHwYDVR0jBBgwFoAU+O9/8s14\nZ6jeb48kjYjxhwMCs+swHQYDVR0OBBYEFP2lcbOKQRGvpv6+DaCmawas09ZzMIIB\nfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgDoPtDaPvUGNTLnVyi8iWvJA9PL0RFr\n7Otp4Xd9bQa9bgAAAX28ZPCFAAAEAwBHMEUCIHGZuPg2PipX2et9nWwTzLdbBShS\nRCj/8GA2mmj9QQWHAiEAqHxckuKhlmuUH41ryMvemmDrjU5xUR7buPKgN+vBPQ0A\ndQBvU3asMfAxGdiZAKRRFf93FRwR2QLBACkGjbIImjfZEwAAAX28ZO9hAAAEAwBG\nMEQCICyPHy2ZqP1EDNafiPqUIL0dzJKvFcLdbOCKFIldhehwAiAPmpN2sP7ylM3R\njcj5s9EwVOuD80VShoFBBGQDmlBAmwB3ADXPGRu/sWxXvw+tTG1Cy7u2JyAmUeo/\n4SrvqAPDO9ZMAAABfbxk8AAAAAQDAEgwRgIhAOpmIjFKHaPfTrJTkZf7MjJ9Js1w\nCYbZGXqOTCQ2tJOMAiEAkUplBaSRSTVIJKNbSpnjajYMLutDb7YNbTwG5X2W1CIw\nDQYJKoZIhvcNAQELBQADggEBAI9vaj9iTScOou80O4av4YrUn13IPD426xTu9bvS\nzrG2AkVF1I1qKxPjZ63RKZ98Dlo6u6iTWzK4yaUcLvbImNuniRWc/vNTyUtMSwxP\nCm/OFY8jvn94PhsIK3RybFBOr60lcoN1zWcRG67qEraaBvFaam5KgSNt5+5IDUym\neAfdoLlJ5V82Ax5+QvMniRSzDRhC7wLo1sliSB1AzVmfVo86up7RfwrAXgAgOoAZ\nENJD+C0ZShF5vu/N7ULL63MI+qwdP9CFASwoOTkbv8tLVA9C5uO1bLzu0BOBr7xE\nXvSNR2tEXGUNji21h6s6RD5RlLPLol1nK1oge3E+Z5wpZjI=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIETjCCAzagAwIBAgINAe5fIh38YjvUMzqFVzANBgkqhkiG9w0BAQsFADBMMSAw\nHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFs\nU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjAeFw0xODExMjEwMDAwMDBaFw0yODEx\nMjEwMDAwMDBaMFAxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52\nLXNhMSYwJAYDVQQDEx1HbG9iYWxTaWduIFJTQSBPViBTU0wgQ0EgMjAxODCCASIw\nDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKdaydUMGCEAI9WXD+uu3Vxoa2uP\nUGATeoHLl+6OimGUSyZ59gSnKvuk2la77qCk8HuKf1UfR5NhDW5xUTolJAgvjOH3\nidaSz6+zpz8w7bXfIa7+9UQX/dhj2S/TgVprX9NHsKzyqzskeU8fxy7quRU6fBhM\nabO1IFkJXinDY+YuRluqlJBJDrnw9UqhCS98NE3QvADFBlV5Bs6i0BDxSEPouVq1\nlVW9MdIbPYa+oewNEtssmSStR8JvA+Z6cLVwzM0nLKWMjsIYPJLJLnNvBhBWk0Cq\no8VS++XFBdZpaFwGue5RieGKDkFNm5KQConpFmvv73W+eka440eKHRwup08CAwEA\nAaOCASkwggElMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/AgEAMB0G\nA1UdDgQWBBT473/yzXhnqN5vjySNiPGHAwKz6zAfBgNVHSMEGDAWgBSP8Et/qC5F\nJK5NUPpjmove4t0bvDA+BggrBgEFBQcBAQQyMDAwLgYIKwYBBQUHMAGGImh0dHA6\nLy9vY3NwMi5nbG9iYWxzaWduLmNvbS9yb290cjMwNgYDVR0fBC8wLTAroCmgJ4Yl\naHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9yb290LXIzLmNybDBHBgNVHSAEQDA+\nMDwGBFUdIAAwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5j\nb20vcmVwb3NpdG9yeS8wDQYJKoZIhvcNAQELBQADggEBAJmQyC1fQorUC2bbmANz\nEdSIhlIoU4r7rd/9c446ZwTbw1MUcBQJfMPg+NccmBqixD7b6QDjynCy8SIwIVbb\n0615XoFYC20UgDX1b10d65pHBf9ZjQCxQNqQmJYaumxtf4z1s4DfjGRzNpZ5eWl0\n6r/4ngGPoJVpjemEuunl1Ig423g7mNA2eymw0lIYkN5SQwCuaifIFJ6GlazhgDEw\nfpolu4usBCOmmQDo8dIm7A9+O4orkjgTHY+GzYZSR+Y0fFukAj6KYXwidlNalFMz\nhriSqHKvoflShx8xpfywgVcvzfTO3PYkz6fiNJBonf6q8amaEsybwMbDqKWwIX7e\nSPY=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4G\nA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNp\nZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4\nMTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEG\nA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZI\nhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8\nRgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsT\ngHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmm\nKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zd\nQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZ\nXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAw\nDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+o\nLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZU\nRUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMp\njjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK\n6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQX\nmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecs\nMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpH\nWD9f\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aacaa68ffffffffffffffff",
+            "public_key": "ddbc053b8398a8b481f0b2a8609824f506b4f096231e95bbb3a7e8ad4540f4b5f89a4b7d324c8fef2afdf2b28b54b0d749c5d5751024214798bbcaf5253e9a88b6f71fb0bf4fc5c4fb312f945c88cbc4e6bf029e60ae6d9cc5583693ef1fc842d2196f20d5206218b3ade0c58040e5150d4fed2b1dc3eb8d12f3703d49a49b1785269bb6e6c07f3b41d6d8e8c77950e6752a6a2f55dfbd064698ce02a279c1edefc11528a353aaa5eaebfe0f5c801d1f10dc188e949aedcc0b832e22caadc60b7034f02e8d0c216324b3f1d7a4548b5c44993a2cbec7489c165ba9fe245ce778ce31efe640edd3d24cc99535aee825c5daac1b92654f8af54e4f60407a622afe",
+            "bits": 2048,
+            "generator": 2,
+            "fingerprint": "RFC3526/Oakley Group 14"
+          },
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "e35df3e00ca4ef31d42b34bebaa2f86e",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20211215044109Z",
+            "expires": "20230116044109Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x7f0D\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x868http://secure.globalsign.com/cacert/gsrsaovsslca2018.crt07\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86+http://ocsp.globalsign.com/gsrsaovsslca2018",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0M0A\\x06 +\\x06\\x01\\x04\\x01\\xa02\\x01\\x140402\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16&https://www.globalsign.com/repository/0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0604\\xa02\\xa00\\x86.http://crl.globalsign.com/gsrsaovsslca2018.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0\\x82\\x022\\x82\\x19www-origin-proda2.bmw.com\\x82 bmw-m.com\\x82\\x06bmw.at\\x82\\x06bmw.be\\x82\\x06bmw.bg\\x82\\x06bmw.ca\\x82\\x06bmw.ch\\x82\\x06bmw.cl\\x82 bmw.co.id\\x82 bmw.co.jp\\x82 bmw.co.kr\\x82 bmw.co.nz\\x82 bmw.co.uk\\x82 bmw.co.za\\x82\\x07bmw.com\\x82\nbmw.com.au\\x82\nbmw.com.br\\x82\nbmw.com.co\\x82\nbmw.com.gt\\x82\nbmw.com.mx\\x82\nbmw.com.pa\\x82\nbmw.com.pe\\x82\nbmw.com.py\\x82\nbmw.com.tr\\x82\nbmw.com.tw\\x82\nbmw.com.uy\\x82\\x06bmw.cz\\x82\\x06bmw.de\\x82\\x06bmw.dk\\x82\\x06bmw.ee\\x82\\x06bmw.es\\x82\\x06bmw.fi\\x82\\x06bmw.fr\\x82\\x06bmw.gr\\x82\\x06bmw.ie\\x82\\x06bmw.in\\x82\\x06bmw.it\\x82\\x06bmw.lt\\x82\\x06bmw.lu\\x82\\x06bmw.lv\\x82\\x06bmw.my\\x82\\x06bmw.nl\\x82\\x06bmw.no\\x82\\x06bmw.pl\\x82\\x06bmw.pt\\x82\\x06bmw.ro\\x82\\x06bmw.ru\\x82\\x06bmw.se\\x82\\x06bmw.si\\x82\\x06bmw.sk\\x82\nbmwlat.com\\x82\\x0bnext100.bmw\\x82\\x18www-origin.bmw-prod2.com\\x82\\x18www-origin.bmw-prod3.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\xf8\\xef\\x7f\\xf2\\xcdxg\\xa8\\xdeo\\x8f$\\x8d\\x88\\xf1\\x87\\x03\\x02\\xb3\\xeb",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xfd\\xa5q\\xb3\\x8aA\\x11\\xaf\\xa6\\xfe\\xbe\r\\xa0\\xa6k\\x06\\xac\\xd3\\xd6s",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x82\\x01j\\x01h\\x00v\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01}\\xbcd\\xf0\\x85\\x00\\x00\\x04\\x03\\x00G0E\\x02 q\\x99\\xb8\\xf86>*W\\xd9\\xeb}\\x9dl\\x13\\xcc\\xb7[\\x05(RD(\\xff\\xf0`6\\x9ah\\xfdA\\x05\\x87\\x02!\\x00\\xa8|\\\\\\x92\\xe2\\xa1\\x96k\\x94\\x1f\\x8dk\\xc8\\xcb\\xde\\x9a`\\xeb\\x8dNqQ\\x1e\\xdb\\xb8\\xf2\\xa07\\xeb\\xc1=\r\\x00u\\x00oSv\\xac1\\xf01\\x19\\xd8\\x99\\x00\\xa4Q\\x15\\xffw\\x15\\x1c\\x11\\xd9\\x02\\xc1\\x00)\\x06\\x8d\\xb2\\x08\\x9a7\\xd9\\x13\\x00\\x00\\x01}\\xbcd\\xefa\\x00\\x00\\x04\\x03\\x00F0D\\x02 ,\\x8f\\x1f-\\x99\\xa8\\xfdD\\x0c\\xd6\\x9f\\x88\\xfa\\x94 \\xbd\\x1d\\xcc\\x92\\xaf\\x15\\xc2\\xddl\\xe0\\x8a\\x14\\x89]\\x85\\xe8p\\x02 \\x0f\\x9a\\x93v\\xb0\\xfe\\xf2\\x94\\xcd\\xd1\\x8d\\xc8\\xf9\\xb3\\xd10T\\xeb\\x83\\xf3ER\\x86\\x81A\\x04d\\x03\\x9aP@\\x9b\\x00w\\x005\\xcf\\x19\\x1b\\xbf\\xb1lW\\xbf\\x0f\\xadLmB\\xcb\\xbb\\xb6\\' &Q\\xea?\\xe1*\\xef\\xa8\\x03\\xc3;\\xd6L\\x00\\x00\\x01}\\xbcd\\xf0\\x00\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xeaf\"1J\\x1d\\xa3\\xdfN\\xb2S\\x91\\x97\\xfb22}&\\xcdp \\x86\\xd9\\x19z\\x8eL$6\\xb4\\x93\\x8c\\x02!\\x00\\x91Je\\x05\\xa4\\x91I5H$\\xa3[J\\x99\\xe3j6\\x0c.\\xebCo\\xb6\rm<\\x06\\xe5}\\x96\\xd4\"",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "d7f998c75ecc952f603ac7f2dfe0407adcb53de02d88f2e2caf3b2f3da4f57a8",
+              "sha1": "295b0abe4fd1c329ea9feae5dea9f66de8507517"
+            },
+            "serial": 1.7284073463684094e+28,
+            "subject": {
+              "CN": "www-origin-proda2.bmw.com",
+              "C": "DE",
+              "L": "Munich",
+              "O": "Bayerische Motoren Werke AG",
+              "ST": "Bavaria"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "BE",
+              "CN": "GlobalSign RSA OV SSL CA 2018",
+              "O": "GlobalSign nv-sa"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "bmw.ee",
+          "bmw.my",
+          "bmw.cz",
+          "bmw.ro",
+          "bmw.gr",
+          "bmw.ru",
+          "bmw.ca",
+          "bmw.com.uy",
+          "bmw.es",
+          "bmw.co.nz",
+          "bmwlat.com",
+          "bmw.ch",
+          "bmw.com.br",
+          "bmw.cl",
+          "www-origin.bmw-prod2.com",
+          "bmw.com",
+          "www-origin-proda2.bmw.com",
+          "bmw.pt",
+          "bmw.at",
+          "bmw.sk",
+          "bmw.pl",
+          "bmw.si",
+          "bmw.com.pe",
+          "bmw.de",
+          "bmw.com.pa",
+          "bmw.se",
+          "bmw.com.co",
+          "bmw.lv",
+          "bmw.fi",
+          "bmw.lt",
+          "bmw.lu",
+          "bmw.dk",
+          "bmw.be",
+          "bmw.fr",
+          "bmw.bg",
+          "bmw.nl",
+          "bmw.no",
+          "bmw.co.kr",
+          "bmw.com.mx",
+          "bmw.com.tr",
+          "bmw.com.py",
+          "bmw.co.uk",
+          "bmw.com.tw",
+          "bmw.com.au",
+          "bmw.ie",
+          "bmw.co.za",
+          "bmw.com.gt",
+          "bmw.co.jp",
+          "bmw.in",
+          "next100.bmw",
+          "bmw.it",
+          "bmw.co.id",
+          "bmw-m.com",
+          "www-origin.bmw-prod3.com"
+        ],
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server"
+        ],
+        "timestamp": "2022-03-18T11:38:13.387855",
+        "domains": [
+          "bmw.ee",
+          "bmw.my",
+          "bmw.cz",
+          "bmw.ro",
+          "bmw.gr",
+          "bmw.ru",
+          "bmw.ca",
+          "bmw.com.uy",
+          "bmw.es",
+          "bmw.co.nz",
+          "bmwlat.com",
+          "bmw.ch",
+          "bmw.com.br",
+          "bmw.cl",
+          "bmw-prod2.com",
+          "bmw.com",
+          "bmw.pt",
+          "bmw.at",
+          "bmw.sk",
+          "bmw.pl",
+          "bmw.si",
+          "bmw.com.pe",
+          "bmw.de",
+          "bmw.com.pa",
+          "bmw.se",
+          "bmw.com.co",
+          "bmw.lv",
+          "bmw.fi",
+          "bmw.lt",
+          "bmw.lu",
+          "bmw.dk",
+          "bmw.be",
+          "bmw.fr",
+          "bmw.bg",
+          "bmw.nl",
+          "bmw.no",
+          "bmw.co.kr",
+          "bmw.com.mx",
+          "bmw.com.tr",
+          "bmw.com.py",
+          "bmw.co.uk",
+          "bmw.com.tw",
+          "bmw.com.au",
+          "bmw.ie",
+          "bmw.co.za",
+          "bmw.com.gt",
+          "bmw.co.jp",
+          "bmw.in",
+          "next100.bmw",
+          "bmw.it",
+          "bmw.co.id",
+          "bmw-m.com",
+          "bmw-prod3.com"
+        ],
+        "ip_str": "160.46.226.165",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "m.bmw.com.my",
+            "scan": "aZRQEYJxnwu1oLbL"
+          },
+          "id": "dd121190-5567-437d-b15b-620a5c72f164",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 11:39:26 160.46.226.165:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Berlin",
+          "region_code": "BE",
+          "area_code": null,
+          "longitude": 13.41053,
+          "latitude": 52.52437,
+          "country_code": "DE",
+          "country_name": "Germany"
+        }
+      }
+    ],
+    "asn": "AS8590",
+    "ip_str": "160.46.226.165"
+  }

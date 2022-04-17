@@ -1,0 +1,299 @@
+{
+    "doc_id": 74,
+    "city": "Quincy",
+    "region_code": "WA",
+    "os": null,
+    "tags": [],
+    "ip": 1653208094,
+    "isp": "Oath Holdings Inc.",
+    "area_code": null,
+    "longitude": -119.85255,
+    "last_update": "2022-03-26T16:45:57.503579",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 47.2343,
+    "hostnames": [
+      "jglawph.com",
+      "www.jglawph.com",
+      "p10ats-rhel.geo.vip.gq1.yahoo.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "yahoo.com",
+      "jglawph.com"
+    ],
+    "org": "Oath Holdings Inc.",
+    "data": [
+      {
+        "hash": -1578435714,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Error",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "ATS",
+          "host": "www.mbmtimes.com",
+          "html": "<HTML>\n<HEAD>\n<TITLE>Error</TITLE>\n</HEAD>\n\n<BODY BGCOLOR=\"white\" FGCOLOR=\"black\">\n<H1>Error</H1>\n<HR>\n\n<FONT FACE=\"Helvetica,Arial\"><B>\nDescription: Could not process this request.\n</B></FONT>\n<HR>\n</BODY>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 2061433332,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-26T13:06:15.243899",
+        "org": "Oath Holdings Inc.",
+        "isp": "Oath Holdings Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Sat, 26 Mar 2022 13:06:15 GMT\r\nConnection: keep-alive\r\nServer: ATS\r\nCache-Control: no-store\r\nContent-Type: text/html\r\nContent-Language: en\r\nLocation: https://www.mbmtimes.com/\r\nContent-Length: 207\r\n\r\n",
+        "asn": "AS36647",
+        "port": 80,
+        "hostnames": [
+          "p10ats-rhel.geo.vip.gq1.yahoo.com"
+        ],
+        "transport": "tcp",
+        "ip": 1653208094,
+        "domains": [
+          "yahoo.com"
+        ],
+        "ip_str": "98.137.244.30",
+        "os": null,
+        "_shodan": {
+          "crawler": "36f536ccfb8f2bed3f4109d29ab93e6221906564",
+          "options": {
+            "hostname": "www.mbmtimes.com",
+            "scan": "uJOz68LX0AB9dQqY"
+          },
+          "id": "28943079-34b3-4efc-84bf-ed141798a195",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Quincy",
+          "region_code": "WA",
+          "area_code": null,
+          "longitude": -119.85255,
+          "latitude": 47.2343,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 1016504032,
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "JGLaw - Attorneys & Counsellors At Law",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "ATS",
+          "host": "www.jglawph.com",
+          "html": " <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n <html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n <head>\r\n  <meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\">\r\n  <meta name=\"description\" content=\"<p>JGLaw is a Philippine-based law firm providing a full range of legal services to clients worldwide.</p>\" />\r\n  <meta name=\"keywords\" content=\"JGLaw, lawyer, Bello, Valdez, Caluya, Fernandez, law\" />\r\n  <meta name=\"robots\" content=\"index, follow\" />\r\n  <title>JGLaw - Attorneys & Counsellors At Law</title>   <link rel=\"stylesheet\" type=\"text/css\" href=\"./css/main.css\" /> \r\n\r\n   <script type=\"text/javascript\" src=\"./js/jglaw_script.js\"></script>\r\n\r\n   <!-- Core MyCSSMenu Code -->\r\n   <script type=\"text/javascript\" src=\"./js/mycssmenu.js\"></script>\r\n\r\n   <!-- Tiny Box -->\r\n   <link rel=\"stylesheet\" href=\"./css/style.css\" />\r\n   <script type=\"text/javascript\" src=\"./js/tinybox.js\"></script>\r\n   <script type=\"text/javascript\">\r\n    function openJS(){alert('loaded')}\r\n    function closeJS(){alert('closed')} \r\n   </script> </head>\r\n \r\n <body>\r\n  <!-- Begin Wrapper -->\r\n  <div id=\"wrapper\">\r\n  \r\n   <!-- Begin Header -->\r\n     <div id=\"header\">\r\n   <table style=\"width: 900px;\">\r\n    <tbody align=center>\r\n     <tr>\r\n      <td align=\"left\">\r\n       <img src=\"./images/jglaw_logo.png\" alt=\"JGLaw\"  style=\"margin-top: 10px;\"/>\r\n      </td>\r\n      <td align=\"right\">\r\n       <br><br><br>\r\n       <!--img src=\"firmname.jpg\" alt=\"BELLO VALDEZ CALUYA & FERNANDEZ\" /-->\r\n       <h3 id=\"firmname\"><span>Bello Valdez Caluya &amp; Fernandez</span></h3>\r\n      </td>\r\n     </tr>\r\n    </tbody>\r\n   </table>   \r\n   </div>\r\n   <!-- End Header -->\r\n   \r\n   <!-- Begin Left Column -->\r\n    <!-- Begin Left Column -->\r\n  <div id=\"leftcolumn\">\r\n   \r\n      <ul id=\"qm0\" class=\"qmmc\">\r\n\r\n    <li><a class=\"qmparent\" href=\"index.php\">Home</a></li>\r\n\r\n    <li><a class=\"qmparent\" href=\"profile.php\">Profile</a></li>\r\n\r\n    <li><a class=\"qmparent\" href=\"javascript:void(0)\">Lawyers</a>\r\n    \r\n     <ul>\r\n      <li><a href=\"partners.php\">Partners</a></li>\r\n      <li><a href=\"ofcounsel.php\">Of Counsel</a></li>\r\n      <li><a href=\"associates.php\">Associates</a></li>\r\n     </ul>\r\n    </li>\r\n    \r\n    <li><a class=\"qmparent\" href=\"javascript:void(0)\">Our Practice Areas</a>\r\n\r\n     <ul>\r\n      <li><a href=\"corp_law_tax.php\">Corporate Law and Taxation</a></li>\r\n      <li><a href=\"emp_standards.php\">Employment Standards and Industrial Relations</a></li>\r\n      <li><a href=\"ip.php\">Intellectual Property</a></li>\r\n      <li><a href=\"litigation.php\">Litigation</a></li>\r\n     </ul>\r\n    </li>\r\n\r\n    <li><a class=\"qmparent\" href=\"contact_info.php\">Contact Information</a></li>\r\n\r\n    <li class=\"qmclear\">&nbsp;</li>\r\n   </ul>\r\n\r\n   <!-- Create Menu Settings: (Menu ID, Is Vertical, Show Timer, Hide Timer, On Click ('all' or 'lev2'), Right to Left, Horizontal Subs, Flush Left, Flush Top) -->\r\n   <script type=\"text/javascript\">qm_create(0,false,0,500,'all',false,false,false,false);</script>\r\n  \r\n  </div>\r\n <!-- End Left Column -->\r\n   <!-- End Left Column -->\r\n   \r\n   <!-- Begin Right Column -->\r\n     <!-- Begin Right Column -->\r\n  <div id=\"rightcolumn\">\r\n   \r\n   <script type=\"text/javascript\">\r\n   <!--\r\n    displayDate('Home');\r\n   //-->\r\n   </script>\r\n\r\n   <div style=\"margin-top:35px\">\r\n    <table width=\"100%\" cellspacing=\"10px\">\r\n     <tr valign=top>\r\n      <td>\r\n       <img src=\"./images/profile_wide.gif\" alt=\"JGLaw\" style=\"width: 225px; border: 3px solid grey\"/>  \r\n      </td>\r\n      <td>\r\n       <p>JGLaw is a Philippine-based law firm providing a full range of legal services to clients worldwide.  \r\n       Established in 1951, the firm is backed by a tradition of prompt, cost-effective, and high standard service.</p>\r\n       <p>&nbsp;</p>\r\n       <p>For 65 years now, the firm&#39;s reputation and expertise in the legal field have been resolutely anchored \r\n       on the values of integrity, honesty, and excellence. </p>\r\n       \r\n      </td>\r\n     </tr>\r\n    </table>\r\n   </div>\r\n   \r\n  </div>\r\n  <!--\r\n                <img src=\"./images/sl-coll.jpg\" style=\"display: none\">\r\n  <img src=\"./images/Corptax.jpg\" style=\"display: none\">\r\n  <img src=\"./images/partners.jpg\" style=\"display: none\">\r\n  <img src=\"./images/IPgroup.jpg\" style=\"display: none\">\r\n  <img src=\"./images/labor.jpg\" style=\"display: none\">\r\n                //-->\r\n   <!-- End Right Column -->\r\n   \r\n   <!-- Begin Footer -->\r\n     <div id=\"footer\" align=\"center\">\r\n        \r\n   Copyright&copy;2011 JGLaw, Manila, Philippines.<br>\r\n   Disclaimer and Copyright Notice<br>\r\n   Comments to: <a href=\"&#109;ailto&#58;info&#64;jglawph&#46;com\" target=\"_blank\">info@jglawph.com</a>  \r\n\r\n     </div>\r\n   <!--Ebd Footer -->\r\n  </div>   \r\n\r\n </body>\r\n </html>",
+          "location": "/",
+          "components": {
+            "Choices": {
+              "categories": [
+                "Miscellaneous"
+              ]
+            }
+          },
+          "html_hash": -1250251753,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-26T16:45:57.503579",
+        "org": "Oath Holdings Inc.",
+        "isp": "Oath Holdings Inc.",
+        "data": "HTTP/1.1 200 OK\r\nDate: Sat, 26 Mar 2022 16:45:56 GMT\r\nExpires: Sat, 01 Jan 2000 00:00:00 GMT\r\nLast-Modified: Sat, 26 Mar 2022 16:45:57 GMT\r\nCache-Control: post-check=0, pre-check=0\r\nP3P: policyref=\"https://policies.yahoo.com/w3c/p3p.xml\", CP=\"CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV\"\r\nCache-Control: private\r\nContent-Type: text/html\r\nAge: 2\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nServer: ATS\r\n\r\n",
+        "asn": "AS36647",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "58bcca8b67389114a01ae789704eddea75b8b8eb4d25ea210c53ab45362ad153",
+            "15eb0a75c673abfbdcd2fafc02823c91fe6cbc36e00788442c8754d72bec3717",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "2ad2ad16d2ad2ad22c42d42d000000f32b46bb363c1d114f3d1b5a3cfbaa76",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIF/DCCBOSgAwIBAgIQDg+kSzETR6UsFuwV5Kn+YjANBgkqhkiG9w0BAQsFADBu\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMS0wKwYDVQQDEyRFbmNyeXB0aW9uIEV2ZXJ5d2hlcmUg\nRFYgVExTIENBIC0gRzEwHhcNMjEwNjAxMDAwMDAwWhcNMjIwNzAyMjM1OTU5WjAW\nMRQwEgYDVQQDEwtqZ2xhd3BoLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC\nAQoCggEBALJMIIS4JRlyn8FXsLEVh8VxAPQ+9v0QLxzcjy6lGV390Jbikqq8F/Wu\nLaVKtHGfQMrPUowfX4rF4O2awHltE/D38l5ZSZjZ4Yf5bLtvwFDn4yI/JI3paQiH\nXxu/mzQIp6ZzNWzr1T0Y6yhL8W+A5+Ld5yAaVHGl671jtpkgEdx+njaLg68MaeiC\nxjPPIQG6jEuZ2rHdbIqHHe+c1I/alx4cR50E7TtVQolbhzA0Wq54UNp0p8oGk+Wr\n8yliWT7X8Yw/2K46A92wTuDuBn8J2OseQkQnrNpXYcYodG0vdo5TxzpiTDbPrIjf\ngCdYMK6gelyxygpfu8RaiTnS9GjXg60CAwEAAaOCAuwwggLoMB8GA1UdIwQYMBaA\nFFV0T7JyT/VgulDR1+ZRXJoBhxrXMB0GA1UdDgQWBBSczVxs2VXJOL4OE2r20j+s\nh0ojqDAnBgNVHREEIDAeggtqZ2xhd3BoLmNvbYIPd3d3LmpnbGF3cGguY29tMA4G\nA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwPgYD\nVR0gBDcwNTAzBgZngQwBAgEwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdp\nY2VydC5jb20vQ1BTMIGABggrBgEFBQcBAQR0MHIwJAYIKwYBBQUHMAGGGGh0dHA6\nLy9vY3NwLmRpZ2ljZXJ0LmNvbTBKBggrBgEFBQcwAoY+aHR0cDovL2NhY2VydHMu\nZGlnaWNlcnQuY29tL0VuY3J5cHRpb25FdmVyeXdoZXJlRFZUTFNDQS1HMS5jcnQw\nCQYDVR0TBAIwADCCAX4GCisGAQQB1nkCBAIEggFuBIIBagFoAHYAKXm+8J45OSHw\nVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAF5yQ0SpwAABAMARzBFAiEAr1ORZEa2\n5L2qppL7fgJoZe8irYvwgfCl4rd4C7VMmdECIH6UYINCNKPNH/IKNssMQikVzZlQ\nX+HFOpZiYd4+YKFPAHYAIkVFB1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIA\nAAF5yQ0SqgAABAMARzBFAiAa3N7HCdNkjoHKJ5bCsC1WBZMBQZDd4a3edQqx0wgp\n/gIhAJ01Qm9FwyOoYBusSaEgqSsgW1N9lhPKr8IeztEsUch9AHYAUaOw9f0BeZxW\nbbg3eI8MpHrMGyfL956IQpoN/tSLBeUAAAF5yQ0S6wAABAMARzBFAiAS+PBjfn9x\nCWaEKy1PmBA8mBUJkToN9fiLZAEMV7HZzAIhAKfjHDRMfC2RIEusOBZBaibPKq/S\nAvLFKyV+Zq2k5TRgMA0GCSqGSIb3DQEBCwUAA4IBAQBUrAFYqSC9FqlGR9xnAogR\nCyENoY8zV4X4TyKnJiIihijj7e2guHaNao3fxGiv8Nex4wZGEoPHRFDAhKK4QXP/\nY8Kl/E8DTy4RNWH32llRPz+gI75hQoCgAIzp+E0c7dR//yENePw4ivs5EWx1ZKC5\n+mdM9UvRLwqdu/rBp+PSH4yl8Cb61oLJA4f4/GUH3yUVR04etNa89vQr6uExTTxX\nbw82P60HZ03KNEVvedm1Sfg5b5vvVg0oeQXV8HmNIOHNBFOUzd9rJb56DfU88ekC\nyLXUQA0FxLVEjdkyxuWB1vMCu3DOyZC2fJ13gOLsjTaR4ZoIYdBIvRoxbs4vVaQw\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEqjCCA5KgAwIBAgIQAnmsRYvBskWr+YBTzSybsTANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0xNzExMjcxMjQ2MTBaFw0yNzExMjcxMjQ2MTBaMG4xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xLTArBgNVBAMTJEVuY3J5cHRpb24gRXZlcnl3aGVyZSBEViBUTFMgQ0EgLSBH\nMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALPeP6wkab41dyQh6mKc\noHqt3jRIxW5MDvf9QyiOR7VfFwK656es0UFiIb74N9pRntzF1UgYzDGu3ppZVMdo\nlbxhm6dWS9OK/lFehKNT0OYI9aqk6F+U7cA6jxSC+iDBPXwdF4rs3KRyp3aQn6pj\npp1yr7IB6Y4zv72Ee/PlZ/6rK6InC6WpK0nPVOYR7n9iDuPe1E4IxUMBH/T33+3h\nyuH3dvfgiWUOUkjdpMbyxX+XNle5uEIiyBsi4IvbcTCh8ruifCIi5mDXkZrnMT8n\nwfYCV6v6kDdXkbgGRLKsR4pucbJtbKqIkUGxuZI2t7pfewKRc5nWecvDBZf3+p1M\npA8CAwEAAaOCAU8wggFLMB0GA1UdDgQWBBRVdE+yck/1YLpQ0dfmUVyaAYca1zAf\nBgNVHSMEGDAWgBQD3lA1VtFMu2bwo+IbG8OXsj3RVTAOBgNVHQ8BAf8EBAMCAYYw\nHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBIGA1UdEwEB/wQIMAYBAf8C\nAQAwNAYIKwYBBQUHAQEEKDAmMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdp\nY2VydC5jb20wQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2NybDMuZGlnaWNlcnQu\nY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNybDBMBgNVHSAERTBDMDcGCWCGSAGG\n/WwBAjAqMCgGCCsGAQUFBwIBFhxodHRwczovL3d3dy5kaWdpY2VydC5jb20vQ1BT\nMAgGBmeBDAECATANBgkqhkiG9w0BAQsFAAOCAQEAK3Gp6/aGq7aBZsxf/oQ+TD/B\nSwW3AU4ETK+GQf2kFzYZkby5SFrHdPomunx2HBzViUchGoofGgg7gHW0W3MlQAXW\nM0r5LUvStcr82QDWYNPaUy4taCQmyaJ+VB+6wxHstSigOlSNF2a6vg4rgexixeiV\n4YSB03Yqp2t3TeZHM9ESfkus74nQyW7pRGezj+TC44xCagCQQOzzNmzEAP2SnCrJ\nsNE2DpRVMnL8J6xBRdjmOsC3N6cQuKuRXbzByVBjCqAA8t1L0I+9wXJerLPyErjy\nrMKWaBFLmfK/AHNF4ZihwPGOc7w6UHczBZXH5RFzJNnww+WnKuTPI0HfnVH8lg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "87a8e61db4b6663cffbbd19c651959998ceef608660dd0f25d2ceed4435e3b00e00df8f1d61957d4faf7df4561b2aa3016c3d91134096faa3bf4296d830e9a7c209e0c6497517abd5a8a9d306bcf67ed91f9e6725b4758c022e0b1ef4275bf7b6c5bfc11d45f9088b941f54eb1e59bb8bc39a0bf12307f5c4fdb70c581b23f76b63acae1caa6b7902d52526735488a0ef13c6d9a51bfa4ab3ad8347796524d8ef6a167b5a41825d967e144e5140564251ccacb83e6b486f6b3ca3f7971506026c0b857f689962856ded4010abd0be621c3a3960a54e710c375f26375d7014103a4b54330c198af126116d2276e11715f693877fad7ef09cadb094ae91e1a1597",
+            "public_key": "31e6b77373b7104dd006b067cad08e0f1b10a4eb0b6f0f5a594effccfc5fd8581f668fdc87db0a390f82d6d7c9ea449d17d6560775f46d1dc372068390be598ec5e5461bb22a5376a7f64c3b0511ea6f1a80d4ea9d5b34dfc39458a131d99ce4efa673c5877b368fd2abac4081328f20b73595e2588f8e610ae8e11d985bd1019cd7b964f7ba4a9308f70f9135b7de8bfc1b174de35efd7e96b9abf578c86a7742f7dfc54214275cafa1b3f735e2939bd9f5083ddeed417346170e9044068fc314dede9447277d8e6ec2ceed0ba03c5040de1887adffcef3d6b52e2d7ad4ccacf8ecfff6241df4d9667e0e3dc40f55f9926c260d4364c1b0ef8efc77d898c83c",
+            "bits": 2048,
+            "generator": "3fb32c9b73134d0b2e77506660edbd484ca7b18f21ef205407f4793a1a0ba12510dbc15077be463fff4fed4aac0bb555be3a6c1b0c6b47b1bc3773bf7e8c6f62901228f8c28cbb18a55ae31341000a650196f931c77a57f2ddf463e5e9ec144b777de62aaab8a8628ac376d282d6ed3864e67982428ebc831d14348f6f2f9193b5045af2767164e1dfc967c1fb3f2e55a4bd1bffe83b9c80d052b985d182ea0adb2a3b7313d3fe14c8484b1e052588b9b7d2bbd2df016199ecd06e1557cd0915b3353bbb64e0ec377fd028370df92b52c7891428cdc67eb6184b523d1db246c32f63078490f00ef8d647d148d47954515e2327cfef98c582664b4c0f6cc41659",
+            "fingerprint": "RFC5114/2048-bit MODP Group with 256-bit Prime Order Subgroup"
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "e35df3e00ca4ef31d42b34bebaa2f86e",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210601000000Z",
+            "expires": "20220702235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14UtO\\xb2rO\\xf5`\\xbaP\\xd1\\xd7\\xe6Q\\\\\\x9a\\x01\\x87\\x1a\\xd7",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\x9c\\xcd\\\\l\\xd9U\\xc98\\xbe\\x0e\\x13j\\xf6\\xd2?\\xac\\x87J#\\xa8",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x1e\\x82\\x0bjglawph.com\\x82\\x0fwww.jglawph.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x010)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0r0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0J\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86>http://cacerts.digicert.com/EncryptionEverywhereDVTLSCA-G1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01j\\x01h\\x00v\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01y\\xc9\r\\x12\\xa7\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xafS\\x91dF\\xb6\\xe4\\xbd\\xaa\\xa6\\x92\\xfb~\\x02he\\xef\"\\xad\\x8b\\xf0\\x81\\xf0\\xa5\\xe2\\xb7x\\x0b\\xb5L\\x99\\xd1\\x02 ~\\x94`\\x83B4\\xa3\\xcd\\x1f\\xf2\n6\\xcb\\x0cB)\\x15\\xcd\\x99P_\\xe1\\xc5:\\x96ba\\xde>`\\xa1O\\x00v\\x00\"EE\\x07YU$V\\x96?\\xa1/\\xf1\\xf7m\\x86\\xe0#&c\\xad\\xc0K\\x7f]\\xc6\\x83\\\n\\xe2\\x0f\\x02\\x00\\x00\\x01y\\xc9\r\\x12\\xaa\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x1a\\xdc\\xde\\xc7 \\xd3d\\x8e\\x81\\xca\\'\\x96\\xc2\\xb0-V\\x05\\x93\\x01A\\x90\\xdd\\xe1\\xad\\xdeu\n\\xb1\\xd3\\x08)\\xfe\\x02!\\x00\\x9d5BoE\\xc3#\\xa8`\\x1b\\xacI\\xa1 \\xa9+ [S}\\x96\\x13\\xca\\xaf\\xc2\\x1e\\xce\\xd1,Q\\xc8}\\x00v\\x00Q\\xa3\\xb0\\xf5\\xfd\\x01y\\x9cVm\\xb87x\\x8f\\x0c\\xa4z\\xcc\\x1b\\'\\xcb\\xf7\\x9e\\x88B\\x9a\r\\xfe\\xd4\\x8b\\x05\\xe5\\x00\\x00\\x01y\\xc9\r\\x12\\xeb\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x12\\xf8\\xf0c~\\x7fq f\\x84+-O\\x98\\x10<\\x98\\x15 \\x91:\r\\xf5\\xf8\\x8bd\\x01\\x0cW\\xb1\\xd9\\xcc\\x02!\\x00\\xa7\\xe3\\x1c4L|-\\x91 K\\xac8\\x16Aj&\\xcf*\\xaf\\xd2\\x02\\xf2\\xc5+%~f\\xad\\xa4\\xe54`",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "58bcca8b67389114a01ae789704eddea75b8b8eb4d25ea210c53ab45362ad153",
+              "sha1": "4788353b292cc80a8362f4a11a1e2b7ea2a3c79b"
+            },
+            "serial": 1.8690408666342105e+37,
+            "subject": {
+              "CN": "jglawph.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "OU": "www.digicert.com",
+              "O": "DigiCert Inc",
+              "CN": "Encryption Everywhere DV TLS CA - G1"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "jglawph.com",
+          "p10ats-rhel.geo.vip.gq1.yahoo.com",
+          "www.jglawph.com"
+        ],
+        "transport": "tcp",
+        "ip": 1653208094,
+        "domains": [
+          "jglawph.com",
+          "yahoo.com"
+        ],
+        "ip_str": "98.137.244.30",
+        "os": null,
+        "_shodan": {
+          "crawler": "8c108d59c81b65bba32b3225a760bb40705b85da",
+          "options": {
+            "hostname": "www.jglawph.com",
+            "scan": "uJOz68LX0AB9dQqY"
+          },
+          "id": "061fe65c-b6fb-4d3e-b7c4-dce18cc07ec2",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/26 16:47:01 98.137.244.30:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Quincy",
+          "region_code": "WA",
+          "area_code": null,
+          "longitude": -119.85255,
+          "latitude": 47.2343,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS36647",
+    "ip_str": "98.137.244.30"
+  }

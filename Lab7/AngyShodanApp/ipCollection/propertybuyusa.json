@@ -1,0 +1,283 @@
+{
+    "doc_id": 92,
+    "city": "San Jose",
+    "region_code": "CA",
+    "os": null,
+    "tags": [],
+    "ip": 1120839479,
+    "isp": "Corporate West Computer Systems, Inc.",
+    "area_code": null,
+    "longitude": -122.0002,
+    "last_update": "2022-03-26T14:50:29.579318",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 37.3066,
+    "hostnames": [
+      "propertyminder.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "propertyminder.com"
+    ],
+    "org": "Corporate West Computer Systems, Inc.",
+    "data": [
+      {
+        "hash": 201931437,
+        "product": "OpenResty",
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "html_hash": 536076621,
+          "robots": null,
+          "favicon": {
+            "hash": -1951938834,
+            "data": "AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAA\nAAAAAADVxbMAx6yPAOre1ADt5NwAt5ZyAJxtOQCUYCUAp3xNAP79/AC/oIEA3c2+ANG6ogDy6+UA\nl2cwAK+HWwDr6+sA//+kfVdK//+IiVbd3W0YiIhGZmZmZmSIgWVJmZmUVhglZ8wzM8N2UxbXpVVV\nWn1hTd6tS75afWTtV6VLvtp93u1QLXqn0rVuTdGBUR24nWS9XZgWa4TdYMfV2Yu4TV18it1dSITV\n1aiItd3ZTV1biIiK5dZtXqiIj/8wlEkD//gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n",
+            "location": "http://mx.redfeatherlakes.com:80/favicon.ico"
+          },
+          "host": "mx.redfeatherlakes.com",
+          "html": "<html>\r\n<script type=\"text/javascript\">\r\n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-35285080-1']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script></html>\r\n",
+          "location": "/",
+          "components": {},
+          "server": "openresty",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 1120839479,
+        "isp": "Corporate West Computer Systems, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.1 200 OK\r\nServer: openresty\r\nDate: Sat, 26 Mar 2022 10:15:09 GMT\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Length: 503\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type\r\nAccess-Control-Allow-Headers: Content-Length\r\nAccess-Control-Max-Age: 1800\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Credentials: true\r\nSet-Cookie: JSESSIONID=E75F92D708DA6CC4F3A9D6E1CAFF14E9; Path=/; HttpOnly\r\nAccept-Ranges: bytes\r\nETag: W/\"503-1481785833265\"\r\nLast-Modified: Thu, 15 Dec 2016 07:10:33 GMT\r\n\r\n",
+        "asn": "AS13917",
+        "port": 80,
+        "hostnames": [],
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -122.0002,
+          "latitude": 37.3066,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-26T10:20:26.723281",
+        "domains": [],
+        "org": "Corporate West Computer Systems, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "mx.redfeatherlakes.com",
+            "scan": "bEeD8ccLNk0EiCtc"
+          },
+          "id": "1b582cbc-9d33-445f-9c37-a038f769eff1",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "66.206.167.55"
+      },
+      {
+        "hash": -51993164,
+        "product": "OpenResty",
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "html_hash": 536076621,
+          "robots": null,
+          "favicon": {
+            "hash": -1951938834,
+            "data": "AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAA\nAAAAAADVxbMAx6yPAOre1ADt5NwAt5ZyAJxtOQCUYCUAp3xNAP79/AC/oIEA3c2+ANG6ogDy6+UA\nl2cwAK+HWwDr6+sA//+kfVdK//+IiVbd3W0YiIhGZmZmZmSIgWVJmZmUVhglZ8wzM8N2UxbXpVVV\nWn1hTd6tS75afWTtV6VLvtp93u1QLXqn0rVuTdGBUR24nWS9XZgWa4TdYMfV2Yu4TV18it1dSITV\n1aiItd3ZTV1biIiK5dZtXqiIj/8wlEkD//gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\n",
+            "location": "https://img.1teamrealtors.com:443/favicon.ico"
+          },
+          "host": "img.1teamrealtors.com",
+          "html": "<html>\r\n<script type=\"text/javascript\">\r\n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-35285080-1']);\r\n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script></html>\r\n",
+          "location": "/",
+          "components": {},
+          "server": "openresty",
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 1120839479,
+        "isp": "Corporate West Computer Systems, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.1 200 OK\r\nServer: openresty\r\nDate: Sat, 26 Mar 2022 14:45:12 GMT\r\nContent-Type: text/html;charset=UTF-8\r\nContent-Length: 503\r\nConnection: keep-alive\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\r\nAccess-Control-Allow-Headers: Content-Type\r\nAccess-Control-Allow-Headers: Content-Length\r\nAccess-Control-Max-Age: 1800\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Credentials: true\r\nSet-Cookie: JSESSIONID=92AA98DE952C3D5B127DAF72159BEB44; Path=/; HttpOnly\r\nAccept-Ranges: bytes\r\nETag: W/\"503-1481785833265\"\r\nLast-Modified: Thu, 15 Dec 2016 07:10:33 GMT\r\n\r\n",
+        "asn": "AS13917",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "bdcde6205e091edbc3ad343b8e5b064e0ee7e64f820be139b479962fb70cea06",
+            "93a07898d89b2cca166ba6f1f8a14138ce43828e491b831926bc8247d391cc72",
+            "9f43d52e808c20aff69e02faac205aac684e6975213d6620fac64bde5fcab4bc",
+            "1465fa205397b876faa6f0a9958e5590e40fcc7faa4fb7c2c8677521fb5fb658"
+          ],
+          "jarm": "21d10d00021d21d21c21d10d21d21d696c1bb221f80034f540b6754152d3b8",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIG7jCCBdagAwIBAgIIPY1C1FyKtMQwDQYJKoZIhvcNAQELBQAwgcYxCzAJBgNV\nBAYTAlVTMRAwDgYDVQQIEwdBcml6b25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUw\nIwYDVQQKExxTdGFyZmllbGQgVGVjaG5vbG9naWVzLCBJbmMuMTMwMQYDVQQLEypo\ndHRwOi8vY2VydHMuc3RhcmZpZWxkdGVjaC5jb20vcmVwb3NpdG9yeS8xNDAyBgNV\nBAMTK1N0YXJmaWVsZCBTZWN1cmUgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIw\nHhcNMjEwNTI4MDkwNTIwWhcNMjIwNTAxMTIyMjIxWjBCMSEwHwYDVQQLExhEb21h\naW4gQ29udHJvbCBWYWxpZGF0ZWQxHTAbBgNVBAMMFCoucHJvcGVydHltaW5kZXIu\nY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuv5R21TTz9wP1VLe\nB3M21/SyUgLlP903lisVI5kmQK5lpjVmeHEeYF7WxdOevGWG8JC+ixT77wVyjWxr\nsJPz5DfcUisg1PajyOTlH2crfkJWb9Jlplioai7MaBuHeFe9IOAU5w2JS3jmrGWt\n32eYOx1rBmFCmXWD/yc9w6k7pk30z2xX/FS6Csl+pyRbCQ8aHf4cwWhWOjWvu0U5\nqVLgtz8t3I4ERxkniP+4pzw+zYU6CiA9giNIoFtI47aIPnAvHvgdISyzhMynS5Mo\nKBot/fPVJw7ptaSeWS1X+XIHZiBKFDtMKCKfyHBnrza59MZMfzN6SGc54VuewYoV\nT+ufTQIDAQABo4IDYTCCA10wDAYDVR0TAQH/BAIwADAdBgNVHSUEFjAUBggrBgEF\nBQcDAQYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgWgMD0GA1UdHwQ2MDQwMqAwoC6G\nLGh0dHA6Ly9jcmwuc3RhcmZpZWxkdGVjaC5jb20vc2ZpZzJzMS0zMDguY3JsMGMG\nA1UdIARcMFowTgYLYIZIAYb9bgEHFwEwPzA9BggrBgEFBQcCARYxaHR0cDovL2Nl\ncnRpZmljYXRlcy5zdGFyZmllbGR0ZWNoLmNvbS9yZXBvc2l0b3J5LzAIBgZngQwB\nAgEwgYIGCCsGAQUFBwEBBHYwdDAqBggrBgEFBQcwAYYeaHR0cDovL29jc3Auc3Rh\ncmZpZWxkdGVjaC5jb20vMEYGCCsGAQUFBzAChjpodHRwOi8vY2VydGlmaWNhdGVz\nLnN0YXJmaWVsZHRlY2guY29tL3JlcG9zaXRvcnkvc2ZpZzIuY3J0MB8GA1UdIwQY\nMBaAFCVFgWhQJjg9Oy0svs1q2bY9s2ZjMDMGA1UdEQQsMCqCFCoucHJvcGVydHlt\naW5kZXIuY29tghJwcm9wZXJ0eW1pbmRlci5jb20wHQYDVR0OBBYEFF/yzqVmJ1Zs\n6Vbb+YhuVf+2dCQOMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgApeb7wnjk5\nIfBWc59jpXflvld9nGAK+PlNXSZcJV3HhAAAAXmyOJIeAAAEAwBHMEUCIQCuG7Lc\nMWEzrqnMfH40IuKOCnsiCYcUZFTfeKnMzEzfdwIgWB7dpYAauNG5HxTAeaRWAy9L\nz2pJ881E3aTD5U+uoRMAdgAiRUUHWVUkVpY/oS/x922G4CMmY63AS39dxoNcbuIP\nAgAAAXmyOJNNAAAEAwBHMEUCIHfaYJVAnv7TYZNjZn4eeEgpMI4DFngvkfXRX87O\nORlnAiEArMvp3luYzi+tBa15QXkobHLUWzscZLtIdtVrcbo36NsAdgBByMqx3yJG\nShDGoToJQodeTjGLGwPr60vHaPCQYpYG9gAAAXmyOJTWAAAEAwBHMEUCIG/Ieyke\nXcV/xVsrbuU4161RVo0Y0+NzEQeN7iRB7eSCAiEA99iIdMIQMORrEjhu5YxOkRS0\n6Ul/T+ULt5bt/n6Al+0wDQYJKoZIhvcNAQELBQADggEBAKfU+0MjrAXzDA08P2nL\n4Uw07M1qk4kL1TvIjTBfSeT3bBAvInvlTh4Mj/YFSZmLllUBck+86pb/nLYSSolm\nRk+eNBB/98lRsoiBcG21ok3NpFzs2z6/QxkapZlXQzl+2HKxmBtFi+h6gytDz5Lg\nnBDyxX8rnCsUwfDyouschU3gvaAbXWlA95Rz50iz8YtT9/5A38qSdjZMGwmdHMWa\nK5qECIhFAKxVfPtgb8l6JCaf2dzl9pigRJ5zzD4ADuMBYaRQK3DIcKigBu9zrhx1\n2d3aJBskCelGy8hcFuBWwRwzbElYSpbZcoE/ILNKrHPBYSjVCD/IJ58P1zXvmCNN\nqKE=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFADCCA+igAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBjzELMAkGA1UEBhMCVVMx\nEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNjb3R0c2RhbGUxJTAjBgNVBAoT\nHFN0YXJmaWVsZCBUZWNobm9sb2dpZXMsIEluYy4xMjAwBgNVBAMTKVN0YXJmaWVs\nZCBSb290IENlcnRpZmljYXRlIEF1dGhvcml0eSAtIEcyMB4XDTExMDUwMzA3MDAw\nMFoXDTMxMDUwMzA3MDAwMFowgcYxCzAJBgNVBAYTAlVTMRAwDgYDVQQIEwdBcml6\nb25hMRMwEQYDVQQHEwpTY290dHNkYWxlMSUwIwYDVQQKExxTdGFyZmllbGQgVGVj\naG5vbG9naWVzLCBJbmMuMTMwMQYDVQQLEypodHRwOi8vY2VydHMuc3RhcmZpZWxk\ndGVjaC5jb20vcmVwb3NpdG9yeS8xNDAyBgNVBAMTK1N0YXJmaWVsZCBTZWN1cmUg\nQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IB\nDwAwggEKAoIBAQDlkGZL7PlGcakgg77pbL9KyUhpgXVObST2yxcT+LBxWYR6ayuF\npDS1FuXLzOlBcCykLtb6Mn3hqN6UEKwxwcDYav9ZJ6t21vwLdGu4p64/xFT0tDFE\n3ZNWjKRMXpuJyySDm+JXfbfYEh/JhW300YDxUJuHrtQLEAX7J7oobRfpDtZNuTlV\nBv8KJAV+L8YdcmzUiymMV33a2etmGtNPp99/UsQwxaXJDgLFU793OGgGJMNmyDd+\nMB5FcSM1/5DYKp2N57CSTTx/KgqT3M0WRmX3YISLdkuRJ3MUkuDq7o8W6o0OPnYX\nv32JgIBEQ+ct4EMJddo26K3biTr1XRKOIwSDAgMBAAGjggEsMIIBKDAPBgNVHRMB\nAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUJUWBaFAmOD07LSy+\nzWrZtj2zZmMwHwYDVR0jBBgwFoAUfAwyH6fZMH/EfWijYqihzqsHWycwOgYIKwYB\nBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5zdGFyZmllbGR0ZWNo\nLmNvbS8wOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5zdGFyZmllbGR0ZWNo\nLmNvbS9zZnJvb3QtZzIuY3JsMEwGA1UdIARFMEMwQQYEVR0gADA5MDcGCCsGAQUF\nBwIBFitodHRwczovL2NlcnRzLnN0YXJmaWVsZHRlY2guY29tL3JlcG9zaXRvcnkv\nMA0GCSqGSIb3DQEBCwUAA4IBAQBWZcr+8z8KqJOLGMfeQ2kTNCC+Tl94qGuc22pN\nQdvBE+zcMQAiXvcAngzgNGU0+bE6TkjIEoGIXFs+CFN69xpk37hQYcxTUUApS8L0\nrjpf5MqtJsxOYUPl/VemN3DOQyuwlMOS6eFfqhBJt2nk4NAfZKQrzR9voPiEJBjO\neT2pkb9UGBOJmVQRDVXFJgt5T1ocbvlj2xSApAer+rKluYjdkf5lO6Sjeb6JTeHQ\nsPTIFwwKlhR8Cbds4cLYVdQYoKpBaXAko7nv6VrcPuuUSvC33l8Odvr7+2kDRUBQ\n7nIMpBKGgc0T0U7EPMpODdIm8QC3tKai4W56gf0wrHofx1l7\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEoDCCA4igAwIBAgIDORSEMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAlVT\nMSUwIwYDVQQKExxTdGFyZmllbGQgVGVjaG5vbG9naWVzLCBJbmMuMTIwMAYDVQQL\nEylTdGFyZmllbGQgQ2xhc3MgMiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw0x\nNDAxMDEwNzAwMDBaFw0zMTA1MzAwNzAwMDBaMIGPMQswCQYDVQQGEwJVUzEQMA4G\nA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTElMCMGA1UEChMcU3Rh\ncmZpZWxkIFRlY2hub2xvZ2llcywgSW5jLjEyMDAGA1UEAxMpU3RhcmZpZWxkIFJv\nb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwggEiMA0GCSqGSIb3DQEBAQUA\nA4IBDwAwggEKAoIBAQC97cED/PaP/AKxb1ufSNmdeeKitwNhVhjDR7bXyj01LolD\n96Fpm96KGv0TIJy0SXcyKVb9ueyM3SL6ctwnYZfu9lqE7G4ZuYks3IRb1XT7a1/F\niaUQUolGVfS4dRzmf+RUrkv4VXJXAhn4F3FZ6x4oB3TFnUi+bLT0pLDzZDd5ksDs\nRl5/4W1TTGKvzR8LY7s6nfv8eQCYYXTPJoJAY/OycmoZDZnK1A51zDf7i4nBWfFi\nf1+zX2Uw+Ke3TXZaHnZeNMDollaZirPwf6TNvdwyMXyRz+BfEfhrqklc0ZmU0aLj\nY1sJdrVWYuFLdB2W1CbUCARZ0JgODube/MPsH5DxAgMBAAGjggEpMIIBJTAPBgNV\nHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUfAwyH6fZMH/E\nfWijYqihzqsHWycwHwYDVR0jBBgwFoAUv1+30c7dH4b0W1Ws3NcQwg6piOcwOgYI\nKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5zdGFyZmllbGR0\nZWNoLmNvbS8wOAYDVR0fBDEwLzAtoCugKYYnaHR0cDovL2NybC5zdGFyZmllbGR0\nZWNoLmNvbS9zZnJvb3QuY3JsMEwGA1UdIARFMEMwQQYEVR0gADA5MDcGCCsGAQUF\nBwIBFitodHRwczovL2NlcnRzLnN0YXJmaWVsZHRlY2guY29tL3JlcG9zaXRvcnkv\nMA0GCSqGSIb3DQEBCwUAA4IBAQCFY8HZ3bn/qb2mGdy/EzoROCJUsawFEPt8s5Y/\nMYtm/4jz4b/7xx8A/0Zqi2EyyQFRdvuaxvogUchGxJjXeaPjBHI/i000U2fsMyx7\n6JQBKHw6NFsCdxaNQCUzsLxsl9cFev+Mhc5voFMAF24ebL0i1wqIN/Z965lB7yfL\njGBrTAF+ZVALT7iVmppuNP1zOjPxkdXzTi106O/TkDXxBmhk1NAT/VLTxm3BOoox\n3QUmNUqMZbhSa4Hs0py1NBCXnD7GL+2OQkIkLulzmiX5EfHyI2nL5ZRpoNLcsPxE\niawXqMzVN3cWxYC5DI9XAlWZhXtJ8C5boMJXU12i6KY3wwH6\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEDzCCAvegAwIBAgIBADANBgkqhkiG9w0BAQUFADBoMQswCQYDVQQGEwJVUzEl\nMCMGA1UEChMcU3RhcmZpZWxkIFRlY2hub2xvZ2llcywgSW5jLjEyMDAGA1UECxMp\nU3RhcmZpZWxkIENsYXNzIDIgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMDQw\nNjI5MTczOTE2WhcNMzQwNjI5MTczOTE2WjBoMQswCQYDVQQGEwJVUzElMCMGA1UE\nChMcU3RhcmZpZWxkIFRlY2hub2xvZ2llcywgSW5jLjEyMDAGA1UECxMpU3RhcmZp\nZWxkIENsYXNzIDIgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwggEgMA0GCSqGSIb3\nDQEBAQUAA4IBDQAwggEIAoIBAQC3Msj+6XGmBIWtDBFk385N78gDGIc/oav7PKaf\n8MOh2tTYbitTkPskpD6E8J7oX+zlJ0T1KKY/e97gKvDIr1MvnsoFAZMej2YcOadN\n+lq2cwQlZut3f+dZxkqZJRRU6ybH838Z1TBwj6+wRir/resp7defqgSHo9T5iaU0\nX9tDkYI22WY8sbi5gv2cOj4QyDvvBmVmepsZGD3/cVE8MC5fvj13c7JdBmzDI1aa\nK4UmkhynArPkPw2vCHmCuDY96pzTNbO8acr1zJ3o/WSNF4Azbl5KXZnJHoe0nRrA\n1W4TNSNe35tfPe/W93bC6j67eA0cQmdrBNj41tpvi/JEoAGrAgEDo4HFMIHCMB0G\nA1UdDgQWBBS/X7fRzt0fhvRbVazc1xDCDqmI5zCBkgYDVR0jBIGKMIGHgBS/X7fR\nzt0fhvRbVazc1xDCDqmI56FspGowaDELMAkGA1UEBhMCVVMxJTAjBgNVBAoTHFN0\nYXJmaWVsZCBUZWNobm9sb2dpZXMsIEluYy4xMjAwBgNVBAsTKVN0YXJmaWVsZCBD\nbGFzcyAyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5ggEAMAwGA1UdEwQFMAMBAf8w\nDQYJKoZIhvcNAQEFBQADggEBAAWdP4id0ckaVaGsafPzWdqbAYcaT1epoXkJKtv3\nL7IezMdeatiDh6GX70k1PncGQVhiv45YuApnP+yz3SFmH8lU+nLMPUxA2IGvd56D\neruix/U0F47ZEUD0/CwqTRV/p2JdLiXTAAsgGh1o+Re49L2L7ShZ3U0WixeDyLJl\nxy16paq8U4Zt3VekyvggQQto8PT7dL5WXXp59fkdheMtlb71cZBDzI0fmgAKhynp\nVSJYACPq4xJDKVtHCN2MQWplBqjlIapBtJUhlbl90TSrE9atvNziPTnNvT51cKEY\nWQPJIrSPnNVeKtelttQKbfi3QBFGmh95DmK/D5fs4C8fF5Q=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [],
+          "ja3s": "7770094a92b1cbfa5a6de2017cfb682a",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210528090520Z",
+            "expires": "20220501122221Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0402\\xa00\\xa0.\\x86,http://crl.starfieldtech.com/sfig2s1-308.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0Z0N\\x06\\x0b`\\x86H\\x01\\x86\\xfdn\\x01\\x07\\x17\\x010?0=\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x161http://certificates.starfieldtech.com/repository/0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x01",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0t0*\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x1ehttp://ocsp.starfieldtech.com/0F\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86:http://certificates.starfieldtech.com/repository/sfig2.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x16\\x80\\x14%E\\x81hP&8=;-,\\xbe\\xcdj\\xd9\\xb6=\\xb3fc",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0*\\x82\\x14*.propertyminder.com\\x82\\x12propertyminder.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "\\x04\\x14_\\xf2\\xce\\xa5f\\'Vl\\xe9V\\xdb\\xf9\\x88nU\\xff\\xb6t$\\x0e",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x82\\x01j\\x01h\\x00v\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01y\\xb28\\x92\\x1e\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xae\\x1b\\xb2\\xdc1a3\\xae\\xa9\\xcc|~4\"\\xe2\\x8e\n{\" \\x87\\x14dT\\xdfx\\xa9\\xcc\\xccL\\xdfw\\x02 X\\x1e\\xdd\\xa5\\x80\\x1a\\xb8\\xd1\\xb9\\x1f\\x14\\xc0y\\xa4V\\x03/K\\xcfjI\\xf3\\xcdD\\xdd\\xa4\\xc3\\xe5O\\xae\\xa1\\x13\\x00v\\x00\"EE\\x07YU$V\\x96?\\xa1/\\xf1\\xf7m\\x86\\xe0#&c\\xad\\xc0K\\x7f]\\xc6\\x83\\\n\\xe2\\x0f\\x02\\x00\\x00\\x01y\\xb28\\x93M\\x00\\x00\\x04\\x03\\x00G0E\\x02 w\\xda`\\x95@\\x9e\\xfe\\xd3a\\x93cf~\\x1exH)0\\x8e\\x03\\x16x/\\x91\\xf5\\xd1_\\xce\\xce9\\x19g\\x02!\\x00\\xac\\xcb\\xe9\\xde[\\x98\\xce/\\xad\\x05\\xadyAy(lr\\xd4[;\\x1cd\\xbbHv\\xd5kq\\xba7\\xe8\\xdb\\x00v\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01y\\xb28\\x94\\xd6\\x00\\x00\\x04\\x03\\x00G0E\\x02 o\\xc8{)\\x1e]\\xc5\\x7f\\xc5[+n\\xe58\\xd7\\xadQV\\x8d\\x18\\xd3\\xe3s\\x11\\x07\\x8d\\xee$A\\xed\\xe4\\x82\\x02!\\x00\\xf7\\xd8\\x88t\\xc2\\x100\\xe4k\\x128n\\xe5\\x8cN\\x91\\x14\\xb4\\xe9I\\x7fO\\xe5\\x0b\\xb7\\x96\\xed\\xfe~\\x80\\x97\\xed",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "bdcde6205e091edbc3ad343b8e5b064e0ee7e64f820be139b479962fb70cea06",
+              "sha1": "d780ec3833620559da66c0229e597cb03aafefaa"
+            },
+            "serial": 4435274687882900500,
+            "subject": {
+              "OU": "Domain Control Validated",
+              "CN": "*.propertyminder.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "Starfield Secure Certificate Authority - G2",
+              "L": "Scottsdale",
+              "O": "Starfield Technologies, Inc.",
+              "ST": "Arizona",
+              "OU": "http://certs.starfieldtech.com/repository/"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "propertyminder.com"
+        ],
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -122.0002,
+          "latitude": 37.3066,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "timestamp": "2022-03-26T14:50:29.579318",
+        "domains": [
+          "propertyminder.com"
+        ],
+        "org": "Corporate West Computer Systems, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "img.1teamrealtors.com",
+            "scan": "mr8ubJiQL6LnIkbs"
+          },
+          "id": "8367e9e7-c8ed-4435-9737-cdaeb5d6340e",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/26 14:51:29 66.206.167.55:443 - ERROR: remote error: internal error\n"
+        },
+        "ip_str": "66.206.167.55"
+      }
+    ],
+    "asn": "AS13917",
+    "ip_str": "66.206.167.55"
+  }
