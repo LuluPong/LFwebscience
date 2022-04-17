@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AngyShodanApp",
+    "\\AngyShodanApp\\frontend",
+    "\\AngyShodanApp\\frontend\\lab4",
+    "\\AngyShodanApp\\frontend\\lab4\\src",
+    "\\AngyShodanApp\\frontend\\lab4\\src\\app",
+    "\\AngyShodanApp\\frontend\\lab4\\src\\app\\visuno"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\AngyShodanApp\\frontend\\lab4\\src\\app\\visuno\\visuno.component.ts",
   "PreviewInSolutionExplorer": false
 }

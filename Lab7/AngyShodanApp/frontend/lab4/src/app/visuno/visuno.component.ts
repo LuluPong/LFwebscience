@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as d3 from 'd3';
 
 @Component({
   selector: 'app-visuno',
@@ -14,10 +15,21 @@ export class VisunoComponent implements OnInit {
     { "Framework": "Backbone", "Stars": "27647", "Released": "2010" },
     { "Framework": "Ember", "Stars": "21471", "Released": "2011" },
   ];
-  private svg;
+  private svg:any;
   private margin = 50;
   private width = 750 - (this.margin * 2);
   private height = 400 - (this.margin * 2);
+
+  
+  
+  constructor() { }
+
+  ngOnInit(): void {
+    /*
+    this.createSvg();
+    this.drawBars(this.data);
+    */
+  }
 
   private createSvg(): void {
     this.svg = d3.select("div#testVIS")
@@ -32,7 +44,7 @@ export class VisunoComponent implements OnInit {
     // Create the X-axis band scale
     const x = d3.scaleBand()
       .range([0, this.width])
-      .domain(data.map(d => d.Framework))
+      .domain(data.map((d: any) => d.Framework))
       .padding(0.2);
 
     // Draw the X-axis on the DOM
@@ -63,14 +75,4 @@ export class VisunoComponent implements OnInit {
       .attr("height", (d) => this.height - y(d.Stars))
       .attr("fill", "#d04a35");
   }
-  
-  constructor() { }
-
-  ngOnInit(): void {
-    /*
-    this.createSvg();
-    this.drawBars(this.data);
-    */
-  }
-
 }
