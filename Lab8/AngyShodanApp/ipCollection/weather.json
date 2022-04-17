@@ -1,0 +1,370 @@
+{
+    "doc_id": 58,
+    "city": "New York City",
+    "region_code": "NY",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 400105520,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.00597,
+    "last_update": "2022-03-18T02:24:03.370800",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 40.71427,
+    "hostnames": [
+      "dev.theweathercompany.info",
+      "a23-217-32-48.deploy.static.akamaitechnologies.com",
+      "www.crazimals.com",
+      "wunderground.com",
+      "wxug.com",
+      "wunderstation.com",
+      "weatherunderground.com",
+      "w-x.co",
+      "wund.com",
+      "stage.theweathercompany.info",
+      "weather.com",
+      "wundermap.com",
+      "stg.crazimals.com",
+      "theweathercompany.info",
+      "www.weather.com",
+      "crazimals.com",
+      "wsi.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "akamaitechnologies.com",
+      "wunderground.com",
+      "wxug.com",
+      "wunderstation.com",
+      "weatherunderground.com",
+      "w-x.co",
+      "wund.com",
+      "weather.com",
+      "wundermap.com",
+      "theweathercompany.info",
+      "crazimals.com",
+      "wsi.com"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.217.32.48",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;3ec8d917&#46;1647120880&#46;1fc9e7f\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -991246135,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-12T21:34:40.101509",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 208\r\nExpires: Sat, 12 Mar 2022 21:34:40 GMT\r\nDate: Sat, 12 Mar 2022 21:34:40 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": 76837894,
+        "hostnames": [
+          "a23-217-32-48.deploy.static.akamaitechnologies.com"
+        ],
+        "port": 80,
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 400105520,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "d905ab419aeb10e9c57a336c7e1aa9629ae4a733",
+          "options": {},
+          "id": "b39fb7ed-13bf-4ba0-a04c-f62e710ba04e",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "23.217.32.48"
+      },
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.217.32.48",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;cc8d917&#46;1647570243&#46;1ab9240\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1736499813,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-18T02:24:03.370800",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 207\r\nExpires: Fri, 18 Mar 2022 02:24:03 GMT\r\nDate: Fri, 18 Mar 2022 02:24:03 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": -814371170,
+        "ssl": {
+          "chain_sha256": [
+            "d767314ddbaab314d4cc65a8cabcdab8fb65837186e52b2ac18a31d8716d6311",
+            "154c433c491929c5ef686e838e323664a00e6a0d822ccc958fb4dab03e49a08f",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "28d28d28d2ad28d00042d42d000000bd133fde671db50adc016473d0d15112",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHeDCCBmCgAwIBAgIQB51AUx1VhBY1y+u93cJ7pjANBgkqhkiG9w0BAQsFADBN\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMScwJQYDVQQDEx5E\naWdpQ2VydCBTSEEyIFNlY3VyZSBTZXJ2ZXIgQ0EwHhcNMjEwNTEzMDAwMDAwWhcN\nMjIwNTE4MjM1OTU5WjB0MQswCQYDVQQGEwJVUzEQMA4GA1UECBMHR2VvcmdpYTET\nMBEGA1UEBxMKQnJvb2toYXZlbjEoMCYGA1UEChMfVFdDIFByb2R1Y3QgYW5kIFRl\nY2hub2xvZ3ksIExMQzEUMBIGA1UEAxMLd2VhdGhlci5jb20wWTATBgcqhkjOPQIB\nBggqhkjOPQMBBwNCAATPWWW7Qga1Wrlxtc+nbh2OJmCoSp08tWuLanDY1WfgwpGx\nE5wi8KMlDFWSoEJ63fF73jsXELz7MzUxLJm8Yp/Qo4IE9jCCBPIwHwYDVR0jBBgw\nFoAUD4BhHIIxYdUvKOeNRji0LOHG2eIwHQYDVR0OBBYEFO7BTCFEJDFArO+tWlTU\nEPqh62+7MIIBwgYDVR0RBIIBuTCCAbWCECouYWd0ZWNoLmlibS5jb22CFCouY29n\nYWRzLndlYXRoZXIuY29tghgqLmRldi5jb2dhZHMud2VhdGhlci5jb22CFyoucWEu\nY29nYWRzLndlYXRoZXIuY29tgggqLncteC5jb4INKi53ZWF0aGVyLmNvbYIJKi53\nc2kuY29tghIqLnd1bmRlcmdyb3VuZC5jb22CCioud3h1Zy5jb22CDWNyYXppbWFs\ncy5jb22CGmRldi50aGV3ZWF0aGVyY29tcGFueS5pbmZvghxzdGFnZS50aGV3ZWF0\naGVyY29tcGFueS5pbmZvghFzdGcuY3JhemltYWxzLmNvbYIWdGhld2VhdGhlcmNv\nbXBhbnkuaW5mb4IGdy14LmNvggt3ZWF0aGVyLmNvbYIWd2VhdGhlcnVuZGVyZ3Jv\ndW5kLmNvbYIHd3NpLmNvbYIId3VuZC5jb22CEHd1bmRlcmdyb3VuZC5jb22CDXd1\nbmRlcm1hcC5jb22CEXd1bmRlcnN0YXRpb24uY29tghF3d3cuY3JhemltYWxzLmNv\nbYIPd3d3LndlYXRoZXIuY29tggh3eHVnLmNvbTAOBgNVHQ8BAf8EBAMCB4AwHQYD\nVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMGsGA1UdHwRkMGIwL6AtoCuGKWh0\ndHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9zc2NhLXNoYTItZzcuY3JsMC+gLaArhilo\ndHRwOi8vY3JsNC5kaWdpY2VydC5jb20vc3NjYS1zaGEyLWc3LmNybDA+BgNVHSAE\nNzA1MDMGBmeBDAECAjApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3LmRpZ2ljZXJ0\nLmNvbS9DUFMwfAYIKwYBBQUHAQEEcDBuMCQGCCsGAQUFBzABhhhodHRwOi8vb2Nz\ncC5kaWdpY2VydC5jb20wRgYIKwYBBQUHMAKGOmh0dHA6Ly9jYWNlcnRzLmRpZ2lj\nZXJ0LmNvbS9EaWdpQ2VydFNIQTJTZWN1cmVTZXJ2ZXJDQS5jcnQwDAYDVR0TAQH/\nBAIwADCCAYAGCisGAQQB1nkCBAIEggFwBIIBbAFqAHYAKXm+8J45OSHwVnOfY6V3\n5b5XfZxgCvj5TV0mXCVdx4QAAAF5Z07/8wAABAMARzBFAiEAj1jPckwnK4wcq5xM\nKyjOC4aEeG6CpK4HDvnAVQ56e00CIH9h+h1epDqp5Z5zxNLlqv/Z4cKicwhVQnft\n0QN/f9REAHcAIkVFB1lVJFaWP6Ev8fdthuAjJmOtwEt/XcaDXG7iDwIAAAF5Z08A\nRAAABAMASDBGAiEA3/Q98rlmGoDVZru4R4Af2yeLVkDmbgCKYQ67BrrhFyUCIQCb\noYtC5/idnXqHUTrsf54HzGeh1j99LLFWV+Lzgo/8RAB3AEHIyrHfIkZKEMahOglC\nh15OMYsbA+vrS8do8JBilgb2AAABeWdO/+UAAAQDAEgwRgIhAM2KFgDXkq8HWugC\nL8STVyV2HG65eV/cJfuVIEoE2ZBNAiEAyVtGhTWQXa6vjhFC5Xkk74BKEaxvmX9L\n9qV4IQh3C5EwDQYJKoZIhvcNAQELBQADggEBAE378u3AO/MHNx5XoFWeLdrw5FQe\nOcxqIn7gQqLPVs+oljiyINOQKttPtQHzZ16/tJ8iYI46de8fSf02cYZagnuAxrA8\n8S/Z2nrtUjKmRT4Brs86zWamYnKrqjL5CczvPHv314GILA51dtqpWGU9Vf9GT+9i\nSxsSZUYOjvd4GALg66EtGG3hQTW1yLwP9djdes1xVg3ucEoybH1Nh7ahx5AGbqDb\nBmcBh/xrwcbOFKBADNyxTLHspdJHlq14Wsz/7HPI+TDn/b8o7NwnH5FB/xDvWDLD\njp75n2Hs9ovRmJtJQfUSMq9cRlQl35+9nCCQsGPh8/aQ5jGkIZCoAC1PqCY=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIElDCCA3ygAwIBAgIQAf2j627KdciIQ4tyS8+8kTANBgkqhkiG9w0BAQsFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0xMzAzMDgxMjAwMDBaFw0yMzAzMDgxMjAwMDBaME0xCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxJzAlBgNVBAMTHkRpZ2lDZXJ0IFNIQTIg\nU2VjdXJlIFNlcnZlciBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEB\nANyuWJBNwcQwFZA1W248ghX1LFy949v/cUP6ZCWA1O4Yok3wZtAKc24RmDYXZK83\nnf36QYSvx6+M/hpzTc8zl5CilodTgyu5pnVILR1WN3vaMTIa16yrBvSqXUu3R0bd\nKpPDkC55gIDvEwRqFDu1m5K+wgdlTvza/P96rtxcflUxDOg5B6TXvi/TC2rSsd9f\n/ld0Uzs1gN2ujkSYs58O09rg1/RrKatEp0tYhG2SS4HD2nOLEpdIkARFdRrdNzGX\nkujNVA075ME/OV4uuPNcfhCOhkEAjUVmR7ChZc6gqikJTvOX6+guqw9ypzAO+sf0\n/RR3w6RbKFfCs/mC/bdFWJsCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8C\nAQAwDgYDVR0PAQH/BAQDAgGGMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYY\naHR0cDovL29jc3AuZGlnaWNlcnQuY29tMHsGA1UdHwR0MHIwN6A1oDOGMWh0dHA6\nLy9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RDQS5jcmwwN6A1\noDOGMWh0dHA6Ly9jcmw0LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RD\nQS5jcmwwPQYDVR0gBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8v\nd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwHQYDVR0OBBYEFA+AYRyCMWHVLyjnjUY4tCzh\nxtniMB8GA1UdIwQYMBaAFAPeUDVW0Uy7ZvCj4hsbw5eyPdFVMA0GCSqGSIb3DQEB\nCwUAA4IBAQAjPt9L0jFCpbZ+QlwaRMxp0Wi0XUvgBCFsS+JtzLHgl4+mUwnNqipl\n5TlPHoOlblyYoiQm5vuh7ZPHLgLGTUq/sELfeNqzqPlt/yGFUzZgTHbO7Djc1lGA\n8MXW5dRNJ2Srm8c+cftIl7gzbckTB+6WohsYFfZcTEDts8Ls/3HB40f/1LkAtDdC\n2iDJ6m6K7hQGrn2iWZiIqBtvLfTyyRRfJs8sjX7tN8Cp1Tm5gr8ZDOo0rwAhaPit\nc+LJMto4JQtV05od8GiG7S5BNO98pVAdvzr508EIDObtHopYJeS4d60tbvVS3bR0\nj6tJLp07kzQoH3jOlOrHvdPJbRzeXDLz\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 5,
+              "name": "status_request"
+            }
+          ],
+          "ja3s": "2e02ce2d9494d3c5c9de3d97d4b808ce",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20210513000000Z",
+            "expires": "20220518235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\x0f\\x80a\\x1c\\x821a\\xd5/(\\xe7\\x8dF8\\xb4,\\xe1\\xc6\\xd9\\xe2",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\xee\\xc1L!D$1@\\xac\\xef\\xadZT\\xd4\\x10\\xfa\\xa1\\xebo\\xbb",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x82\\x01\\xb5\\x82\\x10*.agtech.ibm.com\\x82\\x14*.cogads.weather.com\\x82\\x18*.dev.cogads.weather.com\\x82\\x17*.qa.cogads.weather.com\\x82\\x08*.w-x.co\\x82\r*.weather.com\\x82 *.wsi.com\\x82\\x12*.wunderground.com\\x82\n*.wxug.com\\x82\rcrazimals.com\\x82\\x1adev.theweathercompany.info\\x82\\x1cstage.theweathercompany.info\\x82\\x11stg.crazimals.com\\x82\\x16theweathercompany.info\\x82\\x06w-x.co\\x82\\x0bweather.com\\x82\\x16weatherunderground.com\\x82\\x07wsi.com\\x82\\x08wund.com\\x82\\x10wunderground.com\\x82\rwundermap.com\\x82\\x11wunderstation.com\\x82\\x11www.crazimals.com\\x82\\x0fwww.weather.com\\x82\\x08wxug.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0b0/\\xa0-\\xa0+\\x86)http://crl3.digicert.com/ssca-sha2-g7.crl0/\\xa0-\\xa0+\\x86)http://crl4.digicert.com/ssca-sha2-g7.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0n0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0F\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86:http://cacerts.digicert.com/DigiCertSHA2SecureServerCA.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01l\\x01j\\x00v\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01ygN\\xff\\xf3\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\x8fX\\xcfrL\\'+\\x8c\\x1c\\xab\\x9cL+(\\xce\\x0b\\x86\\x84xn\\x82\\xa4\\xae\\x07\\x0e\\xf9\\xc0U\\x0ez{M\\x02 \\x7fa\\xfa\\x1d^\\xa4:\\xa9\\xe5\\x9es\\xc4\\xd2\\xe5\\xaa\\xff\\xd9\\xe1\\xc2\\xa2s\\x08UBw\\xed\\xd1\\x03\\x7f\\x7f\\xd4D\\x00w\\x00\"EE\\x07YU$V\\x96?\\xa1/\\xf1\\xf7m\\x86\\xe0#&c\\xad\\xc0K\\x7f]\\xc6\\x83\\\n\\xe2\\x0f\\x02\\x00\\x00\\x01ygO\\x00D\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xdf\\xf4=\\xf2\\xb9f\\x1a\\x80\\xd5f\\xbb\\xb8G\\x80\\x1f\\xdb\\'\\x8bV@\\xe6n\\x00\\x8aa\\x0e\\xbb\\x06\\xba\\xe1\\x17%\\x02!\\x00\\x9b\\xa1\\x8bB\\xe7\\xf8\\x9d\\x9dz\\x87Q:\\xec\\x7f\\x9e\\x07\\xccg\\xa1\\xd6?},\\xb1VW\\xe2\\xf3\\x82\\x8f\\xfcD\\x00w\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1: B\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01ygN\\xff\\xe5\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xcd\\x8a\\x16\\x00\\xd7\\x92\\xaf\\x07Z\\xe8\\x02/\\xc4\\x93W%v\\x1cn\\xb9y_\\xdc%\\xfb\\x95 J\\x04\\xd9\\x90M\\x02!\\x00\\xc9[F\\x855\\x90]\\xae\\xaf\\x8e\\x11B\\xe5y$\\xef\\x80J\\x11\\xaco\\x99\\x7fK\\xf6\\xa5x!\\x08w\\x0b\\x91",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "d767314ddbaab314d4cc65a8cabcdab8fb65837186e52b2ac18a31d8716d6311",
+              "sha1": "678c77b98a0a411ddf3b90e646d1928a02eb0732"
+            },
+            "serial": 1.0121091236514949e+37,
+            "subject": {
+              "CN": "weather.com",
+              "C": "US",
+              "L": "Brookhaven",
+              "O": "TWC Product and Technology, LLC",
+              "ST": "Georgia"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert SHA2 Secure Server CA",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-ECDSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1",
+            "http/1.0"
+          ],
+          "ocsp": {
+            "version": "1",
+            "response_status": "successful",
+            "responder_id": "0F80611C823161D52F28E78D4638B42CE1C6D9E2",
+            "cert_status": "good",
+            "produced_at": "2022-03-17 16:30:54",
+            "signature_algorithm": "sha256WithRSAEncryption",
+            "next_update": "2022-03-24 15:30:02",
+            "this_update": "2022-03-17 16:15:02",
+            "certificate_id": {
+              "hash_algorithm": "sha1",
+              "issuer_name_hash": "105FA67A80089DB5279F35CE830B43889EA3C70D",
+              "issuer_name_key": "0F80611C823161D52F28E78D4638B42CE1C6D9E2",
+              "serial_number": "079D40531D55841635CBEBBDDDC27BA6"
+            }
+          }
+        },
+        "hostnames": [
+          "dev.theweathercompany.info",
+          "a23-217-32-48.deploy.static.akamaitechnologies.com",
+          "weather.com",
+          "www.crazimals.com",
+          "wundermap.com",
+          "wxug.com",
+          "wunderstation.com",
+          "weatherunderground.com",
+          "w-x.co",
+          "wund.com",
+          "stage.theweathercompany.info",
+          "wunderground.com",
+          "stg.crazimals.com",
+          "theweathercompany.info",
+          "www.weather.com",
+          "crazimals.com",
+          "wsi.com"
+        ],
+        "port": 443,
+        "location": {
+          "city": "New York City",
+          "region_code": "NY",
+          "area_code": null,
+          "longitude": -74.00597,
+          "latitude": 40.71427,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 400105520,
+        "domains": [
+          "theweathercompany.info",
+          "akamaitechnologies.com",
+          "weather.com",
+          "crazimals.com",
+          "wundermap.com",
+          "wxug.com",
+          "wunderstation.com",
+          "weatherunderground.com",
+          "w-x.co",
+          "wund.com",
+          "wunderground.com",
+          "wsi.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "21255b11b05f5ce2a4cf82d3f9ebb017a5a1fdd1",
+          "options": {},
+          "id": "e13c6b69-b07a-4070-8b30-fc99af26c0fd",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 02:24:30 23.217.32.48:443 - SAFE\n"
+        },
+        "ip_str": "23.217.32.48"
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "23.217.32.48"
+  }

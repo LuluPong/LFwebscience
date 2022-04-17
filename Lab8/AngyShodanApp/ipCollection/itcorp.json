@@ -1,0 +1,476 @@
+{
+    "doc_id": 85,
+    "city": "Claremont",
+    "region_code": "CA",
+    "os": null,
+    "tags": [],
+    "ip": 2259495483,
+    "isp": "Claremont University Consortium",
+    "area_code": null,
+    "longitude": -117.71978,
+    "last_update": "2022-03-26T09:28:14.867967",
+    "ports": [
+      80,
+      443,
+      53,
+      22
+    ],
+    "latitude": 34.09668,
+    "hostnames": [
+      "ns.lensdb.info",
+      "ssh.itcorp.com",
+      "bestcogs.com",
+      "mail.itcorp.com",
+      "itcorp.com",
+      "mallet.cs.hmc.edu",
+      "mail.lensdb.info",
+      "mail.warm-images.com",
+      "www.lensdb.info",
+      "mail.bestcogs.com",
+      "www.itcorp.com",
+      "ns.warm-images.com",
+      "ns.bestcogs.com",
+      "ns.itcorp.com",
+      "lensdb.info",
+      "warm-images.com",
+      "www.bestcogs.com",
+      "www.warm-images.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "warm-images.com",
+      "bestcogs.com",
+      "itcorp.com",
+      "hmc.edu",
+      "lensdb.info"
+    ],
+    "org": "Claremont University Consortium",
+    "data": [
+      {
+        "ip": 2259495483,
+        "port": 22,
+        "transport": "tcp",
+        "version": "8.4",
+        "location": {
+          "city": "Claremont",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -117.71978,
+          "latitude": 34.09668,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "OpenSSH",
+        "hash": 209732189,
+        "timestamp": "2022-03-11T23:55:36.236693",
+        "hostnames": [
+          "mallet.cs.hmc.edu"
+        ],
+        "ssh": {
+          "hassh": "1ca2986661759c4e762d9c3ec43aa305",
+          "fingerprint": "da:c1:32:64:b7:fd:14:4b:85:de:02:cf:99:67:f0:5c",
+          "mac": "hmac-sha2-256",
+          "cipher": "aes128-ctr",
+          "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDXNGPUeRJwD4g3Nb8x+izPbLOOxzHkA6Sg6Rs91NN3Zf10\nrNF++TcEDaRt8mwHU9aHs60WwIz2yybQwthyWy8gkWFYIkKa5elgrW14XN6H829brOB+f74cp/wk\nh8yG43J4VsptAJ/E4FeFkYEOtoDA2tJArOYYE5xWMUQ9XNIFdrDyWw5ATLSC6k+awjHJhvALlBOG\nnVCey7M/k7oPjuGjcUCw4VL+NeNA+WUgcEMOjUIUZMJP11HMjrQ4lEOLDuX3OMQmBsfq0bA3FWhS\n5HXtwOI/6GtagcPpl7c4w1QGwH4bk4+nuYOjvaVU+7QuiGxwa2RUP8NHjO+oNOIK2zh/\n",
+          "kex": {
+            "languages": [
+              ""
+            ],
+            "server_host_key_algorithms": [
+              "rsa-sha2-512",
+              "rsa-sha2-256",
+              "ssh-rsa",
+              "ssh-ed25519"
+            ],
+            "encryption_algorithms": [
+              "chacha20-poly1305@openssh.com",
+              "aes256-gcm@openssh.com",
+              "aes128-gcm@openssh.com",
+              "aes256-ctr",
+              "aes192-ctr",
+              "aes128-ctr"
+            ],
+            "kex_follows": false,
+            "unused": 0,
+            "kex_algorithms": [
+              "curve25519-sha256@libssh.org",
+              "diffie-hellman-group-exchange-sha256",
+              "diffie-hellman-group14-sha1",
+              "diffie-hellman-group1-sha1"
+            ],
+            "compression_algorithms": [
+              "none",
+              "zlib@openssh.com"
+            ],
+            "mac_algorithms": [
+              "hmac-sha2-512-etm@openssh.com",
+              "hmac-sha2-256-etm@openssh.com",
+              "umac-128-etm@openssh.com",
+              "hmac-sha2-512",
+              "hmac-sha2-256",
+              "umac-128@openssh.com",
+              "hmac-sha1"
+            ]
+          },
+          "type": "ssh-rsa"
+        },
+        "org": "Claremont University Consortium",
+        "data": "SSH-2.0-OpenSSH_8.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDXNGPUeRJwD4g3Nb8x+izPbLOOxzHkA6Sg6Rs91NN3Zf10\nrNF++TcEDaRt8mwHU9aHs60WwIz2yybQwthyWy8gkWFYIkKa5elgrW14XN6H829brOB+f74cp/wk\nh8yG43J4VsptAJ/E4FeFkYEOtoDA2tJArOYYE5xWMUQ9XNIFdrDyWw5ATLSC6k+awjHJhvALlBOG\nnVCey7M/k7oPjuGjcUCw4VL+NeNA+WUgcEMOjUIUZMJP11HMjrQ4lEOLDuX3OMQmBsfq0bA3FWhS\n5HXtwOI/6GtagcPpl7c4w1QGwH4bk4+nuYOjvaVU+7QuiGxwa2RUP8NHjO+oNOIK2zh/\nFingerprint: da:c1:32:64:b7:fd:14:4b:85:de:02:cf:99:67:f0:5c\n\nKex Algorithms:\n curve25519-sha256@libssh.org\n diffie-hellman-group-exchange-sha256\n diffie-hellman-group14-sha1\n diffie-hellman-group1-sha1\n\nServer Host Key Algorithms:\n rsa-sha2-512\n rsa-sha2-256\n ssh-rsa\n ssh-ed25519\n\nEncryption Algorithms:\n chacha20-poly1305@openssh.com\n aes256-gcm@openssh.com\n aes128-gcm@openssh.com\n aes256-ctr\n aes192-ctr\n aes128-ctr\n\nMAC Algorithms:\n hmac-sha2-512-etm@openssh.com\n hmac-sha2-256-etm@openssh.com\n umac-128-etm@openssh.com\n hmac-sha2-512\n hmac-sha2-256\n umac-128@openssh.com\n hmac-sha1\n\nCompression Algorithms:\n none\n zlib@openssh.com\n\n",
+        "asn": "AS3659",
+        "cpe23": [
+          "cpe:2.3:a:openbsd:openssh:8.4"
+        ],
+        "info": "protocol 2.0",
+        "isp": "Claremont University Consortium",
+        "cpe": [
+          "cpe:/a:openbsd:openssh:8.4"
+        ],
+        "domains": [
+          "hmc.edu"
+        ],
+        "ip_str": "134.173.42.59",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "scan": "4stmI29isTjAHrzL"
+          },
+          "id": "ab199804-61da-4496-a783-00e2ee2ee1e4",
+          "module": "ssh",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "hash": -233931282,
+        "timestamp": "2022-03-26T09:28:14.867967",
+        "isp": "Claremont University Consortium",
+        "transport": "tcp",
+        "data": "9.16.6",
+        "asn": "AS3659",
+        "port": 53,
+        "hostnames": [
+          "mallet.cs.hmc.edu"
+        ],
+        "location": {
+          "city": "Claremont",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -117.71978,
+          "latitude": 34.09668,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "dns": {
+          "resolver_hostname": null,
+          "recursive": false,
+          "resolver_id": null,
+          "software": "9.16.6"
+        },
+        "ip": 2259495483,
+        "domains": [
+          "hmc.edu"
+        ],
+        "org": "Claremont University Consortium",
+        "os": null,
+        "_shodan": {
+          "crawler": "dfd12d70c30ccb3812bf26f89905deeb85e98c77",
+          "options": {},
+          "id": "94239335-540b-460a-80db-634fb233934f",
+          "module": "dns-tcp",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "134.173.42.59"
+      },
+      {
+        "ip": 2259495483,
+        "http": {
+          "status": 200,
+          "robots_hash": -1041635617,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "ITcorp.com",
+          "sitemap_hash": null,
+          "robots": "User-Agent: *\nAllow: /\n",
+          "server": "Apache/2.4.43 (Linux/SUSE)",
+          "host": "134.173.42.59",
+          "html": "<HTML>\n<HEAD>\n<TITLE>ITcorp.com</TITLE>\n</HEAD>\n<BODY>\n<CENTER>\n<H1>Interrupt Technology Corporation</H1>\n</CENTER>\n\n<P>\nThis is the home page of Interrupt Technology Corporation. If you are\nlooking for another company that calls itself \"ITcorp\", you'll have to\ntry typing the company's full name into a search engine.\n\n<H2>What Do We Do?</H2>\n\n<P>\nWe are a small, privately held software consulting firm specializing\nin file systems, storage systems, and computer measurement. We also\nprovide expert-witness services in those areas. If you have a need for\nour services, you may contact itcorp at itcorp.com (replacing the \"at\"\nwith an @ sign).\n\n<H2>Why Is This Web Page So Plain?</H2>\n\n<P>\nWe do not actively seek outside business. This Web page exists primarily\nto satisfy the needs of those who expect every domain to have a Web\npresence.\n\n</BODY>\n</HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -235137020,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 80,
+        "transport": "tcp",
+        "version": "2.4.43",
+        "location": {
+          "city": "Claremont",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -117.71978,
+          "latitude": 34.09668,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Apache httpd",
+        "hash": 992093513,
+        "timestamp": "2022-03-08T11:51:33.857779",
+        "hostnames": [
+          "mallet.cs.hmc.edu"
+        ],
+        "org": "Claremont University Consortium",
+        "data": "HTTP/1.1 200 OK\r\nDate: Tue, 08 Mar 2022 11:51:33 GMT\r\nServer: Apache/2.4.43 (Linux/SUSE)\r\nLast-Modified: Sat, 20 Dec 2014 12:44:12 GMT\r\nETag: \"35b-50aa52ea9f4dc\"\r\nAccept-Ranges: bytes\r\nContent-Length: 859\r\nContent-Type: text/html\r\n\r\n",
+        "asn": "AS3659",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server:2.4.43"
+        ],
+        "info": "(Linux/SUSE)",
+        "isp": "Claremont University Consortium",
+        "cpe": [
+          "cpe:/a:apache:http_server:2.4.43"
+        ],
+        "domains": [
+          "hmc.edu"
+        ],
+        "ip_str": "134.173.42.59",
+        "os": null,
+        "_shodan": {
+          "crawler": "40a81c583be35b43bfddd3126923ed489e6e2b2e",
+          "id": "a0be8266-1192-4946-80b1-4cfc9946b903",
+          "module": "http",
+          "options": {}
+        },
+        "opts": {}
+      },
+      {
+        "ip": 2259495483,
+        "http": {
+          "status": 200,
+          "robots_hash": -1041635617,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "ITcorp.com",
+          "sitemap_hash": null,
+          "robots": "User-Agent: *\nAllow: /\n",
+          "server": "Apache/2.4.43 (Linux/SUSE)",
+          "host": "134.173.42.59",
+          "html": "<HTML>\n<HEAD>\n<TITLE>ITcorp.com</TITLE>\n</HEAD>\n<BODY>\n<CENTER>\n<H1>Interrupt Technology Corporation</H1>\n</CENTER>\n\n<P>\nThis is the home page of Interrupt Technology Corporation. If you are\nlooking for another company that calls itself \"ITcorp\", you'll have to\ntry typing the company's full name into a search engine.\n\n<H2>What Do We Do?</H2>\n\n<P>\nWe are a small, privately held software consulting firm specializing\nin file systems, storage systems, and computer measurement. We also\nprovide expert-witness services in those areas. If you have a need for\nour services, you may contact itcorp at itcorp.com (replacing the \"at\"\nwith an @ sign).\n\n<H2>Why Is This Web Page So Plain?</H2>\n\n<P>\nWe do not actively seek outside business. This Web page exists primarily\nto satisfy the needs of those who expect every domain to have a Web\npresence.\n\n</BODY>\n</HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -235137020,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "version": "2.4.43",
+        "location": {
+          "city": "Claremont",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -117.71978,
+          "latitude": 34.09668,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Apache httpd",
+        "hash": -2025169488,
+        "timestamp": "2022-03-12T05:14:56.030841",
+        "ssl": {
+          "chain_sha256": [
+            "14f30a2a423f56b990ae47fe1837eefda8e06796ee21d19f1e88e2e5e44367c6",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "3fd3fd16d3fd3fd00042d42d00000061256d32ed7779c14686ad100544dc8d",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIHTjCCBjagAwIBAgISBAUGjbglBscOWv3/CNEjEl9oMA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAyMTgxNTI4NDdaFw0yMjA1MTkxNTI4NDZaMBwxGjAYBgNVBAMT\nEW1hbGxldC5jcy5obWMuZWR1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKC\nAgEApN8V25OrrkfnkVY5DyYiYEbFGiK2Jx0kq0jLcUisfPwRY3pxMM0wmhLS4tqY\nsViw4Q5sUFTGyd9U+7EEy56Cl8EsG8qYCjV9bZUedpN4cKAiu7bouiQzvI/175tP\nXxCo5MC1xJ3vAT2ECK8/Cr5QSBcmCRrM34D4JMYsL/2zhe9rzxN8LGRKLI7d+tUv\nYnpSsoOq/gHGYs8mWJAmI/hqEIPh8ugEMzH+yCH5tjl4LjQnWDWTqCRk1+IRHWY2\nKOBAJMpV07evj8iEpL6BYyy3xhRz01ndDXyslexUMiEwCjlnD6UAFRF4RlYupWnL\nS+IDJWo8FCZe6KTewfWDSCfJxn2gEuX2FJ92YwZ8zA+hKDy4qU4a/w4CutabRia5\naQKCG4tZwDPGiMwTQ3nqmEkuGsfSKxOt6J/K5iW8N6q1oNk+z20+5wGupWYG8kK8\ngTDofKlU87fN6JEArTIDzIjQ0Xjtr/Vypet9kk5TkDk3/XHOVss3oOcHMvjmRE2N\n5pNQ1fTKW4cfer4IeZAKWY7ZoRVrn7PR4sqnOpeE4UIOQSbBrnV99wGg6cZ7XNpP\nY0kUUQyI5rADjLrS6/vinKqAq38dfjWBR9+QE4M2fhfFWbnGenpJFopmBbm+MKGJ\nFSh2ReWHFCeD8W2dGLdbTOy6rSrOligMaisaUujIeUs17CcCAwEAAaOCA3IwggNu\nMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIw\nDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUVplzltZ0Rp5qMlqt84+Rz6I0ZyswHwYD\nVR0jBBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEG\nCCsGAQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0\ndHA6Ly9yMy5pLmxlbmNyLm9yZy8wggFABgNVHREEggE3MIIBM4IMYmVzdGNvZ3Mu\nY29tggppdGNvcnAuY29tggtsZW5zZGIuaW5mb4IRbWFpbC5iZXN0Y29ncy5jb22C\nD21haWwuaXRjb3JwLmNvbYIQbWFpbC5sZW5zZGIuaW5mb4IUbWFpbC53YXJtLWlt\nYWdlcy5jb22CEW1hbGxldC5jcy5obWMuZWR1gg9ucy5iZXN0Y29ncy5jb22CDW5z\nLml0Y29ycC5jb22CDm5zLmxlbnNkYi5pbmZvghJucy53YXJtLWltYWdlcy5jb22C\nDnNzaC5pdGNvcnAuY29tgg93YXJtLWltYWdlcy5jb22CEHd3dy5iZXN0Y29ncy5j\nb22CDnd3dy5pdGNvcnAuY29tgg93d3cubGVuc2RiLmluZm+CE3d3dy53YXJtLWlt\nYWdlcy5jb20wTAYDVR0gBEUwQzAIBgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAm\nBggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5jcnlwdC5vcmcwggEEBgorBgEE\nAdZ5AgQCBIH1BIHyAPAAdQDfpV6raIJPH2yt7rhfTj5a6s2iEqRqXo47EsAgRFwq\ncwAAAX8Nqh8UAAAEAwBGMEQCIEET9qcp4XBQczFvzR3ycbvndyGmAp9S57pQKmld\nvbWOAiBQFgJcxkI/qnn/c6kfwR8ESNO4B9yOF41zYmomI7DY8wB3ACl5vvCeOTkh\n8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABfw2qHw4AAAQDAEgwRgIhAJlroFVf\n7TMLkwepgklLwfd1SV/5nfKobqWaqoOStXTZAiEAgriigXn9LJIa/ZepEJC8YEGf\nEASXmZXhKDQqCP+BdsYwDQYJKoZIhvcNAQELBQADggEBAHBYY3ZknbdAZ/kSgC7d\nql9/Fq0uiLfx+xSm8kUNWOK9WzItxQf9PkIFdQCcZ7yoRMCFsH8d7mX2YQvoThq4\nXI0Q3bpzwJdLy4ouFGDGvlG3//um5UohcV6u8ZcsRAwANeXqwcfNP9+zcXUxgEAC\nYDCWE6Y6VCJJJq72VgIIrdbyJsIe45eol0YG+fVVZeqID193A3E4SaSCQuw9py7v\nf4f5hCdX2MG+ihIpkyMn+mRwyWe9Abmw5/USS7mHOKkUmuKwRxURnTP3EAJOaD4d\nrZyxmLKrSyzFnqpuV/+hb/rR5GYEyAxDhNhWBdis27rUKKsPHbhJyXzuZwIRRPpD\nbOY=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c934063199ffffffffffffffff",
+            "public_key": "2a7c275b005d4e2a6a815a7d49de20be2f09c67797c218b84b0a3f459cd711358a81357b58f87b7b86be87987c42c21efb78245cdb1b5442905d4fdff77f787e604bbf3d974c5eec38fdf7dfaf4c1fe3b733cb14b816d28ad8e9f97783b1fbbdf93237a6f47d07a06040ae8d1b2a6b49b46313b8f93bcbd2a7e61b37ba51785016d668a83706416f3a7b21173166a5c2c021e489c71c8ea57f5d6667cab293960b7c9f0b62c6e86206b809008759d9180065d78d3d0edbfd348d63563cba7971f2ad4ab8d43610a42b7ab791d9d6033fe82cbd0e67b3c2411e896a7bc1cd66148373bf8947b8cd19368440edd4141c9cc4f057b65f49f651eb47f64673053ecc136f55d8f316841102592ba908bfee861f161de88821166950e09115b3eab1019572bb1866451173f28c1378ca322dcfa6cc2453782112eef5c1fca7134142421f50205957273376d4cb30dae321717d5272d8286a3159e692947bf3ea848379eabeceb6c66a7b3ec0e9f24d89710eab0c142443a85d15253e3907d65836f75c92ef13af06389e693037aafea2b391ede72c189dfe804ef69b268318f48964f73530db813c27cc1efc958eb99a4820fc2945e013c76a5f7a34c9bc8efb1872d6149847dd49ed6eb528d3609eafd4e5dae4f2df17b3a77d7f731da1e97de0ed4f7df5354e8fea5d7e39f4ad7946d1c86de7ff4ce2c22b149d2a149a183a5042bc",
+            "bits": 4096,
+            "generator": 2,
+            "fingerprint": "RFC3526/Oakley Group 16"
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "e35df3e00ca4ef31d42b34bebaa2f86e",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220218152847Z",
+            "expires": "20220519152846Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14V\\x99s\\x96\\xd6tF\\x9ej2Z\\xad\\xf3\\x8f\\x91\\xcf\\xa24g+",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x82\\x013\\x82\\x0cbestcogs.com\\x82\nitcorp.com\\x82\\x0blensdb.info\\x82\\x11mail.bestcogs.com\\x82\\x0fmail.itcorp.com\\x82\\x10mail.lensdb.info\\x82\\x14mail.warm-images.com\\x82\\x11mallet.cs.hmc.edu\\x82\\x0fns.bestcogs.com\\x82\rns.itcorp.com\\x82\\x0ens.lensdb.info\\x82\\x12ns.warm-images.com\\x82\\x0essh.itcorp.com\\x82\\x0fwarm-images.com\\x82\\x10www.bestcogs.com\\x82\\x0ewww.itcorp.com\\x82\\x0fwww.lensdb.info\\x82\\x13www.warm-images.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf2\\x00\\xf0\\x00u\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01\\x7f\r\\xaa\\x1f\\x14\\x00\\x00\\x04\\x03\\x00F0D\\x02 A\\x13\\xf6\\xa7)\\xe1pPs1o\\xcd\\x1d\\xf2q\\xbb\\xe7w!\\xa6\\x02\\x9fR\\xe7\\xbaP*i]\\xbd\\xb5\\x8e\\x02 P\\x16\\x02\\\\\\xc6B?\\xaay\\xffs\\xa9\\x1f\\xc1\\x1f\\x04H\\xd3\\xb8\\x07\\xdc\\x8e\\x17\\x8dsbj&#\\xb0\\xd8\\xf3\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01\\x7f\r\\xaa\\x1f\\x0e\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\x99k\\xa0U_\\xed3\\x0b\\x93\\x07\\xa9\\x82IK\\xc1\\xf7uI_\\xf9\\x9d\\xf2\\xa8n\\xa5\\x9a\\xaa\\x83\\x92\\xb5t\\xd9\\x02!\\x00\\x82\\xb8\\xa2\\x81y\\xfd,\\x92\\x1a\\xfd\\x97\\xa9\\x10\\x90\\xbc`A\\x9f\\x10\\x04\\x97\\x99\\x95\\xe1(4*\\x08\\xff\\x81v\\xc6",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "14f30a2a423f56b990ae47fe1837eefda8e06796ee21d19f1e88e2e5e44367c6",
+              "sha1": "b5aae124ed0ddd20d06261d281148816677f365e"
+            },
+            "serial": 3.5015926677837434e+41,
+            "subject": {
+              "CN": "mallet.cs.hmc.edu"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 4096
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "ns.lensdb.info",
+          "ssh.itcorp.com",
+          "bestcogs.com",
+          "mail.warm-images.com",
+          "itcorp.com",
+          "mallet.cs.hmc.edu",
+          "mail.lensdb.info",
+          "mail.itcorp.com",
+          "www.lensdb.info",
+          "mail.bestcogs.com",
+          "www.itcorp.com",
+          "ns.warm-images.com",
+          "ns.bestcogs.com",
+          "ns.itcorp.com",
+          "www.warm-images.com",
+          "warm-images.com",
+          "www.bestcogs.com",
+          "lensdb.info"
+        ],
+        "org": "Claremont University Consortium",
+        "data": "HTTP/1.1 200 OK\r\nDate: Sat, 12 Mar 2022 05:14:55 GMT\r\nServer: Apache/2.4.43 (Linux/SUSE)\r\nLast-Modified: Sat, 20 Dec 2014 12:44:12 GMT\r\nETag: \"35b-50aa52ea9f4dc\"\r\nAccept-Ranges: bytes\r\nContent-Length: 859\r\nContent-Type: text/html\r\n\r\n",
+        "asn": "AS3659",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server:2.4.43"
+        ],
+        "info": "(Linux/SUSE)",
+        "isp": "Claremont University Consortium",
+        "cpe": [
+          "cpe:/a:apache:http_server:2.4.43"
+        ],
+        "domains": [
+          "lensdb.info",
+          "itcorp.com",
+          "bestcogs.com",
+          "warm-images.com",
+          "hmc.edu"
+        ],
+        "ip_str": "134.173.42.59",
+        "os": null,
+        "_shodan": {
+          "crawler": "21255b11b05f5ce2a4cf82d3f9ebb017a5a1fdd1",
+          "options": {},
+          "id": "d606c3d6-0988-46b6-a975-62dcea0fd93d",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/12 05:15:28 134.173.42.59:443 - SAFE\n"
+        }
+      }
+    ],
+    "asn": "AS3659",
+    "ip_str": "134.173.42.59"
+  }

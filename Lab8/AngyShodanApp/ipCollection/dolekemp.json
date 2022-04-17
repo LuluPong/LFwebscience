@@ -1,0 +1,317 @@
+{
+    "doc_id": 75,
+    "city": "Newark",
+    "region_code": "NJ",
+    "os": null,
+    "tags": [
+      "self-signed",
+      "starttls"
+    ],
+    "ip": 1127975022,
+    "isp": "HostMySite",
+    "area_code": null,
+    "longitude": -74.17237,
+    "last_update": "2022-03-24T18:42:42.840550",
+    "ports": [
+      80,
+      5985,
+      21
+    ],
+    "latitude": 40.73566,
+    "hostnames": [
+      "win-web07.hostmanagement.net"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "hostmanagement.net"
+    ],
+    "org": "HostMySite",
+    "data": [
+      {
+        "ip": 1127975022,
+        "port": 21,
+        "transport": "tcp",
+        "ftp": {
+          "features": {
+            "LANG": {
+              "parameters": [
+                "EN"
+              ]
+            },
+            "UTF8": {
+              "parameters": []
+            },
+            "PROT": {
+              "parameters": [
+                "C",
+                "P"
+              ]
+            },
+            "AUTH": {
+              "parameters": [
+                "TLS",
+                "TLS-C",
+                "SSL",
+                "TLS-P"
+              ]
+            },
+            "MDTM": {
+              "parameters": []
+            },
+            "PBSZ": {
+              "parameters": []
+            },
+            "HOST": {
+              "parameters": []
+            },
+            "REST": {
+              "parameters": [
+                "STREAM"
+              ]
+            },
+            "CCC": {
+              "parameters": []
+            },
+            "SIZE": {
+              "parameters": []
+            }
+          },
+          "anonymous": false,
+          "features_hash": 127003934
+        },
+        "location": {
+          "city": "Newark",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.17237,
+          "latitude": 40.73566,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Microsoft ftpd",
+        "hash": -370734890,
+        "tags": [
+          "starttls",
+          "self-signed"
+        ],
+        "timestamp": "2022-03-24T14:50:50.790604",
+        "ssl": {
+          "chain_sha256": [
+            "39ba701566ecb7ca276fb34b00f1ab8e9c6d3c9af00bb35c37b8bae2d37caaef"
+          ],
+          "jarm": "00000000000000000000000000000000000000000000000000000000000000",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIC5TCCAc2gAwIBAgIQNdrMtB9FK4lBvIwCVz54qTANBgkqhkiG9w0BAQUFADAa\nMRgwFgYDVQQDEw9XTVN2Yy1XSU4tV0VCMDcwHhcNMTQwNjA5MTQ1NjIxWhcNMjQw\nNjA2MTQ1NjIxWjAaMRgwFgYDVQQDEw9XTVN2Yy1XSU4tV0VCMDcwggEiMA0GCSqG\nSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDzwMOxrBMjTE1Fnu7DCODPJkQ2UvQwUE22\nQ3FtzBMQw1Y9iySX+HSobtZmZ1IXoO4x1Yiqff865i6sBc9JuZgq8v1SPPZ7U9qy\nxQbZ2QrN7cDQrbXW+WFQITqEtqKQ7AZ8oaJl6M9JEXaWJpLSBHeNgCMytmXqJU0K\nlKMkB7+TozxDinQInFgqQa2tAYY9B6Ei1vcTKzN63sL4SLTQZFqgdQTA+3tryDwm\nljdGYwLujbZE4h5qflN0RmN3cgc2crq5Itx+4lCsjZd1bMTzmhg/YT3zNMoaKsoH\nnK7H96mBAHuv35hLnmK3l3H7w3riSOlq8aJvbp1x9s62Xx+2QSybAgMBAAGjJzAl\nMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0B\nAQUFAAOCAQEAlp5rAq+jwp9FD0y3DpBcjXt29Xsvme4VZFhk4zwk7nI237VayFL6\nfTXZ3sXbYEB36FaiBvqFsa1HgCu+3dZtGuqdhUOgdqbjxhm5PMgSDjJpNTYhLta2\nVgPh9Vb4lPJRIvEU5grQB2IDYSDW5UPAY4H+WHyPUnbdCwojm17oE8XtKdutPiRw\nmhbKpZSN/sZwo2VIB5+TtZhSWUohG5RmyZupIY4lcJkXOqro/29LNgAIbFaylwCW\n7lRN1ulJJNbnmVcR1hstGrMrYagDWZYxV8/6lQJD2brkHOrddamVlw99qwBaEC3B\nGerz0T+ubZfaeE36L6wjymuO8amCvWLc1Q==\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "TLSv1.1",
+            "TLSv1.2"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            }
+          ],
+          "ja3s": "a70303593a393dfd863b76d9da6c3ace",
+          "cert": {
+            "sig_alg": "sha1WithRSAEncryption",
+            "issued": "20140609145621Z",
+            "expires": "20240606145621Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\n\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "\\x03\\x05\\x00\\xb0\\x00\\x00\\x00",
+                "name": "keyUsage"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "39ba701566ecb7ca276fb34b00f1ab8e9c6d3c9af00bb35c37b8bae2d37caaef",
+              "sha1": "7aced39234efdf66f947241a9fab2c4e29f9de9d"
+            },
+            "serial": 7.158515637406719e+37,
+            "subject": {
+              "CN": "WMSvc-WIN-WEB07"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "CN": "WMSvc-WIN-WEB07"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "win-web07.hostmanagement.net"
+        ],
+        "org": "HostMySite",
+        "data": "220 Microsoft FTP Service\r\n530 User cannot log in.\r\n214-The following commands are recognized (* ==>'s unimplemented).\n    ABOR \n    ACCT \n    ADAT *\n    ALLO \n    APPE \n    AUTH \n    CCC \n    CDUP \n    CWD \n    DELE \n    ENC *\n    EPRT \n    EPSV \n    FEAT \n    HELP \n    HOST \n    LANG \n    LIST \n    MDTM \n    MIC *\n    MKD \n    MODE \n    NLST \n    NOOP \n    OPTS \n    PASS \n    PASV \n    PBSZ \n    PORT \n    PROT \n    PWD \n    QUIT \n    REIN \n    REST \n    RETR \n    RMD \n    RNFR \n    RNTO \n    SITE \n    SIZE \n    SMNT \n    STAT \n    STOR \n    STOU \n    STRU \n    SYST \n    TYPE \n    USER \n    XCUP \n    XCWD \n    XMKD \n    XPWD \n    XRMD \n214 HELP command successful.\r\n211-Extended features supported:\n LANG EN*\n UTF8\n AUTH TLS;TLS-C;SSL;TLS-P;\n PBSZ\n PROT C;P;\n CCC\n HOST\n SIZE\n MDTM\n REST STREAM\n211 END\r\n",
+        "asn": "AS20021",
+        "cpe23": [
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "isp": "HostMySite",
+        "cpe": [
+          "cpe:/o:microsoft:windows"
+        ],
+        "domains": [
+          "hostmanagement.net"
+        ],
+        "ip_str": "67.59.136.110",
+        "os": null,
+        "_shodan": {
+          "crawler": "6d5195c331613d103027c23dc52e6d32fd2a74af",
+          "options": {
+            "hostname": "ftp.lalawfirm.net",
+            "scan": "TK4gAE6nVLRup0c8"
+          },
+          "id": "f587b44f-cc4d-476d-9ac1-f706d1a7bcc3",
+          "module": "ftp",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "hash": 2135114548,
+        "product": "Microsoft IIS httpd",
+        "hostnames": [
+          "win-web07.hostmanagement.net"
+        ],
+        "http": {
+          "status": 403,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "IIS 7.5 Detailed Error - 403.1 - Forbidden",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Microsoft-IIS/7.5",
+          "host": "67.59.136.110",
+          "html": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"> \n<html xmlns=\"http://www.w3.org/1999/xhtml\"> \n<head> \n<title>IIS 7.5 Detailed Error - 403.1 - Forbidden</title> \n<style type=\"text/css\"> \n<!-- \nbody{margin:0;font-size:.7em;font-family:Verdana,Arial,Helvetica,sans-serif;background:#CBE1EF;} \ncode{margin:0;color:#006600;font-size:1.1em;font-weight:bold;} \n.config_source code{font-size:.8em;color:#000000;} \npre{margin:0;font-size:1.4em;word-wrap:break-word;} \nul,ol{margin:10px 0 10px 40px;} \nul.first,ol.first{margin-top:5px;} \nfieldset{padding:0 15px 10px 15px;} \n.summary-container fieldset{padding-bottom:5px;margin-top:4px;} \nlegend.no-expand-all{padding:2px 15px 4px 10px;margin:0 0 0 -12px;} \nlegend{color:#333333;padding:4px 15px 4px 10px;margin:4px 0 8px -12px;_margin-top:0px; \n border-top:1px solid #EDEDED;border-left:1px solid #EDEDED;border-right:1px solid #969696; \n border-bottom:1px solid #969696;background:#E7ECF0;font-weight:bold;font-size:1em;} \na:link,a:visited{color:#007EFF;font-weight:bold;} \na:hover{text-decoration:none;} \nh1{font-size:2.4em;margin:0;color:#FFF;} \nh2{font-size:1.7em;margin:0;color:#CC0000;} \nh3{font-size:1.4em;margin:10px 0 0 0;color:#CC0000;} \nh4{font-size:1.2em;margin:10px 0 5px 0; \n}#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:\"trebuchet MS\",Verdana,sans-serif; \n color:#FFF;background-color:#5C87B2; \n}#content{margin:0 0 0 2%;position:relative;} \n.summary-container,.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;} \n.config_source{background:#fff5c4;} \n.content-container p{margin:0 0 10px 0; \n}#details-left{width:35%;float:left;margin-right:2%; \n}#details-right{width:63%;float:left;overflow:hidden; \n}#server_version{width:96%;_height:1px;min-height:1px;margin:0 0 5px 0;padding:11px 2% 8px 2%;color:#FFFFFF; \n background-color:#5A7FA5;border-bottom:1px solid #C1CFDD;border-top:1px solid #4A6C8E;font-weight:normal; \n font-size:1em;color:#FFF;text-align:right; \n}#server_version p{margin:5px 0;} \ntable{margin:4px 0 4px 0;width:100%;border:none;} \ntd,th{vertical-align:top;padding:3px 0;text-align:left;font-weight:bold;border:none;} \nth{width:30%;text-align:right;padding-right:2%;font-weight:normal;} \nthead th{background-color:#ebebeb;width:25%; \n}#details-right th{width:20%;} \ntable tr.alt td,table tr.alt th{background-color:#ebebeb;} \n.highlight-code{color:#CC0000;font-weight:bold;font-style:italic;} \n.clear{clear:both;} \n.preferred{padding:0 5px 2px 5px;font-weight:normal;background:#006633;color:#FFF;font-size:.8em;} \n--> \n</style> \n \n</head> \n<body> \n<div id=\"header\"><h1>Server Error in Application \"PEM IIS DEFAULT WEB SERVER\"</h1></div> \n<div id=\"server_version\"><p>Internet Information Services 7.5</p></div> \n<div id=\"content\"> \n<div class=\"content-container\"> \n <fieldset><legend>Error Summary</legend> \n  <h2>HTTP Error 403.1 - Forbidden</h2> \n  <h3>You have attempted to run a CGI, ISAPI, or other executable program from a directory that does not allow executables to run.</h3> \n </fieldset> \n</div> \n<div class=\"content-container\"> \n <fieldset><legend>Detailed Error Information</legend> \n  <div id=\"details-left\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Module</th><td>IIS Web Core</td></tr> \n    <tr><th>Notification</th><td>MapRequestHandler</td></tr> \n    <tr class=\"alt\"><th>Handler</th><td>ExtensionlessUrlHandler-ISAPI-4.0_64bit</td></tr> \n    <tr><th>Error Code</th><td>0x80070005</td></tr> \n     \n   </table> \n  </div> \n  <div id=\"details-right\"> \n   <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\"> \n    <tr class=\"alt\"><th>Requested URL</th><td>http://67.59.136.110:80/</td></tr> \n    <tr><th>Physical Path</th><td>C:\\CustomerData\\default\\wwwroot</td></tr> \n    <tr class=\"alt\"><th>Logon Method</th><td>Anonymous</td></tr> \n    <tr><th>Logon User</th><td>Anonymous</td></tr> \n     \n   </table> \n   <div class=\"clear\"></div> \n  </div> \n </fieldset> \n</div> \n<div class=\"content-container\"> \n <fieldset><legend>Most likely causes:</legend> \n  <ul>  <li>The \"Scripts\" or \"Scripts and Executables\" flag is not configured in Rights and Permissions at the server, site, application, or page level.</li>  <li>The configuration/system.webServer/handlers@accessPolicy attribute does not have Script or Execute configured.</li>  <li>Execute access is denied when you try to run a CGI file or other executable.</li>  <li>Script access is denied when you try to access an ASP, ASP.NET or other dynamic scripting file.</li>  <li>The script mapping for the file you are trying to run is not configured to recognize the HTTP verb you are using (such as GET or POST).</li>  <li>The HTTP verb for the script mapping is case sensitive, and use upper case. The HTTP verb \"POST\" is correct, while \"post\" is incorrect and execution is denied.</li> </ul> \n </fieldset> \n</div> \n<div class=\"content-container\"> \n <fieldset><legend>Things you can try:</legend> \n  <ul>  <li>           Enable scripts to run for the requested resource.           <ol>    <li>Open IIS Manager and navigate to the level you want to manage.</li>    <li>On the Features page, double-click the Handler Mappings feature.</li>    <li>On the Handler Mappings page, in the Actions pane, click Edit Handler Permissions.</li>    <li>In the Edit Handler Mappings dialog box, select Scripts to enable handlers that require script rights.</li>   </ol>  </li>  <li>Verify the configuration/system.webServer/handlers@accessPolicy setting at the server, site, application and page level.</li>  <li>Verify that the script mapping is configured to recognize the HTTP verb you are using, and that the verb is in uppercase.</li>  <li>Create a tracing rule to track failed requests for this HTTP status code. For more information about creating a tracing rule for failed requests, click <a href=\"http://go.microsoft.com/fwlink/?LinkID=66439\">here</a>. </li> </ul> \n </fieldset> \n</div> \n \n \n<div class=\"content-container\"> \n <fieldset><legend>Links and More Information</legend> \n  This error occurs when the Execute Rights setting for the requested resource does not allow scripts to run. Set the Execute Rights property for the resource at the server, site, application, and file level. To resolve this problem, verify the Execute Rights setting at each of these levels, and set the appropriate Execute Right at the desired level. \n  <p><a href=\"http://go.microsoft.com/fwlink/?LinkID=62293&amp;IIS70Error=403,1,0x80070005,7601\">View more information &raquo;</a></p> \n  <p>Microsoft Knowledge Base Articles:</p> \n <ul><li>318380</li></ul> \n \n </fieldset> \n</div> \n</div> \n</body> \n</html> \n",
+          "location": "/",
+          "components": {},
+          "html_hash": -878662722,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "ip": 1127975022,
+        "org": "HostMySite",
+        "isp": "HostMySite",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:microsoft:internet_information_services:7.5",
+          "cpe:/o:microsoft:windows"
+        ],
+        "data": "HTTP/1.1 403 Forbidden\r\nCache-Control: private\r\nContent-Type: text/html; charset=utf-8\r\nServer: Microsoft-IIS/7.5\r\nX-Powered-By: ASP.NET\r\nDate: Thu, 24 Mar 2022 18:42:42 GMT\r\nContent-Length: 6689\r\n\r\n",
+        "asn": "AS20021",
+        "port": 80,
+        "version": "7.5",
+        "cpe23": [
+          "cpe:2.3:a:microsoft:internet_information_services:7.5",
+          "cpe:2.3:o:microsoft:windows"
+        ],
+        "timestamp": "2022-03-24T18:42:42.840550",
+        "domains": [
+          "hostmanagement.net"
+        ],
+        "ip_str": "67.59.136.110",
+        "os": null,
+        "_shodan": {
+          "crawler": "21255b11b05f5ce2a4cf82d3f9ebb017a5a1fdd1",
+          "options": {},
+          "id": "eefde96d-c9d7-4539-9e8c-6569c863af04",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Newark",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.17237,
+          "latitude": 40.73566,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1863125515,
+        "http": {
+          "status": 404,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Not Found",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Microsoft-HTTPAPI/2.0",
+          "host": "67.59.136.110",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"\"http://www.w3.org/TR/html4/strict.dtd\">\r\n<HTML><HEAD><TITLE>Not Found</TITLE>\r\n<META HTTP-EQUIV=\"Content-Type\" Content=\"text/html; charset=us-ascii\"></HEAD>\r\n<BODY><h2>Not Found</h2>\r\n<hr><p>HTTP Error 404. The requested resource is not found.</p>\r\n</BODY></HTML>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1489525118,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-24T11:10:28.652153",
+        "org": "HostMySite",
+        "isp": "HostMySite",
+        "data": "HTTP/1.1 404 Not Found\r\nContent-Type: text/html; charset=us-ascii\r\nServer: Microsoft-HTTPAPI/2.0\r\nDate: Thu, 24 Mar 2022 11:10:28 GMT\r\nConnection: close\r\nContent-Length: 315\r\n\r\n",
+        "asn": "AS20021",
+        "port": 5985,
+        "hostnames": [
+          "win-web07.hostmanagement.net"
+        ],
+        "transport": "tcp",
+        "ip": 1127975022,
+        "domains": [
+          "hostmanagement.net"
+        ],
+        "ip_str": "67.59.136.110",
+        "os": null,
+        "_shodan": {
+          "crawler": "308515b6113c0645034fb8122d0ff0d5194e7e72",
+          "options": {},
+          "id": "62731a18-921b-4f49-958d-769c43abb28b",
+          "module": "http-simple-new",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Newark",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.17237,
+          "latitude": 40.73566,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS20021",
+    "ip_str": "67.59.136.110"
+  }

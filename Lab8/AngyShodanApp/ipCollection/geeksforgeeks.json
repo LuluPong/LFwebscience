@@ -1,0 +1,286 @@
+{
+    "doc_id": 99,
+    "city": "Tampa",
+    "region_code": "FL",
+    "os": null,
+    "tags": [],
+    "ip": 3342595016,
+    "isp": "Amazon.com, Inc.",
+    "area_code": null,
+    "longitude": -82.5057,
+    "last_update": "2022-03-26T18:15:35.227776",
+    "ports": [
+        80,
+        443
+    ],
+    "latitude": 27.9425,
+    "hostnames": [
+        "spaced-out.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+        "spaced-out.com"
+    ],
+    "org": "Bodis, LLC",
+    "data": [
+        {
+            "hash": 1489988264,
+            "product": "OpenResty",
+            "http": {
+                "status": 200,
+                "robots_hash": null,
+                "redirects": [],
+                "securitytxt": null,
+                "title": null,
+                "sitemap_hash": null,
+                "robots": null,
+                "server": "openresty",
+                "host": "www.appleoutletonline.com",
+                "html": "<!doctype html><html lang=\"en\" data-adblockkey=\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_PicsO7mNQ4yK2IvrQeAGNGI1cgA4d4I/qEm7N15Xiyz/1OOF36Nuss6A4mUnfRPCHiue7th5bxERH21sxaNIrQ==\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\"/><link rel=\"preconnect\" href=\"https://www.google.com\" crossorigin><link rel=\"dns-prefetch\" href=\"https://parking.bodiscdn.com\" crossorigin><link rel=\"dns-prefetch\" href=\"https://fonts.googleapis.com\" crossorigin></head><body><div id=\"target\" style='opacity: 0'></div><script>window.park = \"eyJ1dWlkIjoiYzQ0ODBiZDQtMmZkZS1kMDZjLTc3MDctYzZkMGZlY2NmZjQxIiwicGFnZV90aW1lIjoxNjQ4MzE4NTM0LCJwYWdlX3VybCI6Imh0dHA6XC9cL3d3dy5hcHBsZW91dGxldG9ubGluZS5jb21cLyIsInBhZ2VfbWV0aG9kIjoiR0VUIiwicGFnZV9yZXF1ZXN0IjpbXSwicGFnZV9oZWFkZXJzIjp7InVzZXItYWdlbnQiOlsiTW96aWxsYVwvNS4wIChXaW5kb3dzIE5UIDYuMSkgQXBwbGVXZWJLaXRcLzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZVwvNDEuMC4yMjI4LjAgU2FmYXJpXC81MzcuMzYiXSwiYWNjZXB0IjpbInRleHRcL2h0bWwsYXBwbGljYXRpb25cL3hodG1sK3htbCxhcHBsaWNhdGlvblwveG1sO3E9MC45LCpcLyo7cT0wLjgiXSwiaG9zdCI6WyJ3d3cuYXBwbGVvdXRsZXRvbmxpbmUuY29tIl0sImFjY2VwdC1lbmNvZGluZyI6WyJpZGVudGl0eSJdfSwiaG9zdCI6Ind3dy5hcHBsZW91dGxldG9ubGluZS5jb20iLCJpcCI6IjE2NS4yMjcuNTUuNCJ9\";</script><script src=\"/js/parking.2.84.4.js\"></script></body></html>",
+                "location": "/",
+                "components": {
+                    "Google Font API": {
+                        "categories": [
+                            "Font scripts"
+                        ]
+                    }
+                },
+                "html_hash": 1165913277,
+                "sitemap": null,
+                "securitytxt_hash": null
+            },
+            "ip": 3342595016,
+            "isp": "Amazon.com, Inc.",
+            "transport": "tcp",
+            "data": "HTTP/1.1 200 OK\r\nServer: openresty\r\nDate: Sat, 26 Mar 2022 18:15:34 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nSet-Cookie: parking_session=c4480bd4-2fde-d06c-7707-c6d0feccff41; expires=Sat, 26-Mar-2022 18:30:34 GMT; Max-Age=900; path=/; HttpOnly\r\nX-Adblock-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_PicsO7mNQ4yK2IvrQeAGNGI1cgA4d4I/qEm7N15Xiyz/1OOF36Nuss6A4mUnfRPCHiue7th5bxERH21sxaNIrQ==\r\nCache-Control: no-cache\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nCache-Control: no-store, must-revalidate\r\nCache-Control: post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n",
+            "asn": "AS16509",
+            "port": 80,
+            "hostnames": [],
+            "location": {
+                "city": "Tampa",
+                "region_code": "FL",
+                "area_code": null,
+                "longitude": -82.5057,
+                "latitude": 27.9425,
+                "country_code": "US",
+                "country_name": "United States"
+            },
+            "timestamp": "2022-03-26T18:15:35.227776",
+            "domains": [],
+            "org": "Bodis, LLC",
+            "os": null,
+            "_shodan": {
+                "crawler": "8c108d59c81b65bba32b3225a760bb40705b85da",
+                "options": {
+                    "hostname": "www.appleoutletonline.com",
+                    "scan": "NOiF4uesVx4m4T2y"
+                },
+                "id": "8d357fb7-5db1-43b5-98c9-46f86a855cb3",
+                "module": "http",
+                "ptr": true
+            },
+            "opts": {},
+            "ip_str": "199.59.243.200"
+        },
+        {
+            "hash": -1143331476,
+            "product": "OpenResty",
+            "http": {
+                "status": 200,
+                "robots_hash": null,
+                "redirects": [],
+                "securitytxt": null,
+                "title": null,
+                "sitemap_hash": null,
+                "robots": null,
+                "server": "openresty",
+                "host": "spaced-out.com",
+                "html": "<!doctype html><html lang=\"en\" data-adblockkey=\"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_DNH5fEyYwnWB4vbg3g9hTZnKk3OtdercM6Taf5L3N8RR5BoR/YOfP7S9JnZdOV0/F0ekl9eWY4+kD2OSjYlJCA==\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\"/><link rel=\"preconnect\" href=\"https://www.google.com\" crossorigin><link rel=\"dns-prefetch\" href=\"https://parking.bodiscdn.com\" crossorigin><link rel=\"dns-prefetch\" href=\"https://fonts.googleapis.com\" crossorigin></head><body><div id=\"target\" style='opacity: 0'></div><script>window.park = \"eyJ1dWlkIjoiMTg1ZGViNDgtMDZhMC02YWIwLWQwMDAtZjEyYmRhNjk0ZmE1IiwicGFnZV90aW1lIjoxNjQ4MzE4NDQ4LCJwYWdlX3VybCI6Imh0dHBzOlwvXC9zcGFjZWQtb3V0LmNvbVwvIiwicGFnZV9tZXRob2QiOiJHRVQiLCJwYWdlX3JlcXVlc3QiOltdLCJwYWdlX2hlYWRlcnMiOnsidXNlci1hZ2VudCI6WyJNb3ppbGxhXC81LjAgKFgxMTsgTGludXggeDg2XzY0KSBBcHBsZVdlYktpdFwvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lXC8zNC4wLjE4NDcuMTM3IFNhZmFyaVwvNTM3LjM2Il0sImFjY2VwdCI6WyJ0ZXh0XC9odG1sLGFwcGxpY2F0aW9uXC94aHRtbCt4bWwsYXBwbGljYXRpb25cL3htbDtxPTAuOSwqXC8qO3E9MC44Il0sImhvc3QiOlsic3BhY2VkLW91dC5jb20iXSwiYWNjZXB0LWVuY29kaW5nIjpbImlkZW50aXR5Il19LCJob3N0Ijoic3BhY2VkLW91dC5jb20iLCJpcCI6IjE0My4xMTAuMjM5LjIifQ==\";</script><script src=\"/js/parking.2.84.4.js\"></script></body></html>",
+                "location": "/",
+                "components": {
+                    "Google Font API": {
+                        "categories": [
+                            "Font scripts"
+                        ]
+                    }
+                },
+                "html_hash": -52793750,
+                "sitemap": null,
+                "securitytxt_hash": null
+            },
+            "ip": 3342595016,
+            "isp": "Amazon.com, Inc.",
+            "transport": "tcp",
+            "data": "HTTP/1.1 200 OK\r\nServer: openresty\r\nDate: Sat, 26 Mar 2022 18:14:08 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nSet-Cookie: parking_session=185deb48-06a0-6ab0-d000-f12bda694fa5; expires=Sat, 26-Mar-2022 18:29:08 GMT; Max-Age=900; path=/; HttpOnly\r\nX-Adblock-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_DNH5fEyYwnWB4vbg3g9hTZnKk3OtdercM6Taf5L3N8RR5BoR/YOfP7S9JnZdOV0/F0ekl9eWY4+kD2OSjYlJCA==\r\nCache-Control: no-cache\r\nExpires: Thu, 01 Jan 1970 00:00:01 GMT\r\nCache-Control: no-store, must-revalidate\r\nCache-Control: post-check=0, pre-check=0\r\nPragma: no-cache\r\n\r\n",
+            "asn": "AS16509",
+            "port": 443,
+            "ssl": {
+                "chain_sha256": [
+                    "9d1258be0a01fa0c8d97297dcd6f4ffafe30806107fa34bc4b9f034baa81f458",
+                    "46494e30379059df18be52124305e606fc59070e5b21076ce113954b60517cda",
+                    "69729b8e15a86efc177a57afb7171dfc64add28c2fca8cf1507e34453ccb1470"
+                ],
+                "jarm": "00000000000000000000000000000000000000000000000000000000000000",
+                "chain": [
+                    "-----BEGIN CERTIFICATE-----\nMIIDyTCCA0+gAwIBAgISA02auQgvTAIuPFlUF8W4qKYCMAoGCCqGSM49BAMDMDIx\nCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJF\nMTAeFw0yMjAxMDgwMDE3NTRaFw0yMjA0MDgwMDE3NTNaMBkxFzAVBgNVBAMTDnNw\nYWNlZC1vdXQuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEce0n8NkERcT1\nYsoZ9ntjdT0ih8QyU9fLLrUmwn4EBLq2+PrhEYHDCaKnuPm01lUAJm0mva795XSH\nyM9emMwhkqOCAlwwggJYMA4GA1UdDwEB/wQEAwIHgDAdBgNVHSUEFjAUBggrBgEF\nBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUUvzpzZkc+qXB\nsIPtc1Qfi7ESIrQwHwYDVR0jBBgwFoAUWvPtK/w2wjd5uVIw6lRvz1XLLqwwVQYI\nKwYBBQUHAQEESTBHMCEGCCsGAQUFBzABhhVodHRwOi8vZTEuby5sZW5jci5vcmcw\nIgYIKwYBBQUHMAKGFmh0dHA6Ly9lMS5pLmxlbmNyLm9yZy8wKwYDVR0RBCQwIoIQ\nKi5zcGFjZWQtb3V0LmNvbYIOc3BhY2VkLW91dC5jb20wTAYDVR0gBEUwQzAIBgZn\ngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5s\nZXRzZW5jcnlwdC5vcmcwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdgBByMqx3yJG\nShDGoToJQodeTjGLGwPr60vHaPCQYpYG9gAAAX43Q3WSAAAEAwBHMEUCIQCymnYn\n/2JC+qyFV0EUBfYrwYglnsNm9WrTvx6qYL0c6wIgIF71TgHUcwG/VviiERDYnm5W\nCFZisBuezhUqyF9if/UAdwApeb7wnjk5IfBWc59jpXflvld9nGAK+PlNXSZcJV3H\nhAAAAX43Q3VmAAAEAwBIMEYCIQCkqtAH8tDgI24rk/thrm0hH1Eja3/xWts4MB/X\n/bV6KAIhAKt62XpFpBBfjWG4akTeuj7ShVEdQeHxhQNcxRAtL3cyMAoGCCqGSM49\nBAMDA2gAMGUCMQCrh/rYryFi5bHi0+e7sh2sJummAmJ3BRyOB+PeEzCI0nBl55dJ\nwTNYD10uJlOZVZQCMAK3vynXY6EQ3b7WVtiS4NvC1KhyU1hqPQJDfecFuRnZi8Tq\neWEvmigwwFZ+oyZtYQ==\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIICxjCCAk2gAwIBAgIRALO93/inhFu86QOgQTWzSkUwCgYIKoZIzj0EAwMwTzEL\nMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNo\nIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDIwHhcNMjAwOTA0MDAwMDAwWhcN\nMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5j\ncnlwdDELMAkGA1UEAxMCRTEwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAQkXC2iKv0c\nS6Zdl3MnMayyoGli72XoprDwrEuf/xwLcA/TmC9N/A8AmzfwdAVXMpcuBe8qQyWj\n+240JxP2T35p0wKZXuskR5LBJJvmsSGPwSSB/GjMH2m6WPUZIvd0xhajggEIMIIB\nBDAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMB\nMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFFrz7Sv8NsI3eblSMOpUb89V\nyy6sMB8GA1UdIwQYMBaAFHxClq7eS0g7+pL4nozPbYupcjeVMDIGCCsGAQUFBwEB\nBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gyLmkubGVuY3Iub3JnLzAnBgNVHR8E\nIDAeMBygGqAYhhZodHRwOi8veDIuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYG\nZ4EMAQIBMA0GCysGAQQBgt8TAQEBMAoGCCqGSM49BAMDA2cAMGQCMHt01VITjWH+\nDbo/AwCd89eYhNlXLr3pD5xcSAQh8suzYHKOl9YST8pE9kLJ03uGqQIwWrGxtO3q\nYJkgsTgDyj2gJrjubi1K9sZmHzOa25JK1fUpE8ZwYii6I4zPPS/Lgul/\n-----END CERTIFICATE-----\n",
+                    "-----BEGIN CERTIFICATE-----\nMIICGzCCAaGgAwIBAgIQQdKd0XLq7qeAwSxs6S+HUjAKBggqhkjOPQQDAzBPMQsw\nCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJuZXQgU2VjdXJpdHkgUmVzZWFyY2gg\nR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBYMjAeFw0yMDA5MDQwMDAwMDBaFw00\nMDA5MTcxNjAwMDBaME8xCzAJBgNVBAYTAlVTMSkwJwYDVQQKEyBJbnRlcm5ldCBT\nZWN1cml0eSBSZXNlYXJjaCBHcm91cDEVMBMGA1UEAxMMSVNSRyBSb290IFgyMHYw\nEAYHKoZIzj0CAQYFK4EEACIDYgAEzZvVn4CDCuwJSvMWSj5cz3es3mcFDR0HttwW\n+1qLFNvicWDEukWVEYmO6gbf9yoWHKS5xcUy4APgHoIYOIvXRdgKam7mAHf7AlF9\nItgKbppbd9/w+kHsOdx1ymgHDB/qo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0T\nAQH/BAUwAwEB/zAdBgNVHQ4EFgQUfEKWrt5LSDv6kviejM9ti6lyN5UwCgYIKoZI\nzj0EAwMDaAAwZQIwe3lORlCEwkSHRhtFcP9Ymd70/aTSVaYgLXTWNLxBo1BfASdW\ntL4ndQavEi51mI38AjEAi/V3bNTIZargCyzuFJ0nN6T5U6VR5CmD1/iQMVtCnwr1\n/q4AaOeMSQ+2b1tbFfLn\n-----END CERTIFICATE-----\n"
+                ],
+                "dhparams": null,
+                "versions": [
+                    "TLSv1",
+                    "-SSLv2",
+                    "-SSLv3",
+                    "TLSv1.1",
+                    "TLSv1.2",
+                    "TLSv1.3"
+                ],
+                "acceptable_cas": [],
+                "tlsext": [
+                    {
+                        "id": 65281,
+                        "name": "renegotiation_info"
+                    },
+                    {
+                        "id": 11,
+                        "name": "ec_point_formats"
+                    }
+                ],
+                "ja3s": "f9a66afdd1f499d415ca470974ec00c8",
+                "cert": {
+                    "sig_alg": "ecdsa-with-SHA384",
+                    "issued": "20220108001754Z",
+                    "expires": "20220408001753Z",
+                    "expired": false,
+                    "version": 2,
+                    "extensions": [
+                        {
+                            "critical": true,
+                            "data": "\\x03\\x02\\x07\\x80",
+                            "name": "keyUsage"
+                        },
+                        {
+                            "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                            "name": "extendedKeyUsage"
+                        },
+                        {
+                            "critical": true,
+                            "data": "0\\x00",
+                            "name": "basicConstraints"
+                        },
+                        {
+                            "data": "\\x04\\x14R\\xfc\\xe9\\xcd\\x99\\x1c\\xfa\\xa5\\xc1\\xb0\\x83\\xedsT\\x1f\\x8b\\xb1\\x12\"\\xb4",
+                            "name": "subjectKeyIdentifier"
+                        },
+                        {
+                            "data": "0\\x16\\x80\\x14Z\\xf3\\xed+\\xfc6\\xc27y\\xb9R0\\xeaTo\\xcfU\\xcb.\\xac",
+                            "name": "authorityKeyIdentifier"
+                        },
+                        {
+                            "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://e1.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://e1.i.lencr.org/",
+                            "name": "authorityInfoAccess"
+                        },
+                        {
+                            "data": "0\"\\x82\\x10*.spaced-out.com\\x82\\x0espaced-out.com",
+                            "name": "subjectAltName"
+                        },
+                        {
+                            "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                            "name": "certificatePolicies"
+                        },
+                        {
+                            "data": "\\x04\\x81\\xf3\\x00\\xf1\\x00v\\x00A\\xc8\\xca\\xb1\\xdf\"FJ\\x10\\xc6\\xa1:\\tB\\x87^N1\\x8b\\x1b\\x03\\xeb\\xebK\\xc7h\\xf0\\x90b\\x96\\x06\\xf6\\x00\\x00\\x01~7Cu\\x92\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xb2\\x9av\\'\\xffbB\\xfa\\xac\\x85WA\\x14\\x05\\xf6+\\xc1\\x88%\\x9e\\xc3f\\xf5j\\xd3\\xbf\\x1e\\xaa`\\xbd\\x1c\\xeb\\x02  ^\\xf5N\\x01\\xd4s\\x01\\xbfV\\xf8\\xa2\\x11\\x10\\xd8\\x9enV\\x08Vb\\xb0\\x1b\\x9e\\xce\\x15*\\xc8_b\\x7f\\xf5\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01~7Cuf\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xa4\\xaa\\xd0\\x07\\xf2\\xd0\\xe0#n+\\x93\\xfba\\xaem!\\x1fQ#k\\x7f\\xf1Z\\xdb80\\x1f\\xd7\\xfd\\xb5z(\\x02!\\x00\\xabz\\xd9zE\\xa4\\x10_\\x8da\\xb8jD\\xde\\xba>\\xd2\\x85Q\\x1dA\\xe1\\xf1\\x85\\x03\\\\\\xc5\\x10-/w2",
+                            "name": "ct_precert_scts"
+                        }
+                    ],
+                    "fingerprint": {
+                        "sha256": "9d1258be0a01fa0c8d97297dcd6f4ffafe30806107fa34bc4b9f034baa81f458",
+                        "sha1": "64dd9024676cdcf39f8b3677242037af35c5a7ef"
+                    },
+                    "serial": 287744261900469231578413956074235872454146,
+                    "subject": {
+                        "CN": "spaced-out.com"
+                    },
+                    "pubkey": {
+                        "type": "dsa",
+                        "bits": 256
+                    },
+                    "issuer": {
+                        "C": "US",
+                        "CN": "E1",
+                        "O": "Let's Encrypt"
+                    }
+                },
+                "cipher": {
+                    "version": "TLSv1/SSLv3",
+                    "bits": 128,
+                    "name": "ECDHE-ECDSA-AES128-GCM-SHA256"
+                },
+                "trust": {
+                    "revoked": false,
+                    "browser": {
+                        "mozilla": true,
+                        "apple": false,
+                        "microsoft": true
+                    }
+                },
+                "handshake_states": [
+                    "before/connect initialization",
+                    "SSLv2/v3 write client hello",
+                    "SSLv2/v3 read server hello",
+                    "SSLv3/TLS read server hello",
+                    "SSLv3/TLS read server certificate",
+                    "SSLv3/TLS read server key exchange",
+                    "SSLv3/TLS read server done",
+                    "SSLv3/TLS write client key exchange",
+                    "SSLv3/TLS write change cipher spec",
+                    "SSLv3/TLS write finished",
+                    "SSLv3/TLS flush data",
+                    "SSLv3/TLS read finished",
+                    "SSL negotiation finished successfully"
+                ],
+                "alpn": [
+                    "h2",
+                    "http/1.1"
+                ],
+                "ocsp": {}
+            },
+            "hostnames": [
+                "spaced-out.com"
+            ],
+            "location": {
+                "city": "Tampa",
+                "region_code": "FL",
+                "area_code": null,
+                "longitude": -82.5057,
+                "latitude": 27.9425,
+                "country_code": "US",
+                "country_name": "United States"
+            },
+            "timestamp": "2022-03-26T18:14:08.661361",
+            "domains": [
+                "spaced-out.com"
+            ],
+            "org": "Bodis, LLC",
+            "os": null,
+            "_shodan": {
+                "crawler": "90a359c2c5601decd86ee088ba89601ca8256a61",
+                "options": {
+                    "hostname": "spaced-out.com",
+                    "scan": "vW3HdgNNcfTczFt0"
+                },
+                "id": "65a20809-068a-4051-a58c-003e99404a73",
+                "module": "https",
+                "ptr": true
+            },
+            "opts": {
+                "vulns": [],
+                "heartbleed": "2022/03/26 18:15:28 199.59.243.200:443 - SAFE\n"
+            },
+            "ip_str": "199.59.243.200"
+        }
+    ],
+    "asn": "AS16509",
+    "ip_str": "199.59.243.200"
+}

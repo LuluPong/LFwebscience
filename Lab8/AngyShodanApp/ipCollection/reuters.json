@@ -1,0 +1,322 @@
+{
+    "doc_id": 47,
+    "city": "Ashburn",
+    "region_code": "VA",
+    "os": null,
+    "tags": [
+      "cloud"
+    ],
+    "ip": 872562030,
+    "isp": "Amazon.com, Inc.",
+    "area_code": null,
+    "longitude": -77.48749,
+    "last_update": "2022-03-17T20:01:52.085057",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 39.04372,
+    "hostnames": [
+      "reuters.com",
+      "ec2-52-2-61-110.compute-1.amazonaws.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "reuters.com",
+      "amazonaws.com"
+    ],
+    "org": "Amazon Technologies Inc.",
+    "data": [
+      {
+        "ip": 872562030,
+        "http": {
+          "status": 301,
+          "robots_hash": -1022729730,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "robots": "User-agent: *\nDisallow: /\n",
+          "server": "nginx",
+          "host": "52.2.61.110",
+          "html": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1427803479,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 80,
+        "transport": "tcp",
+        "cloud": {
+          "region": "us-east-1",
+          "service": "AMAZON",
+          "provider": "Amazon"
+        },
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "nginx",
+        "hash": -236941517,
+        "tags": [
+          "cloud"
+        ],
+        "timestamp": "2022-03-13T03:33:13.650663",
+        "hostnames": [
+          "ec2-52-2-61-110.compute-1.amazonaws.com"
+        ],
+        "org": "Amazon Technologies Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: nginx\r\nDate: Sun, 13 Mar 2022 03:33:30 GMT\r\nContent-Type: text/html\r\nContent-Length: 178\r\nConnection: keep-alive\r\nLocation: http://www.reuters.com\r\n\r\n",
+        "asn": "AS14618",
+        "cpe23": [
+          "cpe:2.3:a:igor_sysoev:nginx"
+        ],
+        "isp": "Amazon.com, Inc.",
+        "cpe": [
+          "cpe:/a:igor_sysoev:nginx"
+        ],
+        "domains": [
+          "amazonaws.com"
+        ],
+        "ip_str": "52.2.61.110",
+        "os": null,
+        "_shodan": {
+          "crawler": "f84746de6c89bcf60f34a5f0aee149448facfc91",
+          "options": {},
+          "id": "023db9eb-71be-4711-8d5e-9fd7f3f1f932",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "ip": 872562030,
+        "http": {
+          "status": 301,
+          "robots_hash": -1022729730,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "robots": "User-agent: *\nDisallow: /\n",
+          "server": "nginx",
+          "host": "reuters.com.cn",
+          "html": "<html>\r\n<head><title>301 Moved Permanently</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>301 Moved Permanently</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -1427803479,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "cloud": {
+          "region": "us-east-1",
+          "service": "AMAZON",
+          "provider": "Amazon"
+        },
+        "location": {
+          "city": "Ashburn",
+          "region_code": "VA",
+          "area_code": null,
+          "longitude": -77.48749,
+          "latitude": 39.04372,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "nginx",
+        "hash": -1551848701,
+        "tags": [
+          "cloud"
+        ],
+        "timestamp": "2022-03-17T20:01:52.085057",
+        "ssl": {
+          "chain_sha256": [
+            "f27114153d8392e4265a5853e0ae8b58d2300c85ae84ded55eca50c18b40a33a",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "16d2ad16d26d26d00016d2ad16d26d67edd16014aa8d87eb613c543d04cbe2",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIFHDCCBASgAwIBAgISBElKtIya5qkJB1XzK3YNepqKMA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAxMDQxNDI4MzFaFw0yMjA0MDQxNDI4MzBaMBYxFDASBgNVBAMT\nC3JldXRlcnMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFGI\nTvcdLchfy9fdqhqc0ueN9peiFwzwnDnk9DFAhQ6bA/dE7fIIhuqK/jmqo8NlMefR\nbckMkc/diVpCQ2PdcyXSFNRXqAokZWGviOf6vMjlJgn8h853diSuLS/TRg8xK0cK\nZuZ4U/nDvfX8sKDOS8wjIcvIQCLqjOdq1ObjP6NOl0vDMeMqgw1ikBEB/dmmECk+\nyxUUsTk1oZHC4l4fbb+ilniq9gDtMYmfzbm3bk0LAHuMBK4XACAJcl+hps7GdUmv\nouTW06kA5+oQxj1Oebp4GtGi52Cn195leh/R9zghfxEo/wEMbZDln9hz2j/p3Ye+\nVAFOUFlQM7ir6hnXHwIDAQABo4ICRjCCAkIwDgYDVR0PAQH/BAQDAgWgMB0GA1Ud\nJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQW\nBBQEV7lYiL+pmYa87o7ug4wlSQRWrzAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDm\nH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5v\nLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAW\nBgNVHREEDzANggtyZXV0ZXJzLmNvbTBMBgNVHSAERTBDMAgGBmeBDAECATA3Bgsr\nBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0\nLm9yZzCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AEalVet1+pEgMLWiiWn0830R\nLEF0vv1JuIWr8vxw/m1HAAABfiW0yQEAAAQDAEcwRQIgC53TIWrlL97+ALUA3LGl\nYpw1WjGY2zzv98lvJDeSlnACIQC5NCv5tZXAj29nir/7u+QcBPUOeS/wBYg2aLMu\niNeVVwB2AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABfiW0yTsA\nAAQDAEcwRQIgZ65Q497SLM/IDFCxSwB9uld0osR00OW9XxAvX5cw8dcCIQDMHEz4\nDZf4FEci0VLgZlLZ/4b0ztpzIPGEHrn5LAm40DANBgkqhkiG9w0BAQsFAAOCAQEA\nmc9uc1jDWRtApM19o3p5Rmj2Cwn22LrUpxgXCgK6rfGJjsGlsZSNNbART44P1wHU\nt4TMRn+yt/Iv7y0Pj07HNlocRW9LaXNeXMa1bFnOFA6RCmIyLfr36enD6xg4XuPy\nx3L3tDuHJkvgRrqFcf6DGNb8iOojfHHJb/SkvPVYtdtdKsF1vx3Gw9h3N40GT+L6\nWDymQnN3i6f3kpK+z/lB/sJngCK9ikKp8A4CSm50Yave6K6AywNMozbwWP31uNrl\nusJ4x92fB9L9Dh6QR72ogCe/FkE0sv894T2qcxipaxu+nV4j9hO60LEo7KqjqcKc\n7HAarI6Awavvlv6Eix+w0g==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "c2a83a9767d283e4ef3119978f25a6b881fc16121762611715c593201881a4782837dbfea068470a69b70054a7671a2f7b1d55d80d37538b0a9133c5dde069f1a6c65c15b71fec4daa1a235654735928e8f5330204ef81b5e3e26d975a286acc95a4043a717857d2e08f06053d777b204ab933ce662a0394b73c256473a3f28a3e1343798ecddecc30b7dd9df52c3622d9f47d6f7d85db85b5f77e15baf2e1008cdbb851ae2af96a3b44d8093fe5a88ba8786c0b8737de1b4b3beb6af1494bbd8582aea8eeec2170e892ec87f35161d8f4608fbd8c9fb07a2c375687d605d32260469562df1e593a41ab167ecf563413ab2e79fb160811b6452491592772aa1b",
+            "public_key": "823ac263f24ffd73d590d99f49f4ffd3d27aa23c7f64006c0d3fb45b3a3313e423e3d3c390864f7f9cb23cb214dfab66feeb0bd4efc56caa994d0f8e222561fe2cca571b503d4d12539f6d13577215ee5c6fcff90bae493dc82ef9912d3de12f823fa86d09750b095716cf0e268ce6463daedcafa7040d75f0f4f36e2c957f3a2e8b00e948deed96528685b026a2f406cc019bf4df41dc8d2ac6350c5204efad7a2aae5062311aa0987d84f850d0c571b5f8e6b5f5503200cf8df9ee65095c52019a299009a0b5092d873ffdb441140aff620c3ea997db314ee271e6e3fa11fa80ef864162c05fc96cceba67d5d4264fa0b9d9648ab32c7254adea2a72caca2c",
+            "bits": 2048,
+            "generator": 2
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 15,
+              "name": "heartbeat"
+            }
+          ],
+          "ja3s": "f6e234011390444c303f74d09d87322d",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220104142831Z",
+            "expires": "20220404142830Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14\\x04W\\xb9X\\x88\\xbf\\xa9\\x99\\x86\\xbc\\xee\\x8e\\xee\\x83\\x8c%I\\x04V\\xaf",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\r\\x82\\x0breuters.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf2\\x00\\xf0\\x00v\\x00F\\xa5U\\xebu\\xfa\\x91 0\\xb5\\xa2\\x89i\\xf4\\xf3}\\x11,At\\xbe\\xfdI\\xb8\\x85\\xab\\xf2\\xfcp\\xfemG\\x00\\x00\\x01~%\\xb4\\xc9\\x01\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x0b\\x9d\\xd3!j\\xe5/\\xde\\xfe\\x00\\xb5\\x00\\xdc\\xb1\\xa5b\\x9c5Z1\\x98\\xdb<\\xef\\xf7\\xc9o$7\\x92\\x96p\\x02!\\x00\\xb94+\\xf9\\xb5\\x95\\xc0\\x8fog\\x8a\\xbf\\xfb\\xbb\\xe4\\x1c\\x04\\xf5\\x0ey/\\xf0\\x05\\x886h\\xb3.\\x88\\xd7\\x95W\\x00v\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01~%\\xb4\\xc9;\\x00\\x00\\x04\\x03\\x00G0E\\x02 g\\xaeP\\xe3\\xde\\xd2,\\xcf\\xc8\\x0cP\\xb1K\\x00}\\xbaWt\\xa2\\xc4t\\xd0\\xe5\\xbd_\\x10/_\\x970\\xf1\\xd7\\x02!\\x00\\xcc\\x1cL\\xf8\r\\x97\\xf8\\x14G\"\\xd1R\\xe0fR\\xd9\\xff\\x86\\xf4\\xce\\xdas \\xf1\\x84\\x1e\\xb9\\xf9, \\xb8\\xd0",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "f27114153d8392e4265a5853e0ae8b58d2300c85ae84ded55eca50c18b40a33a",
+              "sha1": "a36f95497c275a3dd6b7ddb78656218cbd1598af"
+            },
+            "serial": 3.73389056849202e+41,
+            "subject": {
+              "CN": "reuters.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [
+            "http/1.1"
+          ],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "ec2-52-2-61-110.compute-1.amazonaws.com",
+          "reuters.com"
+        ],
+        "org": "Amazon Technologies Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nServer: nginx\r\nDate: Thu, 17 Mar 2022 19:56:52 GMT\r\nContent-Type: text/html\r\nContent-Length: 178\r\nConnection: keep-alive\r\nLocation: https://es.reuters.com/\r\n\r\n",
+        "asn": "AS14618",
+        "cpe23": [
+          "cpe:2.3:a:igor_sysoev:nginx"
+        ],
+        "isp": "Amazon.com, Inc.",
+        "cpe": [
+          "cpe:/a:igor_sysoev:nginx"
+        ],
+        "domains": [
+          "amazonaws.com",
+          "reuters.com"
+        ],
+        "ip_str": "52.2.61.110",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "reuters.com.cn",
+            "scan": "XTQxTScC4h1wN7SH"
+          },
+          "id": "fdc40c12-35f5-42eb-8220-179b83a91999",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 20:02:27 52.2.61.110:443 - ERROR: remote error: handshake failure\n"
+        }
+      }
+    ],
+    "asn": "AS14618",
+    "ip_str": "52.2.61.110"
+  }

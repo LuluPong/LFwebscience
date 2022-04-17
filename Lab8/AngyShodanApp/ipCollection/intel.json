@@ -1,0 +1,414 @@
+{
+    "doc_id": 32,
+    "city": "San Jose",
+    "region_code": "CA",
+    "os": null,
+    "tags": [
+      "cloud"
+    ],
+    "ip": 224091978,
+    "isp": "Microsoft Corporation",
+    "area_code": null,
+    "longitude": -121.887,
+    "last_update": "2022-03-18T11:20:46.512379",
+    "ports": [
+      80,
+      443
+    ],
+    "latitude": 37.3476,
+    "hostnames": [
+      "intel.de",
+      "intel.co.kr",
+      "intel.co.id",
+      "intel.ph",
+      "intel.co.il",
+      "intel.fr",
+      "thailand.intel.com",
+      "intel.sg",
+      "intel.se",
+      "intel.vn",
+      "intel.com",
+      "intel.la",
+      "intel.it",
+      "intel.com.br",
+      "intel.co.uk",
+      "intel.co.jp",
+      "intel.eu",
+      "intel.es",
+      "intel.ca",
+      "intel.ie",
+      "intel.pl",
+      "intel.co.za",
+      "intel.in",
+      "intel.com.tw",
+      "intel.ru",
+      "intel.com.tr",
+      "intel.me",
+      "intel.com.au",
+      "intel.cn"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "intel.de",
+      "intel.co.kr",
+      "intel.co.id",
+      "intel.ph",
+      "intel.co.il",
+      "intel.fr",
+      "intel.sg",
+      "intel.se",
+      "intel.vn",
+      "intel.com",
+      "intel.la",
+      "intel.it",
+      "intel.com.br",
+      "intel.co.uk",
+      "intel.co.jp",
+      "intel.eu",
+      "intel.es",
+      "intel.ca",
+      "intel.ie",
+      "intel.pl",
+      "intel.co.za",
+      "intel.in",
+      "intel.com.tw",
+      "intel.ru",
+      "intel.com.tr",
+      "intel.me",
+      "intel.com.au",
+      "intel.cn"
+    ],
+    "org": "Microsoft Corporation",
+    "data": [
+      {
+        "hash": 45137803,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "altera.co.jp",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "timestamp": "2022-03-15T04:32:39.305276",
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-length: 0\r\nLocation: https://altera.co.jp/\r\nConnection: close\r\n\r\n",
+        "asn": "AS8075",
+        "port": 80,
+        "cloud": {
+          "region": "westus",
+          "service": "AzureCloud",
+          "provider": "Azure"
+        },
+        "hostnames": [],
+        "transport": "tcp",
+        "ip": 224091978,
+        "domains": [],
+        "ip_str": "13.91.95.74",
+        "os": null,
+        "_shodan": {
+          "crawler": "8c108d59c81b65bba32b3225a760bb40705b85da",
+          "options": {
+            "hostname": "altera.co.jp",
+            "scan": "ziqY99zURrzriuL0"
+          },
+          "id": "394a99b6-6dc4-4ddd-b540-82bb14584b23",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -121.887,
+          "latitude": 37.3476,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1383026286,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "intel.sg",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cloud"
+        ],
+        "ip": 224091978,
+        "org": "Microsoft Corporation",
+        "isp": "Microsoft Corporation",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-length: 0\r\nLocation: https://www.intel.sg/content/www/xa/en/homepage.html\r\nStrict-Transport-Security: max-age=31536000; preload\r\nConnection: close\r\n\r\n",
+        "asn": "AS8075",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "07f618dc92434d722a08913ae16b03ac7836022801470f213ceb504c1e9c9280",
+            "72a34ac2b424aed3f6b0b04755b88cc027dccc806fddb22b4cd7c47773973ec0",
+            "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2"
+          ],
+          "jarm": "29d29d15d29d29d00029d29d29d29d80a4e0a834c23892e9da247c2fef3055",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIIHzCCBwegAwIBAgIRANkdBpAMhTflcD6F1/uW7xQwDQYJKoZIhvcNAQELBQAw\ngZUxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO\nBgNVBAcTB1NhbGZvcmQxGDAWBgNVBAoTD1NlY3RpZ28gTGltaXRlZDE9MDsGA1UE\nAxM0U2VjdGlnbyBSU0EgT3JnYW5pemF0aW9uIFZhbGlkYXRpb24gU2VjdXJlIFNl\ncnZlciBDQTAeFw0yMjAyMDEwMDAwMDBaFw0yMzAyMDEyMzU5NTlaMGMxCzAJBgNV\nBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMQ8wDQYDVQQHEwZGb2xzb20xGjAY\nBgNVBAoTEUludGVsIENvcnBvcmF0aW9uMRIwEAYDVQQDEwlpbnRlbC5jb20wggEi\nMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6kwx3KZR+SCmKR9uSr6yi1fjD\nMZfvDa21atQd0Ki31A/M0BG+zZLRDTKA3XApz1sI0DszoPWJlHFCJzt6diiXR281\nVo9du2li7lXT/Q5+Q3IjgPCLaVnJaz9f4fB0Kl4EyEsiadwFlw/R5ZT9ipFdeZsx\nAQZC6YZ4cCZA3uGNrx/TqdClbooEtt+w17cthw5S++/cWdXbURPAfOhjYx++DULU\nJRoyWd4N5VdnekPHMUwdkasUm8b30LOB0DflNDOAWcphiXfcs4Uire6A0+6dz6Oo\nyO120lltg9+C01bXWuzTKHLDGhUh+7OyE3FH7eoc8VuZ56KJi2m+5jvVA5LlAgMB\nAAGjggSZMIIElTAfBgNVHSMEGDAWgBQX2dYlJ2f5McJJQ9kwNkSMbKlP6zAdBgNV\nHQ4EFgQUGnfdZI6060n60N76lUhoWOqUOjswDgYDVR0PAQH/BAQDAgWgMAwGA1Ud\nEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMEoGA1UdIARD\nMEEwNQYMKwYBBAGyMQECAQMEMCUwIwYIKwYBBQUHAgEWF2h0dHBzOi8vc2VjdGln\nby5jb20vQ1BTMAgGBmeBDAECAjBaBgNVHR8EUzBRME+gTaBLhklodHRwOi8vY3Js\nLnNlY3RpZ28uY29tL1NlY3RpZ29SU0FPcmdhbml6YXRpb25WYWxpZGF0aW9uU2Vj\ndXJlU2VydmVyQ0EuY3JsMIGKBggrBgEFBQcBAQR+MHwwVQYIKwYBBQUHMAKGSWh0\ndHA6Ly9jcnQuc2VjdGlnby5jb20vU2VjdGlnb1JTQU9yZ2FuaXphdGlvblZhbGlk\nYXRpb25TZWN1cmVTZXJ2ZXJDQS5jcnQwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3Nw\nLnNlY3RpZ28uY29tMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkAdwCt9776fP8Q\nyIudPZwePhhqtGcpXc+xDCTKhYY069yCigAAAX62xzdNAAAEAwBIMEYCIQDodNCY\nWWQoXoOIE8Y6IX7SQjIEvgu+FGQtICmILaDdBAIhAKiuVoq/y93ZpFcHKBztBhrs\nTXjxxPwaLahjqz57g6HjAHYAejKMVNi3LbYg6jjgUh7phBZwMhOFTTvSK8E6V6NS\n61IAAAF+tsc3ZgAABAMARzBFAiB0wcJP5oGAxo8MI2X082BgkWQrBivydN5L62vj\nvvuaFwIhAJG3cr4MGo1XNEjrf3FIWkzK0fLM8NgRJaipO88Ci0JhAHYA6D7Q2j71\nBjUy51covIlryQPTy9ERa+zraeF3fW0GvW4AAAF+tsc3LgAABAMARzBFAiA+z1kv\njOo6u5Z+ws7Je7HE+Xf6sAjCS+VG4OGzrOUCywIhAJMnuqeldddAS/6f1vrB/nQP\nFnRfSrTgIgLtlbB2qvtTMIIBXAYDVR0RBIIBUzCCAU+CCWludGVsLmNvbYIIaW50\nZWwuY2GCCGludGVsLmNuggtpbnRlbC5jby5pZIILaW50ZWwuY28uaWyCC2ludGVs\nLmNvLmpwggtpbnRlbC5jby5rcoILaW50ZWwuY28udWuCC2ludGVsLmNvLnphggxp\nbnRlbC5jb20uYXWCDGludGVsLmNvbS5icoIMaW50ZWwuY29tLnRyggxpbnRlbC5j\nb20udHeCCGludGVsLmRlgghpbnRlbC5lc4IIaW50ZWwuZXWCCGludGVsLmZygghp\nbnRlbC5pZYIIaW50ZWwuaW6CCGludGVsLml0gghpbnRlbC5sYYIIaW50ZWwubWWC\nCGludGVsLnBogghpbnRlbC5wbIIIaW50ZWwucnWCCGludGVsLnNlgghpbnRlbC5z\nZ4IIaW50ZWwudm6CEnRoYWlsYW5kLmludGVsLmNvbTANBgkqhkiG9w0BAQsFAAOC\nAQEAGhNhh3yjXXCLY5/2Bw93DErSH6ryt1BAwYOiQ8kFXkK/3voH4TWJhmT9W+h3\nmbQq9yHPafArfIjpPLFvrV5Aw6AixSOc1LRxn5YIIkV2TEdXq9IdXOp4jsEN2IkQ\neSalNYIxktXrmMxm4k/n/erookPCogz+/AyE/0cMPYaJvx0kF0//v5b7i8kIdfHC\nS02A2ZmlZCTykjjQVisCFNvgkAGi2SHTVzbHrt1sp+QzzcdqZdl8mVV+UXKQW5FP\neiH8RDouMOWXyuRuZ0dt9Jc+ss0RI9xoOnW663/GiDkm8vM7BgZBxyV8R/6ofdui\nBVgTsfgw/t0YkD/JFpj+bTD53Q==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIGGTCCBAGgAwIBAgIQE31TnKp8MamkM3AZaIR6jTANBgkqhkiG9w0BAQwFADCB\niDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl\ncnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV\nBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTgx\nMTAyMDAwMDAwWhcNMzAxMjMxMjM1OTU5WjCBlTELMAkGA1UEBhMCR0IxGzAZBgNV\nBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEYMBYGA1UE\nChMPU2VjdGlnbyBMaW1pdGVkMT0wOwYDVQQDEzRTZWN0aWdvIFJTQSBPcmdhbml6\nYXRpb24gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBMIIBIjANBgkqhkiG9w0B\nAQEFAAOCAQ8AMIIBCgKCAQEAnJMCRkVKUkiS/FeN+S3qU76zLNXYqKXsW2kDwB0Q\n9lkz3v4HSKjojHpnSvH1jcM3ZtAykffEnQRgxLVK4oOLp64m1F06XvjRFnG7ir1x\non3IzqJgJLBSoDpFUd54k2xiYPHkVpy3O/c8Vdjf1XoxfDV/ElFw4Sy+BKzL+k/h\nfGVqwECn2XylY4QZ4ffK76q06Fha2ZnjJt+OErK43DOyNtoUHZZYQkBuCyKFHFEi\nrsTIBkVtkuZntxkj5Ng2a4XQf8dS48+wdQHgibSov4o2TqPgbOuEQc6lL0giE5dQ\nYkUeCaXMn2xXcEAG2yDoG9bzk4unMp63RBUJ16/9fAEc2wIDAQABo4IBbjCCAWow\nHwYDVR0jBBgwFoAUU3m/WqorSs9UgOHYm8Cd8rIDZsswHQYDVR0OBBYEFBfZ1iUn\nZ/kxwklD2TA2RIxsqU/rMA4GA1UdDwEB/wQEAwIBhjASBgNVHRMBAf8ECDAGAQH/\nAgEAMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAbBgNVHSAEFDASMAYG\nBFUdIAAwCAYGZ4EMAQICMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNl\ncnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNy\nbDB2BggrBgEFBQcBAQRqMGgwPwYIKwYBBQUHMAKGM2h0dHA6Ly9jcnQudXNlcnRy\ndXN0LmNvbS9VU0VSVHJ1c3RSU0FBZGRUcnVzdENBLmNydDAlBggrBgEFBQcwAYYZ\naHR0cDovL29jc3AudXNlcnRydXN0LmNvbTANBgkqhkiG9w0BAQwFAAOCAgEAThNA\nlsnD5m5bwOO69Bfhrgkfyb/LDCUW8nNTs3Yat6tIBtbNAHwgRUNFbBZaGxNh10m6\npAKkrOjOzi3JKnSj3N6uq9BoNviRrzwB93fVC8+Xq+uH5xWo+jBaYXEgscBDxLmP\nbYox6xU2JPti1Qucj+lmveZhUZeTth2HvbC1bP6mESkGYTQxMD0gJ3NR0N6Fg9N3\nOSBGltqnxloWJ4Wyz04PToxcvr44APhL+XJ71PJ616IphdAEutNCLFGIUi7RPSRn\nR+xVzBv0yjTqJsHe3cQhifa6ezIejpZehEU4z4CqN2mLYBd0FUiRnG3wTqN3yhsc\nSPr5z0noX0+FCuKPkBurcEya67emP7SsXaRfz+bYipaQ908mgWB2XQ8kd5GzKjGf\nFlqyXYwcKapInI5v03hAcNt37N3j0VcFcC3mSZiIBYRiBXBWdoY5TtMibx3+bfEO\ns2LEPMvAhblhHrrhFYBZlAyuBbuMf1a+HNJav5fyakywxnB2sJCNwQs2uRHY1ihc\n6k/+JLcYCpsM0MF8XPtpvcyiTcaQvKZN8rG61ppnW5YCUtCC+cQKXA0o4D/I+pWV\nidWkvklsQLI+qGu41SWyxP7x09fn1txDAXYw+zuLXfdKiXyaNb78yvBXAfCNP6CH\nMntHWpdLgtJmwsQt6j8k9Kf5qLnjatkYYaA7jBU=\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIF3jCCA8agAwIBAgIQAf1tMPyjylGoG7xkDjUDLTANBgkqhkiG9w0BAQwFADCB\niDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0pl\ncnNleSBDaXR5MR4wHAYDVQQKExVUaGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNV\nBAMTJVVTRVJUcnVzdCBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTAw\nMjAxMDAwMDAwWhcNMzgwMTE4MjM1OTU5WjCBiDELMAkGA1UEBhMCVVMxEzARBgNV\nBAgTCk5ldyBKZXJzZXkxFDASBgNVBAcTC0plcnNleSBDaXR5MR4wHAYDVQQKExVU\naGUgVVNFUlRSVVNUIE5ldHdvcmsxLjAsBgNVBAMTJVVTRVJUcnVzdCBSU0EgQ2Vy\ndGlmaWNhdGlvbiBBdXRob3JpdHkwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIK\nAoICAQCAEmUXNg7D2wiz0KxXDXbtzSfTTK1Qg2HiqiBNCS1kCdzOiZ/MPans9s/B\n3PHTsdZ7NygRK0faOca8Ohm0X6a9fZ2jY0K2dvKpOyuR+OJv0OwWIJAJPuLodMkY\ntJHUYmTbf6MG8YgYapAiPLz+E/CHFHv25B+O1ORRxhFnRghRy4YUVD+8M/5+bJz/\nFp0YvVGONaanZshyZ9shZrHUm3gDwFA66Mzw3LyeTP6vBZY1H1dat//O+T23LLb2\nVN3I5xI6Ta5MirdcmrS3ID3KfyI0rn47aGYBROcBTkZTmzNg95S+UzeQc0PzMsNT\n79uq/nROacdrjGCT3sTHDN/hMq7MkztReJVni+49Vv4M0GkPGw/zJSZrM233bkf6\nc0Plfg6lZrEpfDKEY1WJxA3Bk1QwGROs0303p+tdOmw1XNtB1xLaqUkL39iAigmT\nYo61Zs8liM2EuLE/pDkP2QKe6xJMlXzzawWpXhaDzLhn4ugTncxbgtNMs+1b/97l\nc6wjOy0AvzVVdAlJ2ElYGn+SNuZRkg7zJn0cTRe8yexDJtC/QV9AqURE9JnnV4ee\nUB9XVKg+/XRjL7FQZQnmWEIuQxpMtPAlR1n6BB6T1CZGSlCBst6+eLf8ZxXhyVeE\nHg9j1uliutZfVS7qXMYoCAQlObgOK6nyTJccBz8NUvXt7y+CDwIDAQABo0IwQDAd\nBgNVHQ4EFgQUU3m/WqorSs9UgOHYm8Cd8rIDZsswDgYDVR0PAQH/BAQDAgEGMA8G\nA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQEMBQADggIBAFzUfA3P9wF9QZllDHPF\nUp/L+M+ZBn8b2kMVn54CVVeWFPFSPCeHlCjtHzoBN6J2/FNQwISbxmtOuowhT6KO\nVWKR82kV2LyI48SqC/3vqOlLVSoGIG1VeCkZ7l8wXEskEVX/JJpuXior7gtNn3/3\nATiUFJVDBwn7YKnuHKsSjKCaXqeYalltiz8I+8jRRa8YFWSQEg9zKC7F4iRO/Fjs\n8PRF/iKz6y+O0tlFYQXBl2+odnKPi4w2r78NBc5xjeambx9spnFixdjQg3IM8WcR\niQycE0xyNN+81XHfqnHd4blsjDwSXWXavVcStkNr/+XeTWYRUc+ZruwXtuhxkYze\nSf7dNXGiFSeUHM9h4ya7b6NnJSFd5t0dCy5oGzuCr+yDZ4XUmFF0sbmZgIn/f3gZ\nXHlKYC6SQK5MNyosycdiyA5d9zZbyuAlJQG03RoHnHcAP9Dc1ew91Pq7P8yF1m9/\nqS3fuQL39ZeatTXaw2ewh0qpKJ4jjv9cJ2vhsE/zB+4ALtRZh8tSQZXq9EfX7mRB\nVXyNWQKV3WKdwrnuWih0hKWbt5DHDAff9Yk2dDLWKMGwsAvgnEzDHNb842m1R0aB\nL6KCq9NjRHDEjf8tM7qtj3u1cIiuPhnPQCjY/MiQu12ZIvVS5ljFH4gxQ+6IHdfG\njjxDah2nGN59PRbxYvnKkKj9\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": {
+            "prime": "ec86f870a03316ec051a7359cd1f8bf829e4d2cf52ddc2248db5389afb5ca4e4b2dace665074a6854d4b1d30b82bf310e9a72d0571e781df8b59523b5f430b68f1db07be086b1b23ee4dcc9e0e43a01edf438cecbebe90b45154b92f7b64764e5dd42eaec29eae514359c7779c503c0eed73045ff14c762ad8f8cffc3440d1b442618466423904f868b262d755ed1b747591e0c569c1315cdb7b442ece84580d1e660cc8449efd4008675dfba7768f001187e993f97dc4bc745520d44a412f43421ac1f297174927376b2f887e1ca0a1899227d9565a71c156377e3a9d05e7ee5d8f8217bce9c2933082f9f4c9ae49dbd054b4d9754dfa06b8d63841b71f77f3",
+            "public_key": "a0662fed401a994b8c0e39f4ee84025e3959ec6490d80bbfb1f54549dfa07fb5b8c8b963d9b27166687bbaeea6b049e68e1d785eb64d9d3a987b32748607338c11265a0d29179d8dc36b649345f33ba6872d6d750445ad18fa2612462cd55f18621996a7ca6721bc2874e9c67ce41560f76a263cc7aa6fd01d2704f1859273dddac87a770fd3d148eabe0a338a01fd5ecc1e8b220a154f63bdb6c7d7d42b30b6b13a798d2df47f49ce9196b40f53c37ca21cc08f0d0b1784a05ef8720765839a0a9a869e24a71439ebe38c0a658bb1c153ebf09a0656b47583eb488e93978c2380e7daa90e8684a5bf3678ace4de3a00ce528cdbd39524fbd20b6e6a31216d43",
+            "bits": 2048,
+            "generator": 2
+          },
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 15,
+              "name": "heartbeat"
+            }
+          ],
+          "ja3s": "a95ca7eab4d47d051a5cd4fb7b6005dc",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220201000000Z",
+            "expires": "20230201235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\\x17\\xd9\\xd6%\\'g\\xf91\\xc2IC\\xd906D\\x8cl\\xa9O\\xeb",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14\\x1aw\\xddd\\x8e\\xb4\\xebI\\xfa\\xd0\\xde\\xfa\\x95HhX\\xea\\x94:;",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0A05\\x06\\x0c+\\x06\\x01\\x04\\x01\\xb21\\x01\\x02\\x01\\x03\\x040%0#\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x17https://sectigo.com/CPS0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x02",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0Q0O\\xa0M\\xa0K\\x86Ihttp://crl.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0|0U\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Ihttp://crt.sectigo.com/SectigoRSAOrganizationValidationSecureServerCA.crt0#\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x17http://ocsp.sectigo.com",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00w\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01~\\xb6\\xc77M\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xe8t\\xd0\\x98Yd(^\\x83\\x88\\x13\\xc6:!~\\xd2B2\\x04\\xbe\\x0b\\xbe\\x14d- )\\x88-\\xa0\\xdd\\x04\\x02!\\x00\\xa8\\xaeV\\x8a\\xbf\\xcb\\xdd\\xd9\\xa4W\\x07(\\x1c\\xed\\x06\\x1a\\xecMx\\xf1\\xc4\\xfc\\x1a-\\xa8c\\xab>{\\x83\\xa1\\xe3\\x00v\\x00z2\\x8cT\\xd8\\xb7-\\xb6 \\xea8\\xe0R\\x1e\\xe9\\x84\\x16p2\\x13\\x85M;\\xd2+\\xc1:W\\xa3R\\xebR\\x00\\x00\\x01~\\xb6\\xc77f\\x00\\x00\\x04\\x03\\x00G0E\\x02 t\\xc1\\xc2O\\xe6\\x81\\x80\\xc6\\x8f\\x0c#e\\xf4\\xf3``\\x91d+\\x06+\\xf2t\\xdeK\\xebk\\xe3\\xbe\\xfb\\x9a\\x17\\x02!\\x00\\x91\\xb7r\\xbe\\x0c\\x1a\\x8dW4H\\xeb\\x7fqHZL\\xca\\xd1\\xf2\\xcc\\xf0\\xd8\\x11%\\xa8\\xa9;\\xcf\\x02\\x8bBa\\x00v\\x00\\xe8>\\xd0\\xda>\\xf5\\x0652\\xe7W(\\xbc\\x89k\\xc9\\x03\\xd3\\xcb\\xd1\\x11k\\xec\\xebi\\xe1w}m\\x06\\xbdn\\x00\\x00\\x01~\\xb6\\xc77.\\x00\\x00\\x04\\x03\\x00G0E\\x02 >\\xcfY/\\x8c\\xea:\\xbb\\x96~\\xc2\\xce\\xc9{\\xb1\\xc4\\xf9w\\xfa\\xb0\\x08\\xc2K\\xe5F\\xe0\\xe1\\xb3\\xac\\xe5\\x02\\xcb\\x02!\\x00\\x93\\'\\xba\\xa7\\xa5u\\xd7@K\\xfe\\x9f\\xd6\\xfa\\xc1\\xfet\\x0f\\x16t_J\\xb4\\xe0\"\\x02\\xed\\x95\\xb0v\\xaa\\xfbS",
+                "name": "ct_precert_scts"
+              },
+              {
+                "data": "0\\x82\\x01O\\x82 intel.com\\x82\\x08intel.ca\\x82\\x08intel.cn\\x82\\x0bintel.co.id\\x82\\x0bintel.co.il\\x82\\x0bintel.co.jp\\x82\\x0bintel.co.kr\\x82\\x0bintel.co.uk\\x82\\x0bintel.co.za\\x82\\x0cintel.com.au\\x82\\x0cintel.com.br\\x82\\x0cintel.com.tr\\x82\\x0cintel.com.tw\\x82\\x08intel.de\\x82\\x08intel.es\\x82\\x08intel.eu\\x82\\x08intel.fr\\x82\\x08intel.ie\\x82\\x08intel.in\\x82\\x08intel.it\\x82\\x08intel.la\\x82\\x08intel.me\\x82\\x08intel.ph\\x82\\x08intel.pl\\x82\\x08intel.ru\\x82\\x08intel.se\\x82\\x08intel.sg\\x82\\x08intel.vn\\x82\\x12thailand.intel.com",
+                "name": "subjectAltName"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "07f618dc92434d722a08913ae16b03ac7836022801470f213ceb504c1e9c9280",
+              "sha1": "d034a32576f28f519f0090e27cb67d00a28a95c5"
+            },
+            "serial": 2.8859318480141215e+38,
+            "subject": {
+              "CN": "intel.com",
+              "C": "US",
+              "L": "Folsom",
+              "O": "Intel Corporation",
+              "ST": "California"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "CN": "Sectigo RSA Organization Validation Secure Server CA",
+              "C": "GB",
+              "L": "Salford",
+              "O": "Sectigo Limited",
+              "ST": "Greater Manchester"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "cloud": {
+          "region": "westus",
+          "service": "AzureCloud",
+          "provider": "Azure"
+        },
+        "hostnames": [
+          "intel.de",
+          "intel.co.kr",
+          "intel.co.id",
+          "intel.ph",
+          "intel.co.il",
+          "intel.fr",
+          "thailand.intel.com",
+          "intel.sg",
+          "intel.se",
+          "intel.com.tw",
+          "intel.vn",
+          "intel.com",
+          "intel.la",
+          "intel.ru",
+          "intel.com.br",
+          "intel.co.uk",
+          "intel.co.jp",
+          "intel.eu",
+          "intel.es",
+          "intel.ie",
+          "intel.pl",
+          "intel.co.za",
+          "intel.in",
+          "intel.ca",
+          "intel.it",
+          "intel.com.tr",
+          "intel.me",
+          "intel.com.au",
+          "intel.cn"
+        ],
+        "transport": "tcp",
+        "timestamp": "2022-03-18T11:20:46.512379",
+        "domains": [
+          "intel.de",
+          "intel.co.kr",
+          "intel.co.id",
+          "intel.ph",
+          "intel.co.il",
+          "intel.fr",
+          "intel.com",
+          "intel.sg",
+          "intel.se",
+          "intel.com.tw",
+          "intel.vn",
+          "intel.la",
+          "intel.ru",
+          "intel.com.br",
+          "intel.co.uk",
+          "intel.co.jp",
+          "intel.eu",
+          "intel.es",
+          "intel.ie",
+          "intel.pl",
+          "intel.co.za",
+          "intel.in",
+          "intel.ca",
+          "intel.it",
+          "intel.com.tr",
+          "intel.me",
+          "intel.com.au",
+          "intel.cn"
+        ],
+        "ip_str": "13.91.95.74",
+        "os": null,
+        "_shodan": {
+          "crawler": "0d90a5501831fb4236df86ef4689a0ef1c133823",
+          "options": {
+            "hostname": "intel.sg",
+            "scan": "uWgNNsfLmP6c6f4f"
+          },
+          "id": "73e31e3b-68ad-43d8-9fd2-7b77dafbedb6",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 11:21:43 13.91.95.74:443 - SAFE\n"
+        },
+        "location": {
+          "city": "San Jose",
+          "region_code": "CA",
+          "area_code": null,
+          "longitude": -121.887,
+          "latitude": 37.3476,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      }
+    ],
+    "asn": "AS8075",
+    "ip_str": "13.91.95.74"
+  }

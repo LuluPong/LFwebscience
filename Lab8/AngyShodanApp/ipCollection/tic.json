@@ -1,0 +1,1081 @@
+{
+    "doc_id": 80,
+    "city": "Scottsdale",
+    "region_code": "AZ",
+    "os": null,
+    "tags": [
+      "starttls"
+    ],
+    "ip": 3099007435,
+    "isp": "Cox Communications Inc.",
+    "area_code": null,
+    "longitude": -111.89903,
+    "last_update": "2022-03-25T14:28:00.619459",
+    "ports": [
+      993,
+      443,
+      587,
+      110,
+      80,
+      995,
+      53,
+      22,
+      25,
+      123
+    ],
+    "latitude": 33.50921,
+    "hostnames": [
+      "bridge.tic.com",
+      "imap.tic.com",
+      "ns1.tic.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "tic.com"
+    ],
+    "org": "Cox Communications Inc.",
+    "data": [
+      {
+        "ip": 3099007435,
+        "port": 22,
+        "transport": "tcp",
+        "version": "8.2p1 Ubuntu-4ubuntu0.4",
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "OpenSSH",
+        "hash": 729261080,
+        "timestamp": "2022-03-21T11:49:14.405458",
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "ssh": {
+          "hassh": "3ccd1778a76049721c71ad7d2bf62bbc",
+          "fingerprint": "b6:ba:ec:63:c4:49:a4:a9:a6:32:80:63:a9:92:c3:99",
+          "mac": "hmac-sha2-256",
+          "cipher": "aes128-ctr",
+          "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDSCAdZ7758W9xk9xP+gAplxrvottFjIm18sQT77tBkdnUp\nAwqFP+6+G9++cBiW+L6bcy9SLvKO5cQM95y8hQn+2pChPx/2kAGrzhwd3/jnE20gaAW4hCrZ8ijg\nY+oze88d04+zcLjHB8K/Mb4uSfeLTpH3LHHXbfeQHYE9g/CntHx5OnuaKBOb/PsC3WYmiBx5AkTS\nl7D2AKhNvpRfrXgRzi7YNEdeJb3yZoV7izcStIrNBzfeKOfxRdnDKwwUJ84VrcRMsK7UydyjB5Ut\nJpWJpwQqdTyxRUD3pVBa6FNwuySVD4CO78oI6U7LvMMmcV+gBDkwXhvG+/bgdthJdRiN\n",
+          "kex": {
+            "languages": [
+              ""
+            ],
+            "server_host_key_algorithms": [
+              "rsa-sha2-512",
+              "rsa-sha2-256",
+              "ssh-rsa",
+              "ecdsa-sha2-nistp256",
+              "ssh-ed25519"
+            ],
+            "encryption_algorithms": [
+              "chacha20-poly1305@openssh.com",
+              "aes128-ctr",
+              "aes192-ctr",
+              "aes256-ctr",
+              "aes128-gcm@openssh.com",
+              "aes256-gcm@openssh.com"
+            ],
+            "kex_follows": false,
+            "unused": 0,
+            "kex_algorithms": [
+              "curve25519-sha256",
+              "curve25519-sha256@libssh.org",
+              "ecdh-sha2-nistp256",
+              "ecdh-sha2-nistp384",
+              "ecdh-sha2-nistp521",
+              "diffie-hellman-group-exchange-sha256",
+              "diffie-hellman-group16-sha512",
+              "diffie-hellman-group18-sha512",
+              "diffie-hellman-group14-sha256"
+            ],
+            "compression_algorithms": [
+              "none",
+              "zlib@openssh.com"
+            ],
+            "mac_algorithms": [
+              "umac-64-etm@openssh.com",
+              "umac-128-etm@openssh.com",
+              "hmac-sha2-256-etm@openssh.com",
+              "hmac-sha2-512-etm@openssh.com",
+              "hmac-sha1-etm@openssh.com",
+              "umac-64@openssh.com",
+              "umac-128@openssh.com",
+              "hmac-sha2-256",
+              "hmac-sha2-512",
+              "hmac-sha1"
+            ]
+          },
+          "type": "ssh-rsa"
+        },
+        "org": "Cox Communications Inc.",
+        "data": "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDSCAdZ7758W9xk9xP+gAplxrvottFjIm18sQT77tBkdnUp\nAwqFP+6+G9++cBiW+L6bcy9SLvKO5cQM95y8hQn+2pChPx/2kAGrzhwd3/jnE20gaAW4hCrZ8ijg\nY+oze88d04+zcLjHB8K/Mb4uSfeLTpH3LHHXbfeQHYE9g/CntHx5OnuaKBOb/PsC3WYmiBx5AkTS\nl7D2AKhNvpRfrXgRzi7YNEdeJb3yZoV7izcStIrNBzfeKOfxRdnDKwwUJ84VrcRMsK7UydyjB5Ut\nJpWJpwQqdTyxRUD3pVBa6FNwuySVD4CO78oI6U7LvMMmcV+gBDkwXhvG+/bgdthJdRiN\nFingerprint: b6:ba:ec:63:c4:49:a4:a9:a6:32:80:63:a9:92:c3:99\n\nKex Algorithms:\n curve25519-sha256\n curve25519-sha256@libssh.org\n ecdh-sha2-nistp256\n ecdh-sha2-nistp384\n ecdh-sha2-nistp521\n diffie-hellman-group-exchange-sha256\n diffie-hellman-group16-sha512\n diffie-hellman-group18-sha512\n diffie-hellman-group14-sha256\n\nServer Host Key Algorithms:\n rsa-sha2-512\n rsa-sha2-256\n ssh-rsa\n ecdsa-sha2-nistp256\n ssh-ed25519\n\nEncryption Algorithms:\n chacha20-poly1305@openssh.com\n aes128-ctr\n aes192-ctr\n aes256-ctr\n aes128-gcm@openssh.com\n aes256-gcm@openssh.com\n\nMAC Algorithms:\n umac-64-etm@openssh.com\n umac-128-etm@openssh.com\n hmac-sha2-256-etm@openssh.com\n hmac-sha2-512-etm@openssh.com\n hmac-sha1-etm@openssh.com\n umac-64@openssh.com\n umac-128@openssh.com\n hmac-sha2-256\n hmac-sha2-512\n hmac-sha1\n\nCompression Algorithms:\n none\n zlib@openssh.com\n\n",
+        "asn": "AS22773",
+        "cpe23": [
+          "cpe:2.3:a:openbsd:openssh:8.2p1 Ubuntu-4ubuntu0.4"
+        ],
+        "info": "protocol 2.0",
+        "isp": "Cox Communications Inc.",
+        "cpe": [
+          "cpe:/a:openbsd:openssh:8.2p1 Ubuntu-4ubuntu0.4"
+        ],
+        "domains": [
+          "tic.com"
+        ],
+        "ip_str": "184.183.25.203",
+        "os": "Ubuntu",
+        "_shodan": {
+          "crawler": "78039f81a0245caa8ab71c98182f0eff0ce52aab",
+          "options": {},
+          "id": "4b0f96d8-4618-406e-8a22-5f49b8221853",
+          "module": "ssh",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "product": "Sendmail",
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "hash": 1633629151,
+        "timestamp": "2022-03-02T18:55:45.211741",
+        "org": "Cox Communications Inc.",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:sendmail:sendmail:8.15.2/8.15.2/Debian-18"
+        ],
+        "data": "220 ns1.tic.com ESMTP Sendmail 8.15.2/8.15.2/Debian-18; Wed, 2 Mar 2022 11:55:45 -0700; (No UCE/UBE) logging access from: 224.236.43.50(OK)-224.236.43.50 [224.236.43.50]\r\n421 4.7.0 ns1.tic.com Rejecting open proxy 224.236.43.50 [224.236.43.50]\r\n",
+        "asn": "AS22773",
+        "port": 25,
+        "version": "8.15.2/8.15.2/Debian-18",
+        "cpe23": [
+          "cpe:2.3:a:sendmail:sendmail:8.15.2/8.15.2/Debian-18"
+        ],
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "ip_str": "184.183.25.203",
+        "os": null,
+        "_shodan": {
+          "crawler": "bf213bc419cc8491376c12af31e32623c1b6f467",
+          "options": {},
+          "id": "df683e53-b5cb-44fb-8538-93acec0136d8",
+          "module": "auto",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -350124314,
+        "timestamp": "2022-03-23T21:37:31.256641",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "data": "9.16.1-Ubuntu\nResolver name: ns1",
+        "asn": "AS22773",
+        "port": 53,
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "dns": {
+          "resolver_hostname": "ns1",
+          "recursive": false,
+          "resolver_id": null,
+          "software": "9.16.1-Ubuntu"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "49217c0cdcbcebaf23c2979ae16d4eba64180b1f",
+          "options": {},
+          "id": "b3f1c7fc-b2ca-4ea1-918b-e73dec7ad8d1",
+          "module": "dns-tcp",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "184.183.25.203"
+      },
+      {
+        "hash": -350124314,
+        "timestamp": "2022-03-22T21:30:27.345709",
+        "isp": "Cox Communications Inc.",
+        "transport": "udp",
+        "data": "9.16.1-Ubuntu\nResolver name: ns1",
+        "asn": "AS22773",
+        "port": 53,
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "dns": {
+          "resolver_hostname": "ns1",
+          "recursive": false,
+          "resolver_id": null,
+          "software": "9.16.1-Ubuntu"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "dfd12d70c30ccb3812bf26f89905deeb85e98c77",
+          "options": {},
+          "id": "da1a67f1-e63c-43c9-9f9b-5c59445f2d57",
+          "module": "dns-udp",
+          "ptr": true
+        },
+        "opts": {
+          "raw": "34ef850000010001000000000776657273696f6e0462696e640000100003c00c0010000300000000000e0d392e31362e312d5562756e7475"
+        },
+        "ip_str": "184.183.25.203"
+      },
+      {
+        "ip": 3099007435,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "301 Moved Permanently",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache/2.4.41 (Ubuntu)",
+          "host": "184.183.25.203",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>301 Moved Permanently</title>\n</head><body>\n<h1>Moved Permanently</h1>\n<p>The document has moved <a href=\"https://www.tic.com/\">here</a>.</p>\n<hr>\n<address>Apache/2.4.41 (Ubuntu) Server at 184.183.25.203 Port 80</address>\n</body></html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -668616931,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 80,
+        "transport": "tcp",
+        "version": "2.4.41",
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Apache httpd",
+        "hash": -1124687741,
+        "timestamp": "2022-03-25T14:28:00.619459",
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nDate: Fri, 25 Mar 2022 14:28:00 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nLocation: https://www.tic.com/\r\nContent-Length: 308\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n",
+        "asn": "AS22773",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server:2.4.41"
+        ],
+        "info": "(Ubuntu)",
+        "isp": "Cox Communications Inc.",
+        "cpe": [
+          "cpe:/a:apache:http_server:2.4.41"
+        ],
+        "domains": [
+          "tic.com"
+        ],
+        "ip_str": "184.183.25.203",
+        "os": null,
+        "_shodan": {
+          "crawler": "dfd12d70c30ccb3812bf26f89905deeb85e98c77",
+          "options": {},
+          "id": "b545831b-604c-4acd-abff-a5d3dd83bae9",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "hash": 112074848,
+        "tags": [
+          "starttls"
+        ],
+        "timestamp": "2022-03-17T19:52:10.452726",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "data": "+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nSTLS\r\nSASL\r\n.\r\n",
+        "asn": "AS22773",
+        "port": 110,
+        "ssl": {
+          "chain_sha256": [
+            "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813"
+          ],
+          "jarm": "00000000000000000000000000000000000000000000000000000000000000",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIEYDCCA0igAwIBAgIBRDANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQGEwJVUzEL\nMAkGA1UECAwCQVoxDDAKBgNVBAoMA1RJQzETMBEGA1UEAwwKY2EudGljLmNvbTEZ\nMBcGCSqGSIb3DQEJARYKY2FAdGljLmNvbTAeFw0yMDA1MTUxNDUwNDRaFw0yMjA4\nMTgxNDUwNDRaMFQxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJBWjETMBEGA1UEBwwK\nU2NvdHRzZGFsZTEMMAoGA1UECgwDVElDMRUwEwYDVQQDDAxpbWFwLnRpYy5jb20w\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuj+d3iAfxXHkWpsVCpzNd\nrKX/pDpFVrrCkLMi6RbtZIP6KjQCsrQ99MDlgoevpT2gup0huDhVOGSE+Udk7QK0\nVFLdGECmyiJGllLIxyiauwZFPHbTuUhIYhzMBQxgt0l46Sh+gyezK3SdpiYwJ4Vg\ncvTFQZ50nkCWv+PJ1XHb9hL53x1TqFuQWX2noYYEDZQ3JzLbHTtPN5CP438Y+/Ml\nQdcwbqv7ZyBlh8g7xskU8W1fPRKrKp7y2Q5JiT4RUthbcr7Py+Kq+dOSBF3S+pbp\nCBVBV77CKbmKjiIwPGilSFK+M9GKkOWcrNGZbwnu4wT9j2w6Cmd2w1bPNr2ZMeYJ\nAgMBAAGjggE3MIIBMzAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NM\nIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUJ8EyLSe/b0oHKB77tp2R\nbFxi1l0wgYkGA1UdIwSBgTB/gBTpQ6PgSwrxDBek/8u9LeGfsh0nv6FcpFowWDEL\nMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkFaMQwwCgYDVQQKDANUSUMxEzARBgNVBAMM\nCmNhLnRpYy5jb20xGTAXBgkqhkiG9w0BCQEWCmNhQHRpYy5jb22CCQDGVX+NbsHl\nuDALBgNVHQ8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggr\nBgEFBQcDBDAXBgNVHREEEDAOggxpbWFwLnRpYy5jb20wDQYJKoZIhvcNAQELBQAD\nggEBAFkZAXNg9YKOAlHLo2CNIi6U2CuvaZmL4rMTB8VtZ10gCYmNd0Zu1vjCk4Ms\nWre/PU/kOxe0Igf41MAr0FofozBdmCyvit8pkOOaRlydYSwpJyPGlF+jRuJbvLA5\nf43RkprJKYrrbDNlCEoKxWQSba6cH5Kf8Xxr1XmZCeCNV4usyhjDHR8HSMxQeGgs\nK7vpLHEjD7NOrWVcwK0rMPzF503YhN8en6GQkH64r8hB/MyuMysBNRT5Dy30QwFp\ng9eUhf/o2uoHaNavo/rp36T94PykhX61olDR0SJEZkjScNW5L7Nu92rv3KQNYHsK\n2tE8lr8SGZvz0NyB/bq+wEv6ShM=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "ja3s": "e35df3e00ca4ef31d42b34bebaa2f86e",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20200515145044Z",
+            "expires": "20220818145044Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x16\\x1dOpenSSL Generated Certificate",
+                "name": "nsComment"
+              },
+              {
+                "data": "\\x04\\x14\\'\\xc12-\\'\\xbfoJ\\x07(\\x1e\\xfb\\xb6\\x9d\\x91l\\\b\\xd6]",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x7f\\x80\\x14\\xe9C\\xa3\\xe0K\n\\xf1\\x0c\\x17\\xa4\\xff\\xcb\\xbd-\\xe1\\x9f\\xb2\\x1d\\'\\xbf\\xa1\\\\\\xa4Z0X1\\x0b0 \\x06\\x03U\\x04\\x06\\x13\\x02US1\\x0b0 \\x06\\x03U\\x04\\x08\\x0c\\x02AZ1\\x0c0\n\\x06\\x03U\\x04\n\\x0c\\x03TIC1\\x130\\x11\\x06\\x03U\\x04\\x03\\x0c\nca.tic.com1\\x190\\x17\\x06 *\\x86H\\x86\\xf7\r\\x01 \\x01\\x16\nca@tic.com\\x82 \\x00\\xc6U\\x7f\\x8dn\\xc1\\xe5\\xb8",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x03\\x02\\x05\\xe0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x1e\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x04",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x0e\\x82\\x0cimap.tic.com",
+                "name": "subjectAltName"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813",
+              "sha1": "b9a1d2182c6207f24ec4efaa10ac8b31a327059d"
+            },
+            "serial": 68,
+            "subject": {
+              "CN": "imap.tic.com",
+              "C": "US",
+              "L": "Scottsdale",
+              "O": "TIC",
+              "ST": "AZ"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "emailAddress": "ca@tic.com",
+              "CN": "ca.tic.com",
+              "O": "TIC",
+              "ST": "AZ"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "unstable": [
+            "export"
+          ],
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "ns1.tic.com",
+          "imap.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "49217c0cdcbcebaf23c2979ae16d4eba64180b1f",
+          "options": {},
+          "id": "9abf0176-731f-44df-84de-9a5c9ead77aa",
+          "module": "pop3",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "184.183.25.203"
+      },
+      {
+        "hash": 532318733,
+        "timestamp": "2022-03-17T15:15:28.414908",
+        "ntp": {
+          "root_delay": 0.04901123046875,
+          "clock_offset": -0.000024557113647460938,
+          "precision": -23,
+          "reftime": 1647529175.9257941,
+          "refid": 2164719938,
+          "delay": 0.025273799896240234,
+          "leap": 0,
+          "version": 3,
+          "root_dispersion": 0.030487060546875,
+          "stratum": 2,
+          "poll": 3,
+          "monlist": null
+        },
+        "isp": "Cox Communications Inc.",
+        "transport": "udp",
+        "data": "NTP\nprotocolversion: 3\nstratum: 2\nleap: 0\nprecision: -23\nrootdelay: 0.0490112304688\nrootdisp: 0.0304870605469\nrefid: 2164719938\nreftime: 3856517975.93\npoll: 3\n\n",
+        "asn": "AS22773",
+        "port": 123,
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "f33d80a7ca4b7417d1867303f3af6b398f76f284",
+          "options": {},
+          "id": "942e7a33-8d28-43b6-9e48-37ff81e08c1d",
+          "module": "ntp",
+          "ptr": true
+        },
+        "opts": {
+          "raw": "1c0203e900000c8c000007ce81070142e5ddcb57ed00d8a5e5ddcf1063a88000e5ddcf1066e30f0ee5ddcf1066f0d5c9",
+          "ntp": {}
+        },
+        "ip_str": "184.183.25.203"
+      },
+      {
+        "ip": 3099007435,
+        "http": {
+          "status": 401,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "401 Unauthorized",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache/2.4.41 (Ubuntu)",
+          "host": "184.183.25.203",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>401 Unauthorized</title>\n</head><body>\n<h1>Unauthorized</h1>\n<p>This server could not verify that you\nare authorized to access the document\nrequested.  Either you supplied the wrong\ncredentials (e.g., bad password), or your\nbrowser doesn't understand how to supply\nthe credentials required.</p>\n<hr>\n<address>Apache/2.4.41 (Ubuntu) Server at 184.183.25.203 Port 443</address>\n</body></html>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1874882257,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 443,
+        "transport": "tcp",
+        "version": "2.4.41",
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Apache httpd",
+        "hash": 292410437,
+        "timestamp": "2022-03-20T07:12:02.643741",
+        "ssl": {
+          "chain_sha256": [
+            "c66e414629e092d1ac6a393c5e8221b4a106cd9dd504f51096d1e03aabb83a65",
+            "67add1166b020ae61b8f5fc96813c04c2aa589960796865572a3c7e737613dfd",
+            "96bcec06264976f37460779acf28c5a7cfe8a3c0aae11a8ffcee05c0bddf08c6"
+          ],
+          "jarm": "3fd3fd15d3fd3fd00042d42d00000061256d32ed7779c14686ad100544dc8d",
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            }
+          ],
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIFIjCCBAqgAwIBAgISBPS0EhAuj8Brl3TdFFKDgXo1MA0GCSqGSIb3DQEBCwUA\nMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD\nEwJSMzAeFw0yMjAzMTMxMTAwMjJaFw0yMjA2MTExMTAwMjFaMBkxFzAVBgNVBAMT\nDmJyaWRnZS50aWMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA\ns2VSNmhvVDVd3b300yzsp7i1BEveRWHkDfkMRdLmMV1MaBJkRK/ggqEBNuIb4bqq\n8UauPwg0kmxA4rxq6EO2eOPOL6K9kNHN/ixOsufm4tYPu+q7oWWAh8PrEiCOKubd\nEBqFf3lN2L0XNH6rkp7bQUG+ORuU6nE8SYZDMvvxHxyrcm1DWqdOMMnFutxawzJJ\nhXAwJVmk8UJwSHe2ndIukKqD9LyhTbrgVxcpRBXIgUIHxNSVQvoFpg3AJDtMczwe\newO2BaWyvDNS5hJVx1jJyPnPNsssMIg2mwSNLDWsjmHqJt+hU3inIKjg4SO2wM/g\nvrE4veO3BiH3UAl93s76aQIDAQABo4ICSTCCAkUwDgYDVR0PAQH/BAQDAgWgMB0G\nA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1Ud\nDgQWBBSJBAY0MfQVaxAT8It2/qDoByOolDAfBgNVHSMEGDAWgBQULrMXt1hWy65Q\nCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9y\nMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3Jn\nLzAZBgNVHREEEjAQgg5icmlkZ2UudGljLmNvbTBMBgNVHSAERTBDMAgGBmeBDAEC\nATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNl\nbmNyeXB0Lm9yZzCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB1AN+lXqtogk8fbK3u\nuF9OPlrqzaISpGpejjsSwCBEXCpzAAABf4MmppcAAAQDAEYwRAIgfVEgLKmLemXp\n6R+ib5Gja9FQISfFjrCsuerz1tc8rTcCIGY8B3qG4Aqo2cGF3pV3AhRCUOQFgERQ\nT7f5lY/1D+nYAHcAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAF/\ngyaoegAABAMASDBGAiEAsNR/tpGlaf/Z6TsoOUKMXjoS6dbeAWjVGNXM091Ohh8C\nIQDL9eJ3pMh6KzBxlVXOpaPf+5QFAN+49K+W3MDkd2P2BjANBgkqhkiG9w0BAQsF\nAAOCAQEAn1+H4w5/vCkqXAkkdKKYZNT/qy3nWDKxxSQFe3wzbCmd3EpIedMGvJJT\nQ04GctMMUWYhuR7bX6/yZgVqnK0ysRfCuum3hX9+wdJQWrkC0B1a9QtD5vCZRggb\nogdmgzNNeX0DruOSWQIH1ZqTLPP5h73HcZ5DVNq+BbAdqfzajhm7+4hhuXGIE4Ga\nN/YEjVkA81SfOezEwviEkrDiMVAEac88nzUYJDTuwqGUa9tz2pZ8TUWaGmFrqxuO\nZcYbRHZNTucwAOz/gTmV6EZ9N3n2LwgeBPCOWl/cXmIQYEN33DCokcAkFg8aI5TZ\nFkjJqF/v0hLy30Ewi/pEBMYWoTkvCw==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw\nWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg\nRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK\nAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP\nR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx\nsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm\nNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg\nZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG\n/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC\nAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB\nAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA\nFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw\nAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw\nOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB\ngt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W\nPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl\nikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz\nCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm\nlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4\navAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2\nyJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O\nyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids\nhCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+\nHlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv\nMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX\nnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\nTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\ncmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMTUwNjA0MTEwNDM4\nWhcNMzUwNjA0MTEwNDM4WjBPMQswCQYDVQQGEwJVUzEpMCcGA1UEChMgSW50ZXJu\nZXQgU2VjdXJpdHkgUmVzZWFyY2ggR3JvdXAxFTATBgNVBAMTDElTUkcgUm9vdCBY\nMTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK3oJHP0FDfzm54rVygc\nh77ct984kIxuPOZXoHj3dcKi/vVqbvYATyjb3miGbESTtrFj/RQSa78f0uoxmyF+\n0TM8ukj13Xnfs7j/EvEhmkvBioZxaUpmZmyPfjxwv60pIgbz5MDmgK7iS4+3mX6U\nA5/TR5d8mUgjU+g4rk8Kb4Mu0UlXjIB0ttov0DiNewNwIRt18jA8+o+u3dpjq+sW\nT8KOEUt+zwvo/7V3LvSye0rgTBIlDHCNAymg4VMk7BPZ7hm/ELNKjD+Jo2FR3qyH\nB5T0Y3HsLuJvW5iB4YlcNHlsdu87kGJ55tukmi8mxdAQ4Q7e2RCOFvu396j3x+UC\nB5iPNgiV5+I3lg02dZ77DnKxHZu8A/lJBdiB3QW0KtZB6awBdpUKD9jf1b0SHzUv\nKBds0pjBqAlkd25HN7rOrFleaJ1/ctaJxQZBKT5ZPt0m9STJEadao0xAH0ahmbWn\nOlFuhjuefXKnEgV4We0+UXgVCwOPjdAvBbI+e0ocS3MFEvzG6uBQE3xDk3SzynTn\njh8BCNAw1FtxNrQHusEwMFxIt4I7mKZ9YIqioymCzLq9gwQbooMDQaHWBfEbwrbw\nqHyGO0aoSCqI3Haadr8faqU9GY/rOPNk3sgrDQoo//fb4hVC1CLQJ13hef4Y53CI\nrU7m2Ys6xt0nUW7/vGT1M0NPAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwIBBjAPBgNV\nHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR5tFnme7bl5AFzgAiIyBpY9umbbjANBgkq\nhkiG9w0BAQsFAAOCAgEAVR9YqbyyqFDQDLHYGmkgJykIrGF1XIpu+ILlaS/V9lZL\nubhzEFnTIZd+50xx+7LSYK05qAvqFyFWhfFQDlnrzuBZ6brJFe+GnY+EgPbk6ZGQ\n3BebYhtF8GaV0nxvwuo77x/Py9auJ/GpsMiu/X1+mvoiBOv/2X/qkSsisRcOj/KK\nNFtY2PwByVS5uCbMiogziUwthDyC3+6WVwW6LLv3xLfHTjuCvjHIInNzktHCgKQ5\nORAzI4JMPJ+GslWYHb4phowim57iaztXOoJwTdwJx4nLCgdNbOhdjsnvzqvHu7Ur\nTkXWStAmzOVyyghqpZXjFaH3pO3JLF+l+/+sKAIuvtd7u+Nxe5AW0wdeRlN8NwdC\njNPElpzVmbUq4JUagEiuTDkHzsxHpFKVK7q4+63SM1N95R1NbdWhscdCb+ZAJzVc\noyi3B43njTOQ5yOf+1CceWxG1bQVs5ZufpsMljq4Ui0/1lvh+wjChP4kqKOJ2qxq\n4RgqsahDYVvTH9w7jXbyLeiNdd8XM2w9U/t7y0Ff/9yi0GE44Za4rF2LN9d11TPA\nmRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d\nemyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=\n-----END CERTIFICATE-----\n"
+          ],
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "ja3s": "ccc514751b175866924439bdbb5bba34",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20220313110022Z",
+            "expires": "20220611110021Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x05\\xa0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "critical": true,
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x14\\x89\\x04\\x0641\\xf4\\x15k\\x10\\x13\\xf0\\x8bv\\xfe\\xa0\\xe8\\x07#\\xa8\\x94",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14\\x14.\\xb3\\x17\\xb7XV\\xcb\\xaeP @\\xe6\\x1f\\xaf\\x9d\\x8b\\x14\\xc2\\xc6",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "0G0!\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x15http://r3.o.lencr.org0\"\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86\\x16http://r3.i.lencr.org/",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x10\\x82\\x0ebridge.tic.com",
+                "name": "subjectAltName"
+              },
+              {
+                "data": "0C0\\x08\\x06\\x06g\\x81\\x0c\\x01\\x02\\x0107\\x06\\x0b+\\x06\\x01\\x04\\x01\\x82\\xdf\\x13\\x01\\x01\\x010(0&\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1ahttp://cps.letsencrypt.org",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "\\x04\\x81\\xf2\\x00\\xf0\\x00u\\x00\\xdf\\xa5^\\xabh\\x82O\\x1fl\\xad\\xee\\xb8_N>Z\\xea\\xcd\\xa2\\x12\\xa4j^\\x8e;\\x12\\xc0 D\\\\*s\\x00\\x00\\x01\\x7f\\x83&\\xa6\\x97\\x00\\x00\\x04\\x03\\x00F0D\\x02 }Q ,\\xa9\\x8bze\\xe9\\xe9\\x1f\\xa2o\\x91\\xa3k\\xd1P!\\'\\xc5\\x8e\\xb0\\xac\\xb9\\xea\\xf3\\xd6\\xd7<\\xad7\\x02 f<\\x07z\\x86\\xe0\n\\xa8\\xd9\\xc1\\x85\\xde\\x95w\\x02\\x14BP\\xe4\\x05\\x80DPO\\xb7\\xf9\\x95\\x8f\\xf5\\x0f\\xe9\\xd8\\x00w\\x00)y\\xbe\\xf0\\x9e99!\\xf0Vs\\x9fc\\xa5w\\xe5\\xbeW}\\x9c`\n\\xf8\\xf9M]&\\\\%]\\xc7\\x84\\x00\\x00\\x01\\x7f\\x83&\\xa8z\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xb0\\xd4\\x7f\\xb6\\x91\\xa5i\\xff\\xd9\\xe9;(9B\\x8c^:\\x12\\xe9\\xd6\\xde\\x01h\\xd5\\x18\\xd5\\xcc\\xd3\\xddN\\x86\\x1f\\x02!\\x00\\xcb\\xf5\\xe2w\\xa4\\xc8z+0q\\x95U\\xce\\xa5\\xa3\\xdf\\xfb\\x94\\x05\\x00\\xdf\\xb8\\xf4\\xaf\\x96\\xdc\\xc0\\xe4wc\\xf6\\x06",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "c66e414629e092d1ac6a393c5e8221b4a106cd9dd504f51096d1e03aabb83a65",
+              "sha1": "94a33b22526457763e57a244e7123c2f0f7ce483"
+            },
+            "serial": 4.3171739608454225e+41,
+            "subject": {
+              "CN": "bridge.tic.com"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "R3",
+              "O": "Let's Encrypt"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-RSA-AES128-GCM-SHA256"
+          },
+          "unstable": [
+            "export"
+          ],
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "bridge.tic.com",
+          "ns1.tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "data": "HTTP/1.1 401 Unauthorized\r\nDate: Sun, 20 Mar 2022 07:12:02 GMT\r\nServer: Apache/2.4.41 (Ubuntu)\r\nWWW-Authenticate: Basic realm=\"Bridge\"\r\nContent-Length: 462\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n",
+        "asn": "AS22773",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server:2.4.41"
+        ],
+        "info": "(Ubuntu)",
+        "isp": "Cox Communications Inc.",
+        "cpe": [
+          "cpe:/a:apache:http_server:2.4.41"
+        ],
+        "domains": [
+          "tic.com"
+        ],
+        "ip_str": "184.183.25.203",
+        "os": null,
+        "_shodan": {
+          "crawler": "f33d80a7ca4b7417d1867303f3af6b398f76f284",
+          "options": {
+            "referrer": "aff8f219-e6ca-48cf-9d2b-9caf587e3792"
+          },
+          "id": "8eae5957-fd65-473b-843e-a2549b2f0da4",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/20 07:12:07 184.183.25.203:443 - ERROR: dial tcp 184.183.25.203:443: i/o timeout\n"
+        }
+      },
+      {
+        "product": "Sendmail",
+        "hostnames": [
+          "ns1.tic.com"
+        ],
+        "hash": -1684739137,
+        "timestamp": "2022-03-17T01:29:57.957415",
+        "org": "Cox Communications Inc.",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "cpe": [
+          "cpe:/a:sendmail:sendmail:8.15.2/8.15.2/Debian-18"
+        ],
+        "data": "220 ns1.tic.com ESMTP Sendmail 8.15.2/8.15.2/Debian-18; Wed, 16 Mar 2022 18:29:57 -0700; (No UCE/UBE) logging access from: 224.170.179.122(OK)-224.170.179.122 [224.170.179.122]\r\n421 4.7.0 ns1.tic.com Rejecting open proxy 224.170.179.122 [224.170.179.122]\r\n",
+        "asn": "AS22773",
+        "port": 587,
+        "version": "8.15.2/8.15.2/Debian-18",
+        "cpe23": [
+          "cpe:2.3:a:sendmail:sendmail:8.15.2/8.15.2/Debian-18"
+        ],
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "ip_str": "184.183.25.203",
+        "os": null,
+        "_shodan": {
+          "crawler": "621591a63b031d098ca76175401cfed505d8b4a7",
+          "options": {},
+          "id": "71358cc2-a97c-4a4b-a0f8-89a55b85347c",
+          "module": "auto",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 685497759,
+        "timestamp": "2022-03-17T18:14:55.796149",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "data": "* OK [CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN] Dovecot (Ubuntu) ready.\n* CAPABILITY IMAP4rev1 SASL-IR LOGIN-REFERRALS ID ENABLE IDLE LITERAL+ AUTH=PLAIN\r\nA001 OK Pre-login capabilities listed, post-login capabilities have more.\r\n* ID (\"name\" \"Dovecot\")\r\nA002 OK ID completed.\r\nA003 BAD Error in IMAP command received by server.\r\n* BYE Logging out\r\nA004 OK Logout completed.\r\n",
+        "asn": "AS22773",
+        "port": 993,
+        "ssl": {
+          "chain_sha256": [
+            "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813"
+          ],
+          "jarm": "07d3fd12d21d21d00042d43d0000005aa9877b7a5d6a671d1e56af48dc9ce6",
+          "tlsext": [],
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIEYDCCA0igAwIBAgIBRDANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQGEwJVUzEL\nMAkGA1UECAwCQVoxDDAKBgNVBAoMA1RJQzETMBEGA1UEAwwKY2EudGljLmNvbTEZ\nMBcGCSqGSIb3DQEJARYKY2FAdGljLmNvbTAeFw0yMDA1MTUxNDUwNDRaFw0yMjA4\nMTgxNDUwNDRaMFQxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJBWjETMBEGA1UEBwwK\nU2NvdHRzZGFsZTEMMAoGA1UECgwDVElDMRUwEwYDVQQDDAxpbWFwLnRpYy5jb20w\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuj+d3iAfxXHkWpsVCpzNd\nrKX/pDpFVrrCkLMi6RbtZIP6KjQCsrQ99MDlgoevpT2gup0huDhVOGSE+Udk7QK0\nVFLdGECmyiJGllLIxyiauwZFPHbTuUhIYhzMBQxgt0l46Sh+gyezK3SdpiYwJ4Vg\ncvTFQZ50nkCWv+PJ1XHb9hL53x1TqFuQWX2noYYEDZQ3JzLbHTtPN5CP438Y+/Ml\nQdcwbqv7ZyBlh8g7xskU8W1fPRKrKp7y2Q5JiT4RUthbcr7Py+Kq+dOSBF3S+pbp\nCBVBV77CKbmKjiIwPGilSFK+M9GKkOWcrNGZbwnu4wT9j2w6Cmd2w1bPNr2ZMeYJ\nAgMBAAGjggE3MIIBMzAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NM\nIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUJ8EyLSe/b0oHKB77tp2R\nbFxi1l0wgYkGA1UdIwSBgTB/gBTpQ6PgSwrxDBek/8u9LeGfsh0nv6FcpFowWDEL\nMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkFaMQwwCgYDVQQKDANUSUMxEzARBgNVBAMM\nCmNhLnRpYy5jb20xGTAXBgkqhkiG9w0BCQEWCmNhQHRpYy5jb22CCQDGVX+NbsHl\nuDALBgNVHQ8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggr\nBgEFBQcDBDAXBgNVHREEEDAOggxpbWFwLnRpYy5jb20wDQYJKoZIhvcNAQELBQAD\nggEBAFkZAXNg9YKOAlHLo2CNIi6U2CuvaZmL4rMTB8VtZ10gCYmNd0Zu1vjCk4Ms\nWre/PU/kOxe0Igf41MAr0FofozBdmCyvit8pkOOaRlydYSwpJyPGlF+jRuJbvLA5\nf43RkprJKYrrbDNlCEoKxWQSba6cH5Kf8Xxr1XmZCeCNV4usyhjDHR8HSMxQeGgs\nK7vpLHEjD7NOrWVcwK0rMPzF503YhN8en6GQkH64r8hB/MyuMysBNRT5Dy30QwFp\ng9eUhf/o2uoHaNavo/rp36T94PykhX61olDR0SJEZkjScNW5L7Nu92rv3KQNYHsK\n2tE8lr8SGZvz0NyB/bq+wEv6ShM=\n-----END CERTIFICATE-----\n"
+          ],
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2"
+          ],
+          "acceptable_cas": [],
+          "ja3s": "7770094a92b1cbfa5a6de2017cfb682a",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20200515145044Z",
+            "expires": "20220818145044Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x16\\x1dOpenSSL Generated Certificate",
+                "name": "nsComment"
+              },
+              {
+                "data": "\\x04\\x14\\'\\xc12-\\'\\xbfoJ\\x07(\\x1e\\xfb\\xb6\\x9d\\x91l\\\b\\xd6]",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x7f\\x80\\x14\\xe9C\\xa3\\xe0K\n\\xf1\\x0c\\x17\\xa4\\xff\\xcb\\xbd-\\xe1\\x9f\\xb2\\x1d\\'\\xbf\\xa1\\\\\\xa4Z0X1\\x0b0 \\x06\\x03U\\x04\\x06\\x13\\x02US1\\x0b0 \\x06\\x03U\\x04\\x08\\x0c\\x02AZ1\\x0c0\n\\x06\\x03U\\x04\n\\x0c\\x03TIC1\\x130\\x11\\x06\\x03U\\x04\\x03\\x0c\nca.tic.com1\\x190\\x17\\x06 *\\x86H\\x86\\xf7\r\\x01 \\x01\\x16\nca@tic.com\\x82 \\x00\\xc6U\\x7f\\x8dn\\xc1\\xe5\\xb8",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x03\\x02\\x05\\xe0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x1e\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x04",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x0e\\x82\\x0cimap.tic.com",
+                "name": "subjectAltName"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813",
+              "sha1": "b9a1d2182c6207f24ec4efaa10ac8b31a327059d"
+            },
+            "serial": 68,
+            "subject": {
+              "CN": "imap.tic.com",
+              "C": "US",
+              "L": "Scottsdale",
+              "O": "TIC",
+              "ST": "AZ"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "emailAddress": "ca@tic.com",
+              "CN": "ca.tic.com",
+              "O": "TIC",
+              "ST": "AZ"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "unstable": [
+            "export"
+          ],
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "ns1.tic.com",
+          "imap.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "d905ab419aeb10e9c57a336c7e1aa9629ae4a733",
+          "options": {},
+          "id": "3ab555bc-9de1-4a02-983e-cd0db42e627c",
+          "module": "imap-ssl",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/17 18:14:29 184.183.25.203:993 - SAFE\n"
+        },
+        "ip_str": "184.183.25.203"
+      },
+      {
+        "hash": -2029277987,
+        "timestamp": "2022-03-21T01:09:03.751210",
+        "isp": "Cox Communications Inc.",
+        "transport": "tcp",
+        "data": "+OK Dovecot (Ubuntu) ready.\n+OK\r\nCAPA\r\nTOP\r\nUIDL\r\nRESP-CODES\r\nPIPELINING\r\nAUTH-RESP-CODE\r\nUSER\r\nSASL PLAIN\r\n.\r\n",
+        "asn": "AS22773",
+        "port": 995,
+        "ssl": {
+          "chain_sha256": [
+            "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813"
+          ],
+          "jarm": "07d3fd12d21d21d00042d43d0000005aa9877b7a5d6a671d1e56af48dc9ce6",
+          "tlsext": [],
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIEYDCCA0igAwIBAgIBRDANBgkqhkiG9w0BAQsFADBYMQswCQYDVQQGEwJVUzEL\nMAkGA1UECAwCQVoxDDAKBgNVBAoMA1RJQzETMBEGA1UEAwwKY2EudGljLmNvbTEZ\nMBcGCSqGSIb3DQEJARYKY2FAdGljLmNvbTAeFw0yMDA1MTUxNDUwNDRaFw0yMjA4\nMTgxNDUwNDRaMFQxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJBWjETMBEGA1UEBwwK\nU2NvdHRzZGFsZTEMMAoGA1UECgwDVElDMRUwEwYDVQQDDAxpbWFwLnRpYy5jb20w\nggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuj+d3iAfxXHkWpsVCpzNd\nrKX/pDpFVrrCkLMi6RbtZIP6KjQCsrQ99MDlgoevpT2gup0huDhVOGSE+Udk7QK0\nVFLdGECmyiJGllLIxyiauwZFPHbTuUhIYhzMBQxgt0l46Sh+gyezK3SdpiYwJ4Vg\ncvTFQZ50nkCWv+PJ1XHb9hL53x1TqFuQWX2noYYEDZQ3JzLbHTtPN5CP438Y+/Ml\nQdcwbqv7ZyBlh8g7xskU8W1fPRKrKp7y2Q5JiT4RUthbcr7Py+Kq+dOSBF3S+pbp\nCBVBV77CKbmKjiIwPGilSFK+M9GKkOWcrNGZbwnu4wT9j2w6Cmd2w1bPNr2ZMeYJ\nAgMBAAGjggE3MIIBMzAJBgNVHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NM\nIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUJ8EyLSe/b0oHKB77tp2R\nbFxi1l0wgYkGA1UdIwSBgTB/gBTpQ6PgSwrxDBek/8u9LeGfsh0nv6FcpFowWDEL\nMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkFaMQwwCgYDVQQKDANUSUMxEzARBgNVBAMM\nCmNhLnRpYy5jb20xGTAXBgkqhkiG9w0BCQEWCmNhQHRpYy5jb22CCQDGVX+NbsHl\nuDALBgNVHQ8EBAMCBeAwJwYDVR0lBCAwHgYIKwYBBQUHAwEGCCsGAQUFBwMCBggr\nBgEFBQcDBDAXBgNVHREEEDAOggxpbWFwLnRpYy5jb20wDQYJKoZIhvcNAQELBQAD\nggEBAFkZAXNg9YKOAlHLo2CNIi6U2CuvaZmL4rMTB8VtZ10gCYmNd0Zu1vjCk4Ms\nWre/PU/kOxe0Igf41MAr0FofozBdmCyvit8pkOOaRlydYSwpJyPGlF+jRuJbvLA5\nf43RkprJKYrrbDNlCEoKxWQSba6cH5Kf8Xxr1XmZCeCNV4usyhjDHR8HSMxQeGgs\nK7vpLHEjD7NOrWVcwK0rMPzF503YhN8en6GQkH64r8hB/MyuMysBNRT5Dy30QwFp\ng9eUhf/o2uoHaNavo/rp36T94PykhX61olDR0SJEZkjScNW5L7Nu92rv3KQNYHsK\n2tE8lr8SGZvz0NyB/bq+wEv6ShM=\n-----END CERTIFICATE-----\n"
+          ],
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2"
+          ],
+          "acceptable_cas": [],
+          "ja3s": "7770094a92b1cbfa5a6de2017cfb682a",
+          "cert": {
+            "sig_alg": "sha256WithRSAEncryption",
+            "issued": "20200515145044Z",
+            "expires": "20220818145044Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x16\\x1dOpenSSL Generated Certificate",
+                "name": "nsComment"
+              },
+              {
+                "data": "\\x04\\x14\\'\\xc12-\\'\\xbfoJ\\x07(\\x1e\\xfb\\xb6\\x9d\\x91l\\\b\\xd6]",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x7f\\x80\\x14\\xe9C\\xa3\\xe0K\n\\xf1\\x0c\\x17\\xa4\\xff\\xcb\\xbd-\\xe1\\x9f\\xb2\\x1d\\'\\xbf\\xa1\\\\\\xa4Z0X1\\x0b0 \\x06\\x03U\\x04\\x06\\x13\\x02US1\\x0b0 \\x06\\x03U\\x04\\x08\\x0c\\x02AZ1\\x0c0\n\\x06\\x03U\\x04\n\\x0c\\x03TIC1\\x130\\x11\\x06\\x03U\\x04\\x03\\x0c\nca.tic.com1\\x190\\x17\\x06 *\\x86H\\x86\\xf7\r\\x01 \\x01\\x16\nca@tic.com\\x82 \\x00\\xc6U\\x7f\\x8dn\\xc1\\xe5\\xb8",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x03\\x02\\x05\\xe0",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x1e\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x04",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x0e\\x82\\x0cimap.tic.com",
+                "name": "subjectAltName"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "4d8d315c8bfac3c6653be4922f5355b148696ad5063f553aabde83952e006813",
+              "sha1": "b9a1d2182c6207f24ec4efaa10ac8b31a327059d"
+            },
+            "serial": 68,
+            "subject": {
+              "CN": "imap.tic.com",
+              "C": "US",
+              "L": "Scottsdale",
+              "O": "TIC",
+              "ST": "AZ"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "C": "US",
+              "emailAddress": "ca@tic.com",
+              "CN": "ca.tic.com",
+              "O": "TIC",
+              "ST": "AZ"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "ECDHE-RSA-AES256-GCM-SHA384"
+          },
+          "unstable": [
+            "export"
+          ],
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read server session ticket",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "ns1.tic.com",
+          "imap.tic.com"
+        ],
+        "location": {
+          "city": "Scottsdale",
+          "region_code": "AZ",
+          "area_code": null,
+          "longitude": -111.89903,
+          "latitude": 33.50921,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 3099007435,
+        "domains": [
+          "tic.com"
+        ],
+        "org": "Cox Communications Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "42f86247b760542c0192b61c60405edc5db01d55",
+          "id": "fea5cbc0-414f-4783-8a52-c28f5e1b6401",
+          "module": "pop3-ssl",
+          "options": {}
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/21 01:08:50 184.183.25.203:995 - SAFE\n"
+        },
+        "ip_str": "184.183.25.203"
+      }
+    ],
+    "asn": "AS22773",
+    "ip_str": "184.183.25.203"
+  }

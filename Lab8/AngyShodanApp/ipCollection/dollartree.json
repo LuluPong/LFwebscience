@@ -1,0 +1,90 @@
+{
+    "doc_id": 86,
+    "city": "Edison",
+    "region_code": "NJ",
+    "os": null,
+    "tags": [
+      "cdn"
+    ],
+    "ip": 389471391,
+    "isp": "Akamai Technologies, Inc.",
+    "area_code": null,
+    "longitude": -74.4121,
+    "last_update": "2022-03-25T01:54:58.575458",
+    "ports": [
+      80
+    ],
+    "latitude": 40.51872,
+    "hostnames": [
+      "a23-54-220-159.deploy.static.akamaitechnologies.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "akamaitechnologies.com"
+    ],
+    "org": "Akamai Technologies, Inc.",
+    "data": [
+      {
+        "info": "Akamai's HTTP Acceleration & Mirror service",
+        "product": "AkamaiGHost",
+        "http": {
+          "status": 400,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Invalid URL",
+          "sitemap_hash": null,
+          "waf": "Kona SiteDefender (Akamai)",
+          "robots": null,
+          "server": "AkamaiGHost",
+          "host": "23.54.220.159",
+          "html": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#91;no&#32;URL&#93;\", is invalid.<p>\nReference&#32;&#35;9&#46;1a674d68&#46;1648173298&#46;10bc8698\n</BODY></HTML>\n",
+          "location": "/",
+          "components": {},
+          "html_hash": 1143475163,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "tags": [
+          "cdn"
+        ],
+        "timestamp": "2022-03-25T01:54:58.575458",
+        "isp": "Akamai Technologies, Inc.",
+        "transport": "tcp",
+        "data": "HTTP/1.0 400 Bad Request\r\nServer: AkamaiGHost\r\nMime-Version: 1.0\r\nContent-Type: text/html\r\nContent-Length: 209\r\nExpires: Fri, 25 Mar 2022 01:54:58 GMT\r\nDate: Fri, 25 Mar 2022 01:54:58 GMT\r\nConnection: close\r\n\r\n",
+        "asn": "AS16625",
+        "hash": 1220386292,
+        "hostnames": [
+          "a23-54-220-159.deploy.static.akamaitechnologies.com"
+        ],
+        "port": 80,
+        "location": {
+          "city": "Edison",
+          "region_code": "NJ",
+          "area_code": null,
+          "longitude": -74.4121,
+          "latitude": 40.51872,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 389471391,
+        "domains": [
+          "akamaitechnologies.com"
+        ],
+        "org": "Akamai Technologies, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "e15fd8f613780213727556a9cb02788d26131443",
+          "options": {},
+          "id": "bfce497f-522f-4292-8fb3-b4eee6dc906b",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "23.54.220.159"
+      }
+    ],
+    "asn": "AS16625",
+    "ip_str": "23.54.220.159"
+  }

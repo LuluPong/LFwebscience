@@ -1,0 +1,403 @@
+{
+    "doc_id": 24,
+    "city": "Washington",
+    "region_code": "DC",
+    "os": null,
+    "tags": [],
+    "ip": 2354212868,
+    "isp": "GitHub, Inc.",
+    "area_code": null,
+    "longitude": -77.03637,
+    "last_update": "2022-03-18T21:33:51.987587",
+    "ports": [
+      80,
+      9418,
+      443,
+      22
+    ],
+    "latitude": 38.89511,
+    "hostnames": [
+      "github.com",
+      "www.github.com",
+      "lb-140-82-112-4-iad.github.com"
+    ],
+    "country_code": "US",
+    "country_name": "United States",
+    "domains": [
+      "github.com"
+    ],
+    "org": "GitHub, Inc.",
+    "data": [
+      {
+        "info": "protocol 2.0",
+        "hash": -1780720123,
+        "timestamp": "2022-03-17T05:29:24.723821",
+        "org": "GitHub, Inc.",
+        "isp": "GitHub, Inc.",
+        "transport": "tcp",
+        "data": "SSH-2.0-babeld-4f04c79d\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PH\nkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETY\nP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoW\nf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lG\nHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==\nFingerprint: 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48\n\nKex Algorithms:\n curve25519-sha256\n curve25519-sha256@libssh.org\n ecdh-sha2-nistp256\n ecdh-sha2-nistp384\n ecdh-sha2-nistp521\n diffie-hellman-group-exchange-sha256\n\nServer Host Key Algorithms:\n ssh-ed25519\n ecdsa-sha2-nistp256\n rsa-sha2-512\n rsa-sha2-256\n ssh-rsa\n\nEncryption Algorithms:\n chacha20-poly1305@openssh.com\n aes256-gcm@openssh.com\n aes128-gcm@openssh.com\n aes256-ctr\n aes192-ctr\n aes128-ctr\n\nMAC Algorithms:\n hmac-sha2-512-etm@openssh.com\n hmac-sha2-256-etm@openssh.com\n hmac-sha2-512\n hmac-sha2-256\n\nCompression Algorithms:\n none\n\n",
+        "asn": "AS36459",
+        "port": 22,
+        "hostnames": [
+          "lb-140-82-112-4-iad.github.com"
+        ],
+        "ssh": {
+          "hassh": "703d769d8765b2d6a0f30ab6b60efaf2",
+          "fingerprint": "16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48",
+          "mac": "hmac-sha2-256",
+          "cipher": "aes128-ctr",
+          "key": "AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PH\nkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETY\nP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoW\nf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lG\nHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==\n",
+          "kex": {
+            "languages": [
+              ""
+            ],
+            "server_host_key_algorithms": [
+              "ssh-ed25519",
+              "ecdsa-sha2-nistp256",
+              "rsa-sha2-512",
+              "rsa-sha2-256",
+              "ssh-rsa"
+            ],
+            "encryption_algorithms": [
+              "chacha20-poly1305@openssh.com",
+              "aes256-gcm@openssh.com",
+              "aes128-gcm@openssh.com",
+              "aes256-ctr",
+              "aes192-ctr",
+              "aes128-ctr"
+            ],
+            "kex_follows": false,
+            "unused": 0,
+            "kex_algorithms": [
+              "curve25519-sha256",
+              "curve25519-sha256@libssh.org",
+              "ecdh-sha2-nistp256",
+              "ecdh-sha2-nistp384",
+              "ecdh-sha2-nistp521",
+              "diffie-hellman-group-exchange-sha256"
+            ],
+            "compression_algorithms": [
+              "none"
+            ],
+            "mac_algorithms": [
+              "hmac-sha2-512-etm@openssh.com",
+              "hmac-sha2-256-etm@openssh.com",
+              "hmac-sha2-512",
+              "hmac-sha2-256"
+            ]
+          },
+          "type": "ssh-rsa"
+        },
+        "ip": 2354212868,
+        "domains": [
+          "github.com"
+        ],
+        "ip_str": "140.82.112.4",
+        "os": null,
+        "_shodan": {
+          "crawler": "36f536ccfb8f2bed3f4109d29ab93e6221906564",
+          "options": {
+            "hostname": "www.octocaptcha.com",
+            "scan": "nwWHyI3pGbH72Ir4"
+          },
+          "id": "d39f345e-3dce-4670-be67-f8b609ec739b",
+          "module": "ssh",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.03637,
+          "latitude": 38.89511,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": 1980907296,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "140.82.112.4",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-18T21:33:49.621915",
+        "org": "GitHub, Inc.",
+        "isp": "GitHub, Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-Length: 0\r\nLocation: https://140.82.112.4/\r\n\r\n",
+        "asn": "AS36459",
+        "port": 80,
+        "hostnames": [
+          "lb-140-82-112-4-iad.github.com"
+        ],
+        "transport": "tcp",
+        "ip": 2354212868,
+        "domains": [
+          "github.com"
+        ],
+        "ip_str": "140.82.112.4",
+        "os": null,
+        "_shodan": {
+          "crawler": "487814a778c983e2dcef234806292d88c5cbf3ec",
+          "options": {},
+          "id": "babc056a-aad1-4b8d-bb25-cf872cd256f3",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {},
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.03637,
+          "latitude": 38.89511,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1655207803,
+        "http": {
+          "status": 301,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": null,
+          "sitemap_hash": null,
+          "robots": null,
+          "server": null,
+          "host": "140.82.112.4",
+          "html": "",
+          "location": "/",
+          "html_hash": 0,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "timestamp": "2022-03-18T21:33:51.987587",
+        "org": "GitHub, Inc.",
+        "isp": "GitHub, Inc.",
+        "data": "HTTP/1.1 301 Moved Permanently\r\nContent-Length: 0\r\nLocation: https://github.com/\r\n\r\n",
+        "asn": "AS36459",
+        "port": 443,
+        "ssl": {
+          "chain_sha256": [
+            "b7bc5510cc1c637b5e5fb785816a773dbb394b68337b1b117ca5ab43ccf778cf",
+            "f7a9a1b2fd964a3f2670bd668d561fb7c55d3aa9ab8391e7e169702db8a3dbcf",
+            "4348a0e9444c78cb265e058d5e8944b4d84f9662bd26db257f8934a443c70161"
+          ],
+          "jarm": "27d27d27d29d27d00041d41d0000000be49cc25222308abd09720df24eb301",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIFajCCBPCgAwIBAgIQBRiaVOvox+kD4KsNklVF3jAKBggqhkjOPQQDAzBWMQsw\nCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTAwLgYDVQQDEydEaWdp\nQ2VydCBUTFMgSHlicmlkIEVDQyBTSEEzODQgMjAyMCBDQTEwHhcNMjIwMzE1MDAw\nMDAwWhcNMjMwMzE1MjM1OTU5WjBmMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2Fs\naWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEVMBMGA1UEChMMR2l0SHVi\nLCBJbmMuMRMwEQYDVQQDEwpnaXRodWIuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0D\nAQcDQgAESrCTcYUh7GI/y3TARsjnANwnSjJLitVRgwgRI1JlxZ1kdZQQn5ltP3v7\nKTtYuDdUeEu3PRx3fpDdu2cjMlyA0aOCA44wggOKMB8GA1UdIwQYMBaAFAq8CCkX\njKU5bXoOzjPHLrPt+8N6MB0GA1UdDgQWBBR4qnLGcWloFLVZsZ6LbitAh0I7HjAl\nBgNVHREEHjAcggpnaXRodWIuY29tgg53d3cuZ2l0aHViLmNvbTAOBgNVHQ8BAf8E\nBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMIGbBgNVHR8EgZMw\ngZAwRqBEoEKGQGh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU0h5\nYnJpZEVDQ1NIQTM4NDIwMjBDQTEtMS5jcmwwRqBEoEKGQGh0dHA6Ly9jcmw0LmRp\nZ2ljZXJ0LmNvbS9EaWdpQ2VydFRMU0h5YnJpZEVDQ1NIQTM4NDIwMjBDQTEtMS5j\ncmwwPgYDVR0gBDcwNTAzBgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3\ndy5kaWdpY2VydC5jb20vQ1BTMIGFBggrBgEFBQcBAQR5MHcwJAYIKwYBBQUHMAGG\nGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBPBggrBgEFBQcwAoZDaHR0cDovL2Nh\nY2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTSHlicmlkRUNDU0hBMzg0MjAy\nMENBMS0xLmNydDAJBgNVHRMEAjAAMIIBfwYKKwYBBAHWeQIEAgSCAW8EggFrAWkA\ndgCt9776fP8QyIudPZwePhhqtGcpXc+xDCTKhYY069yCigAAAX+Oi8SRAAAEAwBH\nMEUCIAR9cNnvYkZeKs9JElpeXwztYB2yLhtc8bB0rY2ke98nAiEAjiML8HZ7aeVE\nP/DkUltwIS4c73VVrG9JguoRrII7gWMAdwA1zxkbv7FsV78PrUxtQsu7ticgJlHq\nP+Eq76gDwzvWTAAAAX+Oi8R7AAAEAwBIMEYCIQDNckqvBhup7GpANMf0WPueytL8\nu/PBaIAObzNZeNMpOgIhAMjfEtE6AJ2fTjYCFh/BNVKk1mkTwBTavJlGmWomQyaB\nAHYAs3N3B+GEUPhjhtYFqdwRCUp5LbFnDAuH3PADDnk2pZoAAAF/jovErAAABAMA\nRzBFAiEA9Uj5Ed/XjQpj/MxQRQjzG0UFQLmgWlc73nnt3CJ7vskCICqHfBKlDz7R\nEHdV5Vk8bLMBW1Q6S7Ga2SbFuoVXs6zFMAoGCCqGSM49BAMDA2gAMGUCMCiVhqft\n7L/stBmv1XqSRNfE/jG/AqKIbmjGTocNbuQ7kt1Cs7kRg+b3b3C9Ipu5FQIxAM7c\ntGKrYDGt0pH8iF6rzbp9Q4HQXMZXkNxg+brjWxnaOVGTDNwNH7048+s/hT9bUQ==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIEFzCCAv+gAwIBAgIQB/LzXIeod6967+lHmTUlvTANBgkqhkiG9w0BAQwFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaMFYxCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxMDAuBgNVBAMTJ0RpZ2lDZXJ0IFRMUyBI\neWJyaWQgRUNDIFNIQTM4NCAyMDIwIENBMTB2MBAGByqGSM49AgEGBSuBBAAiA2IA\nBMEbxppbmNmkKaDp1AS12+umsmxVwP/tmMZJLwYnUcu/cMEFesOxnYeJuq20ExfJ\nqLSDyLiQ0cx0NTY8g3KwtdD3ImnI8YDEe0CPz2iHJlw5ifFNkU3aiYvkA8ND5b8v\nc6OCAYIwggF+MBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFAq8CCkXjKU5\nbXoOzjPHLrPt+8N6MB8GA1UdIwQYMBaAFAPeUDVW0Uy7ZvCj4hsbw5eyPdFVMA4G\nA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwdgYI\nKwYBBQUHAQEEajBoMCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5j\nb20wQAYIKwYBBQUHMAKGNGh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdp\nQ2VydEdsb2JhbFJvb3RDQS5jcnQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cDovL2Ny\nbDMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNybDA9BgNVHSAE\nNjA0MAsGCWCGSAGG/WwCATAHBgVngQwBATAIBgZngQwBAgEwCAYGZ4EMAQICMAgG\nBmeBDAECAzANBgkqhkiG9w0BAQwFAAOCAQEAR1mBf9QbH7Bx9phdGLqYR5iwfnYr\n6v8ai6wms0KNMeZK6BnQ79oU59cUkqGS8qcuLa/7Hfb7U7CKP/zYFgrpsC62pQsY\nkDUmotr2qLcy/JUjS8ZFucTP5Hzu5sn4kL1y45nDHQsFfGqXbbKrAjbYwrwsAZI/\nBKOLdRHHuSm8EdCGupK8JvllyDfNJvaGEwwEqonleLHBTnm8dqMLUeTF0J5q/hos\nVq4GNiejcxwIfZMy0MJEGdqN9A57HSgDKwmKdsp33Id6rHtSJlWncg+d0ohP/rEh\nxRqhqjn1VtvChMQ1H3Dau0bwhr9kAMQ+959GG50jBbl9s08PqUU643QwmA==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDrzCCApegAwIBAgIQCDvgVpBCRrGhdWrJWZHHSjANBgkqhkiG9w0BAQUFADBh\nMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\nd3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD\nQTAeFw0wNjExMTAwMDAwMDBaFw0zMTExMTAwMDAwMDBaMGExCzAJBgNVBAYTAlVT\nMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5j\nb20xIDAeBgNVBAMTF0RpZ2lDZXJ0IEdsb2JhbCBSb290IENBMIIBIjANBgkqhkiG\n9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4jvhEXLeqKTTo1eqUKKPC3eQyaKl7hLOllsB\nCSDMAZOnTjC3U/dDxGkAV53ijSLdhwZAAIEJzs4bg7/fzTtxRuLWZscFs3YnFo97\nnh6Vfe63SKMI2tavegw5BmV/Sl0fvBf4q77uKNd0f3p4mVmFaG5cIzJLv07A6Fpt\n43C/dxC//AH2hdmoRBBYMql1GNXRor5H4idq9Joz+EkIYIvUX7Q6hL+hqkpMfT7P\nT19sdl6gSzeRntwi5m3OFBqOasv+zbMUZBfHWymeMr/y7vrTC0LUq7dBMtoM1O/4\ngdW7jVg/tRvoSSiicNoxBN33shbyTApOB6jtSj1etX+jkMOvJwIDAQABo2MwYTAO\nBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUA95QNVbR\nTLtm8KPiGxvDl7I90VUwHwYDVR0jBBgwFoAUA95QNVbRTLtm8KPiGxvDl7I90VUw\nDQYJKoZIhvcNAQEFBQADggEBAMucN6pIExIK+t1EnE9SsPTfrgT1eXkIoyQY/Esr\nhMAtudXH/vTBH1jLuG2cenTnmCmrEbXjcKChzUyImZOMkXDiqw8cvpOp/2PV5Adg\n06O/nVsJ8dWO41P0jmP6P6fbtGbfYmbW0W5BjfIttep3Sp+dWOIrWcBAI+0tKIJF\nPnlUkiaY4IBIqDfv8NZ5YBberOgOzW6sRBc4L0na4UU+Krk2U886UAb3LujEV0ls\nYSEY1QSteDwsOoBrp+uvFRTp2InBuThs4pFsiv9kuXclVzDAGySj4dzp30d8tbQk\nCAUw7C29C79Fv1C5qfPrmAESrciIxpg0X40KPMbp1ZWVbd4=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "-TLSv1",
+            "-SSLv2",
+            "-SSLv3",
+            "-TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+          ],
+          "acceptable_cas": [],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 11,
+              "name": "ec_point_formats"
+            }
+          ],
+          "ja3s": "f9a66afdd1f499d415ca470974ec00c8",
+          "cert": {
+            "sig_alg": "ecdsa-with-SHA384",
+            "issued": "20220315000000Z",
+            "expires": "20230315235959Z",
+            "expired": false,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x16\\x80\\x14\n\\xbc\\x08)\\x17\\x8c\\xa59mz\\x0e\\xce3\\xc7.\\xb3\\xed\\xfb\\xc3z",
+                "name": "authorityKeyIdentifier"
+              },
+              {
+                "data": "\\x04\\x14x\\xaar\\xc6qih\\x14\\xb5Y\\xb1\\x9e\\x8bn+@\\x87B;\\x1e",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x1c\\x82\ngithub.com\\x82\\x0ewww.github.com",
+                "name": "subjectAltName"
+              },
+              {
+                "critical": true,
+                "data": "\\x03\\x02\\x07\\x80",
+                "name": "keyUsage"
+              },
+              {
+                "data": "0\\x14\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x01\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x03\\x02",
+                "name": "extendedKeyUsage"
+              },
+              {
+                "data": "0\\x81\\x900F\\xa0D\\xa0B\\x86@http://crl3.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl0F\\xa0D\\xa0B\\x86@http://crl4.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crl",
+                "name": "crlDistributionPoints"
+              },
+              {
+                "data": "0503\\x06\\x06g\\x81\\x0c\\x01\\x02\\x020)0\\'\\x06\\x08+\\x06\\x01\\x05\\x05\\x07\\x02\\x01\\x16\\x1bhttp://www.digicert.com/CPS",
+                "name": "certificatePolicies"
+              },
+              {
+                "data": "0w0$\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x01\\x86\\x18http://ocsp.digicert.com0O\\x06\\x08+\\x06\\x01\\x05\\x05\\x070\\x02\\x86Chttp://cacerts.digicert.com/DigiCertTLSHybridECCSHA3842020CA1-1.crt",
+                "name": "authorityInfoAccess"
+              },
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x04\\x82\\x01k\\x01i\\x00v\\x00\\xad\\xf7\\xbe\\xfa|\\xff\\x10\\xc8\\x8b\\x9d=\\x9c\\x1e>\\x18j\\xb4g)]\\xcf\\xb1\\x0c$\\xca\\x85\\x864\\xeb\\xdc\\x82\\x8a\\x00\\x00\\x01\\x7f\\x8e\\x8b\\xc4\\x91\\x00\\x00\\x04\\x03\\x00G0E\\x02 \\x04}p\\xd9\\xefbF^*\\xcfI\\x12Z^_\\x0c\\xed`\\x1d\\xb2.\\x1b\\\\\\xf1\\xb0t\\xad\\x8d\\xa4{\\xdf\\'\\x02!\\x00\\x8e#\\x0b\\xf0v{i\\xe5D?\\xf0\\xe4R[p!.\\x1c\\xefuU\\xacoI\\x82\\xea\\x11\\xac\\x82;\\x81c\\x00w\\x005\\xcf\\x19\\x1b\\xbf\\xb1lW\\xbf\\x0f\\xadLmB\\xcb\\xbb\\xb6\\' &Q\\xea?\\xe1*\\xef\\xa8\\x03\\xc3;\\xd6L\\x00\\x00\\x01\\x7f\\x8e\\x8b\\xc4{\\x00\\x00\\x04\\x03\\x00H0F\\x02!\\x00\\xcdrJ\\xaf\\x06\\x1b\\xa9\\xecj@4\\xc7\\xf4X\\xfb\\x9e\\xca\\xd2\\xfc\\xbb\\xf3\\xc1h\\x80\\x0eo3Yx\\xd3):\\x02!\\x00\\xc8\\xdf\\x12\\xd1:\\x00\\x9d\\x9fN6\\x02\\x16\\x1f\\xc15R\\xa4\\xd6i\\x13\\xc0\\x14\\xda\\xbc\\x99F\\x99j&C&\\x81\\x00v\\x00\\xb3sw\\x07\\xe1\\x84P\\xf8c\\x86\\xd6\\x05\\xa9\\xdc\\x11 Jy-\\xb1g\\x0c\\x0b\\x87\\xdc\\xf0\\x03\\x0ey6\\xa5\\x9a\\x00\\x00\\x01\\x7f\\x8e\\x8b\\xc4\\xac\\x00\\x00\\x04\\x03\\x00G0E\\x02!\\x00\\xf5H\\xf9\\x11\\xdf\\xd7\\x8d\nc\\xfc\\xccPE\\x08\\xf3\\x1bE\\x05@\\xb9\\xa0ZW;\\xdey\\xed\\xdc\"{\\xbe\\xc9\\x02 *\\x87|\\x12\\xa5\\x0f>\\xd1\\x10wU\\xe5Y<l\\xb3\\x01[T:K\\xb1\\x9a\\xd9&\\xc5\\xba\\x85W\\xb3\\xac\\xc5",
+                "name": "ct_precert_scts"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "b7bc5510cc1c637b5e5fb785816a773dbb394b68337b1b117ca5ab43ccf778cf",
+              "sha1": "1e16cc3f842f65fcc0ab932d638ac64a95c91b7a"
+            },
+            "serial": 6.773885322784421e+36,
+            "subject": {
+              "CN": "github.com",
+              "C": "US",
+              "L": "San Francisco",
+              "O": "GitHub, Inc.",
+              "ST": "California"
+            },
+            "pubkey": {
+              "type": "dsa",
+              "bits": 256
+            },
+            "issuer": {
+              "C": "US",
+              "CN": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+              "O": "DigiCert Inc"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 128,
+            "name": "ECDHE-ECDSA-AES128-GCM-SHA256"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": {
+              "mozilla": true,
+              "apple": true,
+              "microsoft": true
+            }
+          },
+          "handshake_states": [
+            "before/connect initialization",
+            "SSLv2/v3 write client hello",
+            "SSLv2/v3 read server hello",
+            "SSLv3/TLS read server hello",
+            "SSLv3/TLS read server certificate",
+            "SSLv3/TLS read server key exchange",
+            "SSLv3/TLS read server done",
+            "SSLv3/TLS write client key exchange",
+            "SSLv3/TLS write change cipher spec",
+            "SSLv3/TLS write finished",
+            "SSLv3/TLS flush data",
+            "SSLv3/TLS read finished",
+            "SSL negotiation finished successfully"
+          ],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "github.com",
+          "www.github.com",
+          "lb-140-82-112-4-iad.github.com"
+        ],
+        "transport": "tcp",
+        "ip": 2354212868,
+        "domains": [
+          "github.com"
+        ],
+        "ip_str": "140.82.112.4",
+        "os": null,
+        "_shodan": {
+          "crawler": "487814a778c983e2dcef234806292d88c5cbf3ec",
+          "options": {
+            "referrer": "babc056a-aad1-4b8d-bb25-cf872cd256f3"
+          },
+          "id": "89263b9a-1a23-4c84-824a-18bb7509e3d7",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {
+          "vulns": [],
+          "heartbleed": "2022/03/18 21:34:00 140.82.112.4:443 - SAFE\n"
+        },
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.03637,
+          "latitude": 38.89511,
+          "country_code": "US",
+          "country_name": "United States"
+        }
+      },
+      {
+        "hash": -1636861384,
+        "timestamp": "2022-03-14T16:43:36.422362",
+        "isp": "GitHub, Inc.",
+        "transport": "tcp",
+        "data": "0020ERR \n  Repository not found.",
+        "asn": "AS36459",
+        "port": 9418,
+        "hostnames": [
+          "lb-140-82-112-4-iad.github.com"
+        ],
+        "location": {
+          "city": "Washington",
+          "region_code": "DC",
+          "area_code": null,
+          "longitude": -77.03637,
+          "latitude": 38.89511,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 2354212868,
+        "domains": [
+          "github.com"
+        ],
+        "org": "GitHub, Inc.",
+        "os": null,
+        "_shodan": {
+          "crawler": "f33d80a7ca4b7417d1867303f3af6b398f76f284",
+          "options": {},
+          "id": "0ef0e8fb-93bd-41fb-9895-9f206511909d",
+          "module": "git",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "140.82.112.4"
+      }
+    ],
+    "asn": "AS36459",
+    "ip_str": "140.82.112.4"
+  }

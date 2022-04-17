@@ -1,0 +1,1067 @@
+{
+    "doc_id": 76,
+    "city": "Florence",
+    "country_name": "United States",
+    "region_code": "KY",
+    "os": null,
+    "tags": [
+      "self-signed",
+      "starttls"
+    ],
+    "ip": 1166494371,
+    "isp": "Charter Communications Inc",
+    "area_code": null,
+    "longitude": -84.62661,
+    "last_update": "2022-03-24T15:06:28.677021",
+    "ports": [
+      110,
+      143,
+      80,
+      21,
+      22,
+      25,
+      443,
+      53
+    ],
+    "latitude": 38.99895,
+    "hostnames": [
+      "069-135-074-163.biz.spectrum.com"
+    ],
+    "country_code": "US",
+    "vulns": [
+      "CVE-2019-1552",
+      "CVE-2018-0737",
+      "CVE-2018-0734",
+      "CVE-2019-0220",
+      "CVE-2018-15919",
+      "CVE-2017-15906",
+      "CVE-2018-17199",
+      "CVE-2019-0196",
+      "CVE-2019-0211",
+      "CVE-2018-0732",
+      "CVE-2018-5407",
+      "CVE-2019-0197",
+      "CVE-2019-1559"
+    ],
+    "domains": [
+      "spectrum.com"
+    ],
+    "org": "Charter Communications Inc",
+    "data": [
+      {
+        "ftp": {
+          "features": {
+            "REST": {
+              "parameters": [
+                "STREAM"
+              ]
+            },
+            "MDTM": {
+              "parameters": []
+            },
+            "SIZE": {
+              "parameters": []
+            }
+          },
+          "anonymous": false,
+          "features_hash": 519806534
+        },
+        "product": "BSD ftpd",
+        "hash": 998232144,
+        "timestamp": "2022-03-23T02:44:58.277140",
+        "isp": "Charter Communications Inc",
+        "transport": "tcp",
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "data": "220- ----------------------------------\n220- Welcome to Nethosting FTP Services\n220- ----------------------------------\n220- \n220 nethosting.net FTP server (Version 6.00LS) ready.\r\n530 User anonymous unknown.\r\n214- The following commands are recognized (* =>'s unimplemented).\n   USER    PORT    TYPE    MLFL*   MRCP*   DELE    SYST    XMKD    XCUP \n   PASS    LPRT    STRU    MAIL*   ALLO    CWD     FEAT    RMD     STOU \n   ACCT*   EPRT    MODE    MSND*   REST    XCWD    STAT    XRMD    SIZE \n   SMNT*   PASV    RETR    MSOM*   RNFR    LIST    HELP    PWD     MDTM \n   REIN*   LPSV    STOR    MSAM*   RNTO    NLST    NOOP    XPWD \n   QUIT    EPSV    APPE    MRSQ*   ABOR    SITE    MKD     CDUP \n214 Direct comments to ftp-bugs@nethosting.net.\r\n211- Extensions supported:\n MDTM\n REST STREAM\n SIZE\n211 End.\r\n",
+        "_shodan": {
+          "crawler": "42f86247b760542c0192b61c60405edc5db01d55",
+          "id": "e5935b9b-22ae-4c59-b50a-c052589b1220",
+          "module": "ftp",
+          "options": {}
+        },
+        "port": 21,
+        "version": "6.00LS",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 1166494371,
+        "domains": [
+          "spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "os": null,
+        "asn": "AS10796",
+        "opts": {},
+        "ip_str": "69.135.74.163"
+      },
+      {
+        "ip": 1166494371,
+        "port": 22,
+        "transport": "tcp",
+        "version": "7.5",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "vulns": {
+          "CVE-2018-15919": {
+            "verified": false,
+            "references": [
+              "http://seclists.org/oss-sec/2018/q3/180",
+              "http://www.securityfocus.com/bid/105163",
+              "https://security.netapp.com/advisory/ntap-20181221-0001/"
+            ],
+            "cvss": "5.0",
+            "summary": "Remotely observable behaviour in auth-gss2.c in OpenSSH through 7.8 could be used by remote attackers to detect existence of users on a target system when GSS2 is in use. NOTE: the discoverer states 'We understand that the OpenSSH developers do not want to treat such a username enumeration (or \"oracle\") as a vulnerability.'"
+          },
+          "CVE-2017-15906": {
+            "verified": false,
+            "references": [
+              "http://www.securityfocus.com/bid/101552",
+              "https://access.redhat.com/errata/RHSA-2018:0980",
+              "https://github.com/openbsd/src/commit/a6981567e8e215acc1ef690c8dbb30f2d9b00a19",
+              "https://lists.debian.org/debian-lts-announce/2018/09/msg00010.html",
+              "https://security.gentoo.org/glsa/201801-05",
+              "https://security.netapp.com/advisory/ntap-20180423-0004/",
+              "https://www.openssh.com/txt/release-7.6"
+            ],
+            "cvss": 5,
+            "summary": "The process_open function in sftp-server.c in OpenSSH before 7.6 does not properly prevent write operations in readonly mode, which allows attackers to create zero-length files."
+          }
+        },
+        "product": "OpenSSH",
+        "hash": 1219035333,
+        "timestamp": "2022-03-22T20:51:50.204031",
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "ssh": {
+          "hassh": "4d32ba755591b21b746bdca973f1a6f7",
+          "fingerprint": "d3:94:9d:b4:f7:40:47:3d:c4:45:69:35:68:6b:81:a0",
+          "mac": "hmac-sha2-256",
+          "cipher": "aes128-ctr",
+          "key": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDmSw67lmWjwa/vpJh1qIqH98MVID7x86wC+bNd5C+dFatH\nUmDsF9kiZQdNTEIuGrQBDq/ifveJgncVyioCPsthEq9DlvqOZ7+8YiSEZjmfAxJowjiUxZuT+hfG\n4FbUrotrWzS2OZdHeTowGWiLAxTjkIpA5g1cnUcWdIfycjS0vU4yyZTzXZRyurbSicfh6R0rNuwp\nzlIYXu9rVhEE5f0IyosfRfOCgMYQ0SoW49hAKKlhd4CvkAMTfoDXIG8sPmHm7J5AvLNF7uvBQpm+\nQddrs0Zm0Y0E0zG15x2AuFgd1RQpHesziFP7lw5lFrAGj7M6YlunQANPSRZfuAtAxy9J\n",
+          "kex": {
+            "languages": [
+              ""
+            ],
+            "server_host_key_algorithms": [
+              "ssh-rsa",
+              "rsa-sha2-512",
+              "rsa-sha2-256",
+              "ecdsa-sha2-nistp256",
+              "ssh-ed25519"
+            ],
+            "encryption_algorithms": [
+              "chacha20-poly1305@openssh.com",
+              "aes128-ctr",
+              "aes192-ctr",
+              "aes256-ctr",
+              "aes128-gcm@openssh.com",
+              "aes256-gcm@openssh.com",
+              "aes128-cbc",
+              "aes192-cbc",
+              "aes256-cbc"
+            ],
+            "kex_follows": false,
+            "unused": 0,
+            "kex_algorithms": [
+              "curve25519-sha256",
+              "curve25519-sha256@libssh.org",
+              "ecdh-sha2-nistp256",
+              "ecdh-sha2-nistp384",
+              "ecdh-sha2-nistp521",
+              "diffie-hellman-group-exchange-sha256",
+              "diffie-hellman-group16-sha512",
+              "diffie-hellman-group18-sha512",
+              "diffie-hellman-group14-sha256",
+              "diffie-hellman-group14-sha1"
+            ],
+            "compression_algorithms": [
+              "none",
+              "zlib@openssh.com"
+            ],
+            "mac_algorithms": [
+              "umac-64-etm@openssh.com",
+              "umac-128-etm@openssh.com",
+              "hmac-sha2-256-etm@openssh.com",
+              "hmac-sha2-512-etm@openssh.com",
+              "hmac-sha1-etm@openssh.com",
+              "umac-64@openssh.com",
+              "umac-128@openssh.com",
+              "hmac-sha2-256",
+              "hmac-sha2-512",
+              "hmac-sha1"
+            ]
+          },
+          "type": "ssh-rsa"
+        },
+        "org": "Charter Communications Inc",
+        "data": "SSH-2.0-OpenSSH_7.5 FreeBSD-20170903\nKey type: ssh-rsa\nKey: AAAAB3NzaC1yc2EAAAADAQABAAABAQDmSw67lmWjwa/vpJh1qIqH98MVID7x86wC+bNd5C+dFatH\nUmDsF9kiZQdNTEIuGrQBDq/ifveJgncVyioCPsthEq9DlvqOZ7+8YiSEZjmfAxJowjiUxZuT+hfG\n4FbUrotrWzS2OZdHeTowGWiLAxTjkIpA5g1cnUcWdIfycjS0vU4yyZTzXZRyurbSicfh6R0rNuwp\nzlIYXu9rVhEE5f0IyosfRfOCgMYQ0SoW49hAKKlhd4CvkAMTfoDXIG8sPmHm7J5AvLNF7uvBQpm+\nQddrs0Zm0Y0E0zG15x2AuFgd1RQpHesziFP7lw5lFrAGj7M6YlunQANPSRZfuAtAxy9J\nFingerprint: d3:94:9d:b4:f7:40:47:3d:c4:45:69:35:68:6b:81:a0\n\nKex Algorithms:\n curve25519-sha256\n curve25519-sha256@libssh.org\n ecdh-sha2-nistp256\n ecdh-sha2-nistp384\n ecdh-sha2-nistp521\n diffie-hellman-group-exchange-sha256\n diffie-hellman-group16-sha512\n diffie-hellman-group18-sha512\n diffie-hellman-group14-sha256\n diffie-hellman-group14-sha1\n\nServer Host Key Algorithms:\n ssh-rsa\n rsa-sha2-512\n rsa-sha2-256\n ecdsa-sha2-nistp256\n ssh-ed25519\n\nEncryption Algorithms:\n chacha20-poly1305@openssh.com\n aes128-ctr\n aes192-ctr\n aes256-ctr\n aes128-gcm@openssh.com\n aes256-gcm@openssh.com\n aes128-cbc\n aes192-cbc\n aes256-cbc\n\nMAC Algorithms:\n umac-64-etm@openssh.com\n umac-128-etm@openssh.com\n hmac-sha2-256-etm@openssh.com\n hmac-sha2-512-etm@openssh.com\n hmac-sha1-etm@openssh.com\n umac-64@openssh.com\n umac-128@openssh.com\n hmac-sha2-256\n hmac-sha2-512\n hmac-sha1\n\nCompression Algorithms:\n none\n zlib@openssh.com\n\n",
+        "asn": "AS10796",
+        "cpe23": [
+          "cpe:2.3:a:openbsd:openssh:7.5",
+          "cpe:2.3:o:freebsd:freebsd"
+        ],
+        "info": "FreeBSD 20170903; protocol 2.0",
+        "isp": "Charter Communications Inc",
+        "cpe": [
+          "cpe:/a:openbsd:openssh:7.5",
+          "cpe:/o:freebsd:freebsd"
+        ],
+        "domains": [
+          "spectrum.com"
+        ],
+        "ip_str": "69.135.74.163",
+        "os": null,
+        "_shodan": {
+          "crawler": "dfd12d70c30ccb3812bf26f89905deeb85e98c77",
+          "options": {},
+          "id": "8e8f5d12-5248-47d8-8e7e-5d3041bb3fcc",
+          "module": "ssh",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "ip": 1166494371,
+        "port": 25,
+        "transport": "tcp",
+        "version": "8.15.2/8.15.2",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "product": "Sendmail",
+        "hash": 315863977,
+        "tags": [
+          "starttls",
+          "self-signed"
+        ],
+        "timestamp": "2022-03-23T11:59:04.230285",
+        "ssl": {
+          "chain_sha256": [
+            "a0b464aedcfebbd86ce88ca8577355321f74228af47a1dbc4e5b7193d524db2e",
+            "d3d0ea87687dffd75f1ba701a5361cd6af1f3adf8f0da992b4200d7d04d198f0"
+          ],
+          "jarm": "00000000000000000000000000000000000000000000000000000000000000",
+          "chain": [
+            "-----BEGIN CERTIFICATE-----\nMIIDujCCAqKgAwIBAgIBATANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJYWDET\nMBEGA1UECAwKU29tZS1zdGF0ZTESMBAGA1UEBwwJU29tZS1jaXR5MREwDwYDVQQK\nDAhTb21lLW9yZzEXMBUGA1UEAwwObmV0aG9zdGluZy5uZXQwHhcNMTgxMDE2MDMy\nNjI5WhcNMTkxMDE2MDMyNjI5WjBiMQswCQYDVQQGEwJYWDETMBEGA1UECAwKU29t\nZS1zdGF0ZTESMBAGA1UEBwwJU29tZS1jaXR5MREwDwYDVQQKDAhTb21lLW9yZzEX\nMBUGA1UEAwwObmV0aG9zdGluZy5uZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw\nggEKAoIBAQDCnT+WQzprele7YuwF7Jh1CVcg8CqvTfzBGus4gB0LziBTplWDfHF7\n8LgkusPo5eJxfkfbuint96fXeQ2Y6t8CsSFPZXWUrwS9SIin3n8od8cpsLrO5nfT\np6QDySGPv7ZQUvtw7DFT8irYJHa2yrzZTiQC8eQkHKeM4mkn+WkS3pbd4r4O0HnO\nH4hTNb8WBbJiSVrE2G3m9YDni4FW6pwIWXFsy2NTtNYx5kVlIKR2kRsaiKFAOX7M\nWy5Grb5ukJiLPL2zSndtXo+yp+GcKWrLBxISe7JcxxwUC4tCav+aMduQ0fJxt+C1\n8RPb2who2wH9Zz6gxNcKzx0d2Wbpsc45AgMBAAGjezB5MAkGA1UdEwQCMAAwLAYJ\nYIZIAYb4QgENBB8WHU9wZW5TU0wgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1Ud\nDgQWBBR9g9qfsgIpMWFM0sHLZ4gsWMzb/DAfBgNVHSMEGDAWgBRSHwmoqG8SDcjZ\nUD+d6x64p+KGCTANBgkqhkiG9w0BAQUFAAOCAQEAlU9QaxKSfw808zMb80ONawOn\nj3HeEoQIlNC0BH6pNRdM4oF9i2Fl4ZJs2FHDScJ5BwxdLszljUQx/x+R2iKKtD8k\n5S/tYjCZq83PPMDiqNrpN73jv1wKa0DgY2bzSg2wJcjA95zg5MrlVoESx5wiqxoV\nq+k/DpEj3halNAIvvpXiledMbH0ze3OtwC0nX4DmHPZoM4Mnf0LHJjSCxlMOtDIS\nUcliB564wVIk8MEDhto8xsdyvH30TmxVXi/yc6vjqgTW7rJcHS+Tx8KEN+Ll+AW1\n0RBeQ0C+35VrOqA++GO62yArA+r/QfIIOf3iqkKt2rrKhvMUjNu00ms0ClsAWg==\n-----END CERTIFICATE-----\n",
+            "-----BEGIN CERTIFICATE-----\nMIIDlzCCAn+gAwIBAgIJAMb5hYy8mGs7MA0GCSqGSIb3DQEBBQUAMGIxCzAJBgNV\nBAYTAlhYMRMwEQYDVQQIDApTb21lLXN0YXRlMRIwEAYDVQQHDAlTb21lLWNpdHkx\nETAPBgNVBAoMCFNvbWUtb3JnMRcwFQYDVQQDDA5uZXRob3N0aW5nLm5ldDAeFw0x\nODEwMTYwMzI2MjhaFw0yODEwMTMwMzI2MjhaMGIxCzAJBgNVBAYTAlhYMRMwEQYD\nVQQIDApTb21lLXN0YXRlMRIwEAYDVQQHDAlTb21lLWNpdHkxETAPBgNVBAoMCFNv\nbWUtb3JnMRcwFQYDVQQDDA5uZXRob3N0aW5nLm5ldDCCASIwDQYJKoZIhvcNAQEB\nBQADggEPADCCAQoCggEBAJviN1ZON684SLuk0AzJrIs4xxNY3xv8LmwNukHrX8P/\nOgzNOVSyWzMiLJ9pGG3e9XBP+aIM3ATCOm9AmJ8eje8sEXqrJOTNWX1RqBXSq1Q/\nWWYXUVoL2vupZn78fkcYzfS2wYW0eQTgBqhyLdUgCi1yJsdUM9fUa7sI3nh9ef16\nF4F6ROe6M6R0MG5rW2LrSZEiPUQE7N/WszGKvurrwmvMD7VOj0+6dGiXt5G4C3pd\nyxZEouQ9nOXYZvky6IiN1lKOjRlTx5B2se2BhBbpPMg1SS5Fmsevkza2qr+KXSe3\nTzVV1qvK/LlkUzqdehSx+BrCMJMhB6ufV1KlUnpdvRECAwEAAaNQME4wHQYDVR0O\nBBYEFFIfCaiobxINyNlQP53rHrin4oYJMB8GA1UdIwQYMBaAFFIfCaiobxINyNlQ\nP53rHrin4oYJMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBACm/LDUT\ns0vuDt/gnRBI290e1veFADsdRx7RYlGaLDt2i0HMaBUOrwIkGpcOKoqYN9peFtHk\nahGt0YPPlFqdhHEMZDPY4Gc8JVQggwd9Wz3NtiRekLgaATgW2+Oapsrcjnyk7c4U\naiANdV5H8JmR0LcpF508+CG8EXcj618TMPYgBnhrySxiD/VtSvRKBCVzVe8Q0ura\n4ONCpleIo199+67j5G0jNHdX2wZ98/ot9mStxbdnBVaaWfbfQN777OTHVhgW5BYD\nOXc4bCCIT1ifD3wRT1PGpbGO7YG/J/5scFX9UCz1eXUJJXLL05/a2/eEJV8TkDTW\n4keRfHMPDy52jvc=\n-----END CERTIFICATE-----\n"
+          ],
+          "dhparams": null,
+          "versions": [
+            "TLSv1",
+            "-SSLv2",
+            "SSLv3",
+            "TLSv1.1",
+            "TLSv1.2",
+            "-TLSv1.3"
+          ],
+          "acceptable_cas": [
+            {
+              "raw": "MGIxCzAJBgNVBAYTAlhYMRMwEQYDVQQIDApTb21lLXN0YXRlMRIwEAYDVQQHDAlTb21lLWNpdHkx\nETAPBgNVBAoMCFNvbWUtb3JnMRcwFQYDVQQDDA5uZXRob3N0aW5nLm5ldA==\n",
+              "hash": 127373040,
+              "components": {
+                "CN": "nethosting.net",
+                "C": "XX",
+                "L": "Some-city",
+                "O": "Some-org",
+                "ST": "Some-state"
+              }
+            }
+          ],
+          "tlsext": [
+            {
+              "id": 65281,
+              "name": "renegotiation_info"
+            },
+            {
+              "id": 35,
+              "name": "session_ticket"
+            },
+            {
+              "id": 15,
+              "name": "heartbeat"
+            }
+          ],
+          "ja3s": "ee644a8a34c434abca4b737ec1d9efad",
+          "cert": {
+            "sig_alg": "sha1WithRSAEncryption",
+            "issued": "20181016032629Z",
+            "expires": "20191016032629Z",
+            "expired": true,
+            "version": 2,
+            "extensions": [
+              {
+                "data": "0\\x00",
+                "name": "basicConstraints"
+              },
+              {
+                "data": "\\x16\\x1dOpenSSL Generated Certificate",
+                "name": "nsComment"
+              },
+              {
+                "data": "\\x04\\x14}\\x83\\xda\\x9f\\xb2\\x02)1aL\\xd2\\xc1\\xcbg\\x88,X\\xcc\\xdb\\xfc",
+                "name": "subjectKeyIdentifier"
+              },
+              {
+                "data": "0\\x16\\x80\\x14R\\x1f \\xa8\\xa8o\\x12\r\\xc8\\xd9P?\\x9d\\xeb\\x1e\\xb8\\xa7\\xe2\\x86 ",
+                "name": "authorityKeyIdentifier"
+              }
+            ],
+            "fingerprint": {
+              "sha256": "a0b464aedcfebbd86ce88ca8577355321f74228af47a1dbc4e5b7193d524db2e",
+              "sha1": "f0a8839699aecbbd323b5f6be78afcba8c51a3a6"
+            },
+            "serial": 1,
+            "subject": {
+              "CN": "nethosting.net",
+              "C": "XX",
+              "L": "Some-city",
+              "O": "Some-org",
+              "ST": "Some-state"
+            },
+            "pubkey": {
+              "type": "rsa",
+              "bits": 2048
+            },
+            "issuer": {
+              "CN": "nethosting.net",
+              "C": "XX",
+              "L": "Some-city",
+              "O": "Some-org",
+              "ST": "Some-state"
+            }
+          },
+          "cipher": {
+            "version": "TLSv1/SSLv3",
+            "bits": 256,
+            "name": "DHE-RSA-AES256-GCM-SHA384"
+          },
+          "trust": {
+            "revoked": false,
+            "browser": null
+          },
+          "handshake_states": [],
+          "alpn": [],
+          "ocsp": {}
+        },
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "data": "220 nethosting.net ESMTP Sendmail 8.15.2/8.15.2; Wed, 23 Mar 2022 07:58:41 -0400 (EDT)\r\n250-nethosting.net Hello 224.181.25.11 [224.181.25.11], pleased to meet you\r\n250-ENHANCEDSTATUSCODES\r\n250-PIPELINING\r\n250-8BITMIME\r\n250-SIZE\r\n250-DSN\r\n250-ETRN\r\n250-STARTTLS\r\n250-DELIVERBY\r\n250 HELP\r\n",
+        "asn": "AS10796",
+        "cpe23": [
+          "cpe:2.3:a:sendmail:sendmail:8.15.2/8.15.2"
+        ],
+        "isp": "Charter Communications Inc",
+        "cpe": [
+          "cpe:/a:sendmail:sendmail:8.15.2/8.15.2"
+        ],
+        "domains": [
+          "spectrum.com"
+        ],
+        "ip_str": "69.135.74.163",
+        "os": null,
+        "_shodan": {
+          "crawler": "e15fd8f613780213727556a9cb02788d26131443",
+          "options": {},
+          "id": "eae8f8e2-9923-4fc2-90ab-d0753be75c99",
+          "module": "smtp",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "hash": 1169643506,
+        "timestamp": "2022-03-18T09:44:16.364275",
+        "isp": "Charter Communications Inc",
+        "transport": "tcp",
+        "data": "9.13.3\nResolver name: nethosting.net",
+        "asn": "AS10796",
+        "port": 53,
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "dns": {
+          "resolver_hostname": "nethosting.net",
+          "recursive": false,
+          "resolver_id": null,
+          "software": "9.13.3"
+        },
+        "ip": 1166494371,
+        "domains": [
+          "spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "os": null,
+        "_shodan": {
+          "crawler": "240a12b6c2ac5dba30ed961e4ab8f056540fdaf0",
+          "options": {},
+          "id": "10781ee5-d8ad-4343-bc7e-eb0615c7fc10",
+          "module": "dns-tcp",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "69.135.74.163"
+      },
+      {
+        "hash": 1169643506,
+        "timestamp": "2022-03-13T11:53:04.455259",
+        "isp": "Charter Communications Inc",
+        "transport": "udp",
+        "data": "9.13.3\nResolver name: nethosting.net",
+        "asn": "AS10796",
+        "port": 53,
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "dns": {
+          "resolver_hostname": "nethosting.net",
+          "recursive": false,
+          "resolver_id": null,
+          "software": "9.13.3"
+        },
+        "ip": 1166494371,
+        "domains": [
+          "spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "os": null,
+        "_shodan": {
+          "crawler": "49217c0cdcbcebaf23c2979ae16d4eba64180b1f",
+          "options": {},
+          "id": "a6b6bd3f-1e17-4b5a-8812-1c06a7320c6f",
+          "module": "dns-udp",
+          "ptr": true
+        },
+        "opts": {
+          "raw": "34ef850000010001000000000776657273696f6e0462696e640000100003c00c0010000300000000000706392e31332e33"
+        },
+        "ip_str": "69.135.74.163"
+      },
+      {
+        "ip": 1166494371,
+        "http": {
+          "status": 200,
+          "robots_hash": null,
+          "redirects": [],
+          "securitytxt": null,
+          "title": "Nethosting - Professional and Dependable Website Design and Hosting!",
+          "sitemap_hash": null,
+          "robots": null,
+          "server": "Apache/2.4.35 (FreeBSD) OpenSSL/1.0.2o-freebsd",
+          "host": "69.135.74.163",
+          "html": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n\n<HTML>\n<HEAD>\n<TITLE>Nethosting - Professional and Dependable Website Design and Hosting!</TITLE>\n<META NAME=\"GENERATOR\" CONTENT=\"MAX's HTML Beauty++ 2004\">\n<META name=\"description\" content=\"Nethosting is a website design and hosting service in Lexington Kentucky\">\n<META name=\"keywords\" content=\"Internet, mobile, web, hosting, webhosting, colocation, email, mail, IRC, ftp, \ndesign, website, communication, sales, ecommerce\" </HEAD>\n\n<BODY>\n<center>\n<IMG SRC=\"images/nethostinglogo.jpg\"><br><br>\n<FONT SIZE=\"+4\" COLOR=\"#185280\">Nethosting</FONT><br>\n<FONT SIZE=\"+3\" COLOR=\"#000000\">854 Angliana Avenue<br>\nLexington KY 40508<br><br><br>\n<FONT SIZE=\"+4\" COLOR=\"#C1181D\">Phone:  (859) 309-4102<br>\nFax: (859) 402-2341<br>\nToll Free: 1-855-754-8123</FONT><br>\n\n<FONT SIZE=\"+3\" COLOR=\"#000000\"><a \nhref=\"mailto:info@nethosting.net\">Send \nus an email</a></FONT><br><br>\n<FONT SIZE=\"+4\" COLOR=\"#800000\"><I>Professional and Dependable Website Design and Hosting!</FONT></I><br>\nWe offer hosting plans to suite your needs and budget.<br>\n\nWe also offer colocation of your server at reasonable prices.<br>\n<IMG SRC=\"images/creditcards.jpg\"><br><IMG SRC=\"/images/line.gif\" height=3 width=\"100%\"><br>\n<FONT SIZE=-1><FONT FACE=\"arial,helvetica\"><I>Nethosting and the nethosting circle swirl are trademarks of \nNethosting<BR>\n&copy; Copyright 2018, Nethosting, Lexington, Kentucky, U.S.A.<BR>\nAll rights reserved.</I></FONT></P>\n\n</center>\n</BODY>\n</HTML>\n\n",
+          "location": "/",
+          "components": {},
+          "html_hash": -840078874,
+          "sitemap": null,
+          "securitytxt_hash": null
+        },
+        "port": 80,
+        "transport": "tcp",
+        "version": "2.4.35",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "vulns": {
+          "CVE-2019-1552": {
+            "verified": false,
+            "references": [
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=54aa9d51b09d67e90db443f682cface795f5af9e",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=b15a19c148384e73338aa7c5b12652138e35ed28",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=d333ebaf9c77332754a9d5e111e2f53e1de54fdd",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=e32bc855a81a2d48d215c506bdeb4f598045f7e9",
+              "https://www.openssl.org/news/secadv/20190730.txt"
+            ],
+            "cvss": 1.9,
+            "summary": "OpenSSL has internal defaults for a directory tree where it can find a configuration file as well as certificates used for verification in TLS. This directory is most commonly referred to as OPENSSLDIR, and is configurable with the --prefix / --openssldir configuration options. For OpenSSL versions 1.1.0 and 1.1.1, the mingw configuration targets assume that resulting programs and libraries are installed in a Unix-like environment and the default prefix for program installation as well as for OPENSSLDIR should be '/usr/local'. However, mingw programs are Windows programs, and as such, find themselves looking at sub-directories of 'C:/usr/local', which may be world writable, which enables untrusted users to modify OpenSSL's default configuration, insert CA certificates, modify (or even replace) existing engine modules, etc. For OpenSSL 1.0.2, '/usr/local/ssl' is used as default for OPENSSLDIR on all Unix and Windows targets, including Visual C builds. However, some build instructions for the diverse Windows targets on 1.0.2 encourage you to specify your own --prefix. OpenSSL versions 1.1.1, 1.1.0 and 1.0.2 are affected by this issue. Due to the limited scope of affected deployments this has been assessed as low severity and therefore we are not creating new releases at this time. Fixed in OpenSSL 1.1.1d (Affected 1.1.1-1.1.1c). Fixed in OpenSSL 1.1.0l (Affected 1.1.0-1.1.0k). Fixed in OpenSSL 1.0.2t (Affected 1.0.2-1.0.2s)."
+          },
+          "CVE-2018-0737": {
+            "verified": false,
+            "references": [
+              "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html",
+              "http://www.securityfocus.com/bid/103766",
+              "http://www.securitytracker.com/id/1040685",
+              "https://access.redhat.com/errata/RHSA-2018:3221",
+              "https://access.redhat.com/errata/RHSA-2018:3505",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=349a41da1ad88ad87825414752a8ff5fdd6a6c3f",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6939eab03a6e23d2bd2c3f5e34fe1d48e542e787",
+              "https://lists.debian.org/debian-lts-announce/2018/07/msg00043.html",
+              "https://nodejs.org/en/blog/vulnerability/august-2018-security-releases/",
+              "https://security.gentoo.org/glsa/201811-21",
+              "https://security.netapp.com/advisory/ntap-20180726-0003/",
+              "https://securityadvisories.paloaltonetworks.com/Home/Detail/133",
+              "https://usn.ubuntu.com/3628-1/",
+              "https://usn.ubuntu.com/3628-2/",
+              "https://usn.ubuntu.com/3692-1/",
+              "https://usn.ubuntu.com/3692-2/",
+              "https://www.debian.org/security/2018/dsa-4348",
+              "https://www.debian.org/security/2018/dsa-4355",
+              "https://www.openssl.org/news/secadv/20180416.txt",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+              "https://www.tenable.com/security/tns-2018-12",
+              "https://www.tenable.com/security/tns-2018-13",
+              "https://www.tenable.com/security/tns-2018-14",
+              "https://www.tenable.com/security/tns-2018-17"
+            ],
+            "cvss": "4.3",
+            "summary": "The OpenSSL RSA Key generation algorithm has been shown to be vulnerable to a cache timing side channel attack. An attacker with sufficient access to mount cache timing attacks during the RSA key generation process could recover the private key. Fixed in OpenSSL 1.1.0i-dev (Affected 1.1.0-1.1.0h). Fixed in OpenSSL 1.0.2p-dev (Affected 1.0.2b-1.0.2o)."
+          },
+          "CVE-2018-0734": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-06/msg00030.html",
+              "http://www.securityfocus.com/bid/105758",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=43e6a58d4991a451daf4891ff05a48735df871ac",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=8abfe72e8c1de1b95f50aa0d9134803b4d00070f",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ef11e19d1365eea2b1851e6f540a0bf365d303e7",
+              "https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/",
+              "https://security.netapp.com/advisory/ntap-20181105-0002/",
+              "https://security.netapp.com/advisory/ntap-20190118-0002/",
+              "https://security.netapp.com/advisory/ntap-20190423-0002/",
+              "https://usn.ubuntu.com/3840-1/",
+              "https://www.debian.org/security/2018/dsa-4348",
+              "https://www.debian.org/security/2018/dsa-4355",
+              "https://www.openssl.org/news/secadv/20181030.txt",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+              "https://www.tenable.com/security/tns-2018-16",
+              "https://www.tenable.com/security/tns-2018-17"
+            ],
+            "cvss": "4.3",
+            "summary": "The OpenSSL DSA signature algorithm has been shown to be vulnerable to a timing side channel attack. An attacker could use variations in the signing algorithm to recover the private key. Fixed in OpenSSL 1.1.1a (Affected 1.1.1). Fixed in OpenSSL 1.1.0j (Affected 1.1.0-1.1.0i). Fixed in OpenSSL 1.0.2q (Affected 1.0.2-1.0.2p)."
+          },
+          "CVE-2019-0220": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/6",
+              "http://www.securityfocus.com/bid/107670",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.debian.org/debian-lts-announce/2019/04/msg00008.html",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ALIR5S3O7NRHEGFMIDMUSYQIZOE4TJJN/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZRMTEIGZKYFNGIDOTXN3GNEJTLVCYU7/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.netapp.com/advisory/ntap-20190625-0007/",
+              "https://support.f5.com/csp/article/K44591505",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422"
+            ],
+            "cvss": "5.0",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+          },
+          "CVE-2018-0732": {
+            "verified": false,
+            "references": [
+              "http://www.oracle.com/technetwork/security-advisory/cpuoct2018-4428296.html",
+              "http://www.securityfocus.com/bid/104442",
+              "http://www.securitytracker.com/id/1041090",
+              "https://access.redhat.com/errata/RHSA-2018:2552",
+              "https://access.redhat.com/errata/RHSA-2018:2553",
+              "https://access.redhat.com/errata/RHSA-2018:3221",
+              "https://access.redhat.com/errata/RHSA-2018:3505",
+              "https://access.redhat.com/errata/RHSA-2019:1296",
+              "https://access.redhat.com/errata/RHSA-2019:1297",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=3984ef0b72831da8b3ece4745cac4f8575b19098",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ea7abeeabf92b7aca160bdd0208636d4da69f4f4",
+              "https://lists.debian.org/debian-lts-announce/2018/07/msg00043.html",
+              "https://nodejs.org/en/blog/vulnerability/august-2018-security-releases/",
+              "https://security.gentoo.org/glsa/201811-03",
+              "https://security.netapp.com/advisory/ntap-20181105-0001/",
+              "https://security.netapp.com/advisory/ntap-20190118-0002/",
+              "https://securityadvisories.paloaltonetworks.com/Home/Detail/133",
+              "https://usn.ubuntu.com/3692-1/",
+              "https://usn.ubuntu.com/3692-2/",
+              "https://www.debian.org/security/2018/dsa-4348",
+              "https://www.debian.org/security/2018/dsa-4355",
+              "https://www.openssl.org/news/secadv/20180612.txt",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+              "https://www.tenable.com/security/tns-2018-12",
+              "https://www.tenable.com/security/tns-2018-13",
+              "https://www.tenable.com/security/tns-2018-14",
+              "https://www.tenable.com/security/tns-2018-17"
+            ],
+            "cvss": "5.0",
+            "summary": "During key agreement in a TLS handshake using a DH(E) based ciphersuite a malicious server can send a very large prime value to the client. This will cause the client to spend an unreasonably long period of time generating a key for this prime resulting in a hang until the client has finished. This could be exploited in a Denial Of Service attack. Fixed in OpenSSL 1.1.0i-dev (Affected 1.1.0-1.1.0h). Fixed in OpenSSL 1.0.2p-dev (Affected 1.0.2-1.0.2o)."
+          },
+          "CVE-2018-17199": {
+            "verified": false,
+            "references": [
+              "http://www.securityfocus.com/bid/106742",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.debian.org/debian-lts-announce/2019/01/msg00024.html",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.gentoo.org/glsa/201903-21",
+              "https://security.netapp.com/advisory/ntap-20190125-0001/",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+            ],
+            "cvss": "5.0",
+            "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+          },
+          "CVE-2019-0196": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.apache.org/dist/httpd/CHANGES_2.4.39",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/1",
+              "http://www.securityfocus.com/bid/107669",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/97a1c58e138ed58a364513b58d807a802e72bf6079ff81a10948ef7c@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.apache.org/thread.html/fd110f4ace2d8364c7d9190e1993cde92f79e4eb85576ed9285686ac@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YTJPHI3E3OKW7OT7COQXVG7DE7IDQ2OT/",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.netapp.com/advisory/ntap-20190617-0002/",
+              "https://support.f5.com/csp/article/K44591505",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422"
+            ],
+            "cvss": "5.0",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+          },
+          "CVE-2019-0211": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://packetstormsecurity.com/files/152386/Apache-2.4.38-Root-Privilege-Escalation.html",
+              "http://packetstormsecurity.com/files/152415/Slackware-Security-Advisory-httpd-Updates.html",
+              "http://packetstormsecurity.com/files/152441/CARPE-DIEM-Apache-2.4.x-Local-Privilege-Escalation.html",
+              "http://www.apache.org/dist/httpd/CHANGES_2.4.39",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/3",
+              "http://www.securityfocus.com/bid/107666",
+              "https://access.redhat.com/errata/RHBA-2019:0959",
+              "https://access.redhat.com/errata/RHSA-2019:0746",
+              "https://access.redhat.com/errata/RHSA-2019:0980",
+              "https://access.redhat.com/errata/RHSA-2019:1296",
+              "https://access.redhat.com/errata/RHSA-2019:1297",
+              "https://access.redhat.com/errata/RHSA-2019:1543",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/890507b85c30adf133216b299cc35cd8cd0346a885acfc671c04694e@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/b1613d44ec364c87bb7ee8c5939949f9b061c05c06e0e90098ebf7aa@%3Cusers.httpd.apache.org%3E",
+              "https://lists.apache.org/thread.html/b2bdb308dc015e771ba79c0586b2de6fb50caa98b109833f5d4daf28@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/de881a130bc9cb2f3a9ff220784520556884fb8ea80e69400a45509e@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/fd110f4ace2d8364c7d9190e1993cde92f79e4eb85576ed9285686ac@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ALIR5S3O7NRHEGFMIDMUSYQIZOE4TJJN/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZRMTEIGZKYFNGIDOTXN3GNEJTLVCYU7/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://seclists.org/bugtraq/2019/Apr/16",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.gentoo.org/glsa/201904-20",
+              "https://security.netapp.com/advisory/ntap-20190423-0001/",
+              "https://support.f5.com/csp/article/K32957101",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422",
+              "https://www.exploit-db.com/exploits/46676/",
+              "https://www.synology.com/security/advisory/Synology_SA_19_14"
+            ],
+            "cvss": "7.2",
+            "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+          },
+          "CVE-2018-5407": {
+            "verified": false,
+            "references": [
+              "http://www.securityfocus.com/bid/105897",
+              "https://access.redhat.com/errata/RHSA-2019:0483",
+              "https://access.redhat.com/errata/RHSA-2019:0651",
+              "https://access.redhat.com/errata/RHSA-2019:0652",
+              "https://eprint.iacr.org/2018/1060.pdf",
+              "https://github.com/bbbrumley/portsmash",
+              "https://lists.debian.org/debian-lts-announce/2018/11/msg00024.html",
+              "https://nodejs.org/en/blog/vulnerability/november-2018-security-releases/",
+              "https://security.gentoo.org/glsa/201903-10",
+              "https://security.netapp.com/advisory/ntap-20181126-0001/",
+              "https://usn.ubuntu.com/3840-1/",
+              "https://www.debian.org/security/2018/dsa-4348",
+              "https://www.debian.org/security/2018/dsa-4355",
+              "https://www.exploit-db.com/exploits/45785/",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujan2019-5072801.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html",
+              "https://www.tenable.com/security/tns-2018-16",
+              "https://www.tenable.com/security/tns-2018-17"
+            ],
+            "cvss": "1.9",
+            "summary": "Simultaneous Multi-threading (SMT) in processors can enable local users to exploit software vulnerable to timing attacks via a side-channel timing attack on 'port contention'."
+          },
+          "CVE-2019-0197": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/2",
+              "http://www.securityfocus.com/bid/107665",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/e0b8f6e858b1c8ec2ce8e291a2c543d438915037c7af661ab6d33808@%3Cdev.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://security.netapp.com/advisory/ntap-20190617-0002/",
+              "https://support.f5.com/csp/article/K44591505"
+            ],
+            "cvss": "4.9",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+          },
+          "CVE-2019-1559": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-03/msg00041.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00019.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00046.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00047.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-05/msg00049.html",
+              "http://www.securityfocus.com/bid/107174",
+              "https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=e9bbefbf0f24c57645e7ad6a5a71ae649d18ac8e",
+              "https://kc.mcafee.com/corporate/index?page=content&id=SB10282",
+              "https://lists.debian.org/debian-lts-announce/2019/03/msg00003.html",
+              "https://security.gentoo.org/glsa/201903-10",
+              "https://security.netapp.com/advisory/ntap-20190301-0001/",
+              "https://security.netapp.com/advisory/ntap-20190301-0002/",
+              "https://security.netapp.com/advisory/ntap-20190423-0002/",
+              "https://support.f5.com/csp/article/K18549143",
+              "https://usn.ubuntu.com/3899-1/",
+              "https://www.debian.org/security/2019/dsa-4400",
+              "https://www.openssl.org/news/secadv/20190226.txt",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.tenable.com/security/tns-2019-02",
+              "https://www.tenable.com/security/tns-2019-03"
+            ],
+            "cvss": "4.3",
+            "summary": "If an application encounters a fatal protocol error and then calls SSL_shutdown() twice (once to send a close_notify, and once to receive one) then OpenSSL can respond differently to the calling application if a 0 byte record is received with invalid padding compared to if a 0 byte record is received with an invalid MAC. If the application then behaves differently based on that in a way that is detectable to the remote peer, then this amounts to a padding oracle that could be used to decrypt data. In order for this to be exploitable \"non-stitched\" ciphersuites must be in use. Stitched ciphersuites are optimised implementations of certain commonly used ciphersuites. Also the application must call SSL_shutdown() twice even if a protocol error has occurred (applications should not do this but some do anyway). Fixed in OpenSSL 1.0.2r (Affected 1.0.2-1.0.2q)."
+          }
+        },
+        "product": "Apache httpd",
+        "hash": 1776297003,
+        "timestamp": "2022-03-24T15:06:28.677021",
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "data": "HTTP/1.1 200 OK\r\nDate: Thu, 24 Mar 2022 15:06:26 GMT\r\nServer: Apache/2.4.35 (FreeBSD) OpenSSL/1.0.2o-freebsd\r\nAccept-Ranges: bytes\r\nContent-Length: 1511\r\nContent-Type: text/html\r\n\r\n",
+        "asn": "AS10796",
+        "cpe23": [
+          "cpe:2.3:a:openssl:openssl:1.0.2o",
+          "cpe:2.3:a:apache:http_server:2.4.35"
+        ],
+        "info": "(FreeBSD) OpenSSL/1.0.2o-freebsd",
+        "isp": "Charter Communications Inc",
+        "cpe": [
+          "cpe:/a:openssl:openssl:1.0.2o",
+          "cpe:/a:apache:http_server:2.4.35"
+        ],
+        "domains": [
+          "spectrum.com"
+        ],
+        "ip_str": "69.135.74.163",
+        "os": null,
+        "_shodan": {
+          "crawler": "f84746de6c89bcf60f34a5f0aee149448facfc91",
+          "options": {},
+          "id": "a394ba6a-a2fe-48d8-b371-222af1c3cd16",
+          "module": "http",
+          "ptr": true
+        },
+        "opts": {}
+      },
+      {
+        "product": "Qpopper pop3d",
+        "hash": 1227795486,
+        "timestamp": "2022-03-22T14:02:30.691658",
+        "isp": "Charter Communications Inc",
+        "transport": "tcp",
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "data": "+OK Qpopper (version 4.1.0) at localhost starting.  <24452.1647957748@localhost>\n+OK Capability list follows\r\nTOP\r\nUSER\r\nLOGIN-DELAY 0\r\nEXPIRE NEVER\r\nUIDL\r\nRESP-CODES\r\nAUTH-RESP-CODE\r\nX-MANGLE\r\nX-MACRO\r\nX-LOCALTIME Tue, 22 Mar 2022 10:02:28 -0400\r\nIMPLEMENTATION Qpopper-version-4.1.0\r\n.\r\n",
+        "asn": "AS10796",
+        "port": 110,
+        "version": "4.1.0",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 1166494371,
+        "domains": [
+          "spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "os": null,
+        "_shodan": {
+          "crawler": "d905ab419aeb10e9c57a336c7e1aa9629ae4a733",
+          "options": {},
+          "id": "9526ea2f-1759-40b9-b468-03d407d72999",
+          "module": "pop3",
+          "ptr": true
+        },
+        "opts": {},
+        "ip_str": "69.135.74.163"
+      },
+      {
+        "hash": -894355049,
+        "timestamp": "2022-03-22T09:27:45.575804",
+        "isp": "Charter Communications Inc",
+        "transport": "tcp",
+        "data": "Shared object \"libpam.so.5\" not found, required by \"libc-client4.so.9\"\n",
+        "asn": "AS10796",
+        "port": 143,
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "ip": 1166494371,
+        "domains": [
+          "spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "os": null,
+        "_shodan": {
+          "crawler": "e15fd8f613780213727556a9cb02788d26131443",
+          "options": {},
+          "id": "a08117ac-6e39-4d85-8e21-5032e13ae8a0",
+          "module": "auto",
+          "ptr": true
+        },
+        "opts": {
+          "raw": "536861726564206f626a65637420226c696270616d2e736f2e3522206e6f7420666f756e642c20726571756972656420627920226c6962632d636c69656e74342e736f2e39220a"
+        },
+        "ip_str": "69.135.74.163"
+      },
+      {
+        "ip": 1166494371,
+        "port": 443,
+        "transport": "tcp",
+        "version": "2.4.35",
+        "location": {
+          "city": "Florence",
+          "region_code": "KY",
+          "area_code": null,
+          "longitude": -84.62661,
+          "latitude": 38.99895,
+          "country_code": "US",
+          "country_name": "United States"
+        },
+        "vulns": {
+          "CVE-2019-0196": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.apache.org/dist/httpd/CHANGES_2.4.39",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/1",
+              "http://www.securityfocus.com/bid/107669",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/97a1c58e138ed58a364513b58d807a802e72bf6079ff81a10948ef7c@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.apache.org/thread.html/fd110f4ace2d8364c7d9190e1993cde92f79e4eb85576ed9285686ac@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YTJPHI3E3OKW7OT7COQXVG7DE7IDQ2OT/",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.netapp.com/advisory/ntap-20190617-0002/",
+              "https://support.f5.com/csp/article/K44591505",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422"
+            ],
+            "cvss": "5.0",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.17 to 2.4.38. Using fuzzed network input, the http/2 request handling could be made to access freed memory in string comparison when determining the method of a request and thus process the request incorrectly."
+          },
+          "CVE-2018-17199": {
+            "verified": false,
+            "references": [
+              "http://www.securityfocus.com/bid/106742",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.debian.org/debian-lts-announce/2019/01/msg00024.html",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.gentoo.org/glsa/201903-21",
+              "https://security.netapp.com/advisory/ntap-20190125-0001/",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422",
+              "https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html",
+              "https://www.oracle.com/technetwork/security-advisory/cpujul2019-5072835.html"
+            ],
+            "cvss": "5.0",
+            "summary": "In Apache HTTP Server 2.4 release 2.4.37 and prior, mod_session checks the session expiry time before decoding the session. This causes session expiry time to be ignored for mod_session_cookie sessions since the expiry time is loaded when the session is decoded."
+          },
+          "CVE-2019-0220": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/6",
+              "http://www.securityfocus.com/bid/107670",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.debian.org/debian-lts-announce/2019/04/msg00008.html",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ALIR5S3O7NRHEGFMIDMUSYQIZOE4TJJN/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZRMTEIGZKYFNGIDOTXN3GNEJTLVCYU7/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.netapp.com/advisory/ntap-20190625-0007/",
+              "https://support.f5.com/csp/article/K44591505",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422"
+            ],
+            "cvss": "5.0",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.0 to 2.4.38. When the path component of a request URL contains multiple consecutive slashes ('/'), directives such as LocationMatch and RewriteRule must account for duplicates in regular expressions while other aspects of the servers processing will implicitly collapse them."
+          },
+          "CVE-2019-0197": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/2",
+              "http://www.securityfocus.com/bid/107665",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/e0b8f6e858b1c8ec2ce8e291a2c543d438915037c7af661ab6d33808@%3Cdev.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://security.netapp.com/advisory/ntap-20190617-0002/",
+              "https://support.f5.com/csp/article/K44591505"
+            ],
+            "cvss": "4.9",
+            "summary": "A vulnerability was found in Apache HTTP Server 2.4.34 to 2.4.38. When HTTP/2 was enabled for a http: host or H2Upgrade was enabled for h2 on a https: host, an Upgrade request from http/1.1 to http/2 that was not the first request on a connection could lead to a misconfiguration and crash. Server that never enabled the h2 protocol or that only enabled it for https: and did not set \"H2Upgrade on\" are unaffected by this issue."
+          },
+          "CVE-2019-0211": {
+            "verified": false,
+            "references": [
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00051.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00061.html",
+              "http://lists.opensuse.org/opensuse-security-announce/2019-04/msg00084.html",
+              "http://packetstormsecurity.com/files/152386/Apache-2.4.38-Root-Privilege-Escalation.html",
+              "http://packetstormsecurity.com/files/152415/Slackware-Security-Advisory-httpd-Updates.html",
+              "http://packetstormsecurity.com/files/152441/CARPE-DIEM-Apache-2.4.x-Local-Privilege-Escalation.html",
+              "http://www.apache.org/dist/httpd/CHANGES_2.4.39",
+              "http://www.openwall.com/lists/oss-security/2019/04/02/3",
+              "http://www.securityfocus.com/bid/107666",
+              "https://access.redhat.com/errata/RHBA-2019:0959",
+              "https://access.redhat.com/errata/RHSA-2019:0746",
+              "https://access.redhat.com/errata/RHSA-2019:0980",
+              "https://access.redhat.com/errata/RHSA-2019:1296",
+              "https://access.redhat.com/errata/RHSA-2019:1297",
+              "https://access.redhat.com/errata/RHSA-2019:1543",
+              "https://httpd.apache.org/security/vulnerabilities_24.html",
+              "https://lists.apache.org/thread.html/890507b85c30adf133216b299cc35cd8cd0346a885acfc671c04694e@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/b1613d44ec364c87bb7ee8c5939949f9b061c05c06e0e90098ebf7aa@%3Cusers.httpd.apache.org%3E",
+              "https://lists.apache.org/thread.html/b2bdb308dc015e771ba79c0586b2de6fb50caa98b109833f5d4daf28@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/de881a130bc9cb2f3a9ff220784520556884fb8ea80e69400a45509e@%3Cdev.community.apache.org%3E",
+              "https://lists.apache.org/thread.html/fd110f4ace2d8364c7d9190e1993cde92f79e4eb85576ed9285686ac@%3Ccvs.httpd.apache.org%3E",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ALIR5S3O7NRHEGFMIDMUSYQIZOE4TJJN/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZRMTEIGZKYFNGIDOTXN3GNEJTLVCYU7/",
+              "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WETXNQWNQLWHV6XNW6YTO5UGDTIWAQGT/",
+              "https://seclists.org/bugtraq/2019/Apr/16",
+              "https://seclists.org/bugtraq/2019/Apr/5",
+              "https://security.gentoo.org/glsa/201904-20",
+              "https://security.netapp.com/advisory/ntap-20190423-0001/",
+              "https://support.f5.com/csp/article/K32957101",
+              "https://usn.ubuntu.com/3937-1/",
+              "https://www.debian.org/security/2019/dsa-4422",
+              "https://www.exploit-db.com/exploits/46676/",
+              "https://www.synology.com/security/advisory/Synology_SA_19_14"
+            ],
+            "cvss": "7.2",
+            "summary": "In Apache HTTP Server 2.4 releases 2.4.17 to 2.4.38, with MPM event, worker or prefork, code executing in less-privileged child processes or threads (including scripts executed by an in-process scripting interpreter) could execute arbitrary code with the privileges of the parent process (usually root) by manipulating the scoreboard. Non-Unix systems are not affected."
+          }
+        },
+        "product": "Apache httpd",
+        "hash": -380413611,
+        "timestamp": "2022-03-15T00:14:12.890761",
+        "hostnames": [
+          "069-135-074-163.biz.spectrum.com"
+        ],
+        "org": "Charter Communications Inc",
+        "data": "HTTP/1.1 404 Not Found\r\nDate: Tue, 15 Mar 2022 00:14:12 GMT\r\nServer: Apache/2.4.35 (FreeBSD) OpenSSL/1.0.2o-freebsd\r\nContent-Length: 198\r\nContent-Type: text/html; charset=iso-8859-1\r\n\r\n<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>404 Not Found</title>\n</head><body>\n<h1>Not Found</h1>\n<p>The requested URL / was not found on this server.</p>\n</body></html>\n",
+        "asn": "AS10796",
+        "cpe23": [
+          "cpe:2.3:a:apache:http_server:2.4.35"
+        ],
+        "info": "(FreeBSD) OpenSSL/1.0.2o-freebsd",
+        "isp": "Charter Communications Inc",
+        "cpe": [
+          "cpe:/a:apache:http_server:2.4.35"
+        ],
+        "domains": [
+          "spectrum.com"
+        ],
+        "ip_str": "69.135.74.163",
+        "os": null,
+        "_shodan": {
+          "crawler": "e69d8d673faaa42bde0e9c7ce075d3c7146e67d0",
+          "options": {},
+          "id": "8fe49e2d-ed72-4053-a7f6-ffa1700d0649",
+          "module": "https",
+          "ptr": true
+        },
+        "opts": {}
+      }
+    ],
+    "asn": "AS10796",
+    "ip_str": "69.135.74.163"
+  }
