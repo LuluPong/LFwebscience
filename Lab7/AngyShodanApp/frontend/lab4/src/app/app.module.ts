@@ -16,6 +16,8 @@ import { RegDashboardComponent } from './reg-dashboard/reg-dashboard.component';
 import { SslDashboardComponent } from './ssl-dashboard/ssl-dashboard.component';
 import { DbFormComponent } from './db-form/db-form.component';
 import { DbContentComponent } from './db-content/db-content.component';
+import { VisunoComponent } from './visuno/visuno.component';
+import { VisdosComponent } from './visdos/visdos.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { DbContentComponent } from './db-content/db-content.component';
     RegDashboardComponent,
     SslDashboardComponent,
     DbFormComponent,
-    DbContentComponent
+    DbContentComponent,
+    VisunoComponent,
+    VisdosComponent
   ],
   imports: [
     BrowserModule,
