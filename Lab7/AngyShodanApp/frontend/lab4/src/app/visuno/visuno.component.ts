@@ -36,8 +36,8 @@ export class VisunoComponent implements OnInit {
     this.createSvg();
     this.createColors();
     this.drawChart();
-    d3.json('https://api.jsonbin.io/b/5eee6a5397cb753b4d149343').then((data: any) => this.data)
-    d3.json('https://api.jsonbin.io/b/5eee6a5397cb753b4d149343').then((data: any) => this.data)
+    d3.json('http://localhost:3000/mongo').then((data: any) => this.data)
+    //d3.json('https://api.jsonbin.io/b/5eee6a5397cb753b4d149343').then((data: any) => this.data)
     console.log(this.data);
   }
 
@@ -55,17 +55,20 @@ export class VisunoComponent implements OnInit {
 
   private createColors(): void {
     this.colors = d3.scaleOrdinal()
-      .domain(this.data.map(d => d.Stars.toString()))
+      .domain(this.data.map(d => d.Revenue.toString()))
       .range(["#c7d3ec", "#a5b8db", "#879cc4", "#677795", "#5a6782"]);
   }
 
   private drawChart(): void {
-
+    /*
     this.data = [
       { "Framework": "Vue", "Stars": "166443", "Released": "2014" },
       { "Framework": "React", "Stars": "150793", "Released": "2013" },
       { "Framework": "Angular", "Stars": "62342", "Released": "2016" }
     ]
+    */
+    //this.data =
+    d3.json('http://localhost:3000/mongo').then((data: any) => this.data)
 
     console.log(this.data);
     // Compute the position of each group on the pie:
